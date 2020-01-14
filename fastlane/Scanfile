@@ -1,0 +1,6 @@
+devices(["iPhone 11 Pro"])
+reset_simulator(true)
+clean(true)
+
+# Enable skip_build to skip debug builds for faster test performance
+skip_build(true)
