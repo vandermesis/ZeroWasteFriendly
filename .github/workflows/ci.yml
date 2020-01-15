@@ -33,9 +33,9 @@ jobs:
         env:
           DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
 
-      - name: Install cocoapods
-      	run: bundle exec pod install
-
+      - name: Cocoapods install
+        run: bundle exec pod install
+      
       - name: Run tests
         run: bundle exec fastlane test
     env:
