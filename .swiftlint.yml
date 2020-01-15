@@ -1,6 +1,9 @@
 excluded:
  - Pods
  - ZeroWasteFriendly/Support/R.generated.swift
+ - ZeroWasteFriendly/Products
+ - ZeroWasteFriendly/Pods
+ - ZeroWasteFriendly/Frameworks
 
 line_length:
  warning: 160
