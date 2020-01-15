@@ -124,7 +124,12 @@
 		BA9DB86223CE6DEA004F86A0 /* ZeroWasteFriendly */ = {
 			isa = PBXGroup;
 			children = (
-				BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */,
+				BAA73F8723CF8E6200B4FEC8 /* Models */,
+				BAA73F8823CF8E7000B4FEC8 /* Networking */,
+				BAA73F8623CF8E3C00B4FEC8 /* Repository */,
+				BAA73F8323CF8E1C00B4FEC8 /* Scenes */,
+				BAA73F8523CF8E3300B4FEC8 /* Extensions */,
+				BAA73F8423CF8E2800B4FEC8 /* Helpers */,
 				BA25AD9123CF65B500C1A554 /* Support */,
 			);
 			path = ZeroWasteFriendly;
@@ -137,6 +142,49 @@
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
 			);
 			path = ZeroWasteFriendlyTests;
+			sourceTree = "<group>";
+		};
+		BAA73F8323CF8E1C00B4FEC8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BAA73F8423CF8E2800B4FEC8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BAA73F8523CF8E3300B4FEC8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BAA73F8623CF8E3C00B4FEC8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		BAA73F8723CF8E6200B4FEC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BAA73F8823CF8E7000B4FEC8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
