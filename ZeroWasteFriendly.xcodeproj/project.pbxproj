@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -87,8 +87,14 @@
 				C68352541383528B58DB47D0 /* Pods-ZeroWasteFriendlyTests.debug.xcconfig */,
 				79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA25AD9123CF65B500C1A554 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		BA9DB85723CE6DEA004F86A0 = {
@@ -122,6 +128,7 @@
 				BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */,
 				BA9DB87423CE6DED004F86A0 /* Info.plist */,
 				BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */,
+				BA25AD9123CF65B500C1A554 /* Support */,
 			);
 			path = ZeroWasteFriendly;
 			sourceTree = "<group>";
