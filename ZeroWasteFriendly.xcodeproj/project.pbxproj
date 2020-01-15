@@ -16,6 +16,7 @@
 		BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */; };
 		BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */; };
 		BA9DB87E23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */; };
+		BA9DB88C23CE9375004F86A0 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB88B23CE9375004F86A0 /* R.generated.swift */; };
 		F6E33D5BB602BE7286A9ADB7 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4B3D80A35994B6D75F3728 /* Pods_ZeroWasteFriendly.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		BA9DB87923CE6DED004F86A0 /* ZeroWasteFriendlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroWasteFriendlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWasteFriendlyTests.swift; sourceTree = "<group>"; };
 		BA9DB87F23CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9DB88B23CE9375004F86A0 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		CA12CE83163D9A03BC8B80F5 /* Pods_ZeroWasteFriendlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE428BFE385733D0CCBDDE6 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,13 +115,9 @@
 		BA9DB86223CE6DEA004F86A0 /* ZeroWasteFriendly */ = {
 			isa = PBXGroup;
 			children = (
-				BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */,
-				BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */,
+				BA9DB88923CE9116004F86A0 /* Support */,
 				BA9DB86723CE6DEA004F86A0 /* ViewController.swift */,
 				BA9DB86923CE6DEA004F86A0 /* Main.storyboard */,
-				BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */,
-				BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */,
-				BA9DB87423CE6DED004F86A0 /* Info.plist */,
 				BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */,
 			);
 			path = ZeroWasteFriendly;
@@ -134,6 +132,19 @@
 			path = ZeroWasteFriendlyTests;
 			sourceTree = "<group>";
 		};
+		BA9DB88923CE9116004F86A0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */,
+				BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */,
+				BA9DB88B23CE9375004F86A0 /* R.generated.swift */,
+				BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */,
+				BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */,
+				BA9DB87423CE6DED004F86A0 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +153,7 @@
 			buildConfigurationList = BA9DB88223CE6DED004F86A0 /* Build configuration list for PBXNativeTarget "ZeroWasteFriendly" */;
 			buildPhases = (
 				A12EB7B16AD21565ACF001A6 /* [CP] Check Pods Manifest.lock */,
+				BA9DB88A23CE9193004F86A0 /* R.swift */,
 				BA9DB85C23CE6DEA004F86A0 /* Sources */,
 				BA9DB88823CE8FE2004F86A0 /* SwiftLint */,
 				BA9DB85D23CE6DEA004F86A0 /* Frameworks */,
@@ -315,6 +327,26 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
+		BA9DB88A23CE9193004F86A0 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/ZeroWasteFriendly/Support/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/ZeroWasteFriendly/Support/R.generated.swift\"\n";
+		};
 		C1E9C413C92BDDDF04260BFE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,6 +373,7 @@
 			files = (
 				BA9DB86823CE6DEA004F86A0 /* ViewController.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
+				BA9DB88C23CE9375004F86A0 /* R.generated.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
 			);
@@ -504,7 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZeroWasteFriendly/Info.plist;
+				INFOPLIST_FILE = ZeroWasteFriendly/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ZeroWasteFriendly/Info.plist;
+				INFOPLIST_FILE = ZeroWasteFriendly/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
