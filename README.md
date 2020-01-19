@@ -23,7 +23,7 @@ The app has three main goals:
 
 
 Prototype stage:
-- [x] prototype interactive presentation can be found [here](https://xd.adobe.com/view/222dbc00-60f8-478e-4efa-695104083ddb-541c/screen/7c39a144-72e6-4119-95d1-5f54c6e095a6/Konto?fullscreen)
+- [x] prototype interactive presentation can be found [here](https://xd.adobe.com/view/222dbc00-60f8-478e-4efa-695104083ddb-541c/?fullscreen)
 
   
 
