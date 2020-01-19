@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		54F4280DFDE24CC50DB15F21 /* Pods_ZeroWasteFriendlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */; };
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
+		BA4C6A3623D4D6BC006ED094 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA4C6A3223D4D6BC006ED094 /* README.md */; };
+		BA4C6A3723D4D6BC006ED094 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4C6A3423D4D6BC006ED094 /* logo.png */; };
+		BA4C6A3823D4D6BC006ED094 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4C6A3523D4D6BC006ED094 /* mockup.png */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
@@ -31,6 +34,9 @@
 /* Begin PBXFileReference section */
 		79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendlyTests.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4C6A3223D4D6BC006ED094 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA4C6A3423D4D6BC006ED094 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BA4C6A3523D4D6BC006ED094 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,9 +107,20 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		BA4C6A3323D4D6BC006ED094 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BA4C6A3423D4D6BC006ED094 /* logo.png */,
+				BA4C6A3523D4D6BC006ED094 /* mockup.png */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
+				BA4C6A3323D4D6BC006ED094 /* Demo */,
+				BA4C6A3223D4D6BC006ED094 /* README.md */,
 				BA9DB86223CE6DEA004F86A0 /* ZeroWasteFriendly */,
 				BA9DB87C23CE6DED004F86A0 /* ZeroWasteFriendlyTests */,
 				BA9DB86123CE6DEA004F86A0 /* Products */,
@@ -274,6 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4C6A3723D4D6BC006ED094 /* logo.png in Resources */,
+				BA4C6A3623D4D6BC006ED094 /* README.md in Resources */,
+				BA4C6A3823D4D6BC006ED094 /* mockup.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
 			);
