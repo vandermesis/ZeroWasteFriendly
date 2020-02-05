@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		54F4280DFDE24CC50DB15F21 /* Pods_ZeroWasteFriendlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */; };
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
+		BA365A6B23EB33FE0071FFB5 /* ActTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA365A6423EB33FE0071FFB5 /* ActTilesPresenter.swift */; };
+		BA365A6C23EB33FE0071FFB5 /* ActTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA365A6523EB33FE0071FFB5 /* ActTilesWorker.swift */; };
+		BA365A6D23EB33FE0071FFB5 /* ActTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA365A6623EB33FE0071FFB5 /* ActTilesRouter.swift */; };
+		BA365A6E23EB33FE0071FFB5 /* ActTilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA365A6723EB33FE0071FFB5 /* ActTilesController.swift */; };
+		BA365A6F23EB33FE0071FFB5 /* ActTilesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA365A6823EB33FE0071FFB5 /* ActTilesInteractor.swift */; };
+		BA365A7023EB33FE0071FFB5 /* ActTilesCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA365A6923EB33FE0071FFB5 /* ActTilesCreator.swift */; };
+		BA365A7123EB33FE0071FFB5 /* ActTilesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA365A6A23EB33FE0071FFB5 /* ActTilesController.xib */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
@@ -31,6 +38,13 @@
 /* Begin PBXFileReference section */
 		79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendlyTests.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA365A6423EB33FE0071FFB5 /* ActTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTilesPresenter.swift; sourceTree = "<group>"; };
+		BA365A6523EB33FE0071FFB5 /* ActTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTilesWorker.swift; sourceTree = "<group>"; };
+		BA365A6623EB33FE0071FFB5 /* ActTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTilesRouter.swift; sourceTree = "<group>"; };
+		BA365A6723EB33FE0071FFB5 /* ActTilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTilesController.swift; sourceTree = "<group>"; };
+		BA365A6823EB33FE0071FFB5 /* ActTilesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTilesInteractor.swift; sourceTree = "<group>"; };
+		BA365A6923EB33FE0071FFB5 /* ActTilesCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTilesCreator.swift; sourceTree = "<group>"; };
+		BA365A6A23EB33FE0071FFB5 /* ActTilesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActTilesController.xib; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +115,20 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		BA365A7223EB34410071FFB5 /* ActTiles */ = {
+			isa = PBXGroup;
+			children = (
+				BA365A6923EB33FE0071FFB5 /* ActTilesCreator.swift */,
+				BA365A6723EB33FE0071FFB5 /* ActTilesController.swift */,
+				BA365A6A23EB33FE0071FFB5 /* ActTilesController.xib */,
+				BA365A6823EB33FE0071FFB5 /* ActTilesInteractor.swift */,
+				BA365A6523EB33FE0071FFB5 /* ActTilesWorker.swift */,
+				BA365A6423EB33FE0071FFB5 /* ActTilesPresenter.swift */,
+				BA365A6623EB33FE0071FFB5 /* ActTilesRouter.swift */,
+			);
+			path = ActTiles;
+			sourceTree = "<group>";
+		};
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +175,7 @@
 		BAA73F8323CF8E1C00B4FEC8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				BA365A7223EB34410071FFB5 /* ActTiles */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -276,6 +305,7 @@
 			files = (
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
+				BA365A7123EB33FE0071FFB5 /* ActTilesController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +442,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA365A6E23EB33FE0071FFB5 /* ActTilesController.swift in Sources */,
+				BA365A7023EB33FE0071FFB5 /* ActTilesCreator.swift in Sources */,
+				BA365A6B23EB33FE0071FFB5 /* ActTilesPresenter.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
+				BA365A6C23EB33FE0071FFB5 /* ActTilesWorker.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
+				BA365A6F23EB33FE0071FFB5 /* ActTilesInteractor.swift in Sources */,
+				BA365A6D23EB33FE0071FFB5 /* ActTilesRouter.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
