@@ -13,10 +13,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        let startingController = setupTabBarController()
+        displayStartingController(controller: startingController, at: windowScene)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -48,5 +47,38 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Save changes in the application's managed object context when the application transitions to the background.
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+    }
+}
+
+private extension SceneDelegate {
+
+    private func setupTabBarController() -> UIViewController {
+        let tabBarController = UITabBarController()
+
+        let activityTilesController = UINavigationController(rootViewController: ActivityTilesCreator().getController())
+        let activityStatsController = UINavigationController(rootViewController: ActivityStatsCreator().getController())
+        let ecoMapController = UINavigationController(rootViewController: EcoMapCreator().getController())
+        let libraryListController = UINavigationController(rootViewController: LibraryListCreator().getController())
+        let userAccountController = UINavigationController(rootViewController: UserAccountSignInCreator().getController())
+
+        activityTilesController.tabBarItem = UITabBarItem(title: "Act", image: R.image.tabBarActSun(), tag: 1)
+        activityStatsController.tabBarItem = UITabBarItem(title: "Stats", image: R.image.tabBarStatsFlower(), tag: 2)
+        ecoMapController.tabBarItem = UITabBarItem(title: "EcoMap", image: R.image.tabBarEarthMap(), tag: 3)
+        libraryListController.tabBarItem = UITabBarItem(title: "Library", image: R.image.tabBarLibraryBook(), tag: 4)
+        userAccountController.tabBarItem = UITabBarItem(title: "User", image: R.image.tabBarAccountPersons(), tag: 5)
+        
+        tabBarController.viewControllers = [activityTilesController,
+                                            activityStatsController,
+                                            ecoMapController,
+                                            libraryListController,
+                                            userAccountController]
+        return tabBarController
+    }
+
+    private func displayStartingController(controller: UIViewController, at scene: UIWindowScene) {
+        window = UIWindow(frame: scene.coordinateSpace.bounds)
+        window?.windowScene = scene
+        window?.rootViewController = controller
+        window?.makeKeyAndVisible()
     }
 }
