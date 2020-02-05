@@ -272,13 +272,13 @@
 		BA2BF8BC23EB39A9001508F9 /* EcoMap */ = {
 			isa = PBXGroup;
 			children = (
-				BA2BF8AE23EB39A5001508F9 /* EcoMapPresenter.swift */,
-				BA2BF8AF23EB39A5001508F9 /* EcoMapWorker.swift */,
-				BA2BF8B023EB39A5001508F9 /* EcoMapRouter.swift */,
-				BA2BF8B123EB39A5001508F9 /* EcoMapController.swift */,
-				BA2BF8B223EB39A5001508F9 /* EcoMapInteractor.swift */,
 				BA2BF8B323EB39A5001508F9 /* EcoMapCreator.swift */,
+				BA2BF8B123EB39A5001508F9 /* EcoMapController.swift */,
 				BA2BF8B423EB39A5001508F9 /* EcoMapController.xib */,
+				BA2BF8B223EB39A5001508F9 /* EcoMapInteractor.swift */,
+				BA2BF8AF23EB39A5001508F9 /* EcoMapWorker.swift */,
+				BA2BF8AE23EB39A5001508F9 /* EcoMapPresenter.swift */,
+				BA2BF8B023EB39A5001508F9 /* EcoMapRouter.swift */,
 			);
 			path = EcoMap;
 			sourceTree = "<group>";

@@ -28,11 +28,11 @@ Prototype stage:
   
 
 Coding stage:
-- [ ] Clean Swift software architecture 
+- [x] Clean Swift software architecture 
 
-- [ ] coding best practices and SOLID principles
+- [x] coding best practices and SOLID principles
 
-- [ ] systematic code review
+- [x] systematic code review
 
 - [ ] all stages approved by mentor
 
@@ -42,7 +42,7 @@ Coding stage:
 
 - [ ] MapKit
 
-- [ ] Tabbar
+- [x] Tabbar
 
 - [ ] UI Animations
 
@@ -56,8 +56,10 @@ Coding stage:
 
 ## What new I've learned
 
-- 
-
+- UITabBar
+- Localization
+- Custom fonts, colors, icons
+- Xcode File Templates
 
 
 
