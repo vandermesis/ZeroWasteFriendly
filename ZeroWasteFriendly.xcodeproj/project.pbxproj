@@ -64,6 +64,7 @@
 		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
 		BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */; };
 		BA2BF8F223EB5684001508F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F123EB5684001508F9 /* README.md */; };
+		BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F823EB65AA001508F9 /* Localizable.strings */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
@@ -141,6 +142,9 @@
 		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		BA2BF8F123EB5684001508F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA2BF8F323EB64A7001508F9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BA2BF8F723EB65AA001508F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BA2BF8F923EB65B3001508F9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 				BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */,
 				BAA73F8123CF888E00B4FEC8 /* R.generated.swift */,
 				BA9DB87423CE6DED004F86A0 /* Info.plist */,
+				BA2BF8F823EB65AA001508F9 /* Localizable.strings */,
 				BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */,
 				BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */,
 				BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */,
@@ -494,6 +499,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = BA9DB85723CE6DEA004F86A0;
 			productRefGroup = BA9DB86123CE6DEA004F86A0 /* Products */;
@@ -524,6 +530,7 @@
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
 				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
 				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
+				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
 				BA2BF89C23EB387B001508F9 /* mockup.png in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
 			);
@@ -730,10 +737,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BA2BF8F823EB65AA001508F9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2BF8F723EB65AA001508F9 /* en */,
+				BA2BF8F923EB65B3001508F9 /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BA9DB87223CE6DED004F86A0 /* Base */,
+				BA2BF8F323EB64A7001508F9 /* pl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -745,6 +762,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -805,6 +823,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

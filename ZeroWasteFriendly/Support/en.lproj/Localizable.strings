@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  ZeroWasteFriendly
+
+  Created by Marek Skrzelowski on 05/02/2020.
+  Copyright © 2020 vandermesis. All rights reserved.
+*/
+
+// TabBar
+"TabBar.Item.Act" = "Act";
+"TabBar.Item.Stats" = "Stats";
+"TabBar.Item.EcoMap" = "EcoMap";
+"TabBar.Item.Library" = "Library";
+"TabBar.Item.Account" = "Account";
+
+// ActivityTiles
+"ActivityTile.Refuse.Title" = "Refuse";
+"ActivityTile.Reduce.Title" = "Reduce";
+"ActivityTile.Reuse.Title" = "Reuse";
+"ActivityTile.Recycle.Title" = "Recycle";
+"ActivityTile.Rot.Title" = "Rot";
+"ActivityTile.Repair.Title" = "Repair";
