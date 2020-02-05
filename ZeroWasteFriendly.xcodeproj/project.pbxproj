@@ -40,6 +40,13 @@
 		BA2BF8B923EB39A5001508F9 /* EcoMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8B223EB39A5001508F9 /* EcoMapInteractor.swift */; };
 		BA2BF8BA23EB39A5001508F9 /* EcoMapCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8B323EB39A5001508F9 /* EcoMapCreator.swift */; };
 		BA2BF8BB23EB39A5001508F9 /* EcoMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8B423EB39A5001508F9 /* EcoMapController.xib */; };
+		BA2BF8C423EB3A2B001508F9 /* LibraryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8BD23EB3A2B001508F9 /* LibraryListPresenter.swift */; };
+		BA2BF8C523EB3A2B001508F9 /* LibraryListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8BE23EB3A2B001508F9 /* LibraryListWorker.swift */; };
+		BA2BF8C623EB3A2B001508F9 /* LibraryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8BF23EB3A2B001508F9 /* LibraryListRouter.swift */; };
+		BA2BF8C723EB3A2B001508F9 /* LibraryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8C023EB3A2B001508F9 /* LibraryListController.swift */; };
+		BA2BF8C823EB3A2B001508F9 /* LibraryListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8C123EB3A2B001508F9 /* LibraryListInteractor.swift */; };
+		BA2BF8C923EB3A2B001508F9 /* LibraryListCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8C223EB3A2B001508F9 /* LibraryListCreator.swift */; };
+		BA2BF8CA23EB3A2B001508F9 /* LibraryListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8C323EB3A2B001508F9 /* LibraryListController.xib */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
@@ -93,6 +100,13 @@
 		BA2BF8B223EB39A5001508F9 /* EcoMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapInteractor.swift; sourceTree = "<group>"; };
 		BA2BF8B323EB39A5001508F9 /* EcoMapCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapCreator.swift; sourceTree = "<group>"; };
 		BA2BF8B423EB39A5001508F9 /* EcoMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoMapController.xib; sourceTree = "<group>"; };
+		BA2BF8BD23EB3A2B001508F9 /* LibraryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListPresenter.swift; sourceTree = "<group>"; };
+		BA2BF8BE23EB3A2B001508F9 /* LibraryListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListWorker.swift; sourceTree = "<group>"; };
+		BA2BF8BF23EB3A2B001508F9 /* LibraryListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListRouter.swift; sourceTree = "<group>"; };
+		BA2BF8C023EB3A2B001508F9 /* LibraryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListController.swift; sourceTree = "<group>"; };
+		BA2BF8C123EB3A2B001508F9 /* LibraryListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListInteractor.swift; sourceTree = "<group>"; };
+		BA2BF8C223EB3A2B001508F9 /* LibraryListCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListCreator.swift; sourceTree = "<group>"; };
+		BA2BF8C323EB3A2B001508F9 /* LibraryListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryListController.xib; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -228,6 +242,20 @@
 			path = EcoMap;
 			sourceTree = "<group>";
 		};
+		BA2BF8CB23EB3A2F001508F9 /* LibraryList */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BF8C223EB3A2B001508F9 /* LibraryListCreator.swift */,
+				BA2BF8C023EB3A2B001508F9 /* LibraryListController.swift */,
+				BA2BF8C323EB3A2B001508F9 /* LibraryListController.xib */,
+				BA2BF8C123EB3A2B001508F9 /* LibraryListInteractor.swift */,
+				BA2BF8BE23EB3A2B001508F9 /* LibraryListWorker.swift */,
+				BA2BF8BD23EB3A2B001508F9 /* LibraryListPresenter.swift */,
+				BA2BF8BF23EB3A2B001508F9 /* LibraryListRouter.swift */,
+			);
+			path = LibraryList;
+			sourceTree = "<group>";
+		};
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +308,7 @@
 				BA2BF88823EB36EF001508F9 /* ActivityInfo */,
 				BA2BF8AD23EB3904001508F9 /* ActivityStats */,
 				BA2BF8BC23EB39A9001508F9 /* EcoMap */,
+				BA2BF8CB23EB3A2F001508F9 /* LibraryList */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -408,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2BF88723EB36EA001508F9 /* ActivityInfoController.xib in Resources */,
+				BA2BF8CA23EB3A2B001508F9 /* LibraryListController.xib in Resources */,
 				BA2BF8BB23EB39A5001508F9 /* EcoMapController.xib in Resources */,
 				BA2BF89B23EB387B001508F9 /* logo.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
@@ -563,19 +593,25 @@
 				BA2BF88123EB36EA001508F9 /* ActivityInfoPresenter.swift in Sources */,
 				BA2BF88423EB36EA001508F9 /* ActivityInfoController.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
+				BA2BF8C723EB3A2B001508F9 /* LibraryListController.swift in Sources */,
+				BA2BF8C523EB3A2B001508F9 /* LibraryListWorker.swift in Sources */,
 				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
+				BA2BF8C923EB3A2B001508F9 /* LibraryListCreator.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
 				BA2BF8A923EB3900001508F9 /* ActivityStatsController.swift in Sources */,
 				BA2BF8A723EB3900001508F9 /* ActivityStatsWorker.swift in Sources */,
 				BA2BF8A823EB3900001508F9 /* ActivityStatsRouter.swift in Sources */,
 				BA2BF8AB23EB3900001508F9 /* ActivityStatsCreator.swift in Sources */,
 				BA2BF8B523EB39A5001508F9 /* EcoMapPresenter.swift in Sources */,
+				BA2BF8C823EB3A2B001508F9 /* LibraryListInteractor.swift in Sources */,
 				BA2BF88623EB36EA001508F9 /* ActivityInfoCreator.swift in Sources */,
 				BA2BF8BA23EB39A5001508F9 /* EcoMapCreator.swift in Sources */,
 				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
 				BA2BF8AA23EB3900001508F9 /* ActivityStatsInteractor.swift in Sources */,
 				BA2BF8B923EB39A5001508F9 /* EcoMapInteractor.swift in Sources */,
 				BA2BF88523EB36EA001508F9 /* ActivityInfoInteractor.swift in Sources */,
+				BA2BF8C623EB3A2B001508F9 /* LibraryListRouter.swift in Sources */,
+				BA2BF8C423EB3A2B001508F9 /* LibraryListPresenter.swift in Sources */,
 				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
 				BA2BF8B823EB39A5001508F9 /* EcoMapController.swift in Sources */,
