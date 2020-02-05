@@ -1,5 +1,5 @@
 //
-//  ActTilesRouter.swift
+//  ActivityInfoRouter.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 05/02/2020.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol ActTilesRouter {
+protocol ActivityInfoRouter {
 
 }
 
-final class ActTilesRouterImpl: ActTilesRouter {
+final class ActivityInfoRouterImpl: ActivityInfoRouter {
 
     weak var controller: UIViewController?
 }

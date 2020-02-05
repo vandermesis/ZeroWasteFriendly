@@ -1,5 +1,5 @@
 //
-//  ActTilesWorker.swift
+//  ActivityTilesWorker.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 05/02/2020.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol ActTilesWorker {
+protocol ActivityTilesWorker {
 
 }
 
-final class ActTilesWorkerImpl: ActTilesWorker {
+final class ActivityTilesWorkerImpl: ActivityTilesWorker {
 
 //    private let networking: ZeroWasteFriendlyNetworking
 //

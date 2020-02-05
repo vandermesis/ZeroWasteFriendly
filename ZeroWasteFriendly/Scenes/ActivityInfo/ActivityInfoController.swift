@@ -1,5 +1,5 @@
 //
-//  ActTilesController.swift
+//  ActivityInfoController.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 05/02/2020.
@@ -8,15 +8,15 @@
   
 import UIKit
 
-protocol ActTilesPresentable: UIViewController {
+protocol ActivityInfoPresentable: UIViewController {
 
 }
 
-final class ActTilesController: UIViewController {
+final class ActivityInfoController: UIViewController {
 
-    private let interactor: ActTilesInteractor
+    private let interactor: ActivityInfoInteractor
 
-    init(interactor: ActTilesInteractor) {
+    init(interactor: ActivityInfoInteractor) {
         self.interactor = interactor
         super.init(nibName: nil, bundle: nil)
     }
@@ -31,6 +31,6 @@ final class ActTilesController: UIViewController {
 
 }
 
-extension ActTilesController: ActTilesPresentable {
+extension ActivityInfoController: ActivityInfoPresentable {
 
 }
