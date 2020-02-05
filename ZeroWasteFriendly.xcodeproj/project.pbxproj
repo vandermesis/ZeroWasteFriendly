@@ -65,6 +65,15 @@
 		BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */; };
 		BA2BF8F223EB5684001508F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F123EB5684001508F9 /* README.md */; };
 		BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F823EB65AA001508F9 /* Localizable.strings */; };
+		BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */; };
+		BA2BF90423EB6C05001508F9 /* ActivityTilesCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FB23EB6C05001508F9 /* ActivityTilesCreatorTests.swift */; };
+		BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */; };
+		BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */; };
+		BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */; };
+		BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */; };
+		BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */; };
+		BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */; };
+		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
@@ -145,6 +154,15 @@
 		BA2BF8F323EB64A7001508F9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		BA2BF8F723EB65AA001508F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA2BF8F923EB65B3001508F9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesInteractorTests.swift; sourceTree = "<group>"; };
+		BA2BF8FB23EB6C05001508F9 /* ActivityTilesCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesCreatorTests.swift; sourceTree = "<group>"; };
+		BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesRouter.swift; sourceTree = "<group>"; };
+		BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesController.swift; sourceTree = "<group>"; };
+		BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesWorker.swift; sourceTree = "<group>"; };
+		BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesPresenter.swift; sourceTree = "<group>"; };
+		BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorkerTests.swift; sourceTree = "<group>"; };
+		BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouterTests.swift; sourceTree = "<group>"; };
+		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -334,6 +352,22 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		BA2BF90C23EB6C0D001508F9 /* ActivityTiles */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */,
+				BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */,
+				BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */,
+				BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */,
+				BA2BF8FB23EB6C05001508F9 /* ActivityTilesCreatorTests.swift */,
+				BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */,
+				BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */,
+				BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */,
+				BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */,
+			);
+			path = ActivityTiles;
+			sourceTree = "<group>";
+		};
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +409,7 @@
 			children = (
 				BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */,
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
+				BA2BF90C23EB6C0D001508F9 /* ActivityTiles */,
 			);
 			path = ZeroWasteFriendlyTests;
 			sourceTree = "<group>";
@@ -722,7 +757,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */,
+				BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */,
+				BA2BF90423EB6C05001508F9 /* ActivityTilesCreatorTests.swift in Sources */,
+				BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */,
 				BA9DB87E23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift in Sources */,
+				BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */,
+				BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */,
+				BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */,
+				BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */,
+				BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
