@@ -25,7 +25,6 @@
 		BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */; };
 		BA2BF89B23EB387B001508F9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89923EB387B001508F9 /* logo.png */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
-		BA2BF89E23EB38A2001508F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89D23EB38A2001508F9 /* README.md */; };
 		BA2BF8A623EB3900001508F9 /* ActivityStatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF89F23EB3900001508F9 /* ActivityStatsPresenter.swift */; };
 		BA2BF8A723EB3900001508F9 /* ActivityStatsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8A023EB3900001508F9 /* ActivityStatsWorker.swift */; };
 		BA2BF8A823EB3900001508F9 /* ActivityStatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8A123EB3900001508F9 /* ActivityStatsRouter.swift */; };
@@ -102,7 +101,6 @@
 		BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTilesController.xib; sourceTree = "<group>"; };
 		BA2BF89923EB387B001508F9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
-		BA2BF89D23EB38A2001508F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../CleanWeather/README.md; sourceTree = "<group>"; };
 		BA2BF89F23EB3900001508F9 /* ActivityStatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsPresenter.swift; sourceTree = "<group>"; };
 		BA2BF8A023EB3900001508F9 /* ActivityStatsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsWorker.swift; sourceTree = "<group>"; };
 		BA2BF8A123EB3900001508F9 /* ActivityStatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsRouter.swift; sourceTree = "<group>"; };
@@ -332,7 +330,6 @@
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
-				BA2BF89D23EB38A2001508F9 /* README.md */,
 				BA2BF89823EB387B001508F9 /* Demo */,
 				BA9DB86223CE6DEA004F86A0 /* ZeroWasteFriendly */,
 				BA9DB87C23CE6DED004F86A0 /* ZeroWasteFriendlyTests */,
@@ -520,7 +517,6 @@
 				BA2BF89B23EB387B001508F9 /* logo.png in Resources */,
 				BA2BF8D923EB3AF8001508F9 /* UserAccountSignInController.xib in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
-				BA2BF89E23EB38A2001508F9 /* README.md in Resources */,
 				BA2BF8AC23EB3900001508F9 /* ActivityStatsController.xib in Resources */,
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
 				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
