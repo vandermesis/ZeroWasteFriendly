@@ -10,4 +10,7 @@
 
 final class FakeActivityTilesRouter: ActivityTilesRouter {
 
+    func navigateTo() {
+        
+    }
 }

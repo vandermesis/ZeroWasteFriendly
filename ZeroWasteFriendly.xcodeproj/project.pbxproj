@@ -72,14 +72,6 @@
 		BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */; };
 		BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */; };
 		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
-		BA6003C123ED660D00CF39B5 /* ActivityInfoInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003B823ED660D00CF39B5 /* ActivityInfoInteractorTests.swift */; };
-		BA6003C323ED660D00CF39B5 /* FakeActivityInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BA23ED660D00CF39B5 /* FakeActivityInfoRouter.swift */; };
-		BA6003C423ED660D00CF39B5 /* FakeActivityInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BB23ED660D00CF39B5 /* FakeActivityInfoController.swift */; };
-		BA6003C523ED660D00CF39B5 /* FakeActivityInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BC23ED660D00CF39B5 /* FakeActivityInfoWorker.swift */; };
-		BA6003C623ED660D00CF39B5 /* FakeActivityInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BD23ED660D00CF39B5 /* FakeActivityInfoPresenter.swift */; };
-		BA6003C723ED660D00CF39B5 /* ActivityInfoWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BE23ED660D00CF39B5 /* ActivityInfoWorkerTests.swift */; };
-		BA6003C823ED660D00CF39B5 /* ActivityInfoRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BF23ED660D00CF39B5 /* ActivityInfoRouterTests.swift */; };
-		BA6003C923ED660D00CF39B5 /* ActivityInfoPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003C023ED660D00CF39B5 /* ActivityInfoPresenterTests.swift */; };
 		BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041223ED799D00CF39B5 /* MainViewController.swift */; };
 		BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041423ED79E300CF39B5 /* MainNavigationController.swift */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
@@ -168,14 +160,6 @@
 		BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorkerTests.swift; sourceTree = "<group>"; };
 		BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouterTests.swift; sourceTree = "<group>"; };
 		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
-		BA6003B823ED660D00CF39B5 /* ActivityInfoInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoInteractorTests.swift; sourceTree = "<group>"; };
-		BA6003BA23ED660D00CF39B5 /* FakeActivityInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoRouter.swift; sourceTree = "<group>"; };
-		BA6003BB23ED660D00CF39B5 /* FakeActivityInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoController.swift; sourceTree = "<group>"; };
-		BA6003BC23ED660D00CF39B5 /* FakeActivityInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoWorker.swift; sourceTree = "<group>"; };
-		BA6003BD23ED660D00CF39B5 /* FakeActivityInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoPresenter.swift; sourceTree = "<group>"; };
-		BA6003BE23ED660D00CF39B5 /* ActivityInfoWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorkerTests.swift; sourceTree = "<group>"; };
-		BA6003BF23ED660D00CF39B5 /* ActivityInfoRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoRouterTests.swift; sourceTree = "<group>"; };
-		BA6003C023ED660D00CF39B5 /* ActivityInfoPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenterTests.swift; sourceTree = "<group>"; };
 		BA60041223ED799D00CF39B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BA60041423ED79E300CF39B5 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -376,21 +360,6 @@
 			path = ActivityTiles;
 			sourceTree = "<group>";
 		};
-		BA6003CA23ED661500CF39B5 /* ActivityInfo */ = {
-			isa = PBXGroup;
-			children = (
-				BA6003BB23ED660D00CF39B5 /* FakeActivityInfoController.swift */,
-				BA6003BD23ED660D00CF39B5 /* FakeActivityInfoPresenter.swift */,
-				BA6003BC23ED660D00CF39B5 /* FakeActivityInfoWorker.swift */,
-				BA6003BA23ED660D00CF39B5 /* FakeActivityInfoRouter.swift */,
-				BA6003B823ED660D00CF39B5 /* ActivityInfoInteractorTests.swift */,
-				BA6003BE23ED660D00CF39B5 /* ActivityInfoWorkerTests.swift */,
-				BA6003C023ED660D00CF39B5 /* ActivityInfoPresenterTests.swift */,
-				BA6003BF23ED660D00CF39B5 /* ActivityInfoRouterTests.swift */,
-			);
-			path = ActivityInfo;
-			sourceTree = "<group>";
-		};
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
@@ -433,7 +402,6 @@
 				BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */,
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
 				BA2BF90C23EB6C0D001508F9 /* ActivityTiles */,
-				BA6003CA23ED661500CF39B5 /* ActivityInfo */,
 			);
 			path = ZeroWasteFriendlyTests;
 			sourceTree = "<group>";
@@ -746,19 +714,11 @@
 			files = (
 				BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */,
 				BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */,
-				BA6003C923ED660D00CF39B5 /* ActivityInfoPresenterTests.swift in Sources */,
-				BA6003C623ED660D00CF39B5 /* FakeActivityInfoPresenter.swift in Sources */,
-				BA6003C123ED660D00CF39B5 /* ActivityInfoInteractorTests.swift in Sources */,
 				BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */,
 				BA9DB87E23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift in Sources */,
-				BA6003C523ED660D00CF39B5 /* FakeActivityInfoWorker.swift in Sources */,
-				BA6003C723ED660D00CF39B5 /* ActivityInfoWorkerTests.swift in Sources */,
-				BA6003C823ED660D00CF39B5 /* ActivityInfoRouterTests.swift in Sources */,
 				BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */,
 				BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */,
-				BA6003C423ED660D00CF39B5 /* FakeActivityInfoController.swift in Sources */,
 				BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */,
-				BA6003C323ED660D00CF39B5 /* FakeActivityInfoRouter.swift in Sources */,
 				BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */,
 				BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */,
 			);

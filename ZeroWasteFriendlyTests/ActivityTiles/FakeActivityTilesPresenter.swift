@@ -12,4 +12,11 @@ import UIKit
 
 final class FakeActivityTilesPresenter: ActivityTilesPresenter {
 
+    func toggleSpinner(_ state: Bool) {
+
+    }
+
+    func presentActivityTiles() {
+        
+    }
 }

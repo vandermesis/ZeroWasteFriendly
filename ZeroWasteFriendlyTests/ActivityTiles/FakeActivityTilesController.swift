@@ -12,4 +12,7 @@ import UIKit
 
 final class FakeActivityTilesController: MainViewController, ActivityTilesPresentable {
 
+    func displayActivityTiles() {
+
+    }
 }
