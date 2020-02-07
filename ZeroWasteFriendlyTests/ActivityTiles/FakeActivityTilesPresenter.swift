@@ -12,15 +12,25 @@ import UIKit
 
 final class FakeActivityTilesPresenter: UIViewController, ActivityTilesPresenter {
 
-    func toggleSpinner(_ state: Bool) {
+    var toogleSpinnerCalled: Bool?
+    var toogleSpinnerStateCalled: Bool?
+    var presentAlertCalled: Bool?
+    var presentAlertTitleCalled: String?
+    var presentAlertMessageCalled: String?
+    var presentActivityTilesCalled: Bool?
 
+    func toggleSpinner(_ state: Bool) {
+        toogleSpinnerCalled = true
+        toogleSpinnerStateCalled = state
     }
 
     func presentAlert(title: String, message: String) {
-
+        presentAlertCalled = true
+        presentAlertTitleCalled = title
+        presentAlertMessageCalled = message
     }
 
     func presentActivityTiles() {
-        
+        presentActivityTilesCalled = true
     }
 }

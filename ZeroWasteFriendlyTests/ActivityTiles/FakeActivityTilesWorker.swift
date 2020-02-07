@@ -10,7 +10,11 @@
 
 final class FakeActivityTilesWorker: ActivityTilesWorker {
 
+    var fetchActivityTilesCalled: Bool?
+    var fetchActivityTilesCompletionCalled: FetchActivityTilesCompletion?
+
     func fetchActivityTiles(completion: FetchActivityTilesCompletion?) {
-        
+        fetchActivityTilesCalled = true
+        fetchActivityTilesCompletionCalled = completion
     }
 }

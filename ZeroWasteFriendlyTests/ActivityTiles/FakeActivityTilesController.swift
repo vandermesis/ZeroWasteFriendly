@@ -12,7 +12,9 @@ import UIKit
 
 final class FakeActivityTilesController: MainViewController, ActivityTilesPresentable {
 
-    func displayActivityTiles() {
+    var displayActivityTilesCalled: Bool?
 
+    func displayActivityTiles() {
+        displayActivityTilesCalled = true
     }
 }
