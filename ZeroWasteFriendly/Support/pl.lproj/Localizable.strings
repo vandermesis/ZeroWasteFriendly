@@ -14,6 +14,7 @@
 "TabBar.Item.Account" = "Konto";
 
 // ActivityTiles
+"ActivityTiles.Title" = "Działaj";
 "ActivityTile.Refuse.Title" = "Odmawiaj";
 "ActivityTile.Reduce.Title" = "Ograniczaj";
 "ActivityTile.Reuse.Title" = "Użyj ponownie";

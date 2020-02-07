@@ -27,10 +27,25 @@ final class ActivityTilesController: MainViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
+    }
+
+    @IBAction private func addButtonPressed(_ sender: UIBarButtonItem) {
+
     }
 
 }
 
 extension ActivityTilesController: ActivityTilesPresentable {
 
+}
+
+private extension ActivityTilesController {
+
+    private func setupNavigationBar() {
+        title = R.string.localizable.activityTilesTitle()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
+                                                            target: self,
+                                                            action: #selector(addButtonPressed(_:)))
+    }
 }
