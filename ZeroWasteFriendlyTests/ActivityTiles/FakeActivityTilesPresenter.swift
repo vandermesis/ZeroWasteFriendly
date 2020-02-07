@@ -10,9 +10,13 @@ import UIKit
 
 @testable import ZeroWasteFriendly
 
-final class FakeActivityTilesPresenter: ActivityTilesPresenter {
+final class FakeActivityTilesPresenter: UIViewController, ActivityTilesPresenter {
 
     func toggleSpinner(_ state: Bool) {
+
+    }
+
+    func presentAlert(title: String, message: String) {
 
     }
 
