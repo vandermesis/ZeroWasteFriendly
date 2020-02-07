@@ -9,10 +9,10 @@
 import Foundation
 
 protocol ActivityTilesInteractor {
-
+    func getActivityTiles()
 }
 
-final class ActivityTilesInteractorImpl: ActivityTilesInteractor {
+final class ActivityTilesInteractorImpl {
 
     private let presenter: ActivityTilesPresenter
     private let worker: ActivityTilesWorker
@@ -24,5 +24,15 @@ final class ActivityTilesInteractorImpl: ActivityTilesInteractor {
         self.presenter = presenter
         self.worker = worker
         self.router = router
+    }
+}
+
+extension ActivityTilesInteractorImpl: ActivityTilesInteractor {
+    
+    func getActivityTiles() {
+        presenter.toggleSpinner(true)
+        worker.fetchActivityTiles()
+        presenter.toggleSpinner(false)
+        presenter.presentActivityTiles()
     }
 }

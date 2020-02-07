@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ActivityTilesPresentable: MainViewController {
-
+    func displayActivityTiles()
 }
 
 final class ActivityTilesController: MainViewController {
@@ -28,16 +28,19 @@ final class ActivityTilesController: MainViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
+        interactor.getActivityTiles()
     }
 
     @IBAction private func addButtonPressed(_ sender: UIBarButtonItem) {
 
     }
-
 }
 
 extension ActivityTilesController: ActivityTilesPresentable {
 
+    func displayActivityTiles() {
+
+    }
 }
 
 private extension ActivityTilesController {

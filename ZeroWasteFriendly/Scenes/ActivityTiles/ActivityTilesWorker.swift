@@ -9,10 +9,10 @@
 import Foundation
 
 protocol ActivityTilesWorker {
-
+    func fetchActivityTiles()
 }
 
-final class ActivityTilesWorkerImpl: ActivityTilesWorker {
+final class ActivityTilesWorkerImpl {
 
 //    private let networking: ZeroWasteFriendlyNetworking
 //
@@ -20,4 +20,11 @@ final class ActivityTilesWorkerImpl: ActivityTilesWorker {
 //        self.networking = networking
 //    }
 
+}
+
+extension ActivityTilesWorkerImpl: ActivityTilesWorker {
+
+    func fetchActivityTiles() {
+        
+    }
 }

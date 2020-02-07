@@ -34,7 +34,7 @@
             </subviews>
             <color key="backgroundColor" name="backgroundPrimary"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="139" y="154"/>
+            <point key="canvasLocation" x="38" y="41"/>
         </view>
     </objects>
     <resources>

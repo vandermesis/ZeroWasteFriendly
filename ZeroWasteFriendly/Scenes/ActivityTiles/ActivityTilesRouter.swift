@@ -9,10 +9,17 @@
 import UIKit
 
 protocol ActivityTilesRouter {
-
+    func navigateTo()
 }
 
-final class ActivityTilesRouterImpl: ActivityTilesRouter {
+final class ActivityTilesRouterImpl {
 
     weak var controller: MainViewController?
+}
+
+extension ActivityTilesRouterImpl: ActivityTilesRouter {
+
+    func navigateTo() {
+
+    }
 }
