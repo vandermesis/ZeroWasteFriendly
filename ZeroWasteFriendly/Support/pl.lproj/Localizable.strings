@@ -38,4 +38,5 @@
 "UserAccount.Title" = "Konto";
 
 // Alerts
-"PresenterAction.Title.Ok" = "OK";
+"Alert.Action.Title.Ok" = "OK";
+"Alert.Action.Title.Error" = "Błąd";

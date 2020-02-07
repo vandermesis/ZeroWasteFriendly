@@ -33,10 +33,10 @@ extension ActivityTilesPresenterImpl: ActivityTilesPresenter {
     }
 
     func presentAlert(title: String, message: String) {
-//        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-//        let action = UIAlertAction(title: R.string.localizable.presenterActionTitleOk(), style: .default, handler: nil)
-//        alert.addAction(action)
-//        navigationController?.present(alert, animated: true, completion: nil)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: R.string.localizable.alertActionTitleOk(), style: .default, handler: nil)
+        alert.addAction(action)
+        navigationController?.present(alert, animated: true, completion: nil)
     }
 
     func presentActivityTiles() {

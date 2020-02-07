@@ -8,15 +8,17 @@
 
 import Foundation
 
+typealias FetchActivityTilesCompletion = (Result<Model, Error>) -> Void
+
 protocol ActivityTilesWorker {
-    func fetchActivityTiles()
+    func fetchActivityTiles(completion: FetchActivityTilesCompletion?)
 }
 
 final class ActivityTilesWorkerImpl {
 
-//    private let networking: ZeroWasteFriendlyNetworking
+//    private let networking: ZeroWasteActivityInfoNetworking
 //
-//    init(networking: ZeroWasteFriendlyNetworking) {
+//    init(networking: ZeroWasteActivityInfoNetworking) {
 //        self.networking = networking
 //    }
 
@@ -24,7 +26,7 @@ final class ActivityTilesWorkerImpl {
 
 extension ActivityTilesWorkerImpl: ActivityTilesWorker {
 
-    func fetchActivityTiles() {
-        
+    func fetchActivityTiles(completion: FetchActivityTilesCompletion?) {
+//        networking.fetchModel(completion: completion)
     }
 }
