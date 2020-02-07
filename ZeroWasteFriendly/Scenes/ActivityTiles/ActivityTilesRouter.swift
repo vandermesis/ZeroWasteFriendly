@@ -14,5 +14,5 @@ protocol ActivityTilesRouter {
 
 final class ActivityTilesRouterImpl: ActivityTilesRouter {
 
-    weak var controller: UIViewController?
+    weak var controller: MainViewController?
 }

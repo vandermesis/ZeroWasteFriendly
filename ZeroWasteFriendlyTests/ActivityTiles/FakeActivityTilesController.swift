@@ -10,6 +10,6 @@ import UIKit
 
 @testable import ZeroWasteFriendly
 
-final class FakeActivityTilesController: UIViewController, ActivityTilesPresentable {
+final class FakeActivityTilesController: MainViewController, ActivityTilesPresentable {
 
 }

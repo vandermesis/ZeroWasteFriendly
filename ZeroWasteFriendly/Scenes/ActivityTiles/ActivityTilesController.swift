@@ -8,11 +8,11 @@
   
 import UIKit
 
-protocol ActivityTilesPresentable: UIViewController {
+protocol ActivityTilesPresentable: MainViewController {
 
 }
 
-final class ActivityTilesController: UIViewController {
+final class ActivityTilesController: MainViewController {
 
     private let interactor: ActivityTilesInteractor
 

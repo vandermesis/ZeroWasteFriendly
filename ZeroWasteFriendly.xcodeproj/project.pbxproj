@@ -80,6 +80,8 @@
 		BA6003C723ED660D00CF39B5 /* ActivityInfoWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BE23ED660D00CF39B5 /* ActivityInfoWorkerTests.swift */; };
 		BA6003C823ED660D00CF39B5 /* ActivityInfoRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003BF23ED660D00CF39B5 /* ActivityInfoRouterTests.swift */; };
 		BA6003C923ED660D00CF39B5 /* ActivityInfoPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6003C023ED660D00CF39B5 /* ActivityInfoPresenterTests.swift */; };
+		BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041223ED799D00CF39B5 /* MainViewController.swift */; };
+		BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041423ED79E300CF39B5 /* MainNavigationController.swift */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
@@ -174,6 +176,8 @@
 		BA6003BE23ED660D00CF39B5 /* ActivityInfoWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorkerTests.swift; sourceTree = "<group>"; };
 		BA6003BF23ED660D00CF39B5 /* ActivityInfoRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoRouterTests.swift; sourceTree = "<group>"; };
 		BA6003C023ED660D00CF39B5 /* ActivityInfoPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenterTests.swift; sourceTree = "<group>"; };
+		BA60041223ED799D00CF39B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA60041423ED79E300CF39B5 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -451,6 +455,8 @@
 		BAA73F8423CF8E2800B4FEC8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BA60041223ED799D00CF39B5 /* MainViewController.swift */,
+				BA60041423ED79E300CF39B5 /* MainNavigationController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -693,6 +699,7 @@
 				BA2BF8E323EB3B26001508F9 /* UserAccountSignUpWorker.swift in Sources */,
 				BA2BF8B623EB39A5001508F9 /* EcoMapWorker.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
+				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
 				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
 				BA2BF88123EB36EA001508F9 /* ActivityInfoPresenter.swift in Sources */,
@@ -700,6 +707,7 @@
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
 				BA2BF8D823EB3AF8001508F9 /* UserAccountSignInCreator.swift in Sources */,
 				BA2BF8C723EB3A2B001508F9 /* LibraryListController.swift in Sources */,
+				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
 				BA2BF8E223EB3B26001508F9 /* UserAccountSignUpPresenter.swift in Sources */,
 				BA2BF8C523EB3A2B001508F9 /* LibraryListWorker.swift in Sources */,
 				BA2BF8E523EB3B26001508F9 /* UserAccountSignUpController.swift in Sources */,

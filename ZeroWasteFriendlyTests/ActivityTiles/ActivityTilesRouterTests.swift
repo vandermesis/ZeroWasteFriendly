@@ -13,14 +13,14 @@ import XCTest
 final class ActivityTilesRouterTests: XCTestCase {
 
     var router: ActivityTilesRouterImpl!
-    var controller: UIViewController!
-    var navController: UINavigationController!
+    var controller: MainViewController!
+    var navController: MainNavigationController!
 
     override func setUp() {
         super.setUp()
         router = ActivityTilesRouterImpl()
         controller = ActivityTilesCreator().getController()
-        navController = UINavigationController()
+        navController = MainNavigationController()
         navController.viewControllers = [controller]
         router.controller = controller
     }
