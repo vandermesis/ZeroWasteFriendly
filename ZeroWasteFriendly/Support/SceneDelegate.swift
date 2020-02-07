@@ -55,23 +55,23 @@ private extension SceneDelegate {
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
 
-        let activityTilesController = UINavigationController(rootViewController: ActivityTilesCreator().getController())
-        let activityStatsController = UINavigationController(rootViewController: ActivityStatsCreator().getController())
-        let ecoMapController = UINavigationController(rootViewController: EcoMapCreator().getController())
-        let libraryListController = UINavigationController(rootViewController: LibraryListCreator().getController())
-        let userAccountController = UINavigationController(rootViewController: UserAccountSignInCreator().getController())
+        let activityTilesNavController = ActivityTilesCreator().getController().asNavigationController
+        let activityStatsNavController = ActivityStatsCreator().getController().asNavigationController
+        let ecoMapNavController = EcoMapCreator().getController().asNavigationController
+        let libraryListNavController = LibraryListCreator().getController().asNavigationController
+        let userAccountNavController = UserAccountSignInCreator().getController().asNavigationController
 
-        activityTilesController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemAct(), image: R.image.tabBarActSun(), tag: 1)
-        activityStatsController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemStats(), image: R.image.tabBarStatsFlower(), tag: 2)
-        ecoMapController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemEcoMap(), image: R.image.tabBarEarthMap(), tag: 3)
-        libraryListController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemLibrary(), image: R.image.tabBarLibraryBook(), tag: 4)
-        userAccountController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemAccount(), image: R.image.tabBarAccountPersons(), tag: 5)
+        activityTilesNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemAct(), image: R.image.tabBarActSun(), tag: 1)
+        activityStatsNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemStats(), image: R.image.tabBarStatsFlower(), tag: 2)
+        ecoMapNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemEcoMap(), image: R.image.tabBarEarthMap(), tag: 3)
+        libraryListNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemLibrary(), image: R.image.tabBarLibraryBook(), tag: 4)
+        userAccountNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemAccount(), image: R.image.tabBarAccountPersons(), tag: 5)
 
-        tabBarController.viewControllers = [activityTilesController,
-                                            activityStatsController,
-                                            ecoMapController,
-                                            libraryListController,
-                                            userAccountController]
+        tabBarController.viewControllers = [activityTilesNavController,
+                                            activityStatsNavController,
+                                            ecoMapNavController,
+                                            libraryListNavController,
+                                            userAccountNavController]
         return tabBarController
     }
 
@@ -80,5 +80,12 @@ private extension SceneDelegate {
         window?.windowScene = scene
         window?.rootViewController = controller
         window?.makeKeyAndVisible()
+    }
+}
+
+extension UIViewController {
+
+    var asNavigationController: UIViewController {
+        return UINavigationController(rootViewController: self)
     }
 }

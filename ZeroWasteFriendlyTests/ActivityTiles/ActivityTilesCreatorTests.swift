@@ -27,11 +27,11 @@ final class ActivityTilesCreatorTests: XCTestCase {
     func testControllerIsCreated() {
 
         // Given
-        // let controller = sut.getController()
+        let controller = sut.getController()
 
         // When
 
         // Then
-        // XCTAssert(controller, ActivityTilesController.self)
+        XCTAssert(controller is ActivityTilesController)
     }
 }
