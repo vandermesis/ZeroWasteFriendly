@@ -13,15 +13,5 @@ target 'ZeroWasteFriendly' do
   pod 'SwiftLint'
   pod 'R.swift'
   pod 'lottie-ios'
-  
-target 'ZeroWasteFriendlyTests' do
-  
-  inherit! :search_paths
-  
-  # Pods for testing
-  pod 'Quick'
-  pod 'Nimble'
-
-end
 
 end

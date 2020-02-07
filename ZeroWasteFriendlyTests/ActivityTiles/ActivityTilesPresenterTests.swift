@@ -6,33 +6,25 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import Quick
-import Nimble
+import XCTest
 
 @testable import ZeroWasteFriendly
 
-final class ActivityTilesPresenterTests: QuickSpec {
+final class ActivityTilesPresenterTests: XCTestCase {
 
-    override func spec() {
+    var presenter: ActivityTilesPresenterImpl!
+    var controller: FakeActivityTilesController!
 
-        var presenter: ActivityTilesPresenterImpl!
-        var controller: FakeActivityTilesController!
+    override func setUp() {
+        super.setUp()
+        controller = FakeActivityTilesController()
+        presenter = ActivityTilesPresenterImpl()
+        presenter.controller = controller
+    }
 
-        beforeEach {
-            controller = FakeActivityTilesController()
-            presenter = ActivityTilesPresenterImpl()
-            presenter.controller = controller
-        }
-
-        describe("") {
-
-            beforeEach {
-                //presenter.
-            }
-
-            it("should ") {
-                //expect(controller.).to()
-            }
-        }
+    override func tearDown() {
+        controller = nil
+        presenter = nil
+        super.tearDown()
     }
 }

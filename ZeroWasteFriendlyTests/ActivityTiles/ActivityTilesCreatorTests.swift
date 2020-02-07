@@ -6,30 +6,32 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import Quick
-import Nimble
+import XCTest
 
 @testable import ZeroWasteFriendly
 
-final class ActivityTilesCreatorTests: QuickSpec {
+final class ActivityTilesCreatorTests: XCTestCase {
 
-    override func spec() {
+    var sut: ActivityTilesCreator!
 
-        var controller: UIViewController?
+    override func setUp() {
+        super.setUp()
+        sut = ActivityTilesCreator()
+    }
 
-        describe("getting ActivityTilesController") {
+    override func tearDown() {
+        sut = nil
+        super.tearDown()
+    }
 
-            beforeEach {
-                controller = ActivityTilesCreator().getController()
-            }
+    func testControllerIsCreated() {
 
-            afterEach {
-                controller = nil
-            }
+        // Given
+        // let controller = sut.getController()
 
-            it("should return valid controller") {
-                expect(controller).to(beAKindOf(ActivityTilesController.self))
-            }
-        }
+        // When
+
+        // Then
+        // XCTAssert(controller, ActivityTilesController.self)
     }
 }

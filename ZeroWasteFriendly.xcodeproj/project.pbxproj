@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54F4280DFDE24CC50DB15F21 /* Pods_ZeroWasteFriendlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */; };
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
 		BA2BF88123EB36EA001508F9 /* ActivityInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87A23EB36EA001508F9 /* ActivityInfoPresenter.swift */; };
 		BA2BF88223EB36EA001508F9 /* ActivityInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87B23EB36EA001508F9 /* ActivityInfoWorker.swift */; };
@@ -94,7 +93,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendlyTests.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2BF87A23EB36EA001508F9 /* ActivityInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenter.swift; sourceTree = "<group>"; };
 		BA2BF87B23EB36EA001508F9 /* ActivityInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorker.swift; sourceTree = "<group>"; };
@@ -174,9 +172,7 @@
 		BA9DB87F23CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA73F8123CF888E00B4FEC8 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
-		C68352541383528B58DB47D0 /* Pods-ZeroWasteFriendlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendlyTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.release.xcconfig"; sourceTree = "<group>"; };
-		F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +188,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F4280DFDE24CC50DB15F21 /* Pods_ZeroWasteFriendlyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */,
-				F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -213,8 +207,6 @@
 			children = (
 				BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */,
 				F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */,
-				C68352541383528B58DB47D0 /* Pods-ZeroWasteFriendlyTests.debug.xcconfig */,
-				79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -491,11 +483,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA9DB88523CE6DED004F86A0 /* Build configuration list for PBXNativeTarget "ZeroWasteFriendlyTests" */;
 			buildPhases = (
-				EE5F820CD75F1BC675B6B3B3 /* [CP] Check Pods Manifest.lock */,
 				BA9DB87523CE6DED004F86A0 /* Sources */,
 				BA9DB87623CE6DED004F86A0 /* Frameworks */,
 				BA9DB87723CE6DED004F86A0 /* Resources */,
-				62E36FA939BF567F9E245F23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -597,23 +587,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62E36FA939BF567F9E245F23 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8E144BACF560F6B1261CDC32 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -650,7 +623,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/ZeroWasteFriendly/Support/R.generated.swift,
+				"$SRCROOT/ZeroWasteFriendly/Support/R.generated.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -673,28 +646,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		EE5F820CD75F1BC675B6B3B3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZeroWasteFriendlyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -954,7 +905,6 @@
 		};
 		BA9DB88623CE6DED004F86A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C68352541383528B58DB47D0 /* Pods-ZeroWasteFriendlyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -976,7 +926,6 @@
 		};
 		BA9DB88723CE6DED004F86A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

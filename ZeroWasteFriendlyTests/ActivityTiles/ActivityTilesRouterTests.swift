@@ -6,36 +6,32 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import Quick
-import Nimble
+import XCTest
 
 @testable import ZeroWasteFriendly
 
-final class ActivityTilesRouterTests: QuickSpec {
+final class ActivityTilesRouterTests: XCTestCase {
 
-    override func spec() {
+    var router: ActivityTilesRouterImpl!
+    var controller: UIViewController!
+    var navController: UINavigationController!
 
-        var router: ActivityTilesRouterImpl!
-        var controller: UIViewController!
-        var navController: UINavigationController!
-
-        beforeEach {
-            router = ActivityTilesRouterImpl()
-            controller = ActivityTilesCreator().getController()
-            navController = UINavigationController()
-            navController.viewControllers = [controller]
-            router.controller = controller
-        }
-
-        describe("should navigate to ") {
-
-            beforeEach {
-                //router.
-            }
-
-            it("should move to ... controller") {
-                //expect(navController.topViewController).to(beAKindOf())
-            }
-        }
+    override func setUp() {
+        super.setUp()
+        router = ActivityTilesRouterImpl()
+        controller = ActivityTilesCreator().getController()
+        navController = UINavigationController()
+        navController.viewControllers = [controller]
+        router.controller = controller
     }
+
+    override func tearDown() {
+        router = ActivityTilesRouterImpl()
+        controller = ActivityTilesCreator().getController()
+        navController = UINavigationController()
+        navController.viewControllers = [controller]
+        router.controller = controller
+        super.tearDown()
+    }
+    
 }

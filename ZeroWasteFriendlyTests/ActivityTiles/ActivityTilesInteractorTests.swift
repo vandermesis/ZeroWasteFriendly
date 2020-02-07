@@ -6,58 +6,30 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import Quick
-import Nimble
+import XCTest
 
 @testable import ZeroWasteFriendly
 
-final class ActivityTilesInteractorTests: QuickSpec {
+final class ActivityTilesInteractorTests: XCTestCase {
 
-    override func spec() {
+    var router: FakeActivityTilesRouter!
+    var worker: FakeActivityTilesWorker!
+    var presenter: FakeActivityTilesPresenter!
+    var interactor: ActivityTilesInteractorImpl!
 
-        var router: FakeActivityTilesRouter!
-        var worker: FakeActivityTilesWorker!
-        var presenter: FakeActivityTilesPresenter!
-        var interactor: ActivityTilesInteractorImpl!
+    override func setUp() {
+        super.setUp()
+        router = FakeActivityTilesRouter()
+        worker = FakeActivityTilesWorker()
+        presenter = FakeActivityTilesPresenter()
+        interactor = ActivityTilesInteractorImpl(presenter: presenter, worker: worker, router: router)
+    }
 
-        beforeEach {
-            router = FakeActivityTilesRouter()
-            worker = FakeActivityTilesWorker()
-            presenter = FakeActivityTilesPresenter()
-            interactor = ActivityTilesInteractorImpl(presenter: presenter, worker: worker, router: router)
-        }
-
-        describe("") {
-
-            beforeEach {
-                //interactor.
-            }
-
-            it("should ") {
-                //expect(presenter.).to()
-            }
-
-            context("on success response") {
-
-                beforeEach {
-                    //worker.
-                }
-
-                it("should ") {
-
-                }
-            }
-
-            context("on error response") {
-
-                beforeEach {
-                    //worker.
-                }
-
-                it("should ") {
-                    //expect(presenter.).to()
-                }
-            }
-        }
+    override func tearDown() {
+        router = nil
+        worker = nil
+        presenter = nil
+        interactor = nil
+        super.tearDown()
     }
 }

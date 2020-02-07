@@ -60,7 +60,7 @@ Coding stage:
 - Localization
 - Custom fonts, colors, icons
 - Xcode File Templates
-
+- XCTest
 
 
 ## What is needed
@@ -83,8 +83,6 @@ Coding stage:
 - *[R.swift](https://github.com/mac-cain13/R.swift)*
 - *[Lottie-ios](https://github.com/airbnb/lottie-ios)*
 - *[LottieFilez](https://lottiefiles.com/lottiefilez)*
-- *[Quick](https://github.com/Quick/Quick)*
-- *[Nimble](https://github.com/Quick/Nimble)*
 - *[Gifski](https://gif.ski)*
 - *[Typora](https://typora.io)*
 
