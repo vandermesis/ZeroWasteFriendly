@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController {
 
-    func asNavigationController(title: String, image: UIImage?) -> UINavigationController {
+    func embedInNavigationController(title: String, image: UIImage?) -> UINavigationController {
         self.tabBarItem = UITabBarItem(title: title, image: image, selectedImage: image)
         return UINavigationController(rootViewController: self)
     }

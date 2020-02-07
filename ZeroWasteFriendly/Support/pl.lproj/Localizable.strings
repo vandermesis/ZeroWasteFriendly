@@ -36,3 +36,6 @@
 
 // UserAccount
 "UserAccount.Title" = "Konto";
+
+// Alerts
+"PresenterAction.Title.Ok" = "OK";
