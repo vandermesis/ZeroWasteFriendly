@@ -10,7 +10,7 @@
 
 final class FakeActivityTilesWorker: ActivityTilesWorker {
 
-    func fetchActivityTiles() {
-
+    func fetchActivityTiles(completion: FetchActivityTilesCompletion?) {
+        <#code#>
     }
 }
