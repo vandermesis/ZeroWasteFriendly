@@ -1,8 +1,8 @@
 //
-//  ActivityTilesRouterTests.swift
+//  ActivityInfoRouterTests.swift
 //  ZeroWasteFriendly
 //
-//  Created by Marek Skrzelowski on 05/02/2020.
+//  Created by Marek Skrzelowski on 07/02/2020.
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
@@ -10,16 +10,16 @@ import XCTest
 
 @testable import ZeroWasteFriendly
 
-final class ActivityTilesRouterTests: XCTestCase {
+final class ActivityInfoRouterTests: XCTestCase {
 
-    var router: ActivityTilesRouterImpl!
+    var router: ActivityInfoRouterImpl!
     var controller: UIViewController!
     var navController: UINavigationController!
 
     override func setUp() {
         super.setUp()
-        router = ActivityTilesRouterImpl()
-        controller = ActivityTilesCreator().getController()
+        router = ActivityInfoRouterImpl()
+        controller = ActivityInfoCreator().getController()
         navController = UINavigationController()
         navController.viewControllers = [controller]
         router.controller = controller
