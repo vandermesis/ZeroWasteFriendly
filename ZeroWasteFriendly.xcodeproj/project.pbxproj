@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
+		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
 		BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */; };
 		BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */; };
 		BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */; };
@@ -87,6 +88,7 @@
 
 /* Begin PBXFileReference section */
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
 		BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenter.swift; sourceTree = "<group>"; };
 		BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorker.swift; sourceTree = "<group>"; };
 		BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouter.swift; sourceTree = "<group>"; };
@@ -400,6 +402,7 @@
 		BAA73F8523CF8E3300B4FEC8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -629,6 +632,7 @@
 				BA6004AE23ED9F4B00CF39B5 /* LibraryListRouter.swift in Sources */,
 				BA60049323ED9CB900CF39B5 /* ActivityStatsCreator.swift in Sources */,
 				BA60049E23ED9E4400CF39B5 /* EcoMapWorker.swift in Sources */,
+				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,

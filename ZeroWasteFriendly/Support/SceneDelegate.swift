@@ -55,17 +55,16 @@ private extension SceneDelegate {
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
 
-        let activityTilesNavController = ActivityTilesCreator().getController().asNavigationController
-        let activityStatsNavController = ActivityStatsCreator().getController().asNavigationController
-        let ecoMapNavController = EcoMapCreator().getController().asNavigationController
-        let libraryListNavController = LibraryListCreator().getController().asNavigationController
-        let userAccountNavController = UserAccountCreator().getController().asNavigationController
-
-        activityTilesNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemAct(), image: R.image.tabBarActSun(), tag: 1)
-        activityStatsNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemStats(), image: R.image.tabBarStatsFlower(), tag: 2)
-        ecoMapNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemEcoMap(), image: R.image.tabBarEarthMap(), tag: 3)
-        libraryListNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemLibrary(), image: R.image.tabBarLibraryBook(), tag: 4)
-        userAccountNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemAccount(), image: R.image.tabBarAccountPersons(), tag: 5)
+        let activityTilesNavController = ActivityTilesCreator().getController().asNavigationController(title: R.string.localizable.tabBarItemAct(),
+                                                                                                       image: R.image.tabBarActSun())
+        let activityStatsNavController = ActivityStatsCreator().getController().asNavigationController(title: R.string.localizable.tabBarItemStats(),
+                                                                                                       image: R.image.tabBarStatsFlower())
+        let ecoMapNavController = EcoMapCreator().getController().asNavigationController(title: R.string.localizable.tabBarItemEcoMap(),
+                                                                                         image: R.image.tabBarEarthMap())
+        let libraryListNavController = LibraryListCreator().getController().asNavigationController(title: R.string.localizable.tabBarItemLibrary(),
+                                                                                                   image: R.image.tabBarLibraryBook())
+        let userAccountNavController = UserAccountCreator().getController().asNavigationController(title: R.string.localizable.tabBarItemAccount(),
+                                                                                                   image: R.image.tabBarAccountPersons())
 
         tabBarController.viewControllers = [activityTilesNavController,
                                             activityStatsNavController,
@@ -80,12 +79,5 @@ private extension SceneDelegate {
         window?.windowScene = scene
         window?.rootViewController = controller
         window?.makeKeyAndVisible()
-    }
-}
-
-extension UIViewController {
-
-    var asNavigationController: UIViewController {
-        return UINavigationController(rootViewController: self)
     }
 }
