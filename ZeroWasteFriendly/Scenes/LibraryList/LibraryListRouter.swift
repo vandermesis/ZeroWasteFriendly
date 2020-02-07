@@ -2,17 +2,24 @@
 //  LibraryListRouter.swift
 //  ZeroWasteFriendly
 //
-//  Created by Marek Skrzelowski on 05/02/2020.
+//  Created by Marek Skrzelowski on 07/02/2020.
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
 import UIKit
 
 protocol LibraryListRouter {
-
+    func navigateTo()
 }
 
-final class LibraryListRouterImpl: LibraryListRouter {
+final class LibraryListRouterImpl {
 
-    weak var controller: UIViewController?
+    weak var controller: MainViewController?
+}
+
+extension LibraryListRouterImpl: LibraryListRouter {
+
+    func navigateTo() {
+
+    }
 }

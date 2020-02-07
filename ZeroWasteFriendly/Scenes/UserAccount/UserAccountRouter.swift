@@ -1,5 +1,5 @@
 //
-//  ActivityInfoRouter.swift
+//  UserAccountRouter.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 07/02/2020.
@@ -8,16 +8,16 @@
 
 import UIKit
 
-protocol ActivityInfoRouter {
+protocol UserAccountRouter {
     func navigateTo()
 }
 
-final class ActivityInfoRouterImpl {
+final class UserAccountRouterImpl {
 
     weak var controller: MainViewController?
 }
 
-extension ActivityInfoRouterImpl: ActivityInfoRouter {
+extension UserAccountRouterImpl: UserAccountRouter {
 
     func navigateTo() {
 

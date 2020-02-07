@@ -21,3 +21,18 @@
 "ActivityTile.Recycle.Title" = "Recycle";
 "ActivityTile.Rot.Title" = "Rot";
 "ActivityTile.Repair.Title" = "Repair";
+
+// ActivityInfo
+"ActivityInfo.Title" = "Info";
+
+// ActivityStats
+"ActivityStats.Title" = "Statistics";
+
+// EcoMap
+"EcoMap.Title" = "EcoMap";
+
+// LibraryList
+"LibraryList.Title" = "Library";
+
+// UserAccount
+"UserAccount.Title" = "Account";

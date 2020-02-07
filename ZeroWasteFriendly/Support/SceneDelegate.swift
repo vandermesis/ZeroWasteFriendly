@@ -59,7 +59,7 @@ private extension SceneDelegate {
         let activityStatsNavController = ActivityStatsCreator().getController().asNavigationController
         let ecoMapNavController = EcoMapCreator().getController().asNavigationController
         let libraryListNavController = LibraryListCreator().getController().asNavigationController
-        let userAccountNavController = UserAccountSignInCreator().getController().asNavigationController
+        let userAccountNavController = UserAccountCreator().getController().asNavigationController
 
         activityTilesNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemAct(), image: R.image.tabBarActSun(), tag: 1)
         activityStatsNavController.tabBarItem = UITabBarItem(title: R.string.localizable.tabBarItemStats(), image: R.image.tabBarStatsFlower(), tag: 2)

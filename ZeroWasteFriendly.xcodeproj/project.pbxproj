@@ -8,13 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
-		BA2BF88123EB36EA001508F9 /* ActivityInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87A23EB36EA001508F9 /* ActivityInfoPresenter.swift */; };
-		BA2BF88223EB36EA001508F9 /* ActivityInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87B23EB36EA001508F9 /* ActivityInfoWorker.swift */; };
-		BA2BF88323EB36EA001508F9 /* ActivityInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87C23EB36EA001508F9 /* ActivityInfoRouter.swift */; };
-		BA2BF88423EB36EA001508F9 /* ActivityInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87D23EB36EA001508F9 /* ActivityInfoController.swift */; };
-		BA2BF88523EB36EA001508F9 /* ActivityInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87E23EB36EA001508F9 /* ActivityInfoInteractor.swift */; };
-		BA2BF88623EB36EA001508F9 /* ActivityInfoCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF87F23EB36EA001508F9 /* ActivityInfoCreator.swift */; };
-		BA2BF88723EB36EA001508F9 /* ActivityInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF88023EB36EA001508F9 /* ActivityInfoController.xib */; };
 		BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */; };
 		BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */; };
 		BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */; };
@@ -24,41 +17,6 @@
 		BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */; };
 		BA2BF89B23EB387B001508F9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89923EB387B001508F9 /* logo.png */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
-		BA2BF8A623EB3900001508F9 /* ActivityStatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF89F23EB3900001508F9 /* ActivityStatsPresenter.swift */; };
-		BA2BF8A723EB3900001508F9 /* ActivityStatsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8A023EB3900001508F9 /* ActivityStatsWorker.swift */; };
-		BA2BF8A823EB3900001508F9 /* ActivityStatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8A123EB3900001508F9 /* ActivityStatsRouter.swift */; };
-		BA2BF8A923EB3900001508F9 /* ActivityStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8A223EB3900001508F9 /* ActivityStatsController.swift */; };
-		BA2BF8AA23EB3900001508F9 /* ActivityStatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8A323EB3900001508F9 /* ActivityStatsInteractor.swift */; };
-		BA2BF8AB23EB3900001508F9 /* ActivityStatsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8A423EB3900001508F9 /* ActivityStatsCreator.swift */; };
-		BA2BF8AC23EB3900001508F9 /* ActivityStatsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8A523EB3900001508F9 /* ActivityStatsController.xib */; };
-		BA2BF8B523EB39A5001508F9 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8AE23EB39A5001508F9 /* EcoMapPresenter.swift */; };
-		BA2BF8B623EB39A5001508F9 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8AF23EB39A5001508F9 /* EcoMapWorker.swift */; };
-		BA2BF8B723EB39A5001508F9 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8B023EB39A5001508F9 /* EcoMapRouter.swift */; };
-		BA2BF8B823EB39A5001508F9 /* EcoMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8B123EB39A5001508F9 /* EcoMapController.swift */; };
-		BA2BF8B923EB39A5001508F9 /* EcoMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8B223EB39A5001508F9 /* EcoMapInteractor.swift */; };
-		BA2BF8BA23EB39A5001508F9 /* EcoMapCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8B323EB39A5001508F9 /* EcoMapCreator.swift */; };
-		BA2BF8BB23EB39A5001508F9 /* EcoMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8B423EB39A5001508F9 /* EcoMapController.xib */; };
-		BA2BF8C423EB3A2B001508F9 /* LibraryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8BD23EB3A2B001508F9 /* LibraryListPresenter.swift */; };
-		BA2BF8C523EB3A2B001508F9 /* LibraryListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8BE23EB3A2B001508F9 /* LibraryListWorker.swift */; };
-		BA2BF8C623EB3A2B001508F9 /* LibraryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8BF23EB3A2B001508F9 /* LibraryListRouter.swift */; };
-		BA2BF8C723EB3A2B001508F9 /* LibraryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8C023EB3A2B001508F9 /* LibraryListController.swift */; };
-		BA2BF8C823EB3A2B001508F9 /* LibraryListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8C123EB3A2B001508F9 /* LibraryListInteractor.swift */; };
-		BA2BF8C923EB3A2B001508F9 /* LibraryListCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8C223EB3A2B001508F9 /* LibraryListCreator.swift */; };
-		BA2BF8CA23EB3A2B001508F9 /* LibraryListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8C323EB3A2B001508F9 /* LibraryListController.xib */; };
-		BA2BF8D323EB3AF8001508F9 /* UserAccountSignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8CC23EB3AF7001508F9 /* UserAccountSignInPresenter.swift */; };
-		BA2BF8D423EB3AF8001508F9 /* UserAccountSignInWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8CD23EB3AF7001508F9 /* UserAccountSignInWorker.swift */; };
-		BA2BF8D523EB3AF8001508F9 /* UserAccountSignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8CE23EB3AF7001508F9 /* UserAccountSignInRouter.swift */; };
-		BA2BF8D623EB3AF8001508F9 /* UserAccountSignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8CF23EB3AF7001508F9 /* UserAccountSignInController.swift */; };
-		BA2BF8D723EB3AF8001508F9 /* UserAccountSignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8D023EB3AF7001508F9 /* UserAccountSignInInteractor.swift */; };
-		BA2BF8D823EB3AF8001508F9 /* UserAccountSignInCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8D123EB3AF7001508F9 /* UserAccountSignInCreator.swift */; };
-		BA2BF8D923EB3AF8001508F9 /* UserAccountSignInController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8D223EB3AF8001508F9 /* UserAccountSignInController.xib */; };
-		BA2BF8E223EB3B26001508F9 /* UserAccountSignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8DB23EB3B26001508F9 /* UserAccountSignUpPresenter.swift */; };
-		BA2BF8E323EB3B26001508F9 /* UserAccountSignUpWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8DC23EB3B26001508F9 /* UserAccountSignUpWorker.swift */; };
-		BA2BF8E423EB3B26001508F9 /* UserAccountSignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8DD23EB3B26001508F9 /* UserAccountSignUpRouter.swift */; };
-		BA2BF8E523EB3B26001508F9 /* UserAccountSignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8DE23EB3B26001508F9 /* UserAccountSignUpController.swift */; };
-		BA2BF8E623EB3B26001508F9 /* UserAccountSignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8DF23EB3B26001508F9 /* UserAccountSignUpInteractor.swift */; };
-		BA2BF8E723EB3B26001508F9 /* UserAccountSignUpCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8E023EB3B26001508F9 /* UserAccountSignUpCreator.swift */; };
-		BA2BF8E823EB3B26001508F9 /* UserAccountSignUpController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8E123EB3B26001508F9 /* UserAccountSignUpController.xib */; };
 		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
 		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
 		BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */; };
@@ -74,12 +32,46 @@
 		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
 		BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041223ED799D00CF39B5 /* MainViewController.swift */; };
 		BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041423ED79E300CF39B5 /* MainNavigationController.swift */; };
+		BA60047023ED986000CF39B5 /* ActivityInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046923ED986000CF39B5 /* ActivityInfoPresenter.swift */; };
+		BA60047123ED986000CF39B5 /* ActivityInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046A23ED986000CF39B5 /* ActivityInfoWorker.swift */; };
+		BA60047223ED986000CF39B5 /* ActivityInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046B23ED986000CF39B5 /* ActivityInfoRouter.swift */; };
+		BA60047323ED986000CF39B5 /* ActivityInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046C23ED986000CF39B5 /* ActivityInfoController.swift */; };
+		BA60047423ED986000CF39B5 /* ActivityInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046D23ED986000CF39B5 /* ActivityInfoInteractor.swift */; };
+		BA60047523ED986000CF39B5 /* ActivityInfoCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046E23ED986000CF39B5 /* ActivityInfoCreator.swift */; };
+		BA60047623ED986000CF39B5 /* ActivityInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA60046F23ED986000CF39B5 /* ActivityInfoController.xib */; };
+		BA60048E23ED9CB900CF39B5 /* ActivityStatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048723ED9CB900CF39B5 /* ActivityStatsPresenter.swift */; };
+		BA60048F23ED9CB900CF39B5 /* ActivityStatsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048823ED9CB900CF39B5 /* ActivityStatsWorker.swift */; };
+		BA60049023ED9CB900CF39B5 /* ActivityStatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048923ED9CB900CF39B5 /* ActivityStatsRouter.swift */; };
+		BA60049123ED9CB900CF39B5 /* ActivityStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048A23ED9CB900CF39B5 /* ActivityStatsController.swift */; };
+		BA60049223ED9CB900CF39B5 /* ActivityStatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048B23ED9CB900CF39B5 /* ActivityStatsInteractor.swift */; };
+		BA60049323ED9CB900CF39B5 /* ActivityStatsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048C23ED9CB900CF39B5 /* ActivityStatsCreator.swift */; };
+		BA60049423ED9CB900CF39B5 /* ActivityStatsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA60048D23ED9CB900CF39B5 /* ActivityStatsController.xib */; };
+		BA60049D23ED9E4400CF39B5 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049623ED9E4400CF39B5 /* EcoMapPresenter.swift */; };
+		BA60049E23ED9E4400CF39B5 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049723ED9E4400CF39B5 /* EcoMapWorker.swift */; };
+		BA60049F23ED9E4400CF39B5 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049823ED9E4400CF39B5 /* EcoMapRouter.swift */; };
+		BA6004A023ED9E4400CF39B5 /* EcoMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049923ED9E4400CF39B5 /* EcoMapController.swift */; };
+		BA6004A123ED9E4400CF39B5 /* EcoMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049A23ED9E4400CF39B5 /* EcoMapInteractor.swift */; };
+		BA6004A223ED9E4400CF39B5 /* EcoMapCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049B23ED9E4400CF39B5 /* EcoMapCreator.swift */; };
+		BA6004A323ED9E4400CF39B5 /* EcoMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA60049C23ED9E4400CF39B5 /* EcoMapController.xib */; };
+		BA6004AC23ED9F4B00CF39B5 /* LibraryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A523ED9F4B00CF39B5 /* LibraryListPresenter.swift */; };
+		BA6004AD23ED9F4B00CF39B5 /* LibraryListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A623ED9F4B00CF39B5 /* LibraryListWorker.swift */; };
+		BA6004AE23ED9F4B00CF39B5 /* LibraryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A723ED9F4B00CF39B5 /* LibraryListRouter.swift */; };
+		BA6004AF23ED9F4B00CF39B5 /* LibraryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A823ED9F4B00CF39B5 /* LibraryListController.swift */; };
+		BA6004B023ED9F4B00CF39B5 /* LibraryListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A923ED9F4B00CF39B5 /* LibraryListInteractor.swift */; };
+		BA6004B123ED9F4B00CF39B5 /* LibraryListCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004AA23ED9F4B00CF39B5 /* LibraryListCreator.swift */; };
+		BA6004B223ED9F4B00CF39B5 /* LibraryListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6004AB23ED9F4B00CF39B5 /* LibraryListController.xib */; };
+		BA6004BB23EDA0FD00CF39B5 /* UserAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B423EDA0FD00CF39B5 /* UserAccountPresenter.swift */; };
+		BA6004BC23EDA0FD00CF39B5 /* UserAccountWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B523EDA0FD00CF39B5 /* UserAccountWorker.swift */; };
+		BA6004BD23EDA0FD00CF39B5 /* UserAccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B623EDA0FD00CF39B5 /* UserAccountRouter.swift */; };
+		BA6004BE23EDA0FD00CF39B5 /* UserAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B723EDA0FD00CF39B5 /* UserAccountController.swift */; };
+		BA6004BF23EDA0FD00CF39B5 /* UserAccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B823EDA0FD00CF39B5 /* UserAccountInteractor.swift */; };
+		BA6004C023EDA0FD00CF39B5 /* UserAccountCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B923EDA0FD00CF39B5 /* UserAccountCreator.swift */; };
+		BA6004C123EDA0FD00CF39B5 /* UserAccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6004BA23EDA0FD00CF39B5 /* UserAccountController.xib */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
 		BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */; };
 		BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */; };
-		BA9DB87E23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */; };
 		BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA73F8123CF888E00B4FEC8 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
@@ -95,13 +87,6 @@
 
 /* Begin PBXFileReference section */
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2BF87A23EB36EA001508F9 /* ActivityInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenter.swift; sourceTree = "<group>"; };
-		BA2BF87B23EB36EA001508F9 /* ActivityInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorker.swift; sourceTree = "<group>"; };
-		BA2BF87C23EB36EA001508F9 /* ActivityInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoRouter.swift; sourceTree = "<group>"; };
-		BA2BF87D23EB36EA001508F9 /* ActivityInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoController.swift; sourceTree = "<group>"; };
-		BA2BF87E23EB36EA001508F9 /* ActivityInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoInteractor.swift; sourceTree = "<group>"; };
-		BA2BF87F23EB36EA001508F9 /* ActivityInfoCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoCreator.swift; sourceTree = "<group>"; };
-		BA2BF88023EB36EA001508F9 /* ActivityInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityInfoController.xib; sourceTree = "<group>"; };
 		BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenter.swift; sourceTree = "<group>"; };
 		BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorker.swift; sourceTree = "<group>"; };
 		BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouter.swift; sourceTree = "<group>"; };
@@ -111,41 +96,6 @@
 		BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTilesController.xib; sourceTree = "<group>"; };
 		BA2BF89923EB387B001508F9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
-		BA2BF89F23EB3900001508F9 /* ActivityStatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsPresenter.swift; sourceTree = "<group>"; };
-		BA2BF8A023EB3900001508F9 /* ActivityStatsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsWorker.swift; sourceTree = "<group>"; };
-		BA2BF8A123EB3900001508F9 /* ActivityStatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsRouter.swift; sourceTree = "<group>"; };
-		BA2BF8A223EB3900001508F9 /* ActivityStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsController.swift; sourceTree = "<group>"; };
-		BA2BF8A323EB3900001508F9 /* ActivityStatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsInteractor.swift; sourceTree = "<group>"; };
-		BA2BF8A423EB3900001508F9 /* ActivityStatsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsCreator.swift; sourceTree = "<group>"; };
-		BA2BF8A523EB3900001508F9 /* ActivityStatsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityStatsController.xib; sourceTree = "<group>"; };
-		BA2BF8AE23EB39A5001508F9 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
-		BA2BF8AF23EB39A5001508F9 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
-		BA2BF8B023EB39A5001508F9 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
-		BA2BF8B123EB39A5001508F9 /* EcoMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapController.swift; sourceTree = "<group>"; };
-		BA2BF8B223EB39A5001508F9 /* EcoMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapInteractor.swift; sourceTree = "<group>"; };
-		BA2BF8B323EB39A5001508F9 /* EcoMapCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapCreator.swift; sourceTree = "<group>"; };
-		BA2BF8B423EB39A5001508F9 /* EcoMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoMapController.xib; sourceTree = "<group>"; };
-		BA2BF8BD23EB3A2B001508F9 /* LibraryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListPresenter.swift; sourceTree = "<group>"; };
-		BA2BF8BE23EB3A2B001508F9 /* LibraryListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListWorker.swift; sourceTree = "<group>"; };
-		BA2BF8BF23EB3A2B001508F9 /* LibraryListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListRouter.swift; sourceTree = "<group>"; };
-		BA2BF8C023EB3A2B001508F9 /* LibraryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListController.swift; sourceTree = "<group>"; };
-		BA2BF8C123EB3A2B001508F9 /* LibraryListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListInteractor.swift; sourceTree = "<group>"; };
-		BA2BF8C223EB3A2B001508F9 /* LibraryListCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListCreator.swift; sourceTree = "<group>"; };
-		BA2BF8C323EB3A2B001508F9 /* LibraryListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryListController.xib; sourceTree = "<group>"; };
-		BA2BF8CC23EB3AF7001508F9 /* UserAccountSignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignInPresenter.swift; sourceTree = "<group>"; };
-		BA2BF8CD23EB3AF7001508F9 /* UserAccountSignInWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignInWorker.swift; sourceTree = "<group>"; };
-		BA2BF8CE23EB3AF7001508F9 /* UserAccountSignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignInRouter.swift; sourceTree = "<group>"; };
-		BA2BF8CF23EB3AF7001508F9 /* UserAccountSignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignInController.swift; sourceTree = "<group>"; };
-		BA2BF8D023EB3AF7001508F9 /* UserAccountSignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignInInteractor.swift; sourceTree = "<group>"; };
-		BA2BF8D123EB3AF7001508F9 /* UserAccountSignInCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignInCreator.swift; sourceTree = "<group>"; };
-		BA2BF8D223EB3AF8001508F9 /* UserAccountSignInController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAccountSignInController.xib; sourceTree = "<group>"; };
-		BA2BF8DB23EB3B26001508F9 /* UserAccountSignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignUpPresenter.swift; sourceTree = "<group>"; };
-		BA2BF8DC23EB3B26001508F9 /* UserAccountSignUpWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignUpWorker.swift; sourceTree = "<group>"; };
-		BA2BF8DD23EB3B26001508F9 /* UserAccountSignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignUpRouter.swift; sourceTree = "<group>"; };
-		BA2BF8DE23EB3B26001508F9 /* UserAccountSignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignUpController.swift; sourceTree = "<group>"; };
-		BA2BF8DF23EB3B26001508F9 /* UserAccountSignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignUpInteractor.swift; sourceTree = "<group>"; };
-		BA2BF8E023EB3B26001508F9 /* UserAccountSignUpCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountSignUpCreator.swift; sourceTree = "<group>"; };
-		BA2BF8E123EB3B26001508F9 /* UserAccountSignUpController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAccountSignUpController.xib; sourceTree = "<group>"; };
 		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
@@ -162,6 +112,41 @@
 		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
 		BA60041223ED799D00CF39B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BA60041423ED79E300CF39B5 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		BA60046923ED986000CF39B5 /* ActivityInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenter.swift; sourceTree = "<group>"; };
+		BA60046A23ED986000CF39B5 /* ActivityInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorker.swift; sourceTree = "<group>"; };
+		BA60046B23ED986000CF39B5 /* ActivityInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoRouter.swift; sourceTree = "<group>"; };
+		BA60046C23ED986000CF39B5 /* ActivityInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoController.swift; sourceTree = "<group>"; };
+		BA60046D23ED986000CF39B5 /* ActivityInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoInteractor.swift; sourceTree = "<group>"; };
+		BA60046E23ED986000CF39B5 /* ActivityInfoCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoCreator.swift; sourceTree = "<group>"; };
+		BA60046F23ED986000CF39B5 /* ActivityInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityInfoController.xib; sourceTree = "<group>"; };
+		BA60048723ED9CB900CF39B5 /* ActivityStatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsPresenter.swift; sourceTree = "<group>"; };
+		BA60048823ED9CB900CF39B5 /* ActivityStatsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsWorker.swift; sourceTree = "<group>"; };
+		BA60048923ED9CB900CF39B5 /* ActivityStatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsRouter.swift; sourceTree = "<group>"; };
+		BA60048A23ED9CB900CF39B5 /* ActivityStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsController.swift; sourceTree = "<group>"; };
+		BA60048B23ED9CB900CF39B5 /* ActivityStatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsInteractor.swift; sourceTree = "<group>"; };
+		BA60048C23ED9CB900CF39B5 /* ActivityStatsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsCreator.swift; sourceTree = "<group>"; };
+		BA60048D23ED9CB900CF39B5 /* ActivityStatsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityStatsController.xib; sourceTree = "<group>"; };
+		BA60049623ED9E4400CF39B5 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
+		BA60049723ED9E4400CF39B5 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
+		BA60049823ED9E4400CF39B5 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
+		BA60049923ED9E4400CF39B5 /* EcoMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapController.swift; sourceTree = "<group>"; };
+		BA60049A23ED9E4400CF39B5 /* EcoMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapInteractor.swift; sourceTree = "<group>"; };
+		BA60049B23ED9E4400CF39B5 /* EcoMapCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapCreator.swift; sourceTree = "<group>"; };
+		BA60049C23ED9E4400CF39B5 /* EcoMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoMapController.xib; sourceTree = "<group>"; };
+		BA6004A523ED9F4B00CF39B5 /* LibraryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListPresenter.swift; sourceTree = "<group>"; };
+		BA6004A623ED9F4B00CF39B5 /* LibraryListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListWorker.swift; sourceTree = "<group>"; };
+		BA6004A723ED9F4B00CF39B5 /* LibraryListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListRouter.swift; sourceTree = "<group>"; };
+		BA6004A823ED9F4B00CF39B5 /* LibraryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListController.swift; sourceTree = "<group>"; };
+		BA6004A923ED9F4B00CF39B5 /* LibraryListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListInteractor.swift; sourceTree = "<group>"; };
+		BA6004AA23ED9F4B00CF39B5 /* LibraryListCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListCreator.swift; sourceTree = "<group>"; };
+		BA6004AB23ED9F4B00CF39B5 /* LibraryListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryListController.xib; sourceTree = "<group>"; };
+		BA6004B423EDA0FD00CF39B5 /* UserAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountPresenter.swift; sourceTree = "<group>"; };
+		BA6004B523EDA0FD00CF39B5 /* UserAccountWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountWorker.swift; sourceTree = "<group>"; };
+		BA6004B623EDA0FD00CF39B5 /* UserAccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountRouter.swift; sourceTree = "<group>"; };
+		BA6004B723EDA0FD00CF39B5 /* UserAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountController.swift; sourceTree = "<group>"; };
+		BA6004B823EDA0FD00CF39B5 /* UserAccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountInteractor.swift; sourceTree = "<group>"; };
+		BA6004B923EDA0FD00CF39B5 /* UserAccountCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountCreator.swift; sourceTree = "<group>"; };
+		BA6004BA23EDA0FD00CF39B5 /* UserAccountController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAccountController.xib; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -170,7 +155,6 @@
 		BA9DB87223CE6DED004F86A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9DB87423CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9DB87923CE6DED004F86A0 /* ZeroWasteFriendlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroWasteFriendlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWasteFriendlyTests.swift; sourceTree = "<group>"; };
 		BA9DB87F23CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA73F8123CF888E00B4FEC8 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
@@ -229,20 +213,6 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
-		BA2BF88823EB36EF001508F9 /* ActivityInfo */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF87F23EB36EA001508F9 /* ActivityInfoCreator.swift */,
-				BA2BF87D23EB36EA001508F9 /* ActivityInfoController.swift */,
-				BA2BF88023EB36EA001508F9 /* ActivityInfoController.xib */,
-				BA2BF87E23EB36EA001508F9 /* ActivityInfoInteractor.swift */,
-				BA2BF87B23EB36EA001508F9 /* ActivityInfoWorker.swift */,
-				BA2BF87A23EB36EA001508F9 /* ActivityInfoPresenter.swift */,
-				BA2BF87C23EB36EA001508F9 /* ActivityInfoRouter.swift */,
-			);
-			path = ActivityInfo;
-			sourceTree = "<group>";
-		};
 		BA2BF89723EB3730001508F9 /* ActivityTiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,76 +234,6 @@
 				BA2BF89A23EB387B001508F9 /* mockup.png */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		BA2BF8AD23EB3904001508F9 /* ActivityStats */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF8A423EB3900001508F9 /* ActivityStatsCreator.swift */,
-				BA2BF8A223EB3900001508F9 /* ActivityStatsController.swift */,
-				BA2BF8A523EB3900001508F9 /* ActivityStatsController.xib */,
-				BA2BF8A323EB3900001508F9 /* ActivityStatsInteractor.swift */,
-				BA2BF8A023EB3900001508F9 /* ActivityStatsWorker.swift */,
-				BA2BF89F23EB3900001508F9 /* ActivityStatsPresenter.swift */,
-				BA2BF8A123EB3900001508F9 /* ActivityStatsRouter.swift */,
-			);
-			path = ActivityStats;
-			sourceTree = "<group>";
-		};
-		BA2BF8BC23EB39A9001508F9 /* EcoMap */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF8B323EB39A5001508F9 /* EcoMapCreator.swift */,
-				BA2BF8B123EB39A5001508F9 /* EcoMapController.swift */,
-				BA2BF8B423EB39A5001508F9 /* EcoMapController.xib */,
-				BA2BF8B223EB39A5001508F9 /* EcoMapInteractor.swift */,
-				BA2BF8AF23EB39A5001508F9 /* EcoMapWorker.swift */,
-				BA2BF8AE23EB39A5001508F9 /* EcoMapPresenter.swift */,
-				BA2BF8B023EB39A5001508F9 /* EcoMapRouter.swift */,
-			);
-			path = EcoMap;
-			sourceTree = "<group>";
-		};
-		BA2BF8CB23EB3A2F001508F9 /* LibraryList */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF8C223EB3A2B001508F9 /* LibraryListCreator.swift */,
-				BA2BF8C023EB3A2B001508F9 /* LibraryListController.swift */,
-				BA2BF8C323EB3A2B001508F9 /* LibraryListController.xib */,
-				BA2BF8C123EB3A2B001508F9 /* LibraryListInteractor.swift */,
-				BA2BF8BE23EB3A2B001508F9 /* LibraryListWorker.swift */,
-				BA2BF8BD23EB3A2B001508F9 /* LibraryListPresenter.swift */,
-				BA2BF8BF23EB3A2B001508F9 /* LibraryListRouter.swift */,
-			);
-			path = LibraryList;
-			sourceTree = "<group>";
-		};
-		BA2BF8DA23EB3AFC001508F9 /* UserAccountSignIn */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF8D123EB3AF7001508F9 /* UserAccountSignInCreator.swift */,
-				BA2BF8CF23EB3AF7001508F9 /* UserAccountSignInController.swift */,
-				BA2BF8D223EB3AF8001508F9 /* UserAccountSignInController.xib */,
-				BA2BF8D023EB3AF7001508F9 /* UserAccountSignInInteractor.swift */,
-				BA2BF8CD23EB3AF7001508F9 /* UserAccountSignInWorker.swift */,
-				BA2BF8CC23EB3AF7001508F9 /* UserAccountSignInPresenter.swift */,
-				BA2BF8CE23EB3AF7001508F9 /* UserAccountSignInRouter.swift */,
-			);
-			path = UserAccountSignIn;
-			sourceTree = "<group>";
-		};
-		BA2BF8E923EB3B2B001508F9 /* UserAccountSignUp */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF8E023EB3B26001508F9 /* UserAccountSignUpCreator.swift */,
-				BA2BF8DE23EB3B26001508F9 /* UserAccountSignUpController.swift */,
-				BA2BF8E123EB3B26001508F9 /* UserAccountSignUpController.xib */,
-				BA2BF8DF23EB3B26001508F9 /* UserAccountSignUpInteractor.swift */,
-				BA2BF8DC23EB3B26001508F9 /* UserAccountSignUpWorker.swift */,
-				BA2BF8DB23EB3B26001508F9 /* UserAccountSignUpPresenter.swift */,
-				BA2BF8DD23EB3B26001508F9 /* UserAccountSignUpRouter.swift */,
-			);
-			path = UserAccountSignUp;
 			sourceTree = "<group>";
 		};
 		BA2BF8EA23EB4AE1001508F9 /* Fonts */ = {
@@ -358,6 +258,76 @@
 				BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */,
 			);
 			path = ActivityTiles;
+			sourceTree = "<group>";
+		};
+		BA60047723ED986500CF39B5 /* ActivityInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BA60046E23ED986000CF39B5 /* ActivityInfoCreator.swift */,
+				BA60046C23ED986000CF39B5 /* ActivityInfoController.swift */,
+				BA60046F23ED986000CF39B5 /* ActivityInfoController.xib */,
+				BA60046D23ED986000CF39B5 /* ActivityInfoInteractor.swift */,
+				BA60046A23ED986000CF39B5 /* ActivityInfoWorker.swift */,
+				BA60046923ED986000CF39B5 /* ActivityInfoPresenter.swift */,
+				BA60046B23ED986000CF39B5 /* ActivityInfoRouter.swift */,
+			);
+			path = ActivityInfo;
+			sourceTree = "<group>";
+		};
+		BA60049523ED9CBD00CF39B5 /* ActivityStats */ = {
+			isa = PBXGroup;
+			children = (
+				BA60048C23ED9CB900CF39B5 /* ActivityStatsCreator.swift */,
+				BA60048A23ED9CB900CF39B5 /* ActivityStatsController.swift */,
+				BA60048D23ED9CB900CF39B5 /* ActivityStatsController.xib */,
+				BA60048B23ED9CB900CF39B5 /* ActivityStatsInteractor.swift */,
+				BA60048823ED9CB900CF39B5 /* ActivityStatsWorker.swift */,
+				BA60048723ED9CB900CF39B5 /* ActivityStatsPresenter.swift */,
+				BA60048923ED9CB900CF39B5 /* ActivityStatsRouter.swift */,
+			);
+			path = ActivityStats;
+			sourceTree = "<group>";
+		};
+		BA6004A423ED9E4900CF39B5 /* EcoMap */ = {
+			isa = PBXGroup;
+			children = (
+				BA60049B23ED9E4400CF39B5 /* EcoMapCreator.swift */,
+				BA60049923ED9E4400CF39B5 /* EcoMapController.swift */,
+				BA60049C23ED9E4400CF39B5 /* EcoMapController.xib */,
+				BA60049A23ED9E4400CF39B5 /* EcoMapInteractor.swift */,
+				BA60049723ED9E4400CF39B5 /* EcoMapWorker.swift */,
+				BA60049623ED9E4400CF39B5 /* EcoMapPresenter.swift */,
+				BA60049823ED9E4400CF39B5 /* EcoMapRouter.swift */,
+			);
+			path = EcoMap;
+			sourceTree = "<group>";
+		};
+		BA6004B323ED9F4F00CF39B5 /* LibraryList */ = {
+			isa = PBXGroup;
+			children = (
+				BA6004AA23ED9F4B00CF39B5 /* LibraryListCreator.swift */,
+				BA6004A823ED9F4B00CF39B5 /* LibraryListController.swift */,
+				BA6004AB23ED9F4B00CF39B5 /* LibraryListController.xib */,
+				BA6004A923ED9F4B00CF39B5 /* LibraryListInteractor.swift */,
+				BA6004A623ED9F4B00CF39B5 /* LibraryListWorker.swift */,
+				BA6004A523ED9F4B00CF39B5 /* LibraryListPresenter.swift */,
+				BA6004A723ED9F4B00CF39B5 /* LibraryListRouter.swift */,
+			);
+			path = LibraryList;
+			sourceTree = "<group>";
+		};
+		BA6004C223EDA10200CF39B5 /* UserAccount */ = {
+			isa = PBXGroup;
+			children = (
+				BA6004B923EDA0FD00CF39B5 /* UserAccountCreator.swift */,
+				BA6004B723EDA0FD00CF39B5 /* UserAccountController.swift */,
+				BA6004BA23EDA0FD00CF39B5 /* UserAccountController.xib */,
+				BA6004B823EDA0FD00CF39B5 /* UserAccountInteractor.swift */,
+				BA6004B523EDA0FD00CF39B5 /* UserAccountWorker.swift */,
+				BA6004B423EDA0FD00CF39B5 /* UserAccountPresenter.swift */,
+				BA6004B623EDA0FD00CF39B5 /* UserAccountRouter.swift */,
+			);
+			path = UserAccount;
 			sourceTree = "<group>";
 		};
 		BA9DB85723CE6DEA004F86A0 = {
@@ -399,7 +369,6 @@
 		BA9DB87C23CE6DED004F86A0 /* ZeroWasteFriendlyTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */,
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
 				BA2BF90C23EB6C0D001508F9 /* ActivityTiles */,
 			);
@@ -410,12 +379,11 @@
 			isa = PBXGroup;
 			children = (
 				BA2BF89723EB3730001508F9 /* ActivityTiles */,
-				BA2BF88823EB36EF001508F9 /* ActivityInfo */,
-				BA2BF8AD23EB3904001508F9 /* ActivityStats */,
-				BA2BF8BC23EB39A9001508F9 /* EcoMap */,
-				BA2BF8CB23EB3A2F001508F9 /* LibraryList */,
-				BA2BF8DA23EB3AFC001508F9 /* UserAccountSignIn */,
-				BA2BF8E923EB3B2B001508F9 /* UserAccountSignUp */,
+				BA60047723ED986500CF39B5 /* ActivityInfo */,
+				BA60049523ED9CBD00CF39B5 /* ActivityStats */,
+				BA6004A423ED9E4900CF39B5 /* EcoMap */,
+				BA6004B323ED9F4F00CF39B5 /* LibraryList */,
+				BA6004C223EDA10200CF39B5 /* UserAccount */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -544,22 +512,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2BF88723EB36EA001508F9 /* ActivityInfoController.xib in Resources */,
-				BA2BF8CA23EB3A2B001508F9 /* LibraryListController.xib in Resources */,
 				BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */,
 				BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */,
-				BA2BF8E823EB3B26001508F9 /* UserAccountSignUpController.xib in Resources */,
-				BA2BF8BB23EB39A5001508F9 /* EcoMapController.xib in Resources */,
 				BA2BF89B23EB387B001508F9 /* logo.png in Resources */,
-				BA2BF8D923EB3AF8001508F9 /* UserAccountSignInController.xib in Resources */,
+				BA6004C123EDA0FD00CF39B5 /* UserAccountController.xib in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
-				BA2BF8AC23EB3900001508F9 /* ActivityStatsController.xib in Resources */,
+				BA60047623ED986000CF39B5 /* ActivityInfoController.xib in Resources */,
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
 				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
 				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
+				BA60049423ED9CB900CF39B5 /* ActivityStatsController.xib in Resources */,
 				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
 				BA2BF89C23EB387B001508F9 /* mockup.png in Resources */,
+				BA6004A323ED9E4400CF39B5 /* EcoMapController.xib in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
+				BA6004B223ED9F4B00CF39B5 /* LibraryListController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,53 +625,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */,
-				BA2BF8E623EB3B26001508F9 /* UserAccountSignUpInteractor.swift in Sources */,
-				BA2BF88223EB36EA001508F9 /* ActivityInfoWorker.swift in Sources */,
-				BA2BF8D623EB3AF8001508F9 /* UserAccountSignInController.swift in Sources */,
-				BA2BF8A623EB3900001508F9 /* ActivityStatsPresenter.swift in Sources */,
-				BA2BF8D323EB3AF8001508F9 /* UserAccountSignInPresenter.swift in Sources */,
-				BA2BF88323EB36EA001508F9 /* ActivityInfoRouter.swift in Sources */,
-				BA2BF8E323EB3B26001508F9 /* UserAccountSignUpWorker.swift in Sources */,
-				BA2BF8B623EB39A5001508F9 /* EcoMapWorker.swift in Sources */,
+				BA6004B023ED9F4B00CF39B5 /* LibraryListInteractor.swift in Sources */,
+				BA6004AE23ED9F4B00CF39B5 /* LibraryListRouter.swift in Sources */,
+				BA60049323ED9CB900CF39B5 /* ActivityStatsCreator.swift in Sources */,
+				BA60049E23ED9E4400CF39B5 /* EcoMapWorker.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
+				BA6004BC23EDA0FD00CF39B5 /* UserAccountWorker.swift in Sources */,
+				BA6004B123ED9F4B00CF39B5 /* LibraryListCreator.swift in Sources */,
 				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
-				BA2BF88123EB36EA001508F9 /* ActivityInfoPresenter.swift in Sources */,
-				BA2BF88423EB36EA001508F9 /* ActivityInfoController.swift in Sources */,
+				BA6004C023EDA0FD00CF39B5 /* UserAccountCreator.swift in Sources */,
+				BA6004BD23EDA0FD00CF39B5 /* UserAccountRouter.swift in Sources */,
+				BA6004A223ED9E4400CF39B5 /* EcoMapCreator.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
-				BA2BF8D823EB3AF8001508F9 /* UserAccountSignInCreator.swift in Sources */,
-				BA2BF8C723EB3A2B001508F9 /* LibraryListController.swift in Sources */,
+				BA6004BB23EDA0FD00CF39B5 /* UserAccountPresenter.swift in Sources */,
+				BA60047023ED986000CF39B5 /* ActivityInfoPresenter.swift in Sources */,
 				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
-				BA2BF8E223EB3B26001508F9 /* UserAccountSignUpPresenter.swift in Sources */,
-				BA2BF8C523EB3A2B001508F9 /* LibraryListWorker.swift in Sources */,
-				BA2BF8E523EB3B26001508F9 /* UserAccountSignUpController.swift in Sources */,
 				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
-				BA2BF8C923EB3A2B001508F9 /* LibraryListCreator.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
-				BA2BF8A923EB3900001508F9 /* ActivityStatsController.swift in Sources */,
-				BA2BF8A723EB3900001508F9 /* ActivityStatsWorker.swift in Sources */,
-				BA2BF8A823EB3900001508F9 /* ActivityStatsRouter.swift in Sources */,
-				BA2BF8AB23EB3900001508F9 /* ActivityStatsCreator.swift in Sources */,
-				BA2BF8B523EB39A5001508F9 /* EcoMapPresenter.swift in Sources */,
-				BA2BF8E423EB3B26001508F9 /* UserAccountSignUpRouter.swift in Sources */,
-				BA2BF8D423EB3AF8001508F9 /* UserAccountSignInWorker.swift in Sources */,
-				BA2BF8C823EB3A2B001508F9 /* LibraryListInteractor.swift in Sources */,
-				BA2BF88623EB36EA001508F9 /* ActivityInfoCreator.swift in Sources */,
-				BA2BF8BA23EB39A5001508F9 /* EcoMapCreator.swift in Sources */,
-				BA2BF8D523EB3AF8001508F9 /* UserAccountSignInRouter.swift in Sources */,
+				BA60047523ED986000CF39B5 /* ActivityInfoCreator.swift in Sources */,
+				BA6004AC23ED9F4B00CF39B5 /* LibraryListPresenter.swift in Sources */,
+				BA60049023ED9CB900CF39B5 /* ActivityStatsRouter.swift in Sources */,
+				BA6004A023ED9E4400CF39B5 /* EcoMapController.swift in Sources */,
+				BA60048E23ED9CB900CF39B5 /* ActivityStatsPresenter.swift in Sources */,
+				BA60047223ED986000CF39B5 /* ActivityInfoRouter.swift in Sources */,
+				BA60047123ED986000CF39B5 /* ActivityInfoWorker.swift in Sources */,
+				BA6004A123ED9E4400CF39B5 /* EcoMapInteractor.swift in Sources */,
 				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
-				BA2BF8AA23EB3900001508F9 /* ActivityStatsInteractor.swift in Sources */,
-				BA2BF8D723EB3AF8001508F9 /* UserAccountSignInInteractor.swift in Sources */,
-				BA2BF8B923EB39A5001508F9 /* EcoMapInteractor.swift in Sources */,
-				BA2BF88523EB36EA001508F9 /* ActivityInfoInteractor.swift in Sources */,
-				BA2BF8C623EB3A2B001508F9 /* LibraryListRouter.swift in Sources */,
-				BA2BF8C423EB3A2B001508F9 /* LibraryListPresenter.swift in Sources */,
+				BA60047323ED986000CF39B5 /* ActivityInfoController.swift in Sources */,
 				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
+				BA6004BE23EDA0FD00CF39B5 /* UserAccountController.swift in Sources */,
+				BA60048F23ED9CB900CF39B5 /* ActivityStatsWorker.swift in Sources */,
+				BA60047423ED986000CF39B5 /* ActivityInfoInteractor.swift in Sources */,
+				BA6004BF23EDA0FD00CF39B5 /* UserAccountInteractor.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
-				BA2BF8E723EB3B26001508F9 /* UserAccountSignUpCreator.swift in Sources */,
-				BA2BF8B823EB39A5001508F9 /* EcoMapController.swift in Sources */,
-				BA2BF8B723EB39A5001508F9 /* EcoMapRouter.swift in Sources */,
+				BA6004AF23ED9F4B00CF39B5 /* LibraryListController.swift in Sources */,
+				BA60049D23ED9E4400CF39B5 /* EcoMapPresenter.swift in Sources */,
+				BA6004AD23ED9F4B00CF39B5 /* LibraryListWorker.swift in Sources */,
+				BA60049123ED9CB900CF39B5 /* ActivityStatsController.swift in Sources */,
+				BA60049223ED9CB900CF39B5 /* ActivityStatsInteractor.swift in Sources */,
+				BA60049F23ED9E4400CF39B5 /* EcoMapRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,7 +676,6 @@
 				BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */,
 				BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */,
 				BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */,
-				BA9DB87E23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift in Sources */,
 				BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */,
 				BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */,
 				BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */,

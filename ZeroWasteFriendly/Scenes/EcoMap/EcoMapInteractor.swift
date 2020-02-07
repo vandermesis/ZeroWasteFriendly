@@ -2,17 +2,17 @@
 //  EcoMapInteractor.swift
 //  ZeroWasteFriendly
 //
-//  Created by Marek Skrzelowski on 05/02/2020.
+//  Created by Marek Skrzelowski on 07/02/2020.
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
 import Foundation
 
 protocol EcoMapInteractor {
-
+    func getEcoMap()
 }
 
-final class EcoMapInteractorImpl: EcoMapInteractor {
+final class EcoMapInteractorImpl {
 
     private let presenter: EcoMapPresenter
     private let worker: EcoMapWorker
@@ -24,5 +24,15 @@ final class EcoMapInteractorImpl: EcoMapInteractor {
         self.presenter = presenter
         self.worker = worker
         self.router = router
+    }
+}
+
+extension EcoMapInteractorImpl: EcoMapInteractor {
+
+    func getEcoMap() {
+        presenter.toggleSpinner(true)
+        worker.fetchEcoMap()
+        presenter.toggleSpinner(false)
+        presenter.presentEcoMap()
     }
 }

@@ -1,5 +1,5 @@
 //
-//  EcoMapController.swift
+//  UserAccountController.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 07/02/2020.
@@ -8,15 +8,15 @@
   
 import UIKit
 
-protocol EcoMapPresentable: MainViewController {
-    func displayEcoMap()
+protocol UserAccountPresentable: MainViewController {
+    func displayUserAccount()
 }
 
-final class EcoMapController: MainViewController {
+final class UserAccountController: MainViewController {
 
-    private let interactor: EcoMapInteractor
+    private let interactor: UserAccountInteractor
 
-    init(interactor: EcoMapInteractor) {
+    init(interactor: UserAccountInteractor) {
         self.interactor = interactor
         super.init(nibName: nil, bundle: nil)
     }
@@ -28,7 +28,7 @@ final class EcoMapController: MainViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
-        interactor.getEcoMap()
+        interactor.getUserAccount()
     }
 
     @IBAction private func addButtonPressed(_ sender: UIBarButtonItem) {
@@ -36,17 +36,17 @@ final class EcoMapController: MainViewController {
     }
 }
 
-extension EcoMapController: EcoMapPresentable {
+extension UserAccountController: UserAccountPresentable {
 
-    func displayEcoMap() {
+    func displayUserAccount() {
         
     }
 }
 
-private extension EcoMapController {
+private extension UserAccountController {
 
     private func setupNavigationBar() {
-        title = R.string.localizable.ecoMapTitle()
+        title = R.string.localizable.userAccountTitle()
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                             target: self,
                                                             action: #selector(addButtonPressed(_:)))
