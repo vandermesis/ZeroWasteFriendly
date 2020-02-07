@@ -40,6 +40,6 @@ extension ActivityTilesPresenterImpl: ActivityTilesPresenter {
     }
 
     func presentActivityTiles() {
-
+        controller?.displayActivityTiles()
     }
 }

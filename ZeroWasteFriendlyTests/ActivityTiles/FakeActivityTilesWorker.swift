@@ -11,6 +11,6 @@
 final class FakeActivityTilesWorker: ActivityTilesWorker {
 
     func fetchActivityTiles(completion: FetchActivityTilesCompletion?) {
-        <#code#>
+        
     }
 }
