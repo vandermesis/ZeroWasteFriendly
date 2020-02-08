@@ -75,6 +75,7 @@
 		BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */; };
 		BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA73F8123CF888E00B4FEC8 /* R.generated.swift */; };
 		BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2E923EE0E3A0014A91F /* Model.swift */; };
+		BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2EB23EE31160014A91F /* UnitTestError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		BA9DB87F23CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA73F8123CF888E00B4FEC8 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		BAC2D2E923EE0E3A0014A91F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BAC2D2EB23EE31160014A91F /* UnitTestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestError.swift; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -374,6 +376,7 @@
 			isa = PBXGroup;
 			children = (
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
+				BAC2D2ED23EE312C0014A91F /* Helpers */,
 				BA2BF90C23EB6C0D001508F9 /* ActivityTiles */,
 			);
 			path = ZeroWasteFriendlyTests;
@@ -430,6 +433,14 @@
 			children = (
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		BAC2D2ED23EE312C0014A91F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BAC2D2EB23EE31160014A91F /* UnitTestError.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -687,6 +698,7 @@
 				BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */,
 				BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */,
 				BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */,
+				BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */,
 				BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */,
 				BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */,
 			);

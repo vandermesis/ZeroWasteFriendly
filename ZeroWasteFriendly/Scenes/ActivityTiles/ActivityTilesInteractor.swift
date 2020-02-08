@@ -42,7 +42,6 @@ extension ActivityTilesInteractorImpl: ActivityTilesInteractor {
                                             message: error.localizedDescription)
             }
         }
-        presenter.toggleSpinner(false)
         presenter.presentActivityTiles()
     }
 }

@@ -27,4 +27,13 @@ final class ActivityTilesPresenterTests: XCTestCase {
         presenter = nil
         super.tearDown()
     }
+
+    func testControllerIsDisplayingActivityTiles() {
+        // Given
+
+        // When
+        presenter.presentActivityTiles()
+        // Then
+        XCTAssertEqual(controller.displayActivityTilesCalled, true, "calling controller to display data is true")
+    }
 }

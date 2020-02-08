@@ -32,4 +32,51 @@ final class ActivityTilesInteractorTests: XCTestCase {
         interactor = nil
         super.tearDown()
     }
+
+    func testPresenterIsPresentingSpinner() {
+        // Given
+
+        // When
+        interactor.getActivityTiles()
+        // Then
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spiner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, true, "calling presenter to toogle spiner state to true")
+    }
+
+//    func testPresenterIsHidingSpinner() {
+//        // Given
+//        interactor.getActivityTiles()
+//        // When
+//        worker.fetchActivityTilesCompletion?(.succes())
+//        // Then
+//        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spiner state is true")
+//        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "calling presenter to toogle spiner state to false")
+//    }
+
+    func testWorkerIsFetchingData() {
+        // Given
+        interactor.getActivityTiles()
+        // When
+
+        // Then
+        XCTAssertEqual(worker.fetchActivityTilesCalled, true, "calling worker to fetch data is true")
+    }
+
+    func testPresenterIsPresentingAlert() {
+        // Given
+        interactor.getActivityTiles()
+        // When
+        worker.fetchActivityTilesCompletion?(.failure(UnitTestError()))
+        // Then
+        XCTAssertEqual(presenter.presentAlertCalled, true, "calling presenter to present alert is true")
+    }
+
+    func testPresenterIsPresentingActivityTiles() {
+        // Given
+
+        // When
+        interactor.getActivityTiles()
+        // Then
+        XCTAssertEqual(presenter.presentActivityTilesCalled, true, "calling presenter to present data")
+    }
 }

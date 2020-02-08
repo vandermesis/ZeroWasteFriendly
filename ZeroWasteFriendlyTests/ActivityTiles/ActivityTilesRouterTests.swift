@@ -31,4 +31,14 @@ final class ActivityTilesRouterTests: XCTestCase {
         navController = nil
         super.tearDown()
     }
+
+    func testControllerIsPushingDestinationController() {
+        // Given
+
+        // When
+        router.navigateTo()
+        // Then
+        //TODO: Replace ActivityTilesController with destination controller
+        XCTAssert(navController.topViewController is ActivityTilesController, "top view controller should be expected destination controller")
+    }
 }
