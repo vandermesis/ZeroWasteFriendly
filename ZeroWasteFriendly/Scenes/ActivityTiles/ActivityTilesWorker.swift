@@ -16,9 +16,9 @@ protocol ActivityTilesWorker {
 
 final class ActivityTilesWorkerImpl {
 
-//    private let networking: ZeroWasteActivityInfoNetworking
+//    private let networking: ZeroWasteInfoNetworking
 //
-//    init(networking: ZeroWasteActivityInfoNetworking) {
+//    init(networking: ZeroWasteInfoNetworking) {
 //        self.networking = networking
 //    }
 
@@ -27,6 +27,18 @@ final class ActivityTilesWorkerImpl {
 extension ActivityTilesWorkerImpl: ActivityTilesWorker {
 
     func fetchActivityTiles(completion: FetchActivityTilesCompletion?) {
-//        networking.fetchModel(completion: completion)
+//        networking.fetchActivityTiles { [weak self] result in
+//            guard let self = self else { return }
+//            switch result {
+//            case .success(let apiResponse):
+//                let transformedModel = apiResponse.map { Model(id: $0.recordid,
+//                                                               name: $0.fields.accentcity,
+//                                                               latitude: $0.fields.latitude,
+//                                                               longitude: $0.fields.longitude)}
+//                completion?(.success(transformedModel.sortByName()))
+//            case .failure(let error):
+//                completion?(.failure(error))
+//            }
+//        }
     }
 }
