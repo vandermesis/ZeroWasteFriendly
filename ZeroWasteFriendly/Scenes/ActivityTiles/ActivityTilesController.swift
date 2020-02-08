@@ -8,7 +8,7 @@
   
 import UIKit
 
-protocol ActivityTilesPresentable: MainViewController {
+protocol ActivityTilesPresentable: SpinnerPresentable & AlertPresentable {
     func displayActivityTiles()
 }
 

@@ -12,7 +12,7 @@ import XCTest
 
 final class ActivityTilesPresenterTests: XCTestCase {
 
-    var presenter: ActivityTilesPresenterImpl!
+    var presenter: ActivityTilesPresenterImpl<FakeActivityTilesController>!
     var controller: FakeActivityTilesController!
 
     override func setUp() {

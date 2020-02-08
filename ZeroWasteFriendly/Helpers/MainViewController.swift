@@ -8,4 +8,4 @@
 
 import UIKit
 
-class MainViewController: UIViewController {}
+class MainViewController: UIViewController, SpinnerPresentable, AlertPresentable {}

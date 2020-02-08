@@ -48,7 +48,7 @@ final class ActivityTilesInteractorTests: XCTestCase {
         // Given
         interactor.getActivityTiles()
         // When
-        worker.fetchActivityTilesCompletion?(.success(Model()))
+        worker.fetchActivityTilesCompletion?(.success(Mock.model))
         // Then
         XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner state is true")
         XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "calling presenter to toogle spinner state to false")

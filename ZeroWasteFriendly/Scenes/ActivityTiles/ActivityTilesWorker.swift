@@ -16,11 +16,11 @@ protocol ActivityTilesWorker {
 
 final class ActivityTilesWorkerImpl {
 
-//    private let networking: ZeroWasteInfoNetworking
-//
-//    init(networking: ZeroWasteInfoNetworking) {
-//        self.networking = networking
-//    }
+    private let networking: ZeroWasteFriendlyNetworking
+
+    init(networking: ZeroWasteFriendlyNetworking) {
+        self.networking = networking
+    }
 
 }
 
