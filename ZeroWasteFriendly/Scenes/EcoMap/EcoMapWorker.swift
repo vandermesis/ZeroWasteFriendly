@@ -2,14 +2,16 @@
 //  EcoMapWorker.swift
 //  ZeroWasteFriendly
 //
-//  Created by Marek Skrzelowski on 07/02/2020.
+//  Created by Marek Skrzelowski on 08/02/2020.
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
 import Foundation
 
+typealias FetchEcoMapCompletion = (Result<Model, Error>) -> Void
+
 protocol EcoMapWorker {
-    func fetchEcoMap()
+    func fetchEcoMap(completion: FetchEcoMapCompletion?)
 }
 
 final class EcoMapWorkerImpl {
@@ -19,12 +21,11 @@ final class EcoMapWorkerImpl {
 //    init(networking: MapAnnotationsRepository) {
 //        self.networking = networking
 //    }
-
 }
 
 extension EcoMapWorkerImpl: EcoMapWorker {
 
-    func fetchEcoMap() {
-
+    func fetchEcoMap(completion: FetchEcoMapCompletion?) {
+//        networking.fetchModel(completion: completion)
     }
 }

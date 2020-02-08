@@ -2,7 +2,7 @@
 //  ActivityStatsInteractor.swift
 //  ZeroWasteFriendly
 //
-//  Created by Marek Skrzelowski on 07/02/2020.
+//  Created by Marek Skrzelowski on 08/02/2020.
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
@@ -31,8 +31,17 @@ extension ActivityStatsInteractorImpl: ActivityStatsInteractor {
 
     func getActivityStats() {
         presenter.toggleSpinner(true)
-        worker.fetchActivityStats()
-        presenter.toggleSpinner(false)
+        worker.fetchActivityStats { [weak self] result in
+            guard let self = self else { return }
+            self.presenter.toggleSpinner(true)
+            switch result {
+            case .success:
+                self.presenter.toggleSpinner(false)
+            case .failure(let error):
+                self.presenter.presentAlert(title: "Error",
+                                            message: error.localizedDescription)
+            }
+        }
         presenter.presentActivityStats()
     }
 }

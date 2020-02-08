@@ -33,41 +33,49 @@
 		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
 		BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041223ED799D00CF39B5 /* MainViewController.swift */; };
 		BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041423ED79E300CF39B5 /* MainNavigationController.swift */; };
-		BA60047023ED986000CF39B5 /* ActivityInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046923ED986000CF39B5 /* ActivityInfoPresenter.swift */; };
-		BA60047123ED986000CF39B5 /* ActivityInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046A23ED986000CF39B5 /* ActivityInfoWorker.swift */; };
-		BA60047223ED986000CF39B5 /* ActivityInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046B23ED986000CF39B5 /* ActivityInfoRouter.swift */; };
-		BA60047323ED986000CF39B5 /* ActivityInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046C23ED986000CF39B5 /* ActivityInfoController.swift */; };
-		BA60047423ED986000CF39B5 /* ActivityInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046D23ED986000CF39B5 /* ActivityInfoInteractor.swift */; };
-		BA60047523ED986000CF39B5 /* ActivityInfoCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60046E23ED986000CF39B5 /* ActivityInfoCreator.swift */; };
-		BA60047623ED986000CF39B5 /* ActivityInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA60046F23ED986000CF39B5 /* ActivityInfoController.xib */; };
-		BA60048E23ED9CB900CF39B5 /* ActivityStatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048723ED9CB900CF39B5 /* ActivityStatsPresenter.swift */; };
-		BA60048F23ED9CB900CF39B5 /* ActivityStatsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048823ED9CB900CF39B5 /* ActivityStatsWorker.swift */; };
-		BA60049023ED9CB900CF39B5 /* ActivityStatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048923ED9CB900CF39B5 /* ActivityStatsRouter.swift */; };
-		BA60049123ED9CB900CF39B5 /* ActivityStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048A23ED9CB900CF39B5 /* ActivityStatsController.swift */; };
-		BA60049223ED9CB900CF39B5 /* ActivityStatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048B23ED9CB900CF39B5 /* ActivityStatsInteractor.swift */; };
-		BA60049323ED9CB900CF39B5 /* ActivityStatsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60048C23ED9CB900CF39B5 /* ActivityStatsCreator.swift */; };
-		BA60049423ED9CB900CF39B5 /* ActivityStatsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA60048D23ED9CB900CF39B5 /* ActivityStatsController.xib */; };
-		BA60049D23ED9E4400CF39B5 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049623ED9E4400CF39B5 /* EcoMapPresenter.swift */; };
-		BA60049E23ED9E4400CF39B5 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049723ED9E4400CF39B5 /* EcoMapWorker.swift */; };
-		BA60049F23ED9E4400CF39B5 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049823ED9E4400CF39B5 /* EcoMapRouter.swift */; };
-		BA6004A023ED9E4400CF39B5 /* EcoMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049923ED9E4400CF39B5 /* EcoMapController.swift */; };
-		BA6004A123ED9E4400CF39B5 /* EcoMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049A23ED9E4400CF39B5 /* EcoMapInteractor.swift */; };
-		BA6004A223ED9E4400CF39B5 /* EcoMapCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60049B23ED9E4400CF39B5 /* EcoMapCreator.swift */; };
-		BA6004A323ED9E4400CF39B5 /* EcoMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA60049C23ED9E4400CF39B5 /* EcoMapController.xib */; };
-		BA6004AC23ED9F4B00CF39B5 /* LibraryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A523ED9F4B00CF39B5 /* LibraryListPresenter.swift */; };
-		BA6004AD23ED9F4B00CF39B5 /* LibraryListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A623ED9F4B00CF39B5 /* LibraryListWorker.swift */; };
-		BA6004AE23ED9F4B00CF39B5 /* LibraryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A723ED9F4B00CF39B5 /* LibraryListRouter.swift */; };
-		BA6004AF23ED9F4B00CF39B5 /* LibraryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A823ED9F4B00CF39B5 /* LibraryListController.swift */; };
-		BA6004B023ED9F4B00CF39B5 /* LibraryListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004A923ED9F4B00CF39B5 /* LibraryListInteractor.swift */; };
-		BA6004B123ED9F4B00CF39B5 /* LibraryListCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004AA23ED9F4B00CF39B5 /* LibraryListCreator.swift */; };
-		BA6004B223ED9F4B00CF39B5 /* LibraryListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6004AB23ED9F4B00CF39B5 /* LibraryListController.xib */; };
-		BA6004BB23EDA0FD00CF39B5 /* UserAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B423EDA0FD00CF39B5 /* UserAccountPresenter.swift */; };
-		BA6004BC23EDA0FD00CF39B5 /* UserAccountWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B523EDA0FD00CF39B5 /* UserAccountWorker.swift */; };
-		BA6004BD23EDA0FD00CF39B5 /* UserAccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B623EDA0FD00CF39B5 /* UserAccountRouter.swift */; };
-		BA6004BE23EDA0FD00CF39B5 /* UserAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B723EDA0FD00CF39B5 /* UserAccountController.swift */; };
-		BA6004BF23EDA0FD00CF39B5 /* UserAccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B823EDA0FD00CF39B5 /* UserAccountInteractor.swift */; };
-		BA6004C023EDA0FD00CF39B5 /* UserAccountCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6004B923EDA0FD00CF39B5 /* UserAccountCreator.swift */; };
-		BA6004C123EDA0FD00CF39B5 /* UserAccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6004BA23EDA0FD00CF39B5 /* UserAccountController.xib */; };
+		BA82A18E23EE3BE200DCC9E5 /* ActivityInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A18723EE3BE200DCC9E5 /* ActivityInfoPresenter.swift */; };
+		BA82A18F23EE3BE200DCC9E5 /* ActivityInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A18823EE3BE200DCC9E5 /* ActivityInfoWorker.swift */; };
+		BA82A19023EE3BE200DCC9E5 /* ActivityInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A18923EE3BE200DCC9E5 /* ActivityInfoRouter.swift */; };
+		BA82A19123EE3BE200DCC9E5 /* ActivityInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A18A23EE3BE200DCC9E5 /* ActivityInfoController.swift */; };
+		BA82A19223EE3BE200DCC9E5 /* ActivityInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A18B23EE3BE200DCC9E5 /* ActivityInfoInteractor.swift */; };
+		BA82A19323EE3BE200DCC9E5 /* ActivityInfoCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A18C23EE3BE200DCC9E5 /* ActivityInfoCreator.swift */; };
+		BA82A19423EE3BE200DCC9E5 /* ActivityInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA82A18D23EE3BE200DCC9E5 /* ActivityInfoController.xib */; };
+		BA82A19D23EE3C5200DCC9E5 /* ActivityStatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A19623EE3C5200DCC9E5 /* ActivityStatsPresenter.swift */; };
+		BA82A19E23EE3C5200DCC9E5 /* ActivityStatsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A19723EE3C5200DCC9E5 /* ActivityStatsWorker.swift */; };
+		BA82A19F23EE3C5200DCC9E5 /* ActivityStatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A19823EE3C5200DCC9E5 /* ActivityStatsRouter.swift */; };
+		BA82A1A023EE3C5200DCC9E5 /* ActivityStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A19923EE3C5200DCC9E5 /* ActivityStatsController.swift */; };
+		BA82A1A123EE3C5200DCC9E5 /* ActivityStatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A19A23EE3C5200DCC9E5 /* ActivityStatsInteractor.swift */; };
+		BA82A1A223EE3C5200DCC9E5 /* ActivityStatsCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A19B23EE3C5200DCC9E5 /* ActivityStatsCreator.swift */; };
+		BA82A1A323EE3C5200DCC9E5 /* ActivityStatsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA82A19C23EE3C5200DCC9E5 /* ActivityStatsController.xib */; };
+		BA82A1AC23EE3D9E00DCC9E5 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1A523EE3D9E00DCC9E5 /* EcoMapPresenter.swift */; };
+		BA82A1AD23EE3D9E00DCC9E5 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1A623EE3D9E00DCC9E5 /* EcoMapWorker.swift */; };
+		BA82A1AE23EE3D9E00DCC9E5 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1A723EE3D9E00DCC9E5 /* EcoMapRouter.swift */; };
+		BA82A1AF23EE3D9E00DCC9E5 /* EcoMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1A823EE3D9E00DCC9E5 /* EcoMapController.swift */; };
+		BA82A1B023EE3D9E00DCC9E5 /* EcoMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1A923EE3D9E00DCC9E5 /* EcoMapInteractor.swift */; };
+		BA82A1B123EE3D9E00DCC9E5 /* EcoMapCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1AA23EE3D9E00DCC9E5 /* EcoMapCreator.swift */; };
+		BA82A1B223EE3D9E00DCC9E5 /* EcoMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA82A1AB23EE3D9E00DCC9E5 /* EcoMapController.xib */; };
+		BA82A1BB23EE3E5D00DCC9E5 /* LibraryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1B423EE3E5D00DCC9E5 /* LibraryListPresenter.swift */; };
+		BA82A1BC23EE3E5D00DCC9E5 /* LibraryListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1B523EE3E5D00DCC9E5 /* LibraryListWorker.swift */; };
+		BA82A1BD23EE3E5D00DCC9E5 /* LibraryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1B623EE3E5D00DCC9E5 /* LibraryListRouter.swift */; };
+		BA82A1BE23EE3E5D00DCC9E5 /* LibraryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1B723EE3E5D00DCC9E5 /* LibraryListController.swift */; };
+		BA82A1BF23EE3E5D00DCC9E5 /* LibraryListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1B823EE3E5D00DCC9E5 /* LibraryListInteractor.swift */; };
+		BA82A1C023EE3E5D00DCC9E5 /* LibraryListCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1B923EE3E5D00DCC9E5 /* LibraryListCreator.swift */; };
+		BA82A1C123EE3E5D00DCC9E5 /* LibraryListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA82A1BA23EE3E5D00DCC9E5 /* LibraryListController.xib */; };
+		BA82A1CA23EE3F2300DCC9E5 /* UserAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1C323EE3F2300DCC9E5 /* UserAccountPresenter.swift */; };
+		BA82A1CB23EE3F2300DCC9E5 /* UserAccountWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1C423EE3F2300DCC9E5 /* UserAccountWorker.swift */; };
+		BA82A1CC23EE3F2300DCC9E5 /* UserAccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1C523EE3F2300DCC9E5 /* UserAccountRouter.swift */; };
+		BA82A1CD23EE3F2300DCC9E5 /* UserAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1C623EE3F2300DCC9E5 /* UserAccountController.swift */; };
+		BA82A1CE23EE3F2300DCC9E5 /* UserAccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1C723EE3F2300DCC9E5 /* UserAccountInteractor.swift */; };
+		BA82A1CF23EE3F2300DCC9E5 /* UserAccountCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1C823EE3F2300DCC9E5 /* UserAccountCreator.swift */; };
+		BA82A1D023EE3F2300DCC9E5 /* UserAccountController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA82A1C923EE3F2300DCC9E5 /* UserAccountController.xib */; };
+		BA82A1DA23EE3FAC00DCC9E5 /* ActivityInfoInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D223EE3FAC00DCC9E5 /* ActivityInfoInteractorTests.swift */; };
+		BA82A1DB23EE3FAC00DCC9E5 /* FakeActivityInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D323EE3FAC00DCC9E5 /* FakeActivityInfoRouter.swift */; };
+		BA82A1DC23EE3FAC00DCC9E5 /* FakeActivityInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D423EE3FAC00DCC9E5 /* FakeActivityInfoController.swift */; };
+		BA82A1DD23EE3FAC00DCC9E5 /* FakeActivityInfoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D523EE3FAC00DCC9E5 /* FakeActivityInfoWorker.swift */; };
+		BA82A1DE23EE3FAC00DCC9E5 /* FakeActivityInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D623EE3FAC00DCC9E5 /* FakeActivityInfoPresenter.swift */; };
+		BA82A1DF23EE3FAC00DCC9E5 /* ActivityInfoWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D723EE3FAC00DCC9E5 /* ActivityInfoWorkerTests.swift */; };
+		BA82A1E023EE3FAC00DCC9E5 /* ActivityInfoRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D823EE3FAC00DCC9E5 /* ActivityInfoRouterTests.swift */; };
+		BA82A1E123EE3FAC00DCC9E5 /* ActivityInfoPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82A1D923EE3FAC00DCC9E5 /* ActivityInfoPresenterTests.swift */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
@@ -116,41 +124,49 @@
 		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
 		BA60041223ED799D00CF39B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BA60041423ED79E300CF39B5 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		BA60046923ED986000CF39B5 /* ActivityInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenter.swift; sourceTree = "<group>"; };
-		BA60046A23ED986000CF39B5 /* ActivityInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorker.swift; sourceTree = "<group>"; };
-		BA60046B23ED986000CF39B5 /* ActivityInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoRouter.swift; sourceTree = "<group>"; };
-		BA60046C23ED986000CF39B5 /* ActivityInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoController.swift; sourceTree = "<group>"; };
-		BA60046D23ED986000CF39B5 /* ActivityInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoInteractor.swift; sourceTree = "<group>"; };
-		BA60046E23ED986000CF39B5 /* ActivityInfoCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoCreator.swift; sourceTree = "<group>"; };
-		BA60046F23ED986000CF39B5 /* ActivityInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityInfoController.xib; sourceTree = "<group>"; };
-		BA60048723ED9CB900CF39B5 /* ActivityStatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsPresenter.swift; sourceTree = "<group>"; };
-		BA60048823ED9CB900CF39B5 /* ActivityStatsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsWorker.swift; sourceTree = "<group>"; };
-		BA60048923ED9CB900CF39B5 /* ActivityStatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsRouter.swift; sourceTree = "<group>"; };
-		BA60048A23ED9CB900CF39B5 /* ActivityStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsController.swift; sourceTree = "<group>"; };
-		BA60048B23ED9CB900CF39B5 /* ActivityStatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsInteractor.swift; sourceTree = "<group>"; };
-		BA60048C23ED9CB900CF39B5 /* ActivityStatsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsCreator.swift; sourceTree = "<group>"; };
-		BA60048D23ED9CB900CF39B5 /* ActivityStatsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityStatsController.xib; sourceTree = "<group>"; };
-		BA60049623ED9E4400CF39B5 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
-		BA60049723ED9E4400CF39B5 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
-		BA60049823ED9E4400CF39B5 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
-		BA60049923ED9E4400CF39B5 /* EcoMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapController.swift; sourceTree = "<group>"; };
-		BA60049A23ED9E4400CF39B5 /* EcoMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapInteractor.swift; sourceTree = "<group>"; };
-		BA60049B23ED9E4400CF39B5 /* EcoMapCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapCreator.swift; sourceTree = "<group>"; };
-		BA60049C23ED9E4400CF39B5 /* EcoMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoMapController.xib; sourceTree = "<group>"; };
-		BA6004A523ED9F4B00CF39B5 /* LibraryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListPresenter.swift; sourceTree = "<group>"; };
-		BA6004A623ED9F4B00CF39B5 /* LibraryListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListWorker.swift; sourceTree = "<group>"; };
-		BA6004A723ED9F4B00CF39B5 /* LibraryListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListRouter.swift; sourceTree = "<group>"; };
-		BA6004A823ED9F4B00CF39B5 /* LibraryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListController.swift; sourceTree = "<group>"; };
-		BA6004A923ED9F4B00CF39B5 /* LibraryListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListInteractor.swift; sourceTree = "<group>"; };
-		BA6004AA23ED9F4B00CF39B5 /* LibraryListCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListCreator.swift; sourceTree = "<group>"; };
-		BA6004AB23ED9F4B00CF39B5 /* LibraryListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryListController.xib; sourceTree = "<group>"; };
-		BA6004B423EDA0FD00CF39B5 /* UserAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountPresenter.swift; sourceTree = "<group>"; };
-		BA6004B523EDA0FD00CF39B5 /* UserAccountWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountWorker.swift; sourceTree = "<group>"; };
-		BA6004B623EDA0FD00CF39B5 /* UserAccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountRouter.swift; sourceTree = "<group>"; };
-		BA6004B723EDA0FD00CF39B5 /* UserAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountController.swift; sourceTree = "<group>"; };
-		BA6004B823EDA0FD00CF39B5 /* UserAccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountInteractor.swift; sourceTree = "<group>"; };
-		BA6004B923EDA0FD00CF39B5 /* UserAccountCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountCreator.swift; sourceTree = "<group>"; };
-		BA6004BA23EDA0FD00CF39B5 /* UserAccountController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAccountController.xib; sourceTree = "<group>"; };
+		BA82A18723EE3BE200DCC9E5 /* ActivityInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenter.swift; sourceTree = "<group>"; };
+		BA82A18823EE3BE200DCC9E5 /* ActivityInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorker.swift; sourceTree = "<group>"; };
+		BA82A18923EE3BE200DCC9E5 /* ActivityInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoRouter.swift; sourceTree = "<group>"; };
+		BA82A18A23EE3BE200DCC9E5 /* ActivityInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoController.swift; sourceTree = "<group>"; };
+		BA82A18B23EE3BE200DCC9E5 /* ActivityInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoInteractor.swift; sourceTree = "<group>"; };
+		BA82A18C23EE3BE200DCC9E5 /* ActivityInfoCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoCreator.swift; sourceTree = "<group>"; };
+		BA82A18D23EE3BE200DCC9E5 /* ActivityInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityInfoController.xib; sourceTree = "<group>"; };
+		BA82A19623EE3C5200DCC9E5 /* ActivityStatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsPresenter.swift; sourceTree = "<group>"; };
+		BA82A19723EE3C5200DCC9E5 /* ActivityStatsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsWorker.swift; sourceTree = "<group>"; };
+		BA82A19823EE3C5200DCC9E5 /* ActivityStatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsRouter.swift; sourceTree = "<group>"; };
+		BA82A19923EE3C5200DCC9E5 /* ActivityStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsController.swift; sourceTree = "<group>"; };
+		BA82A19A23EE3C5200DCC9E5 /* ActivityStatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsInteractor.swift; sourceTree = "<group>"; };
+		BA82A19B23EE3C5200DCC9E5 /* ActivityStatsCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityStatsCreator.swift; sourceTree = "<group>"; };
+		BA82A19C23EE3C5200DCC9E5 /* ActivityStatsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityStatsController.xib; sourceTree = "<group>"; };
+		BA82A1A523EE3D9E00DCC9E5 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
+		BA82A1A623EE3D9E00DCC9E5 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
+		BA82A1A723EE3D9E00DCC9E5 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
+		BA82A1A823EE3D9E00DCC9E5 /* EcoMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapController.swift; sourceTree = "<group>"; };
+		BA82A1A923EE3D9E00DCC9E5 /* EcoMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapInteractor.swift; sourceTree = "<group>"; };
+		BA82A1AA23EE3D9E00DCC9E5 /* EcoMapCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapCreator.swift; sourceTree = "<group>"; };
+		BA82A1AB23EE3D9E00DCC9E5 /* EcoMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoMapController.xib; sourceTree = "<group>"; };
+		BA82A1B423EE3E5D00DCC9E5 /* LibraryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListPresenter.swift; sourceTree = "<group>"; };
+		BA82A1B523EE3E5D00DCC9E5 /* LibraryListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListWorker.swift; sourceTree = "<group>"; };
+		BA82A1B623EE3E5D00DCC9E5 /* LibraryListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListRouter.swift; sourceTree = "<group>"; };
+		BA82A1B723EE3E5D00DCC9E5 /* LibraryListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListController.swift; sourceTree = "<group>"; };
+		BA82A1B823EE3E5D00DCC9E5 /* LibraryListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListInteractor.swift; sourceTree = "<group>"; };
+		BA82A1B923EE3E5D00DCC9E5 /* LibraryListCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListCreator.swift; sourceTree = "<group>"; };
+		BA82A1BA23EE3E5D00DCC9E5 /* LibraryListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryListController.xib; sourceTree = "<group>"; };
+		BA82A1C323EE3F2300DCC9E5 /* UserAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountPresenter.swift; sourceTree = "<group>"; };
+		BA82A1C423EE3F2300DCC9E5 /* UserAccountWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountWorker.swift; sourceTree = "<group>"; };
+		BA82A1C523EE3F2300DCC9E5 /* UserAccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountRouter.swift; sourceTree = "<group>"; };
+		BA82A1C623EE3F2300DCC9E5 /* UserAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountController.swift; sourceTree = "<group>"; };
+		BA82A1C723EE3F2300DCC9E5 /* UserAccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountInteractor.swift; sourceTree = "<group>"; };
+		BA82A1C823EE3F2300DCC9E5 /* UserAccountCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountCreator.swift; sourceTree = "<group>"; };
+		BA82A1C923EE3F2300DCC9E5 /* UserAccountController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAccountController.xib; sourceTree = "<group>"; };
+		BA82A1D223EE3FAC00DCC9E5 /* ActivityInfoInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoInteractorTests.swift; sourceTree = "<group>"; };
+		BA82A1D323EE3FAC00DCC9E5 /* FakeActivityInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoRouter.swift; sourceTree = "<group>"; };
+		BA82A1D423EE3FAC00DCC9E5 /* FakeActivityInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoController.swift; sourceTree = "<group>"; };
+		BA82A1D523EE3FAC00DCC9E5 /* FakeActivityInfoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoWorker.swift; sourceTree = "<group>"; };
+		BA82A1D623EE3FAC00DCC9E5 /* FakeActivityInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityInfoPresenter.swift; sourceTree = "<group>"; };
+		BA82A1D723EE3FAC00DCC9E5 /* ActivityInfoWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoWorkerTests.swift; sourceTree = "<group>"; };
+		BA82A1D823EE3FAC00DCC9E5 /* ActivityInfoRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoRouterTests.swift; sourceTree = "<group>"; };
+		BA82A1D923EE3FAC00DCC9E5 /* ActivityInfoPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInfoPresenterTests.swift; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,74 +282,89 @@
 			path = ActivityTiles;
 			sourceTree = "<group>";
 		};
-		BA60047723ED986500CF39B5 /* ActivityInfo */ = {
+		BA82A19523EE3BE700DCC9E5 /* ActivityInfo */ = {
 			isa = PBXGroup;
 			children = (
-				BA60046E23ED986000CF39B5 /* ActivityInfoCreator.swift */,
-				BA60046C23ED986000CF39B5 /* ActivityInfoController.swift */,
-				BA60046F23ED986000CF39B5 /* ActivityInfoController.xib */,
-				BA60046D23ED986000CF39B5 /* ActivityInfoInteractor.swift */,
-				BA60046A23ED986000CF39B5 /* ActivityInfoWorker.swift */,
-				BA60046923ED986000CF39B5 /* ActivityInfoPresenter.swift */,
-				BA60046B23ED986000CF39B5 /* ActivityInfoRouter.swift */,
+				BA82A18C23EE3BE200DCC9E5 /* ActivityInfoCreator.swift */,
+				BA82A18A23EE3BE200DCC9E5 /* ActivityInfoController.swift */,
+				BA82A18D23EE3BE200DCC9E5 /* ActivityInfoController.xib */,
+				BA82A18B23EE3BE200DCC9E5 /* ActivityInfoInteractor.swift */,
+				BA82A18823EE3BE200DCC9E5 /* ActivityInfoWorker.swift */,
+				BA82A18723EE3BE200DCC9E5 /* ActivityInfoPresenter.swift */,
+				BA82A18923EE3BE200DCC9E5 /* ActivityInfoRouter.swift */,
 			);
 			path = ActivityInfo;
 			sourceTree = "<group>";
 		};
-		BA60049523ED9CBD00CF39B5 /* ActivityStats */ = {
+		BA82A1A423EE3C5500DCC9E5 /* ActivityStats */ = {
 			isa = PBXGroup;
 			children = (
-				BA60048C23ED9CB900CF39B5 /* ActivityStatsCreator.swift */,
-				BA60048A23ED9CB900CF39B5 /* ActivityStatsController.swift */,
-				BA60048D23ED9CB900CF39B5 /* ActivityStatsController.xib */,
-				BA60048B23ED9CB900CF39B5 /* ActivityStatsInteractor.swift */,
-				BA60048823ED9CB900CF39B5 /* ActivityStatsWorker.swift */,
-				BA60048723ED9CB900CF39B5 /* ActivityStatsPresenter.swift */,
-				BA60048923ED9CB900CF39B5 /* ActivityStatsRouter.swift */,
+				BA82A19B23EE3C5200DCC9E5 /* ActivityStatsCreator.swift */,
+				BA82A19923EE3C5200DCC9E5 /* ActivityStatsController.swift */,
+				BA82A19C23EE3C5200DCC9E5 /* ActivityStatsController.xib */,
+				BA82A19A23EE3C5200DCC9E5 /* ActivityStatsInteractor.swift */,
+				BA82A19723EE3C5200DCC9E5 /* ActivityStatsWorker.swift */,
+				BA82A19623EE3C5200DCC9E5 /* ActivityStatsPresenter.swift */,
+				BA82A19823EE3C5200DCC9E5 /* ActivityStatsRouter.swift */,
 			);
 			path = ActivityStats;
 			sourceTree = "<group>";
 		};
-		BA6004A423ED9E4900CF39B5 /* EcoMap */ = {
+		BA82A1B323EE3DA200DCC9E5 /* EcoMap */ = {
 			isa = PBXGroup;
 			children = (
-				BA60049B23ED9E4400CF39B5 /* EcoMapCreator.swift */,
-				BA60049923ED9E4400CF39B5 /* EcoMapController.swift */,
-				BA60049C23ED9E4400CF39B5 /* EcoMapController.xib */,
-				BA60049A23ED9E4400CF39B5 /* EcoMapInteractor.swift */,
-				BA60049723ED9E4400CF39B5 /* EcoMapWorker.swift */,
-				BA60049623ED9E4400CF39B5 /* EcoMapPresenter.swift */,
-				BA60049823ED9E4400CF39B5 /* EcoMapRouter.swift */,
+				BA82A1AA23EE3D9E00DCC9E5 /* EcoMapCreator.swift */,
+				BA82A1A823EE3D9E00DCC9E5 /* EcoMapController.swift */,
+				BA82A1AB23EE3D9E00DCC9E5 /* EcoMapController.xib */,
+				BA82A1A923EE3D9E00DCC9E5 /* EcoMapInteractor.swift */,
+				BA82A1A623EE3D9E00DCC9E5 /* EcoMapWorker.swift */,
+				BA82A1A523EE3D9E00DCC9E5 /* EcoMapPresenter.swift */,
+				BA82A1A723EE3D9E00DCC9E5 /* EcoMapRouter.swift */,
 			);
 			path = EcoMap;
 			sourceTree = "<group>";
 		};
-		BA6004B323ED9F4F00CF39B5 /* LibraryList */ = {
+		BA82A1C223EE3E6200DCC9E5 /* LibraryList */ = {
 			isa = PBXGroup;
 			children = (
-				BA6004AA23ED9F4B00CF39B5 /* LibraryListCreator.swift */,
-				BA6004A823ED9F4B00CF39B5 /* LibraryListController.swift */,
-				BA6004AB23ED9F4B00CF39B5 /* LibraryListController.xib */,
-				BA6004A923ED9F4B00CF39B5 /* LibraryListInteractor.swift */,
-				BA6004A623ED9F4B00CF39B5 /* LibraryListWorker.swift */,
-				BA6004A523ED9F4B00CF39B5 /* LibraryListPresenter.swift */,
-				BA6004A723ED9F4B00CF39B5 /* LibraryListRouter.swift */,
+				BA82A1B923EE3E5D00DCC9E5 /* LibraryListCreator.swift */,
+				BA82A1B723EE3E5D00DCC9E5 /* LibraryListController.swift */,
+				BA82A1BA23EE3E5D00DCC9E5 /* LibraryListController.xib */,
+				BA82A1B823EE3E5D00DCC9E5 /* LibraryListInteractor.swift */,
+				BA82A1B523EE3E5D00DCC9E5 /* LibraryListWorker.swift */,
+				BA82A1B423EE3E5D00DCC9E5 /* LibraryListPresenter.swift */,
+				BA82A1B623EE3E5D00DCC9E5 /* LibraryListRouter.swift */,
 			);
 			path = LibraryList;
 			sourceTree = "<group>";
 		};
-		BA6004C223EDA10200CF39B5 /* UserAccount */ = {
+		BA82A1D123EE3F2900DCC9E5 /* UserAccount */ = {
 			isa = PBXGroup;
 			children = (
-				BA6004B923EDA0FD00CF39B5 /* UserAccountCreator.swift */,
-				BA6004B723EDA0FD00CF39B5 /* UserAccountController.swift */,
-				BA6004BA23EDA0FD00CF39B5 /* UserAccountController.xib */,
-				BA6004B823EDA0FD00CF39B5 /* UserAccountInteractor.swift */,
-				BA6004B523EDA0FD00CF39B5 /* UserAccountWorker.swift */,
-				BA6004B423EDA0FD00CF39B5 /* UserAccountPresenter.swift */,
-				BA6004B623EDA0FD00CF39B5 /* UserAccountRouter.swift */,
+				BA82A1C823EE3F2300DCC9E5 /* UserAccountCreator.swift */,
+				BA82A1C623EE3F2300DCC9E5 /* UserAccountController.swift */,
+				BA82A1C923EE3F2300DCC9E5 /* UserAccountController.xib */,
+				BA82A1C723EE3F2300DCC9E5 /* UserAccountInteractor.swift */,
+				BA82A1C423EE3F2300DCC9E5 /* UserAccountWorker.swift */,
+				BA82A1C323EE3F2300DCC9E5 /* UserAccountPresenter.swift */,
+				BA82A1C523EE3F2300DCC9E5 /* UserAccountRouter.swift */,
 			);
 			path = UserAccount;
+			sourceTree = "<group>";
+		};
+		BA82A1E223EE3FB000DCC9E5 /* ActivityInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BA82A1D423EE3FAC00DCC9E5 /* FakeActivityInfoController.swift */,
+				BA82A1D623EE3FAC00DCC9E5 /* FakeActivityInfoPresenter.swift */,
+				BA82A1D523EE3FAC00DCC9E5 /* FakeActivityInfoWorker.swift */,
+				BA82A1D323EE3FAC00DCC9E5 /* FakeActivityInfoRouter.swift */,
+				BA82A1D223EE3FAC00DCC9E5 /* ActivityInfoInteractorTests.swift */,
+				BA82A1D723EE3FAC00DCC9E5 /* ActivityInfoWorkerTests.swift */,
+				BA82A1D923EE3FAC00DCC9E5 /* ActivityInfoPresenterTests.swift */,
+				BA82A1D823EE3FAC00DCC9E5 /* ActivityInfoRouterTests.swift */,
+			);
+			path = ActivityInfo;
 			sourceTree = "<group>";
 		};
 		BA9DB85723CE6DEA004F86A0 = {
@@ -378,6 +409,7 @@
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
 				BAC2D2ED23EE312C0014A91F /* Helpers */,
 				BA2BF90C23EB6C0D001508F9 /* ActivityTiles */,
+				BA82A1E223EE3FB000DCC9E5 /* ActivityInfo */,
 			);
 			path = ZeroWasteFriendlyTests;
 			sourceTree = "<group>";
@@ -386,11 +418,11 @@
 			isa = PBXGroup;
 			children = (
 				BA2BF89723EB3730001508F9 /* ActivityTiles */,
-				BA60047723ED986500CF39B5 /* ActivityInfo */,
-				BA60049523ED9CBD00CF39B5 /* ActivityStats */,
-				BA6004A423ED9E4900CF39B5 /* EcoMap */,
-				BA6004B323ED9F4F00CF39B5 /* LibraryList */,
-				BA6004C223EDA10200CF39B5 /* UserAccount */,
+				BA82A19523EE3BE700DCC9E5 /* ActivityInfo */,
+				BA82A1A423EE3C5500DCC9E5 /* ActivityStats */,
+				BA82A1B323EE3DA200DCC9E5 /* EcoMap */,
+				BA82A1C223EE3E6200DCC9E5 /* LibraryList */,
+				BA82A1D123EE3F2900DCC9E5 /* UserAccount */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -530,20 +562,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */,
+				BA82A1B223EE3D9E00DCC9E5 /* EcoMapController.xib in Resources */,
 				BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */,
+				BA82A1D023EE3F2300DCC9E5 /* UserAccountController.xib in Resources */,
+				BA82A1A323EE3C5200DCC9E5 /* ActivityStatsController.xib in Resources */,
 				BA2BF89B23EB387B001508F9 /* logo.png in Resources */,
-				BA6004C123EDA0FD00CF39B5 /* UserAccountController.xib in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
-				BA60047623ED986000CF39B5 /* ActivityInfoController.xib in Resources */,
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
 				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
 				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
-				BA60049423ED9CB900CF39B5 /* ActivityStatsController.xib in Resources */,
 				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
+				BA82A1C123EE3E5D00DCC9E5 /* LibraryListController.xib in Resources */,
 				BA2BF89C23EB387B001508F9 /* mockup.png in Resources */,
-				BA6004A323ED9E4400CF39B5 /* EcoMapController.xib in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
-				BA6004B223ED9F4B00CF39B5 /* LibraryListController.xib in Resources */,
+				BA82A19423EE3BE200DCC9E5 /* ActivityInfoController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,49 +674,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */,
-				BA6004B023ED9F4B00CF39B5 /* LibraryListInteractor.swift in Sources */,
-				BA6004AE23ED9F4B00CF39B5 /* LibraryListRouter.swift in Sources */,
-				BA60049323ED9CB900CF39B5 /* ActivityStatsCreator.swift in Sources */,
-				BA60049E23ED9E4400CF39B5 /* EcoMapWorker.swift in Sources */,
+				BA82A1BD23EE3E5D00DCC9E5 /* LibraryListRouter.swift in Sources */,
+				BA82A1B123EE3D9E00DCC9E5 /* EcoMapCreator.swift in Sources */,
 				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
+				BA82A1AD23EE3D9E00DCC9E5 /* EcoMapWorker.swift in Sources */,
+				BA82A18F23EE3BE200DCC9E5 /* ActivityInfoWorker.swift in Sources */,
+				BA82A1CD23EE3F2300DCC9E5 /* UserAccountController.swift in Sources */,
+				BA82A1A123EE3C5200DCC9E5 /* ActivityStatsInteractor.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
+				BA82A1CB23EE3F2300DCC9E5 /* UserAccountWorker.swift in Sources */,
+				BA82A1C023EE3E5D00DCC9E5 /* LibraryListCreator.swift in Sources */,
+				BA82A19123EE3BE200DCC9E5 /* ActivityInfoController.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
-				BA6004BC23EDA0FD00CF39B5 /* UserAccountWorker.swift in Sources */,
-				BA6004B123ED9F4B00CF39B5 /* LibraryListCreator.swift in Sources */,
+				BA82A19323EE3BE200DCC9E5 /* ActivityInfoCreator.swift in Sources */,
+				BA82A1BF23EE3E5D00DCC9E5 /* LibraryListInteractor.swift in Sources */,
 				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
-				BA6004C023EDA0FD00CF39B5 /* UserAccountCreator.swift in Sources */,
-				BA6004BD23EDA0FD00CF39B5 /* UserAccountRouter.swift in Sources */,
-				BA6004A223ED9E4400CF39B5 /* EcoMapCreator.swift in Sources */,
+				BA82A1CA23EE3F2300DCC9E5 /* UserAccountPresenter.swift in Sources */,
+				BA82A1AE23EE3D9E00DCC9E5 /* EcoMapRouter.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
-				BA6004BB23EDA0FD00CF39B5 /* UserAccountPresenter.swift in Sources */,
-				BA60047023ED986000CF39B5 /* ActivityInfoPresenter.swift in Sources */,
 				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
 				BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */,
+				BA82A1CC23EE3F2300DCC9E5 /* UserAccountRouter.swift in Sources */,
 				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
+				BA82A1BC23EE3E5D00DCC9E5 /* LibraryListWorker.swift in Sources */,
+				BA82A19D23EE3C5200DCC9E5 /* ActivityStatsPresenter.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
-				BA60047523ED986000CF39B5 /* ActivityInfoCreator.swift in Sources */,
-				BA6004AC23ED9F4B00CF39B5 /* LibraryListPresenter.swift in Sources */,
-				BA60049023ED9CB900CF39B5 /* ActivityStatsRouter.swift in Sources */,
-				BA6004A023ED9E4400CF39B5 /* EcoMapController.swift in Sources */,
-				BA60048E23ED9CB900CF39B5 /* ActivityStatsPresenter.swift in Sources */,
-				BA60047223ED986000CF39B5 /* ActivityInfoRouter.swift in Sources */,
-				BA60047123ED986000CF39B5 /* ActivityInfoWorker.swift in Sources */,
-				BA6004A123ED9E4400CF39B5 /* EcoMapInteractor.swift in Sources */,
+				BA82A18E23EE3BE200DCC9E5 /* ActivityInfoPresenter.swift in Sources */,
 				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
-				BA60047323ED986000CF39B5 /* ActivityInfoController.swift in Sources */,
 				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
-				BA6004BE23EDA0FD00CF39B5 /* UserAccountController.swift in Sources */,
-				BA60048F23ED9CB900CF39B5 /* ActivityStatsWorker.swift in Sources */,
-				BA60047423ED986000CF39B5 /* ActivityInfoInteractor.swift in Sources */,
-				BA6004BF23EDA0FD00CF39B5 /* UserAccountInteractor.swift in Sources */,
+				BA82A1A023EE3C5200DCC9E5 /* ActivityStatsController.swift in Sources */,
+				BA82A19223EE3BE200DCC9E5 /* ActivityInfoInteractor.swift in Sources */,
+				BA82A1B023EE3D9E00DCC9E5 /* EcoMapInteractor.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
-				BA6004AF23ED9F4B00CF39B5 /* LibraryListController.swift in Sources */,
-				BA60049D23ED9E4400CF39B5 /* EcoMapPresenter.swift in Sources */,
-				BA6004AD23ED9F4B00CF39B5 /* LibraryListWorker.swift in Sources */,
-				BA60049123ED9CB900CF39B5 /* ActivityStatsController.swift in Sources */,
-				BA60049223ED9CB900CF39B5 /* ActivityStatsInteractor.swift in Sources */,
-				BA60049F23ED9E4400CF39B5 /* EcoMapRouter.swift in Sources */,
+				BA82A1AF23EE3D9E00DCC9E5 /* EcoMapController.swift in Sources */,
+				BA82A1CF23EE3F2300DCC9E5 /* UserAccountCreator.swift in Sources */,
+				BA82A19F23EE3C5200DCC9E5 /* ActivityStatsRouter.swift in Sources */,
+				BA82A1AC23EE3D9E00DCC9E5 /* EcoMapPresenter.swift in Sources */,
+				BA82A1BB23EE3E5D00DCC9E5 /* LibraryListPresenter.swift in Sources */,
+				BA82A1A223EE3C5200DCC9E5 /* ActivityStatsCreator.swift in Sources */,
+				BA82A1BE23EE3E5D00DCC9E5 /* LibraryListController.swift in Sources */,
+				BA82A19E23EE3C5200DCC9E5 /* ActivityStatsWorker.swift in Sources */,
+				BA82A19023EE3BE200DCC9E5 /* ActivityInfoRouter.swift in Sources */,
+				BA82A1CE23EE3F2300DCC9E5 /* UserAccountInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,13 +726,21 @@
 			files = (
 				BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */,
 				BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */,
+				BA82A1DE23EE3FAC00DCC9E5 /* FakeActivityInfoPresenter.swift in Sources */,
 				BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */,
 				BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */,
+				BA82A1E023EE3FAC00DCC9E5 /* ActivityInfoRouterTests.swift in Sources */,
+				BA82A1DB23EE3FAC00DCC9E5 /* FakeActivityInfoRouter.swift in Sources */,
 				BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */,
+				BA82A1DA23EE3FAC00DCC9E5 /* ActivityInfoInteractorTests.swift in Sources */,
+				BA82A1DF23EE3FAC00DCC9E5 /* ActivityInfoWorkerTests.swift in Sources */,
 				BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */,
+				BA82A1E123EE3FAC00DCC9E5 /* ActivityInfoPresenterTests.swift in Sources */,
 				BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */,
 				BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */,
+				BA82A1DC23EE3FAC00DCC9E5 /* FakeActivityInfoController.swift in Sources */,
 				BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */,
+				BA82A1DD23EE3FAC00DCC9E5 /* FakeActivityInfoWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
