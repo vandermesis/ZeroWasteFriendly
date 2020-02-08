@@ -33,15 +33,14 @@ extension ActivityTilesInteractorImpl: ActivityTilesInteractor {
         presenter.toggleSpinner(true)
         worker.fetchActivityTiles { [weak self] result in
             guard let self = self else { return }
-            self.presenter.toggleSpinner(true)
+            self.presenter.toggleSpinner(false)
             switch result {
             case .success:
-                self.presenter.toggleSpinner(false)
+                self.presenter.presentActivityTiles()
             case .failure(let error):
                 self.presenter.presentAlert(title: R.string.localizable.alertActionTitleError(),
                                             message: error.localizedDescription)
             }
         }
-        presenter.presentActivityTiles()
     }
 }
