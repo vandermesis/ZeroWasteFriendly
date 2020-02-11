@@ -40,3 +40,13 @@
 // Alerts
 "Alert.Action.Title.Ok" = "OK";
 "Alert.Action.Title.Error" = "Błąd";
+
+// Errors
+"Error.Title" = "Błąd";
+"Error.Unknown" = "Nieznany błąd";
+"Error.Serializer" = "Błąd serializacji";
+"Error.UserDefaults" = "Błąd ustawień użytkownika";
+"Error.Api" = "Błąd API";
+"Error.InvalidURL" = "Nieprawdiłowy URL";
+"Error.MissingApiResponse" = "Brak odpowiedzi API";
+"Error.MissingApiData" = "Brak danych z API";

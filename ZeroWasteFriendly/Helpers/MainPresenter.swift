@@ -30,6 +30,6 @@ class MainPresenter<T: SpinnerPresentable & AlertPresentable>: SpinnerPresenter,
     }
 
     func presentError(_ error: Error) {
-        controller?.presentAlert(title: "Error", message: error.localizedDescription)
+        controller?.presentAlert(title: R.string.localizable.errorTitle(), message: error.userFriendlyMessage)
     }
 }
