@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SpinnerController: UIViewController {
+final class SpinnerController: UIViewController {
 
     init() {
         super.init(nibName: nil, bundle: nil)
