@@ -83,6 +83,9 @@
 		BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */; };
 		BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA73F8123CF888E00B4FEC8 /* R.generated.swift */; };
 		BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */; };
+		BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86B23F2E79A00FD210B /* Request.swift */; };
+		BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86D23F2EB8100FD210B /* APIClient.swift */; };
+		BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */; };
 		BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2E923EE0E3A0014A91F /* Model.swift */; };
 		BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2EB23EE31160014A91F /* UnitTestError.swift */; };
 /* End PBXBuildFile section */
@@ -179,6 +182,9 @@
 		BA9DB87F23CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA73F8123CF888E00B4FEC8 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+UserFriendlyMessage.swift"; sourceTree = "<group>"; };
+		BAC1E86B23F2E79A00FD210B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BAC1E86D23F2EB8100FD210B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworking.swift; sourceTree = "<group>"; };
 		BAC2D2E923EE0E3A0014A91F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BAC2D2EB23EE31160014A91F /* UnitTestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestError.swift; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
@@ -466,8 +472,19 @@
 			isa = PBXGroup;
 			children = (
 				BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */,
+				BAC1E87123F2ECB900FD210B /* BaseNetworking */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		BAC1E87123F2ECB900FD210B /* BaseNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */,
+				BAC1E86B23F2E79A00FD210B /* Request.swift */,
+				BAC1E86D23F2EB8100FD210B /* APIClient.swift */,
+			);
+			path = BaseNetworking;
 			sourceTree = "<group>";
 		};
 		BAC2D2ED23EE312C0014A91F /* Helpers */ = {
@@ -684,6 +701,7 @@
 				BA82A1AD23EE3D9E00DCC9E5 /* EcoMapWorker.swift in Sources */,
 				BA82A18F23EE3BE200DCC9E5 /* ActivityInfoWorker.swift in Sources */,
 				BA82A1CD23EE3F2300DCC9E5 /* UserAccountController.swift in Sources */,
+				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
 				BA82A1A123EE3C5200DCC9E5 /* ActivityStatsInteractor.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
@@ -711,6 +729,8 @@
 				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
 				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
 				BA82A1A023EE3C5200DCC9E5 /* ActivityStatsController.swift in Sources */,
+				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
+				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
 				BA82A19223EE3BE200DCC9E5 /* ActivityInfoInteractor.swift in Sources */,
 				BA82A1B023EE3D9E00DCC9E5 /* EcoMapInteractor.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
