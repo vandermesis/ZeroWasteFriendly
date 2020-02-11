@@ -39,8 +39,6 @@ final class ActivityTilesInteractorTests: XCTestCase {
         // When
         interactor.getActivityTiles()
         // Then
-        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
-        XCTAssertEqual(presenter.toogleSpinnerStateCalled, true, "calling presenter to toogle spinner state to true")
         XCTAssertEqual(worker.fetchActivityTilesCalled, true, "calling worker to fetch data is true")
     }
 
@@ -50,19 +48,6 @@ final class ActivityTilesInteractorTests: XCTestCase {
         // When
         worker.fetchActivityTilesCompletion?(.success(Mock.model))
         // Then
-        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner state is true")
-        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "calling presenter to toogle spinner state to false")
         XCTAssertEqual(presenter.presentActivityTilesCalled, true, "calling presenter to present data is true")
-    }
-
-    func testInteractorIsGettingDataIsFailure() {
-        // Given
-        interactor.getActivityTiles()
-        // When
-        worker.fetchActivityTilesCompletion?(.failure(UnitTestError()))
-        // Then
-        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner state is true")
-        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "calling presenter to toogle spinner state to false")
-        XCTAssertEqual(presenter.presentAlertCalled, true, "calling presenter to present alert is true")
     }
 }
