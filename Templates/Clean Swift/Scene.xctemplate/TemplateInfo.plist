@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Generates a new scene using Clean Swift design pattern. Six files are created: creator, controller, interactor, worker, presenter and router.</string>
+	<key>Summary</key>
+	<string>Generates a new scene using Clean Swift design pattern.</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>DefaultCompletionName</key>
+	<string>SceneName</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Scene Name:</string>
+			<key>Description</key>
+			<string>The name of the scene</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Creator</string>
+			<key>Description</key>
+			<string>The creator file name</string>
+			<key>Identifier</key>
+			<string>creatorFileName</string>
+			<key>Name</key>
+			<string>Creator File Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Controller</string>
+			<key>Description</key>
+			<string>The view controller name</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Name</key>
+			<string>View Controller Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Interactor</string>
+			<key>Description</key>
+			<string>The interactor name</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Worker</string>
+			<key>Description</key>
+			<string>The worker name</string>
+			<key>Identifier</key>
+			<string>workerName</string>
+			<key>Name</key>
+			<string>Worker Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Presenter</string>
+			<key>Description</key>
+			<string>The presenter name</string>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Name</key>
+			<string>Presenter Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Router</string>
+			<key>Description</key>
+			<string>The router name</string>
+			<key>Identifier</key>
+			<string>routerName</string>
+			<key>Name</key>
+			<string>Router Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>UIViewController</string>
+			<key>Description</key>
+			<string>What view controller class to subclass for the new scene</string>
+			<key>FallbackHeader</key>
+			<string>import UIKit</string>
+			<key>Identifier</key>
+			<string>viewControllerSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>UIViewController</string>
+				<string>UITableViewController</string>
+				<string>UICollectionViewController</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file for user interface</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>viewControllerSubclass</key>
+				<array>
+					<string>UIViewController</string>
+					<string>UITableViewController</string>
+					<string>UICollectionViewController</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
