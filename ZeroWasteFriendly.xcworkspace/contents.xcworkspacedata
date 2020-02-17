@@ -1,6 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Templates"
+      name = "Templates">
+      <Group
+         location = "group:Templates/Clean Swift"
+         name = "Clean Swift">
+         <Group
+            location = "group:Templates/Clean Swift/Scene.xctemplate"
+            name = "Scene.xctemplate">
+            <FileRef
+               location = "group:Templates/Clean Swift/Scene.xctemplate/TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/Scene.xctemplate/TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/Scene.xctemplate/TemplateInfo.plist">
+            </FileRef>
+            <Group
+               location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB"
+               name = "UITableViewControllerXIB">
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB/___FILEBASENAME___Controller.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB/___FILEBASENAME___Controller.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB/___FILEBASENAME___Creator.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB/___FILEBASENAME___Interactor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB/___FILEBASENAME___Presenter.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB/___FILEBASENAME___Router.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UITableViewControllerXIB/___FILEBASENAME___Worker.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB"
+               name = "UIViewControllerXIB">
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB/___FILEBASENAME___Controller.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB/___FILEBASENAME___Controller.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB/___FILEBASENAME___Creator.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB/___FILEBASENAME___Interactor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB/___FILEBASENAME___Presenter.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB/___FILEBASENAME___Router.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Templates/Clean Swift/Scene.xctemplate/UIViewControllerXIB/___FILEBASENAME___Worker.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Templates/Clean Swift/SceneSupport.xctemplate"
+            name = "SceneSupport.xctemplate">
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/___PROJECTNAME___Networking.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/AlertPresentable.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/APIClient.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/BaseNetworking.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/Error+UserFriendlyMessage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/MainNavigationController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/MainPresenter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/MainViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/Model.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/Request.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/SceneDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/SpinnerController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/SpinnerController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/SpinnerPresentable.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/SceneSupport.xctemplate/UIViewController+NavigationController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate"
+            name = "UnitTestsXC.xctemplate">
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/___FILEBASENAME___InteractorTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/___FILEBASENAME___PresenterTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/___FILEBASENAME___RouterTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/___FILEBASENAME___WorkerTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/Fake___FILEBASENAME___Controller.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/Fake___FILEBASENAME___Presenter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/Fake___FILEBASENAME___Router.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/Fake___FILEBASENAME___Worker.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXC.xctemplate/TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate"
+            name = "UnitTestsXCSupport.xctemplate">
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/FakeMainController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/MainPresenterTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/Mock+Model.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/Mock.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:Templates/Clean Swift/UnitTestsXCSupport.xctemplate/UnitTestError.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "group:ZeroWasteFriendly.xcodeproj">
    </FileRef>
