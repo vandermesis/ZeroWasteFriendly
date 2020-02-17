@@ -16,7 +16,6 @@
 		BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */; };
 		BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */; };
 		BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */; };
-		BA2BF89B23EB387B001508F9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89923EB387B001508F9 /* logo.png */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
 		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
 		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
@@ -55,6 +54,7 @@
 		BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */; };
 		BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2E923EE0E3A0014A91F /* Model.swift */; };
 		BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2EB23EE31160014A91F /* UnitTestError.swift */; };
+		BAD2B4E023FB39A400A4845B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD2B4DF23FB39A400A4845B /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,6 @@
 		BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesInteractor.swift; sourceTree = "<group>"; };
 		BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesCreator.swift; sourceTree = "<group>"; };
 		BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTilesController.xib; sourceTree = "<group>"; };
-		BA2BF89923EB387B001508F9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -121,6 +120,7 @@
 		BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworking.swift; sourceTree = "<group>"; };
 		BAC2D2E923EE0E3A0014A91F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BAC2D2EB23EE31160014A91F /* UnitTestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestError.swift; sourceTree = "<group>"; };
+		BAD2B4DF23FB39A400A4845B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,7 +194,7 @@
 		BA2BF89823EB387B001508F9 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				BA2BF89923EB387B001508F9 /* logo.png */,
+				BAD2B4DF23FB39A400A4845B /* logo.png */,
 				BA2BF89A23EB387B001508F9 /* mockup.png */,
 			);
 			path = Demo;
@@ -444,7 +444,7 @@
 			files = (
 				BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */,
 				BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */,
-				BA2BF89B23EB387B001508F9 /* logo.png in Resources */,
+				BAD2B4E023FB39A400A4845B /* logo.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
 				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
