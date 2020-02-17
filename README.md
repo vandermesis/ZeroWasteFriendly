@@ -87,6 +87,16 @@ Coding stage:
 - *[Typora](https://typora.io)*
 
 
+## Clean Swift Project Templates
+
+If you want to try creating your own project using Clean Swift guidelines, there is a set of custom templates added in Templates/CleanSwift folder.
+Just copy it to your  /Users/<username>/Library/Developer/Xcode/Templates/File\ Templates folder and use it as you like.
+
+- Scene - creates set of 7 files to use for your scene - use it for every new scene,
+- SceneSupport - creates set of 16 files with predefined functionalities like presenting spinner, presenting alert, networking files, etc - use it once per project,
+- UnitTestsXC - creates set of 8 files needed to test your scene using XCTest (fake files included) - use it for every scene,
+- UnitTestsXCSupport - creates set of 5 files to support tests for your scene - use it once per project tests module
+
 
 ## Who is who
 
