@@ -39,6 +39,7 @@ final class ActivityTilesRouterTests: XCTestCase {
         router.navigateTo()
         // Then
         //TODO: Replace ActivityTilesController with destination controller
-        XCTAssert(navController.topViewController is ActivityTilesController, "top view controller should be expected destination controller")
+        XCTAssert(navController.topViewController is ActivityTilesController,
+                  "top view controller should be expected destination controller")
     }
 }

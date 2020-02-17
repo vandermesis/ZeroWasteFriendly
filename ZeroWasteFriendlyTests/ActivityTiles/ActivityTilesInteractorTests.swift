@@ -50,4 +50,13 @@ final class ActivityTilesInteractorTests: XCTestCase {
         // Then
         XCTAssertEqual(presenter.presentActivityTilesCalled, true, "calling presenter to present data is true")
     }
+
+    func testInteractorIsGettingDataIsFailure() {
+        // Given
+        interactor.getActivityTiles()
+        // When
+        worker.fetchActivityTilesCompletion?(.failure(UnitTestError()))
+        // Then
+        XCTAssertEqual(presenter.presentActivityTilesCalled, nil, "calling presenter to present data is nil")
+    }
 }
