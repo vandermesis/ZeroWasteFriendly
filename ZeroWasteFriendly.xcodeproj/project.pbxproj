@@ -8,61 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
-		BA231B7823FB11670000C6C6 /* TemplateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B3C23FB11670000C6C6 /* TemplateIcon.png */; };
-		BA231B7923FB11670000C6C6 /* TemplateIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B3D23FB11670000C6C6 /* TemplateIcon@2x.png */; };
-		BA231B7A23FB11670000C6C6 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA231B3E23FB11670000C6C6 /* TemplateInfo.plist */; };
-		BA231B7B23FB11670000C6C6 /* ___FILEBASENAME___Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4023FB11670000C6C6 /* ___FILEBASENAME___Controller.swift */; };
-		BA231B7C23FB11670000C6C6 /* ___FILEBASENAME___Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA231B4123FB11670000C6C6 /* ___FILEBASENAME___Controller.xib */; };
-		BA231B7D23FB11670000C6C6 /* ___FILEBASENAME___Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4223FB11670000C6C6 /* ___FILEBASENAME___Creator.swift */; };
-		BA231B7E23FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4323FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift */; };
-		BA231B7F23FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4423FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift */; };
-		BA231B8023FB11670000C6C6 /* ___FILEBASENAME___Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4523FB11670000C6C6 /* ___FILEBASENAME___Router.swift */; };
-		BA231B8123FB11670000C6C6 /* ___FILEBASENAME___Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4623FB11670000C6C6 /* ___FILEBASENAME___Worker.swift */; };
-		BA231B8223FB11670000C6C6 /* ___FILEBASENAME___Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4823FB11670000C6C6 /* ___FILEBASENAME___Controller.swift */; };
-		BA231B8323FB11670000C6C6 /* ___FILEBASENAME___Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA231B4923FB11670000C6C6 /* ___FILEBASENAME___Controller.xib */; };
-		BA231B8423FB11670000C6C6 /* ___FILEBASENAME___Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4A23FB11670000C6C6 /* ___FILEBASENAME___Creator.swift */; };
-		BA231B8523FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4B23FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift */; };
-		BA231B8623FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4C23FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift */; };
-		BA231B8723FB11670000C6C6 /* ___FILEBASENAME___Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4D23FB11670000C6C6 /* ___FILEBASENAME___Router.swift */; };
-		BA231B8823FB11670000C6C6 /* ___FILEBASENAME___Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B4E23FB11670000C6C6 /* ___FILEBASENAME___Worker.swift */; };
-		BA231B8923FB11670000C6C6 /* ___PROJECTNAME___Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5023FB11670000C6C6 /* ___PROJECTNAME___Networking.swift */; };
-		BA231B8A23FB11670000C6C6 /* AlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5123FB11670000C6C6 /* AlertPresentable.swift */; };
-		BA231B8B23FB11670000C6C6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5223FB11670000C6C6 /* APIClient.swift */; };
-		BA231B8C23FB11670000C6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5323FB11670000C6C6 /* AppDelegate.swift */; };
-		BA231B8D23FB11670000C6C6 /* BaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5423FB11670000C6C6 /* BaseNetworking.swift */; };
-		BA231B8E23FB11670000C6C6 /* Error+UserFriendlyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5523FB11670000C6C6 /* Error+UserFriendlyMessage.swift */; };
-		BA231B8F23FB11670000C6C6 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5623FB11670000C6C6 /* MainNavigationController.swift */; };
-		BA231B9023FB11670000C6C6 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5723FB11670000C6C6 /* MainPresenter.swift */; };
-		BA231B9123FB11670000C6C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5823FB11670000C6C6 /* MainViewController.swift */; };
-		BA231B9223FB11670000C6C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5923FB11670000C6C6 /* Model.swift */; };
-		BA231B9323FB11670000C6C6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5A23FB11670000C6C6 /* Request.swift */; };
-		BA231B9423FB11670000C6C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5B23FB11670000C6C6 /* SceneDelegate.swift */; };
-		BA231B9523FB11670000C6C6 /* SpinnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5C23FB11670000C6C6 /* SpinnerController.swift */; };
-		BA231B9623FB11670000C6C6 /* SpinnerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA231B5D23FB11670000C6C6 /* SpinnerController.xib */; };
-		BA231B9723FB11670000C6C6 /* SpinnerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B5E23FB11670000C6C6 /* SpinnerPresentable.swift */; };
-		BA231B9823FB11670000C6C6 /* TemplateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B5F23FB11670000C6C6 /* TemplateIcon.png */; };
-		BA231B9923FB11670000C6C6 /* TemplateIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B6023FB11670000C6C6 /* TemplateIcon@2x.png */; };
-		BA231B9A23FB11670000C6C6 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA231B6123FB11670000C6C6 /* TemplateInfo.plist */; };
-		BA231B9B23FB11670000C6C6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6223FB11670000C6C6 /* UIViewController+NavigationController.swift */; };
-		BA231B9C23FB11670000C6C6 /* ___FILEBASENAME___InteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6423FB11670000C6C6 /* ___FILEBASENAME___InteractorTests.swift */; };
-		BA231B9D23FB11670000C6C6 /* ___FILEBASENAME___PresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6523FB11670000C6C6 /* ___FILEBASENAME___PresenterTests.swift */; };
-		BA231B9E23FB11670000C6C6 /* ___FILEBASENAME___RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6623FB11670000C6C6 /* ___FILEBASENAME___RouterTests.swift */; };
-		BA231B9F23FB11670000C6C6 /* ___FILEBASENAME___WorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6723FB11670000C6C6 /* ___FILEBASENAME___WorkerTests.swift */; };
-		BA231BA023FB11670000C6C6 /* Fake___FILEBASENAME___Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6823FB11670000C6C6 /* Fake___FILEBASENAME___Controller.swift */; };
-		BA231BA123FB11670000C6C6 /* Fake___FILEBASENAME___Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6923FB11670000C6C6 /* Fake___FILEBASENAME___Presenter.swift */; };
-		BA231BA223FB11670000C6C6 /* Fake___FILEBASENAME___Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6A23FB11670000C6C6 /* Fake___FILEBASENAME___Router.swift */; };
-		BA231BA323FB11670000C6C6 /* Fake___FILEBASENAME___Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B6B23FB11670000C6C6 /* Fake___FILEBASENAME___Worker.swift */; };
-		BA231BA423FB11670000C6C6 /* TemplateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B6C23FB11670000C6C6 /* TemplateIcon.png */; };
-		BA231BA523FB11670000C6C6 /* TemplateIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B6D23FB11670000C6C6 /* TemplateIcon@2x.png */; };
-		BA231BA623FB11670000C6C6 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA231B6E23FB11670000C6C6 /* TemplateInfo.plist */; };
-		BA231BA723FB11670000C6C6 /* FakeMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B7023FB11670000C6C6 /* FakeMainController.swift */; };
-		BA231BA823FB11670000C6C6 /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B7123FB11670000C6C6 /* MainPresenterTests.swift */; };
-		BA231BA923FB11670000C6C6 /* Mock+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B7223FB11670000C6C6 /* Mock+Model.swift */; };
-		BA231BAA23FB11670000C6C6 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B7323FB11670000C6C6 /* Mock.swift */; };
-		BA231BAB23FB11670000C6C6 /* TemplateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B7423FB11670000C6C6 /* TemplateIcon.png */; };
-		BA231BAC23FB11670000C6C6 /* TemplateIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA231B7523FB11670000C6C6 /* TemplateIcon@2x.png */; };
-		BA231BAD23FB11670000C6C6 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA231B7623FB11670000C6C6 /* TemplateInfo.plist */; };
-		BA231BAE23FB11670000C6C6 /* UnitTestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA231B7723FB11670000C6C6 /* UnitTestError.swift */; };
 		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
 		BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */; };
 		BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */; };
@@ -124,61 +69,6 @@
 
 /* Begin PBXFileReference section */
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA231B3C23FB11670000C6C6 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		BA231B3D23FB11670000C6C6 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		BA231B3E23FB11670000C6C6 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		BA231B4023FB11670000C6C6 /* ___FILEBASENAME___Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Controller.swift"; sourceTree = "<group>"; };
-		BA231B4123FB11670000C6C6 /* ___FILEBASENAME___Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "___FILEBASENAME___Controller.xib"; sourceTree = "<group>"; };
-		BA231B4223FB11670000C6C6 /* ___FILEBASENAME___Creator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Creator.swift"; sourceTree = "<group>"; };
-		BA231B4323FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
-		BA231B4423FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
-		BA231B4523FB11670000C6C6 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
-		BA231B4623FB11670000C6C6 /* ___FILEBASENAME___Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Worker.swift"; sourceTree = "<group>"; };
-		BA231B4823FB11670000C6C6 /* ___FILEBASENAME___Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Controller.swift"; sourceTree = "<group>"; };
-		BA231B4923FB11670000C6C6 /* ___FILEBASENAME___Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "___FILEBASENAME___Controller.xib"; sourceTree = "<group>"; };
-		BA231B4A23FB11670000C6C6 /* ___FILEBASENAME___Creator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Creator.swift"; sourceTree = "<group>"; };
-		BA231B4B23FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
-		BA231B4C23FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
-		BA231B4D23FB11670000C6C6 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
-		BA231B4E23FB11670000C6C6 /* ___FILEBASENAME___Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Worker.swift"; sourceTree = "<group>"; };
-		BA231B5023FB11670000C6C6 /* ___PROJECTNAME___Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___PROJECTNAME___Networking.swift"; sourceTree = "<group>"; };
-		BA231B5123FB11670000C6C6 /* AlertPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentable.swift; sourceTree = "<group>"; };
-		BA231B5223FB11670000C6C6 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		BA231B5323FB11670000C6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA231B5423FB11670000C6C6 /* BaseNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetworking.swift; sourceTree = "<group>"; };
-		BA231B5523FB11670000C6C6 /* Error+UserFriendlyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+UserFriendlyMessage.swift"; sourceTree = "<group>"; };
-		BA231B5623FB11670000C6C6 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		BA231B5723FB11670000C6C6 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
-		BA231B5823FB11670000C6C6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		BA231B5923FB11670000C6C6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		BA231B5A23FB11670000C6C6 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		BA231B5B23FB11670000C6C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA231B5C23FB11670000C6C6 /* SpinnerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerController.swift; sourceTree = "<group>"; };
-		BA231B5D23FB11670000C6C6 /* SpinnerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpinnerController.xib; sourceTree = "<group>"; };
-		BA231B5E23FB11670000C6C6 /* SpinnerPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerPresentable.swift; sourceTree = "<group>"; };
-		BA231B5F23FB11670000C6C6 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		BA231B6023FB11670000C6C6 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		BA231B6123FB11670000C6C6 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		BA231B6223FB11670000C6C6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
-		BA231B6423FB11670000C6C6 /* ___FILEBASENAME___InteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___InteractorTests.swift"; sourceTree = "<group>"; };
-		BA231B6523FB11670000C6C6 /* ___FILEBASENAME___PresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___PresenterTests.swift"; sourceTree = "<group>"; };
-		BA231B6623FB11670000C6C6 /* ___FILEBASENAME___RouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterTests.swift"; sourceTree = "<group>"; };
-		BA231B6723FB11670000C6C6 /* ___FILEBASENAME___WorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___WorkerTests.swift"; sourceTree = "<group>"; };
-		BA231B6823FB11670000C6C6 /* Fake___FILEBASENAME___Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fake___FILEBASENAME___Controller.swift"; sourceTree = "<group>"; };
-		BA231B6923FB11670000C6C6 /* Fake___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fake___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
-		BA231B6A23FB11670000C6C6 /* Fake___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fake___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
-		BA231B6B23FB11670000C6C6 /* Fake___FILEBASENAME___Worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fake___FILEBASENAME___Worker.swift"; sourceTree = "<group>"; };
-		BA231B6C23FB11670000C6C6 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		BA231B6D23FB11670000C6C6 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		BA231B6E23FB11670000C6C6 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		BA231B7023FB11670000C6C6 /* FakeMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMainController.swift; sourceTree = "<group>"; };
-		BA231B7123FB11670000C6C6 /* MainPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
-		BA231B7223FB11670000C6C6 /* Mock+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mock+Model.swift"; sourceTree = "<group>"; };
-		BA231B7323FB11670000C6C6 /* Mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
-		BA231B7423FB11670000C6C6 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
-		BA231B7523FB11670000C6C6 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
-		BA231B7623FB11670000C6C6 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
-		BA231B7723FB11670000C6C6 /* UnitTestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTestError.swift; sourceTree = "<group>"; };
 		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
 		BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenter.swift; sourceTree = "<group>"; };
 		BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorker.swift; sourceTree = "<group>"; };
@@ -271,124 +161,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		BA231B3923FB114A0000C6C6 /* Templates */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B3A23FB11670000C6C6 /* Clean Swift */,
-			);
-			path = Templates;
-			sourceTree = "<group>";
-		};
-		BA231B3A23FB11670000C6C6 /* Clean Swift */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B3B23FB11670000C6C6 /* Scene.xctemplate */,
-				BA231B4F23FB11670000C6C6 /* SceneSupport.xctemplate */,
-				BA231B6323FB11670000C6C6 /* UnitTestsXC.xctemplate */,
-				BA231B6F23FB11670000C6C6 /* UnitTestsXCSupport.xctemplate */,
-			);
-			path = "Clean Swift";
-			sourceTree = "<group>";
-		};
-		BA231B3B23FB11670000C6C6 /* Scene.xctemplate */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B3C23FB11670000C6C6 /* TemplateIcon.png */,
-				BA231B3D23FB11670000C6C6 /* TemplateIcon@2x.png */,
-				BA231B3E23FB11670000C6C6 /* TemplateInfo.plist */,
-				BA231B3F23FB11670000C6C6 /* UITableViewControllerXIB */,
-				BA231B4723FB11670000C6C6 /* UIViewControllerXIB */,
-			);
-			path = Scene.xctemplate;
-			sourceTree = "<group>";
-		};
-		BA231B3F23FB11670000C6C6 /* UITableViewControllerXIB */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B4023FB11670000C6C6 /* ___FILEBASENAME___Controller.swift */,
-				BA231B4123FB11670000C6C6 /* ___FILEBASENAME___Controller.xib */,
-				BA231B4223FB11670000C6C6 /* ___FILEBASENAME___Creator.swift */,
-				BA231B4323FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift */,
-				BA231B4423FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift */,
-				BA231B4523FB11670000C6C6 /* ___FILEBASENAME___Router.swift */,
-				BA231B4623FB11670000C6C6 /* ___FILEBASENAME___Worker.swift */,
-			);
-			path = UITableViewControllerXIB;
-			sourceTree = "<group>";
-		};
-		BA231B4723FB11670000C6C6 /* UIViewControllerXIB */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B4823FB11670000C6C6 /* ___FILEBASENAME___Controller.swift */,
-				BA231B4923FB11670000C6C6 /* ___FILEBASENAME___Controller.xib */,
-				BA231B4A23FB11670000C6C6 /* ___FILEBASENAME___Creator.swift */,
-				BA231B4B23FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift */,
-				BA231B4C23FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift */,
-				BA231B4D23FB11670000C6C6 /* ___FILEBASENAME___Router.swift */,
-				BA231B4E23FB11670000C6C6 /* ___FILEBASENAME___Worker.swift */,
-			);
-			path = UIViewControllerXIB;
-			sourceTree = "<group>";
-		};
-		BA231B4F23FB11670000C6C6 /* SceneSupport.xctemplate */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B5023FB11670000C6C6 /* ___PROJECTNAME___Networking.swift */,
-				BA231B5123FB11670000C6C6 /* AlertPresentable.swift */,
-				BA231B5223FB11670000C6C6 /* APIClient.swift */,
-				BA231B5323FB11670000C6C6 /* AppDelegate.swift */,
-				BA231B5423FB11670000C6C6 /* BaseNetworking.swift */,
-				BA231B5523FB11670000C6C6 /* Error+UserFriendlyMessage.swift */,
-				BA231B5623FB11670000C6C6 /* MainNavigationController.swift */,
-				BA231B5723FB11670000C6C6 /* MainPresenter.swift */,
-				BA231B5823FB11670000C6C6 /* MainViewController.swift */,
-				BA231B5923FB11670000C6C6 /* Model.swift */,
-				BA231B5A23FB11670000C6C6 /* Request.swift */,
-				BA231B5B23FB11670000C6C6 /* SceneDelegate.swift */,
-				BA231B5C23FB11670000C6C6 /* SpinnerController.swift */,
-				BA231B5D23FB11670000C6C6 /* SpinnerController.xib */,
-				BA231B5E23FB11670000C6C6 /* SpinnerPresentable.swift */,
-				BA231B5F23FB11670000C6C6 /* TemplateIcon.png */,
-				BA231B6023FB11670000C6C6 /* TemplateIcon@2x.png */,
-				BA231B6123FB11670000C6C6 /* TemplateInfo.plist */,
-				BA231B6223FB11670000C6C6 /* UIViewController+NavigationController.swift */,
-			);
-			path = SceneSupport.xctemplate;
-			sourceTree = "<group>";
-		};
-		BA231B6323FB11670000C6C6 /* UnitTestsXC.xctemplate */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B6423FB11670000C6C6 /* ___FILEBASENAME___InteractorTests.swift */,
-				BA231B6523FB11670000C6C6 /* ___FILEBASENAME___PresenterTests.swift */,
-				BA231B6623FB11670000C6C6 /* ___FILEBASENAME___RouterTests.swift */,
-				BA231B6723FB11670000C6C6 /* ___FILEBASENAME___WorkerTests.swift */,
-				BA231B6823FB11670000C6C6 /* Fake___FILEBASENAME___Controller.swift */,
-				BA231B6923FB11670000C6C6 /* Fake___FILEBASENAME___Presenter.swift */,
-				BA231B6A23FB11670000C6C6 /* Fake___FILEBASENAME___Router.swift */,
-				BA231B6B23FB11670000C6C6 /* Fake___FILEBASENAME___Worker.swift */,
-				BA231B6C23FB11670000C6C6 /* TemplateIcon.png */,
-				BA231B6D23FB11670000C6C6 /* TemplateIcon@2x.png */,
-				BA231B6E23FB11670000C6C6 /* TemplateInfo.plist */,
-			);
-			path = UnitTestsXC.xctemplate;
-			sourceTree = "<group>";
-		};
-		BA231B6F23FB11670000C6C6 /* UnitTestsXCSupport.xctemplate */ = {
-			isa = PBXGroup;
-			children = (
-				BA231B7023FB11670000C6C6 /* FakeMainController.swift */,
-				BA231B7123FB11670000C6C6 /* MainPresenterTests.swift */,
-				BA231B7223FB11670000C6C6 /* Mock+Model.swift */,
-				BA231B7323FB11670000C6C6 /* Mock.swift */,
-				BA231B7423FB11670000C6C6 /* TemplateIcon.png */,
-				BA231B7523FB11670000C6C6 /* TemplateIcon@2x.png */,
-				BA231B7623FB11670000C6C6 /* TemplateInfo.plist */,
-				BA231B7723FB11670000C6C6 /* UnitTestError.swift */,
-			);
-			path = UnitTestsXCSupport.xctemplate;
-			sourceTree = "<group>";
-		};
 		BA25AD9123CF65B500C1A554 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,7 +236,6 @@
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
-				BA231B3923FB114A0000C6C6 /* Templates */,
 				BA2BF8F123EB5684001508F9 /* README.md */,
 				BA2BF89823EB387B001508F9 /* Demo */,
 				BA9DB86223CE6DEA004F86A0 /* ZeroWasteFriendly */,
@@ -671,31 +442,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA231BAD23FB11670000C6C6 /* TemplateInfo.plist in Resources */,
-				BA231BAB23FB11670000C6C6 /* TemplateIcon.png in Resources */,
-				BA231B7923FB11670000C6C6 /* TemplateIcon@2x.png in Resources */,
-				BA231BAC23FB11670000C6C6 /* TemplateIcon@2x.png in Resources */,
-				BA231B7823FB11670000C6C6 /* TemplateIcon.png in Resources */,
 				BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */,
-				BA231BA423FB11670000C6C6 /* TemplateIcon.png in Resources */,
 				BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */,
-				BA231B9A23FB11670000C6C6 /* TemplateInfo.plist in Resources */,
 				BA2BF89B23EB387B001508F9 /* logo.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
-				BA231B8323FB11670000C6C6 /* ___FILEBASENAME___Controller.xib in Resources */,
-				BA231BA623FB11670000C6C6 /* TemplateInfo.plist in Resources */,
-				BA231B9623FB11670000C6C6 /* SpinnerController.xib in Resources */,
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
 				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
-				BA231B7C23FB11670000C6C6 /* ___FILEBASENAME___Controller.xib in Resources */,
 				BA5AC78623EF55A0003B180A /* SpinnerController.xib in Resources */,
-				BA231B9823FB11670000C6C6 /* TemplateIcon.png in Resources */,
 				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
 				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
-				BA231BA523FB11670000C6C6 /* TemplateIcon@2x.png in Resources */,
 				BA2BF89C23EB387B001508F9 /* mockup.png in Resources */,
-				BA231B9923FB11670000C6C6 /* TemplateIcon@2x.png in Resources */,
-				BA231B7A23FB11670000C6C6 /* TemplateInfo.plist in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -794,69 +550,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA231B9223FB11670000C6C6 /* Model.swift in Sources */,
-				BA231B8723FB11670000C6C6 /* ___FILEBASENAME___Router.swift in Sources */,
-				BA231B7D23FB11670000C6C6 /* ___FILEBASENAME___Creator.swift in Sources */,
-				BA231B9023FB11670000C6C6 /* MainPresenter.swift in Sources */,
-				BA231BA923FB11670000C6C6 /* Mock+Model.swift in Sources */,
-				BA231BA223FB11670000C6C6 /* Fake___FILEBASENAME___Router.swift in Sources */,
 				BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */,
 				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
 				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
-				BA231B8923FB11670000C6C6 /* ___PROJECTNAME___Networking.swift in Sources */,
-				BA231B8423FB11670000C6C6 /* ___FILEBASENAME___Creator.swift in Sources */,
-				BA231B9D23FB11670000C6C6 /* ___FILEBASENAME___PresenterTests.swift in Sources */,
-				BA231B8523FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift in Sources */,
-				BA231BA023FB11670000C6C6 /* Fake___FILEBASENAME___Controller.swift in Sources */,
-				BA231B8623FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift in Sources */,
-				BA231B8E23FB11670000C6C6 /* Error+UserFriendlyMessage.swift in Sources */,
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
 				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
-				BA231BA323FB11670000C6C6 /* Fake___FILEBASENAME___Worker.swift in Sources */,
 				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
-				BA231B9C23FB11670000C6C6 /* ___FILEBASENAME___InteractorTests.swift in Sources */,
-				BA231BA123FB11670000C6C6 /* Fake___FILEBASENAME___Presenter.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
-				BA231B8A23FB11670000C6C6 /* AlertPresentable.swift in Sources */,
-				BA231B8F23FB11670000C6C6 /* MainNavigationController.swift in Sources */,
-				BA231BA823FB11670000C6C6 /* MainPresenterTests.swift in Sources */,
-				BA231B9F23FB11670000C6C6 /* ___FILEBASENAME___WorkerTests.swift in Sources */,
 				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
-				BA231BA723FB11670000C6C6 /* FakeMainController.swift in Sources */,
-				BA231B9B23FB11670000C6C6 /* UIViewController+NavigationController.swift in Sources */,
-				BA231B8D23FB11670000C6C6 /* BaseNetworking.swift in Sources */,
-				BA231B7B23FB11670000C6C6 /* ___FILEBASENAME___Controller.swift in Sources */,
-				BA231B9123FB11670000C6C6 /* MainViewController.swift in Sources */,
 				BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */,
 				BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */,
-				BA231B8C23FB11670000C6C6 /* AppDelegate.swift in Sources */,
 				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
-				BA231B7E23FB11670000C6C6 /* ___FILEBASENAME___Interactor.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
-				BA231B9323FB11670000C6C6 /* Request.swift in Sources */,
 				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
-				BA231B9E23FB11670000C6C6 /* ___FILEBASENAME___RouterTests.swift in Sources */,
-				BA231BAA23FB11670000C6C6 /* Mock.swift in Sources */,
-				BA231B8B23FB11670000C6C6 /* APIClient.swift in Sources */,
 				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
 				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
 				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
-				BA231B9523FB11670000C6C6 /* SpinnerController.swift in Sources */,
-				BA231B8123FB11670000C6C6 /* ___FILEBASENAME___Worker.swift in Sources */,
-				BA231B7F23FB11670000C6C6 /* ___FILEBASENAME___Presenter.swift in Sources */,
-				BA231B9423FB11670000C6C6 /* SceneDelegate.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
-				BA231B8823FB11670000C6C6 /* ___FILEBASENAME___Worker.swift in Sources */,
-				BA231B8023FB11670000C6C6 /* ___FILEBASENAME___Router.swift in Sources */,
 				BA5AC78823EF55F7003B180A /* AlertPresentable.swift in Sources */,
 				BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */,
 				BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */,
-				BA231BAE23FB11670000C6C6 /* UnitTestError.swift in Sources */,
-				BA231B8223FB11670000C6C6 /* ___FILEBASENAME___Controller.swift in Sources */,
-				BA231B9723FB11670000C6C6 /* SpinnerPresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
