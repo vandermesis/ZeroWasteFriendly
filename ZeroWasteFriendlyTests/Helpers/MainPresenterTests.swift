@@ -28,14 +28,12 @@ final class MainPresenterTests: XCTestCase {
         super.tearDown()
     }
 
-    //FIXME: Why controller is nil here?
     func testPresenterIsPresentingSpinner() {
-
         // Given
 
         // When
         presenter.toggleSpinner(true)
         // Then
-        //XCTAssertEqual(controller.toogleSpinnerCalled, true, "calling controller to display spinner state is true")
+        XCTAssertEqual(controller.toogleSpinnerCalled, true, "calling controller to display spinner state is true")
     }
 }

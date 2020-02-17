@@ -10,7 +10,7 @@ import UIKit
 
 @testable import ZeroWasteFriendly
 
-final class FakeMainController: MainViewController {
+final class FakeMainController: UIViewController, SpinnerPresentable, AlertPresentable {
 
     var toogleSpinnerCalled: Bool?
     var toogleSpinnerStateCalled: Bool?
