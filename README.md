@@ -16,10 +16,21 @@
 My second mature project.
 
 The app has three main goals: 
+
 - educate about Zero Waste way of life, 
 - through gamification model motivate user to be more friendly for our earth :),
 - eco-map will show nearby places which support zero waste strategies.
 
+
+- used Clean Swift software architecture 
+
+- coding best practices and SOLID principles
+
+- systematic code review
+
+- all stages approved by mentor
+
+- all critical parts of application covered by unit tests with use of Bitrise CI
 
 
 Prototype stage:
@@ -28,21 +39,34 @@ Prototype stage:
   
 
 Coding stage:
-- [x] Clean Swift software architecture 
 
-- [x] coding best practices and SOLID principles
+- [x] initial setup of project, add .gitignore
+- [x] setup bundler, cocoapods
+- [x] add SwiftLint, R.swift, lottie, Quick, Nimble pods
+- [x] prepare predefined template files for project
+- [ ] add Ecomap scene
+- [ ] add ActivityTiles scene
+- [ ] add AcitivityInfo scene
+- [ ] add ActivityStats scene
+- [ ] add Library scene
+- [ ] add UserAccount scene
+- [ ] 
 
-- [x] systematic code review
+## What new I've learned
 
-- [ ] all stages approved by mentor
+- [x] UITabBar
 
-- [ ] all critical parts of application covered by unit tests with use of Bitrise CI
+- [x] Localization
+
+- [x] Custom fonts, colors, icons
+
+- [x] Xcode File Templates
+
+- [x] XCTest
 
 - [ ] CoreData and CloudKit
 
 - [ ] MapKit
-
-- [x] Tabbar
 
 - [ ] UI Animations
 
@@ -53,14 +77,6 @@ Coding stage:
 - [ ] Push notifications
 
   
-
-## What new I've learned
-
-- UITabBar
-- Localization
-- Custom fonts, colors, icons
-- Xcode File Templates
-- XCTest
 
 
 ## What is needed
@@ -92,7 +108,8 @@ Coding stage:
 ## Clean Swift Project Templates
 
 If you want to try creating your own project using Clean Swift guidelines, there is a set of custom templates added in Templates/CleanSwift folder.
-Just copy it to your  /Users/<username>/Library/Developer/Xcode/Templates/File\ Templates folder and use it as you like.
+
+Just copy it to your  `/Users/<username>/Library/Developer/Xcode/Templates/File\ Templates` folder and use it as you like.
 
 - Scene - creates set of 7 files to use for your scene - use it for every new scene,
 - SceneSupport - creates set of 16 files with predefined functionalities like presenting spinner, presenting alert, networking files, etc - use it once per project,
