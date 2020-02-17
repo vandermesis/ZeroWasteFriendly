@@ -30,20 +30,8 @@ private extension SceneDelegate {
 
         let activityTilesNavController = ActivityTilesCreator().getController().embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
                                                                                                             image: R.image.tabBarActSun())
-        let activityStatsNavController = ActivityStatsCreator().getController().embedInNavigationController(title: R.string.localizable.tabBarItemStats(),
-                                                                                                            image: R.image.tabBarStatsFlower())
-        let ecoMapNavController = EcoMapCreator().getController().embedInNavigationController(title: R.string.localizable.tabBarItemEcoMap(),
-                                                                                              image: R.image.tabBarEarthMap())
-        let libraryListNavController = LibraryListCreator().getController().embedInNavigationController(title: R.string.localizable.tabBarItemLibrary(),
-                                                                                                        image: R.image.tabBarLibraryBook())
-        let userAccountNavController = UserAccountCreator().getController().embedInNavigationController(title: R.string.localizable.tabBarItemAccount(),
-                                                                                                        image: R.image.tabBarAccountPersons())
 
-        tabBarController.viewControllers = [activityTilesNavController,
-                                            activityStatsNavController,
-                                            ecoMapNavController,
-                                            libraryListNavController,
-                                            userAccountNavController]
+        tabBarController.viewControllers = [activityTilesNavController]
         return tabBarController
     }
 

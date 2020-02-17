@@ -20,7 +20,7 @@ final class ActivityTilesRouterImpl {
 extension ActivityTilesRouterImpl: ActivityTilesRouter {
 
     func navigateTo() {
-        let activityInfoController = ActivityInfoCreator().getController()
+        let activityInfoController = ActivityTilesCreator().getController()
         controller?.navigationController?.pushViewController(activityInfoController, animated: true)
     }
 }
