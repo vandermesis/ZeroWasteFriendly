@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import CoreData
 
 struct ___VARIABLE_sceneName___Creator {
 
-    func getController() -> ___VARIABLE_sceneName___Controller {
+    func getController(context: NSManagedObjectContext? = nil) -> ___VARIABLE_sceneName___Controller {
 
         let networking = ___PROJECTNAME___NetworkingImpl()
         let worker = ___VARIABLE_sceneName___WorkerImpl(networking: networking)

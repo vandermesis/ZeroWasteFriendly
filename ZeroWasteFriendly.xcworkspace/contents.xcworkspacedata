@@ -92,6 +92,9 @@
                location = "group:BaseNetworking.swift">
             </FileRef>
             <FileRef
+               location = "group:../../../ZeroWasteFriendly/Helpers/CoreDataStack.swift">
+            </FileRef>
+            <FileRef
                location = "group:Error+UserFriendlyMessage.swift">
             </FileRef>
             <FileRef

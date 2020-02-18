@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import CoreData
 
 struct ActivityTilesCreator {
 
-    func getController() -> ActivityTilesController {
+    func getController(context: NSManagedObjectContext? = nil) -> ActivityTilesController {
 
         let networking = ZeroWasteFriendlyNetworkingImpl()
         let worker = ActivityTilesWorkerImpl(networking: networking)
