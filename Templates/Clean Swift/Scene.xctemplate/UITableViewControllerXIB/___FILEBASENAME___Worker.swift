@@ -26,15 +26,14 @@ final class ___VARIABLE_sceneName___WorkerImpl {
 extension ___VARIABLE_sceneName___WorkerImpl: ___VARIABLE_sceneName___Worker {
 
     func fetch___VARIABLE_sceneName___(completion: Fetch___VARIABLE_sceneName___Completion?) {
-//        networking.fetchModel { [weak self] result in
-//            guard let self = self else { return }
-//            switch result {
-//            case .success(let apiResponse):
-//                let transformedModel = apiResponse.map { Model(id: $0.someData)}
-//                completion?(.success(transformedModel.sortByName()))
-//            case .failure(let error):
-//                completion?(.failure(error))
-//            }
-//        }
+        networking.fetchData { result in
+            switch result {
+            case .success(let apiResponse):
+                let transformedModel = apiResponse.data.map { Model(id: $0.id, name: $0.name)}
+                completion?(.success(transformedModel))
+            case .failure(let error):
+                completion?(.failure(error))
+            }
+        }
     }
 }

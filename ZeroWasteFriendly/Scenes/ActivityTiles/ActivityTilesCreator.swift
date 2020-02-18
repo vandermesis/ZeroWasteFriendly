@@ -12,7 +12,7 @@ struct ActivityTilesCreator {
 
     func getController() -> ActivityTilesController {
 
-        let networking = ZeroWasteFriendlyNetworking()
+        let networking = ZeroWasteFriendlyNetworkingImpl()
         let worker = ActivityTilesWorkerImpl(networking: networking)
         let router = ActivityTilesRouterImpl()
         let presenter = ActivityTilesPresenterImpl<ActivityTilesController>()

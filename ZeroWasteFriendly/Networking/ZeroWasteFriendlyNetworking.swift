@@ -8,4 +8,15 @@
 
 import Foundation
 
-final class ZeroWasteFriendlyNetworking {}
+typealias FetchResponseCompletion = (Result<APIResponse, Error>) -> Void
+
+protocol ZeroWasteFriendlyNetworking {
+    func fetchData(completion: FetchResponseCompletion?)
+}
+
+final class ZeroWasteFriendlyNetworkingImpl: BaseNetworking, ZeroWasteFriendlyNetworking {
+
+    func fetchData(completion: FetchResponseCompletion?) {
+        completion?(.success(APIResponse(data: [APIResponse.Records(id: "id", name: "name")])))
+    }
+}

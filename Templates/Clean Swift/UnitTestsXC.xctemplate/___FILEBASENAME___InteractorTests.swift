@@ -46,7 +46,7 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
         // Given
         interactor.get___VARIABLE_sceneName___()
         // When
-        worker.fetch___VARIABLE_sceneName___Completion?(.success(Mock.model))
+        worker.fetch___VARIABLE_sceneName___Completion?(.success([Mock.model]))
         // Then
         XCTAssertEqual(presenter.present___VARIABLE_sceneName___Called, true, "calling presenter to present data is true")
     }

@@ -30,6 +30,7 @@
 		BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */; };
 		BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */; };
 		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
+		BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */; };
 		BA5AC77D23EF1001003B180A /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC77C23EF1001003B180A /* Mock.swift */; };
 		BA5AC78023EF1029003B180A /* Mock+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC77F23EF1029003B180A /* Mock+Model.swift */; };
 		BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78123EF557C003B180A /* SpinnerPresentable.swift */; };
@@ -92,6 +93,7 @@
 		BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorkerTests.swift; sourceTree = "<group>"; };
 		BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouterTests.swift; sourceTree = "<group>"; };
 		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
+		BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		BA5AC77C23EF1001003B180A /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		BA5AC77F23EF1029003B180A /* Mock+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Model.swift"; sourceTree = "<group>"; };
 		BA5AC78123EF557C003B180A /* SpinnerPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerPresentable.swift; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				BAC2D2E923EE0E3A0014A91F /* Model.swift */,
+				BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -566,6 +569,7 @@
 				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
 				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
+				BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */,
 				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
 				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
 				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,

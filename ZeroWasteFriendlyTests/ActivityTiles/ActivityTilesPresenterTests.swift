@@ -32,7 +32,7 @@ final class ActivityTilesPresenterTests: XCTestCase {
         // Given
 
         // When
-        presenter.presentActivityTiles()
+        presenter.presentActivityTiles(model: [Mock.model])
         // Then
         XCTAssertEqual(controller.displayActivityTilesCalled, true, "calling controller to display data is true")
     }

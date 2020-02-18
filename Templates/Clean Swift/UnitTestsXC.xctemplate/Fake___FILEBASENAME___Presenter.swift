@@ -20,6 +20,7 @@ final class Fake___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___Prese
     var presentErrorCalled: Bool?
     var presentErrorErrorCalled: Error?
     var present___VARIABLE_sceneName___Called: Bool?
+    var present___VARIABLE_sceneName___ModelCalled: [Model]?
 
     func toggleSpinner(_ state: Bool) {
         toogleSpinnerCalled = true
@@ -37,7 +38,8 @@ final class Fake___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___Prese
         presentErrorErrorCalled = error
     }
 
-    func present___VARIABLE_sceneName___() {
+    func present___VARIABLE_sceneName___(model: [Model]) {
         present___VARIABLE_sceneName___Called = true
+        present___VARIABLE_sceneName___ModelCalled = model
     }
 }

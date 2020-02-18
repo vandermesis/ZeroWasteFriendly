@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias FetchActivityTilesCompletion = (Result<Model, Error>) -> Void
+typealias FetchActivityTilesCompletion = (Result<[Model], Error>) -> Void
 
 protocol ActivityTilesWorker {
     func fetchActivityTiles(completion: FetchActivityTilesCompletion?)
@@ -27,18 +27,14 @@ final class ActivityTilesWorkerImpl {
 extension ActivityTilesWorkerImpl: ActivityTilesWorker {
 
     func fetchActivityTiles(completion: FetchActivityTilesCompletion?) {
-//        networking.fetchActivityTiles { [weak self] result in
-//            guard let self = self else { return }
-//            switch result {
-//            case .success(let apiResponse):
-//                let transformedModel = apiResponse.map { Model(id: $0.recordid,
-//                                                               name: $0.fields.accentcity,
-//                                                               latitude: $0.fields.latitude,
-//                                                               longitude: $0.fields.longitude)}
-//                completion?(.success(transformedModel.sortByName()))
-//            case .failure(let error):
-//                completion?(.failure(error))
-//            }
-//        }
+        networking.fetchData { result in
+            switch result {
+            case .success(let apiResponse):
+                let transformedModel = apiResponse.data.map { Model(id: $0.id, name: $0.name)}
+                completion?(.success(transformedModel))
+            case .failure(let error):
+                completion?(.failure(error))
+            }
+        }
     }
 }

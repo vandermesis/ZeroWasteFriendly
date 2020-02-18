@@ -9,14 +9,14 @@
 import UIKit
 
 protocol ActivityTilesPresenter: SpinnerPresenter, AlertPresenter {
-    func presentActivityTiles()
+    func presentActivityTiles(model: [Model])
 }
 
 final class ActivityTilesPresenterImpl<T: ActivityTilesPresentable>: MainPresenter<T> {}
 
 extension ActivityTilesPresenterImpl: ActivityTilesPresenter {
 
-    func presentActivityTiles() {
+    func presentActivityTiles(model: [Model]) {
         controller?.displayActivityTiles()
     }
 }

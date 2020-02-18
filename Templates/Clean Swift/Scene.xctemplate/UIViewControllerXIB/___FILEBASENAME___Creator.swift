@@ -12,7 +12,7 @@ struct ___VARIABLE_sceneName___Creator {
 
     func getController() -> ___VARIABLE_sceneName___Controller {
 
-        let networking = ___PROJECTNAME___Networking()
+        let networking = ___PROJECTNAME___NetworkingImpl()
         let worker = ___VARIABLE_sceneName___WorkerImpl(networking: networking)
         let router = ___VARIABLE_sceneName___RouterImpl()
         let presenter = ___VARIABLE_sceneName___PresenterImpl<___VARIABLE_sceneName___Controller>()

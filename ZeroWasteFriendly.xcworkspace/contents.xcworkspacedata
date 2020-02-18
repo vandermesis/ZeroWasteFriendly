@@ -83,6 +83,9 @@
                location = "group:APIClient.swift">
             </FileRef>
             <FileRef
+               location = "group:APIResponse.swift">
+            </FileRef>
+            <FileRef
                location = "group:AppDelegate.swift">
             </FileRef>
             <FileRef

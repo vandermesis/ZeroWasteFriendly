@@ -20,6 +20,7 @@ final class FakeActivityTilesPresenter: ActivityTilesPresenter {
     var presentErrorCalled: Bool?
     var presentErrorErrorCalled: Error?
     var presentActivityTilesCalled: Bool?
+    var presentActivityTilesModelCalled: [Model]?
 
     func toggleSpinner(_ state: Bool) {
         toogleSpinnerCalled = true
@@ -37,7 +38,8 @@ final class FakeActivityTilesPresenter: ActivityTilesPresenter {
         presentErrorErrorCalled = error
     }
 
-    func presentActivityTiles() {
+    func presentActivityTiles(model: [Model]) {
         presentActivityTilesCalled = true
+        presentActivityTilesModelCalled = model
     }
 }

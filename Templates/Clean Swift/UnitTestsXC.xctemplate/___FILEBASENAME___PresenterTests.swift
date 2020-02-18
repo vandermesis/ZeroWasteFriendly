@@ -32,7 +32,7 @@ final class ___VARIABLE_sceneName___PresenterTests: XCTestCase {
         // Given
 
         // When
-        presenter.present___VARIABLE_sceneName___()
+        presenter.present___VARIABLE_sceneName___(model: [Mock.model])
         // Then
         XCTAssertEqual(controller.display___VARIABLE_sceneName___Called, true, "calling controller to display data is true")
     }

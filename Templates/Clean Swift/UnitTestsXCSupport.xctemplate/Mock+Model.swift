@@ -10,5 +10,5 @@
 
 extension Mock {
 
-    static let model = Model()
+    static let model = Model(id: "id", name: "name")
 }

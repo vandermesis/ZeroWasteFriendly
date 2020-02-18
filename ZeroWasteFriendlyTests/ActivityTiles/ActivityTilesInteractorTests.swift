@@ -46,7 +46,7 @@ final class ActivityTilesInteractorTests: XCTestCase {
         // Given
         interactor.getActivityTiles()
         // When
-        worker.fetchActivityTilesCompletion?(.success(Mock.model))
+        worker.fetchActivityTilesCompletion?(.success([Mock.model]))
         // Then
         XCTAssertEqual(presenter.presentActivityTilesCalled, true, "calling presenter to present data is true")
     }

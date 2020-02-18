@@ -35,8 +35,8 @@ extension ActivityTilesInteractorImpl: ActivityTilesInteractor {
             guard let self = self else { return }
             self.presenter.toggleSpinner(false)
             switch result {
-            case .success:
-                self.presenter.presentActivityTiles()
+            case .success(let model):
+                self.presenter.presentActivityTiles(model: model)
             case .failure(let error):
                 self.presenter.presentAlert(title: R.string.localizable.alertActionTitleError(),
                                             message: error.localizedDescription)

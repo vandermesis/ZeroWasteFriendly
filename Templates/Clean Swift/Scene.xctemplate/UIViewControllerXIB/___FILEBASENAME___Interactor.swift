@@ -35,10 +35,10 @@ extension ___VARIABLE_sceneName___InteractorImpl: ___VARIABLE_sceneName___Intera
             guard let self = self else { return }
             self.presenter.toggleSpinner(false)
             switch result {
-            case .success:
-                self.presenter.present___VARIABLE_sceneName___()
+            case .success(let model):
+                self.presenter.present___VARIABLE_sceneName___(model: model)
             case .failure(let error):
-                self.presenter.presentAlert(title: "Alert",
+                self.presenter.presentAlert(title: R.string.localizable.alertActionTitleError(),
                                             message: error.localizedDescription)
             }
         }
