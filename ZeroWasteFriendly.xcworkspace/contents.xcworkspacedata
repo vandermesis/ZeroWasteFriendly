@@ -1,6 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Templates"
+      name = "Templates">
+      <Group
+         location = "group:Clean Swift"
+         name = "Clean Swift">
+         <Group
+            location = "group:Scene.xctemplate"
+            name = "Scene.xctemplate">
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+            <Group
+               location = "group:UITableViewControllerXIB"
+               name = "UITableViewControllerXIB">
+               <FileRef
+                  location = "group:___FILEBASENAME___Controller.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Controller.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Creator.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Interactor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Presenter.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Router.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Worker.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:UIViewControllerXIB"
+               name = "UIViewControllerXIB">
+               <FileRef
+                  location = "group:___FILEBASENAME___Controller.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Controller.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Creator.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Interactor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Presenter.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Router.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:___FILEBASENAME___Worker.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:SceneSupport.xctemplate"
+            name = "SceneSupport.xctemplate">
+            <FileRef
+               location = "group:___PROJECTNAME___Networking.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AlertPresentable.swift">
+            </FileRef>
+            <FileRef
+               location = "group:APIClient.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BaseNetworking.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Error+UserFriendlyMessage.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MainNavigationController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MainPresenter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MainViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Model.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Request.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SceneDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpinnerController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpinnerController.xib">
+            </FileRef>
+            <FileRef
+               location = "group:SpinnerPresentable.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:UIViewController+NavigationController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:UnitTestsXC.xctemplate"
+            name = "UnitTestsXC.xctemplate">
+            <FileRef
+               location = "group:___FILEBASENAME___InteractorTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___PresenterTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___RouterTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___WorkerTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Fake___FILEBASENAME___Controller.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Fake___FILEBASENAME___Presenter.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Fake___FILEBASENAME___Router.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Fake___FILEBASENAME___Worker.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:UnitTestsXCSupport.xctemplate"
+            name = "UnitTestsXCSupport.xctemplate">
+            <FileRef
+               location = "group:FakeMainController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MainPresenterTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Mock+Model.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Mock.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateIcon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:TemplateInfo.plist">
+            </FileRef>
+            <FileRef
+               location = "group:UnitTestError.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "group:ZeroWasteFriendly.xcodeproj">
    </FileRef>
