@@ -1,9 +1,9 @@
 //
-//  SpinnerController.swift
-//  ZeroWasteFriendly
+//  ___FILENAME___
+//  ___PROJECTNAME___
 //
-//  Created by Marek Skrzelowski on 08/02/2020.
-//  Copyright © 2020 vandermesis. All rights reserved.
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  ___COPYRIGHT___
 //
 
 import Foundation
@@ -39,5 +39,5 @@ final class CoreDataStack {
 
 private extension String {
 
-    static let modelName = "ZeroWasteFriendly"
+    static let modelName = "___PROJECTNAMEASIDENTIFIER___"
 }

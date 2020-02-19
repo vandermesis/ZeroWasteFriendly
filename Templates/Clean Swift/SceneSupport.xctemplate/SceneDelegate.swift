@@ -12,8 +12,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-    lazy var coreDataStack = CoreDataStack(modelName: .modelName)
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let startingController = setupTabBarController()
@@ -21,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
-        coreDataStack.saveCurrentContext()
+        CoreDataStack.shared.saveCurrentContext()
     }
 }
 
@@ -29,7 +27,7 @@ private extension SceneDelegate {
 
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
-        let controller = Creator().getController(context: coreDataStack.managedContext)
+        let controller = Creator().getController(context: CoreDataStack.shared.managedContext)
         let navController = controller.embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
                                                                    image: R.image.tabBarActSun())
 

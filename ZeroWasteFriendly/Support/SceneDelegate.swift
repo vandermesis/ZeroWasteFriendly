@@ -12,8 +12,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-    lazy var coreDataStack = CoreDataStack(modelName: .modelName)
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let startingController = setupTabBarController()
@@ -21,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
-        coreDataStack.saveCurrentContext()
+        CoreDataStack.shared.saveCurrentContext()
     }
 }
 
@@ -30,7 +28,7 @@ private extension SceneDelegate {
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
 
-        let activityTilesController = ActivityTilesCreator().getController(context: coreDataStack.managedContext)
+        let activityTilesController = ActivityTilesCreator().getController(context: CoreDataStack.shared.managedContext)
         let activityTilesNavController = activityTilesController.embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
                                                                                              image: R.image.tabBarActSun())
 
@@ -44,9 +42,4 @@ private extension SceneDelegate {
         window?.rootViewController = controller
         window?.makeKeyAndVisible()
     }
-}
-
-private extension String {
-
-    static let modelName = "ZeroWasteFriendly"
 }
