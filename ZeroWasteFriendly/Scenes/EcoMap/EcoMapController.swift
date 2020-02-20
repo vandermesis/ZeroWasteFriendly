@@ -46,7 +46,7 @@ extension EcoMapController: EcoMapPresentable {
 private extension EcoMapController {
 
     private func setupNavigationBar() {
-//        title = R.string.localizable.EcoMapTitle()
+        title = R.string.localizable.ecoMapTitle()
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                             target: self,
                                                             action: #selector(addButtonPressed(_:)))

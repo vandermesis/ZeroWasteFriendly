@@ -31,8 +31,10 @@ private extension SceneDelegate {
         let activityTilesController = ActivityTilesCreator().getController(context: CoreDataStack.shared.managedContext)
         let activityTilesNavController = activityTilesController.embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
                                                                                              image: R.image.tabBarActSun())
+        let ecoMapController = EcoMapCreator().getController()
+        let ecoMapNavController = ecoMapController.embedInNavigationController(title: R.string.localizable.tabBarItemEcoMap(), image: R.image.tabBarEarthMap())
 
-        tabBarController.viewControllers = [activityTilesNavController]
+        tabBarController.viewControllers = [ecoMapNavController, activityTilesNavController]
         return tabBarController
     }
 
