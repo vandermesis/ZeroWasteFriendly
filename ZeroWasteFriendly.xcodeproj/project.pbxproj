@@ -65,6 +65,7 @@
 		BAAECD4B23FED2AD0062BED5 /* EcoMapWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD4323FED2AD0062BED5 /* EcoMapWorkerTests.swift */; };
 		BAAECD4C23FED2AD0062BED5 /* EcoMapRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD4423FED2AD0062BED5 /* EcoMapRouterTests.swift */; };
 		BAAECD4D23FED2AD0062BED5 /* EcoMapPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD4523FED2AD0062BED5 /* EcoMapPresenterTests.swift */; };
+		BAAECD5423FF29210062BED5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD5323FF29210062BED5 /* Constants.swift */; };
 		BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */; };
 		BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86B23F2E79A00FD210B /* Request.swift */; };
 		BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86D23F2EB8100FD210B /* APIClient.swift */; };
@@ -148,6 +149,7 @@
 		BAAECD4323FED2AD0062BED5 /* EcoMapWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorkerTests.swift; sourceTree = "<group>"; };
 		BAAECD4423FED2AD0062BED5 /* EcoMapRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouterTests.swift; sourceTree = "<group>"; };
 		BAAECD4523FED2AD0062BED5 /* EcoMapPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenterTests.swift; sourceTree = "<group>"; };
+		BAAECD5323FF29210062BED5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+UserFriendlyMessage.swift"; sourceTree = "<group>"; };
 		BAC1E86B23F2E79A00FD210B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		BAC1E86D23F2EB8100FD210B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 				BA5AC78323EF55A0003B180A /* SpinnerController.swift */,
 				BA5AC78423EF55A0003B180A /* SpinnerController.xib */,
 				BA43E2E823FC62AF0050F7AB /* CoreDataStack.swift */,
+				BAAECD5323FF29210062BED5 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -625,6 +628,7 @@
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
 				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
 				BA3E739923FED16500CCBA34 /* EcoMapController.swift in Sources */,
+				BAAECD5423FF29210062BED5 /* Constants.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
