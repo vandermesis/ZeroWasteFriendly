@@ -7,18 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54F4280DFDE24CC50DB15F21 /* Pods_ZeroWasteFriendlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */; };
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
-		BA4C6A3623D4D6BC006ED094 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA4C6A3223D4D6BC006ED094 /* README.md */; };
-		BA4C6A3723D4D6BC006ED094 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4C6A3423D4D6BC006ED094 /* logo.png */; };
-		BA4C6A3823D4D6BC006ED094 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4C6A3523D4D6BC006ED094 /* mockup.png */; };
+		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
+		BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */; };
+		BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */; };
+		BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */; };
+		BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88C23EB372C001508F9 /* ActivityTilesController.swift */; };
+		BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */; };
+		BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */; };
+		BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */; };
+		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
+		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
+		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
+		BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */; };
+		BA2BF8F223EB5684001508F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F123EB5684001508F9 /* README.md */; };
+		BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F823EB65AA001508F9 /* Localizable.strings */; };
+		BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */; };
+		BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */; };
+		BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */; };
+		BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */; };
+		BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */; };
+		BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */; };
+		BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */; };
+		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
+		BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */; };
+		BA43E2E923FC62AF0050F7AB /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E2E823FC62AF0050F7AB /* CoreDataStack.swift */; };
+		BA5AC77D23EF1001003B180A /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC77C23EF1001003B180A /* Mock.swift */; };
+		BA5AC78023EF1029003B180A /* Mock+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC77F23EF1029003B180A /* Mock+Model.swift */; };
+		BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78123EF557C003B180A /* SpinnerPresentable.swift */; };
+		BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78323EF55A0003B180A /* SpinnerController.swift */; };
+		BA5AC78623EF55A0003B180A /* SpinnerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5AC78423EF55A0003B180A /* SpinnerController.xib */; };
+		BA5AC78823EF55F7003B180A /* AlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78723EF55F7003B180A /* AlertPresentable.swift */; };
+		BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78923EF5659003B180A /* MainPresenter.swift */; };
+		BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */; };
+		BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041223ED799D00CF39B5 /* MainViewController.swift */; };
+		BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041423ED79E300CF39B5 /* MainNavigationController.swift */; };
+		BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */; };
+		BA68F6ED23F3260700EAE1EE /* FakeMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68F6EC23F3260700EAE1EE /* FakeMainController.swift */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
 		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
 		BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */; };
 		BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */; };
-		BA9DB87E23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */; };
 		BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA73F8123CF888E00B4FEC8 /* R.generated.swift */; };
+		BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */; };
+		BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86B23F2E79A00FD210B /* Request.swift */; };
+		BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86D23F2EB8100FD210B /* APIClient.swift */; };
+		BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */; };
+		BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2E923EE0E3A0014A91F /* Model.swift */; };
+		BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2EB23EE31160014A91F /* UnitTestError.swift */; };
+		BAD2B4E023FB39A400A4845B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD2B4DF23FB39A400A4845B /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,11 +70,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendlyTests.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA4C6A3223D4D6BC006ED094 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BA4C6A3423D4D6BC006ED094 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		BA4C6A3523D4D6BC006ED094 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
+		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
+		BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenter.swift; sourceTree = "<group>"; };
+		BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorker.swift; sourceTree = "<group>"; };
+		BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouter.swift; sourceTree = "<group>"; };
+		BA2BF88C23EB372C001508F9 /* ActivityTilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesController.swift; sourceTree = "<group>"; };
+		BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesInteractor.swift; sourceTree = "<group>"; };
+		BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesCreator.swift; sourceTree = "<group>"; };
+		BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTilesController.xib; sourceTree = "<group>"; };
+		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
+		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		BA2BF8F123EB5684001508F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA2BF8F723EB65AA001508F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BA2BF8F923EB65B3001508F9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesInteractorTests.swift; sourceTree = "<group>"; };
+		BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesRouter.swift; sourceTree = "<group>"; };
+		BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesController.swift; sourceTree = "<group>"; };
+		BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesWorker.swift; sourceTree = "<group>"; };
+		BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesPresenter.swift; sourceTree = "<group>"; };
+		BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorkerTests.swift; sourceTree = "<group>"; };
+		BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouterTests.swift; sourceTree = "<group>"; };
+		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
+		BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		BA43E2E823FC62AF0050F7AB /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		BA5AC77C23EF1001003B180A /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		BA5AC77F23EF1029003B180A /* Mock+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Model.swift"; sourceTree = "<group>"; };
+		BA5AC78123EF557C003B180A /* SpinnerPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerPresentable.swift; sourceTree = "<group>"; };
+		BA5AC78323EF55A0003B180A /* SpinnerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerController.swift; sourceTree = "<group>"; };
+		BA5AC78423EF55A0003B180A /* SpinnerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinnerController.xib; sourceTree = "<group>"; };
+		BA5AC78723EF55F7003B180A /* AlertPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentable.swift; sourceTree = "<group>"; };
+		BA5AC78923EF5659003B180A /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWasteFriendlyNetworking.swift; sourceTree = "<group>"; };
+		BA60041223ED799D00CF39B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA60041423ED79E300CF39B5 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
+		BA68F6EC23F3260700EAE1EE /* FakeMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeMainController.swift; sourceTree = "<group>"; };
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,13 +116,17 @@
 		BA9DB87223CE6DED004F86A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9DB87423CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9DB87923CE6DED004F86A0 /* ZeroWasteFriendlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroWasteFriendlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWasteFriendlyTests.swift; sourceTree = "<group>"; };
 		BA9DB87F23CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA73F8123CF888E00B4FEC8 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+UserFriendlyMessage.swift"; sourceTree = "<group>"; };
+		BAC1E86B23F2E79A00FD210B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BAC1E86D23F2EB8100FD210B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworking.swift; sourceTree = "<group>"; };
+		BAC2D2E923EE0E3A0014A91F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BAC2D2EB23EE31160014A91F /* UnitTestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestError.swift; sourceTree = "<group>"; };
+		BAD2B4DF23FB39A400A4845B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
-		C68352541383528B58DB47D0 /* Pods-ZeroWasteFriendlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendlyTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.release.xcconfig"; sourceTree = "<group>"; };
-		F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +142,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F4280DFDE24CC50DB15F21 /* Pods_ZeroWasteFriendlyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */,
-				F4468B796ECEE44862A815AF /* Pods_ZeroWasteFriendlyTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,8 +161,6 @@
 			children = (
 				BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */,
 				F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */,
-				C68352541383528B58DB47D0 /* Pods-ZeroWasteFriendlyTests.debug.xcconfig */,
-				79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,26 +172,76 @@
 				BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */,
 				BAA73F8123CF888E00B4FEC8 /* R.generated.swift */,
 				BA9DB87423CE6DED004F86A0 /* Info.plist */,
+				BA2BF8F823EB65AA001508F9 /* Localizable.strings */,
 				BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */,
 				BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */,
+				BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */,
+				BA2BF8EA23EB4AE1001508F9 /* Fonts */,
 			);
 			path = Support;
 			sourceTree = "<group>";
 		};
-		BA4C6A3323D4D6BC006ED094 /* Demo */ = {
+		BA2BF89723EB3730001508F9 /* ActivityTiles */ = {
 			isa = PBXGroup;
 			children = (
-				BA4C6A3423D4D6BC006ED094 /* logo.png */,
-				BA4C6A3523D4D6BC006ED094 /* mockup.png */,
+				BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */,
+				BA2BF88C23EB372C001508F9 /* ActivityTilesController.swift */,
+				BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */,
+				BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */,
+				BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */,
+				BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */,
+				BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */,
+			);
+			path = ActivityTiles;
+			sourceTree = "<group>";
+		};
+		BA2BF89823EB387B001508F9 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BAD2B4DF23FB39A400A4845B /* logo.png */,
+				BA2BF89A23EB387B001508F9 /* mockup.png */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		BA2BF8EA23EB4AE1001508F9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */,
+				BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BA2BF90C23EB6C0D001508F9 /* ActivityTiles */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */,
+				BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */,
+				BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */,
+				BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */,
+				BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */,
+				BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */,
+				BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */,
+				BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */,
+			);
+			path = ActivityTiles;
+			sourceTree = "<group>";
+		};
+		BA5AC77E23EF1013003B180A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				BA5AC77C23EF1001003B180A /* Mock.swift */,
+				BA5AC77F23EF1029003B180A /* Mock+Model.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
-				BA4C6A3323D4D6BC006ED094 /* Demo */,
-				BA4C6A3223D4D6BC006ED094 /* README.md */,
+				BA2BF8F123EB5684001508F9 /* README.md */,
+				BA2BF89823EB387B001508F9 /* Demo */,
 				BA9DB86223CE6DEA004F86A0 /* ZeroWasteFriendly */,
 				BA9DB87C23CE6DED004F86A0 /* ZeroWasteFriendlyTests */,
 				BA9DB86123CE6DEA004F86A0 /* Products */,
@@ -155,8 +276,10 @@
 		BA9DB87C23CE6DED004F86A0 /* ZeroWasteFriendlyTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA9DB87D23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift */,
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
+				BA5AC77E23EF1013003B180A /* Mocks */,
+				BAC2D2ED23EE312C0014A91F /* Helpers */,
+				BA2BF90C23EB6C0D001508F9 /* ActivityTiles */,
 			);
 			path = ZeroWasteFriendlyTests;
 			sourceTree = "<group>";
@@ -164,6 +287,7 @@
 		BAA73F8323CF8E1C00B4FEC8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				BA2BF89723EB3730001508F9 /* ActivityTiles */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -171,6 +295,14 @@
 		BAA73F8423CF8E2800B4FEC8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				BA60041223ED799D00CF39B5 /* MainViewController.swift */,
+				BA60041423ED79E300CF39B5 /* MainNavigationController.swift */,
+				BA5AC78923EF5659003B180A /* MainPresenter.swift */,
+				BA5AC78123EF557C003B180A /* SpinnerPresentable.swift */,
+				BA5AC78723EF55F7003B180A /* AlertPresentable.swift */,
+				BA5AC78323EF55A0003B180A /* SpinnerController.swift */,
+				BA5AC78423EF55A0003B180A /* SpinnerController.xib */,
+				BA43E2E823FC62AF0050F7AB /* CoreDataStack.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -178,6 +310,8 @@
 		BAA73F8523CF8E3300B4FEC8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */,
+				BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,6 +327,8 @@
 		BAA73F8723CF8E6200B4FEC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BAC2D2E923EE0E3A0014A91F /* Model.swift */,
+				BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,8 +336,30 @@
 		BAA73F8823CF8E7000B4FEC8 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */,
+				BAC1E87123F2ECB900FD210B /* BaseNetworking */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		BAC1E87123F2ECB900FD210B /* BaseNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BAC1E86F23F2EC9500FD210B /* BaseNetworking.swift */,
+				BAC1E86B23F2E79A00FD210B /* Request.swift */,
+				BAC1E86D23F2EB8100FD210B /* APIClient.swift */,
+			);
+			path = BaseNetworking;
+			sourceTree = "<group>";
+		};
+		BAC2D2ED23EE312C0014A91F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BAC2D2EB23EE31160014A91F /* UnitTestError.swift */,
+				BA68F6EC23F3260700EAE1EE /* FakeMainController.swift */,
+				BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +390,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA9DB88523CE6DED004F86A0 /* Build configuration list for PBXNativeTarget "ZeroWasteFriendlyTests" */;
 			buildPhases = (
-				EE5F820CD75F1BC675B6B3B3 /* [CP] Check Pods Manifest.lock */,
 				BA9DB87523CE6DED004F86A0 /* Sources */,
 				BA9DB87623CE6DED004F86A0 /* Frameworks */,
 				BA9DB87723CE6DED004F86A0 /* Resources */,
-				62E36FA939BF567F9E245F23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +430,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = BA9DB85723CE6DEA004F86A0;
 			productRefGroup = BA9DB86123CE6DEA004F86A0 /* Products */;
@@ -291,10 +448,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4C6A3723D4D6BC006ED094 /* logo.png in Resources */,
-				BA4C6A3623D4D6BC006ED094 /* README.md in Resources */,
-				BA4C6A3823D4D6BC006ED094 /* mockup.png in Resources */,
+				BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */,
+				BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */,
+				BAD2B4E023FB39A400A4845B /* logo.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
+				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
+				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
+				BA5AC78623EF55A0003B180A /* SpinnerController.xib in Resources */,
+				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
+				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
+				BA2BF89C23EB387B001508F9 /* mockup.png in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,23 +487,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62E36FA939BF567F9E245F23 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZeroWasteFriendlyTests/Pods-ZeroWasteFriendlyTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E144BACF560F6B1261CDC32 /* [CP] Check Pods Manifest.lock */ = {
@@ -403,28 +549,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		EE5F820CD75F1BC675B6B3B3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZeroWasteFriendlyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -432,10 +556,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */,
+				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
+				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
+				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
+				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
+				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
+				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
+				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
+				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
+				BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */,
+				BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */,
+				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
+				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
+				BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */,
+				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
+				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
+				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
+				BA43E2E923FC62AF0050F7AB /* CoreDataStack.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
+				BA5AC78823EF55F7003B180A /* AlertPresentable.swift in Sources */,
+				BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */,
+				BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +588,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA9DB87E23CE6DED004F86A0 /* ZeroWasteFriendlyTests.swift in Sources */,
+				BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */,
+				BA5AC77D23EF1001003B180A /* Mock.swift in Sources */,
+				BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */,
+				BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */,
+				BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */,
+				BA5AC78023EF1029003B180A /* Mock+Model.swift in Sources */,
+				BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */,
+				BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */,
+				BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */,
+				BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */,
+				BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */,
+				BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */,
+				BA68F6ED23F3260700EAE1EE /* FakeMainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +615,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BA2BF8F823EB65AA001508F9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2BF8F723EB65AA001508F9 /* en */,
+				BA2BF8F923EB65B3001508F9 /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -473,6 +639,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -533,6 +700,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -621,7 +789,6 @@
 		};
 		BA9DB88623CE6DED004F86A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C68352541383528B58DB47D0 /* Pods-ZeroWasteFriendlyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -643,7 +810,6 @@
 		};
 		BA9DB88723CE6DED004F86A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79D7FE21680A085AEC2AF910 /* Pods-ZeroWasteFriendlyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

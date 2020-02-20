@@ -13,13 +13,30 @@
 
 ## What is it
 
-My second mature project.
+My second mature project. The app is to educate, help and motivate user to use Zero/Less waste ideology in everyday life.
 
 The app has three main goals: 
+
 - educate about Zero Waste way of life, 
 - through gamification model motivate user to be more friendly for our earth :),
 - eco-map will show nearby places which support zero waste strategies.
 
+
+
+Technical goals:
+
+
+- used Clean Swift software architecture 
+
+- coding best practices and SOLID principles
+
+- systematic code review
+
+- all stages approved by mentor
+
+- all critical parts of application covered by unit tests with use of Bitrise CI
+
+  
 
 
 Prototype stage:
@@ -28,21 +45,34 @@ Prototype stage:
   
 
 Coding stage:
-- [ ] Clean Swift software architecture 
 
-- [ ] coding best practices and SOLID principles
+- [x] initial setup of project, add .gitignore
+- [x] setup bundler, cocoapods
+- [x] add SwiftLint, R.swift, lottie, Quick, Nimble pods
+- [x] create predefined templates files for Clean Swift project
+- [ ] add Ecomap scene
+- [ ] add ActivityTiles scene
+- [ ] add AcitivityInfo scene
+- [ ] add ActivityStats scene
+- [ ] add Library scene
+- [ ] add UserAccount scene
+- [ ] add ...
 
-- [ ] systematic code review
+## What new I've learned
 
-- [ ] all stages approved by mentor
+- [x] UITabBar
 
-- [ ] all critical parts of application covered by unit tests with use of Bitrise CI
+- [x] Localization
+
+- [x] Custom fonts, colors, icons
+
+- [x] Xcode File Templates
+
+- [x] XCTest
 
 - [ ] CoreData and CloudKit
 
 - [ ] MapKit
-
-- [ ] Tabbar
 
 - [ ] UI Animations
 
@@ -53,12 +83,6 @@ Coding stage:
 - [ ] Push notifications
 
   
-
-## What new I've learned
-
-- 
-
-
 
 
 ## What is needed
@@ -74,18 +98,46 @@ Coding stage:
 ## What was really helpful
 
 
-- *[Clean Swift](https://clean-swift.com)*
-- *[Bundler](https://github.com/bundler/bundler)*
-- *[Cocoapods](https://cocoapods.org)*
-- *[SwiftLint](https://github.com/realm/SwiftLint)*
-- *[R.swift](https://github.com/mac-cain13/R.swift)*
-- *[Lottie-ios](https://github.com/airbnb/lottie-ios)*
-- *[LottieFilez](https://lottiefiles.com/lottiefilez)*
-- *[Quick](https://github.com/Quick/Quick)*
-- *[Nimble](https://github.com/Quick/Nimble)*
-- *[Gifski](https://gif.ski)*
-- *[Typora](https://typora.io)*
+- *[Clean Swift](https://clean-swift.com)* - clean architecture
 
+- *[Bundler](https://github.com/bundler/bundler)* - makes sure Ruby applications run the same code on every machine
+
+- *[Cocoapods](https://cocoapods.org)* - cocoa dependency manager
+
+- *[SwiftLint](https://github.com/realm/SwiftLint)* - enforce Swift style and conventions
+
+- *[R.swift](https://github.com/mac-cain13/R.swift)* - strong typed, autocompleted resources
+
+- *[Lottie-ios](https://github.com/airbnb/lottie-ios)* - library for Android and iOS that natively renders vector based animations
+
+- *[Quick](https://github.com/Quick/Quick)* - behavior-driven development framework for Swift and Objective-C
+
+- *[Nimble](https://github.com/Quick/Nimble)* - express the expected outcomes of Swift or Objective-C expressions
+
+- *[Gifski](https://gif.ski)* - converts videos to GIF animations
+
+- *[Typora](https://typora.io)* - a truly minimal markdown editor
+
+- *[JetBrains](https://www.jetbrains.com/lp/mono/)* - a typeface for developers
+
+  
+
+
+## Clean Swift Project Templates
+
+If you want to try creating your own project using Clean Swift guidelines, there is a set of custom templates added in Templates/CleanSwift folder.
+
+Just copy it to your  `/Users/<username>/Library/Developer/Xcode/Templates/File\ Templates` folder and use it as you like.
+
+- **Scene** - creates set of 7 files to use for your scene - *use it for every new scene*,
+
+- **SceneSupport** - creates set of 16 files with predefined functionalities like presenting spinner, presenting alert, networking files, etc - *use it once per project*,
+
+- **UnitTestsXC** - creates set of 8 files needed to test your scene using XCTest (fake files included) - *use it for every scene*,
+
+- **UnitTestsXCSupport** - creates set of 5 files to support tests for your scene - *use it once per project tests module*
+
+  
 
 
 ## Who is who

@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  ZeroWasteFriendly
+
+  Created by Marek Skrzelowski on 05/02/2020.
+  Copyright © 2020 vandermesis. All rights reserved.
+*/
+
+// TabBar
+"TabBar.Item.Act" = "Act";
+"TabBar.Item.Stats" = "Stats";
+"TabBar.Item.EcoMap" = "EcoMap";
+"TabBar.Item.Library" = "Library";
+"TabBar.Item.Account" = "Account";
+
+// ActivityTiles
+"ActivityTiles.Title" = "Act";
+"ActivityTile.Refuse.Title" = "Refuse";
+"ActivityTile.Reduce.Title" = "Reduce";
+"ActivityTile.Reuse.Title" = "Reuse";
+"ActivityTile.Recycle.Title" = "Recycle";
+"ActivityTile.Rot.Title" = "Rot";
+"ActivityTile.Repair.Title" = "Repair";
+
+// ActivityInfo
+"ActivityInfo.Title" = "Info";
+
+// ActivityStats
+"ActivityStats.Title" = "Statistics";
+
+// EcoMap
+"EcoMap.Title" = "EcoMap";
+
+// LibraryList
+"LibraryList.Title" = "Library";
+
+// UserAccount
+"UserAccount.Title" = "Account";
+
+// Alerts
+"Alert.Action.Title.Ok" = "OK";
+"Alert.Action.Title.Error" = "Error";
+
+// Errors
+"Error.Title" = "Error";
+"Error.Unknown" = "Unknown Error";
+"Error.Serializer" = "Serializer Error";
+"Error.UserDefaults" = "User Defaults Error";
+"Error.Api" = "Api responded with Error";
+"Error.InvalidURL" = "Invalid URL";
+"Error.MissingApiResponse" = "Api not responded";
+"Error.MissingApiData" = "No data for that request";

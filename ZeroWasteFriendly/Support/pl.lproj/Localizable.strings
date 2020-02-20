@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  ZeroWasteFriendly
+
+  Created by Marek Skrzelowski on 05/02/2020.
+  Copyright © 2020 vandermesis. All rights reserved.
+*/
+
+// TabBar
+"TabBar.Item.Act" = "Działaj";
+"TabBar.Item.Stats" = "Statystyki";
+"TabBar.Item.EcoMap" = "EkoMapa";
+"TabBar.Item.Library" = "Biblioteczka";
+"TabBar.Item.Account" = "Konto";
+
+// ActivityTiles
+"ActivityTiles.Title" = "Działaj";
+"ActivityTile.Refuse.Title" = "Odmawiaj";
+"ActivityTile.Reduce.Title" = "Ograniczaj";
+"ActivityTile.Reuse.Title" = "Użyj ponownie";
+"ActivityTile.Recycle.Title" = "Przetwarzaj";
+"ActivityTile.Rot.Title" = "Kompostuj";
+"ActivityTile.Repair.Title" = "Naprawiaj";
+
+// ActivityInfo
+"ActivityInfo.Title" = "Informacje";
+
+// ActivityStats
+"ActivityStats.Title" = "Statystyki";
+
+// EcoMap
+"EcoMap.Title" = "EkoMapa";
+
+// LibraryList
+"LibraryList.Title" = "Biblioteczka";
+
+// UserAccount
+"UserAccount.Title" = "Konto";
+
+// Alerts
+"Alert.Action.Title.Ok" = "OK";
+"Alert.Action.Title.Error" = "Błąd";
+
+// Errors
+"Error.Title" = "Błąd";
+"Error.Unknown" = "Nieznany błąd";
+"Error.Serializer" = "Błąd serializacji";
+"Error.UserDefaults" = "Błąd ustawień użytkownika";
+"Error.Api" = "Błąd API";
+"Error.InvalidURL" = "Nieprawdiłowy URL";
+"Error.MissingApiResponse" = "Brak odpowiedzi API";
+"Error.MissingApiData" = "Brak danych z API";
