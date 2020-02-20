@@ -30,6 +30,13 @@
 		BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */; };
 		BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */; };
 		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
+		BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */; };
+		BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */; };
+		BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */; };
+		BA3E739923FED16500CCBA34 /* EcoMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739223FED16500CCBA34 /* EcoMapController.swift */; };
+		BA3E739A23FED16500CCBA34 /* EcoMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739323FED16500CCBA34 /* EcoMapInteractor.swift */; };
+		BA3E739B23FED16500CCBA34 /* EcoMapCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739423FED16500CCBA34 /* EcoMapCreator.swift */; };
+		BA3E739C23FED16500CCBA34 /* EcoMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3E739523FED16500CCBA34 /* EcoMapController.xib */; };
 		BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */; };
 		BA43E2E923FC62AF0050F7AB /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E2E823FC62AF0050F7AB /* CoreDataStack.swift */; };
 		BA5AC77D23EF1001003B180A /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC77C23EF1001003B180A /* Mock.swift */; };
@@ -94,6 +101,13 @@
 		BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorkerTests.swift; sourceTree = "<group>"; };
 		BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouterTests.swift; sourceTree = "<group>"; };
 		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
+		BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
+		BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
+		BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
+		BA3E739223FED16500CCBA34 /* EcoMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapController.swift; sourceTree = "<group>"; };
+		BA3E739323FED16500CCBA34 /* EcoMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapInteractor.swift; sourceTree = "<group>"; };
+		BA3E739423FED16500CCBA34 /* EcoMapCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapCreator.swift; sourceTree = "<group>"; };
+		BA3E739523FED16500CCBA34 /* EcoMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoMapController.xib; sourceTree = "<group>"; };
 		BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		BA43E2E823FC62AF0050F7AB /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		BA5AC77C23EF1001003B180A /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
@@ -228,6 +242,20 @@
 			path = ActivityTiles;
 			sourceTree = "<group>";
 		};
+		BA3E739D23FED16D00CCBA34 /* EcoMap */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E739423FED16500CCBA34 /* EcoMapCreator.swift */,
+				BA3E739223FED16500CCBA34 /* EcoMapController.swift */,
+				BA3E739523FED16500CCBA34 /* EcoMapController.xib */,
+				BA3E739323FED16500CCBA34 /* EcoMapInteractor.swift */,
+				BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */,
+				BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */,
+				BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */,
+			);
+			path = EcoMap;
+			sourceTree = "<group>";
+		};
 		BA5AC77E23EF1013003B180A /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				BA2BF89723EB3730001508F9 /* ActivityTiles */,
+				BA3E739D23FED16D00CCBA34 /* EcoMap */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -458,6 +487,7 @@
 				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
 				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
 				BA2BF89C23EB387B001508F9 /* mockup.png in Resources */,
+				BA3E739C23FED16500CCBA34 /* EcoMapController.xib in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,13 +592,16 @@
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
 				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
+				BA3E739923FED16500CCBA34 /* EcoMapController.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
+				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
 				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
 				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
 				BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */,
 				BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */,
+				BA3E739B23FED16500CCBA34 /* EcoMapCreator.swift in Sources */,
 				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
 				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
@@ -577,10 +610,13 @@
 				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
 				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
 				BA43E2E923FC62AF0050F7AB /* CoreDataStack.swift in Sources */,
+				BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
 				BA5AC78823EF55F7003B180A /* AlertPresentable.swift in Sources */,
 				BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */,
+				BA3E739A23FED16500CCBA34 /* EcoMapInteractor.swift in Sources */,
 				BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */,
+				BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
