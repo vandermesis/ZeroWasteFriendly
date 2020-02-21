@@ -11,7 +11,7 @@ import MapKit
 
 protocol EcoMapPresenter: SpinnerPresenter, AlertPresenter {
     func presentUserLocation(userLocation: UserLocation)
-    func presentZeroWastePlaces(places: [ZeroWastePlace])
+    func presentPlaces(places: [Place])
 }
 
 final class EcoMapPresenterImpl<T: EcoMapPresentable>: MainPresenter<T> {}
@@ -25,9 +25,9 @@ extension EcoMapPresenterImpl: EcoMapPresenter {
         controller?.displayUserLocation(region: coordinateRegion)
     }
 
-    func presentZeroWastePlaces(places: [ZeroWastePlace]) {
-        let placesAnnotation = places.map { ZeroWastePlaceAnnotation(place: $0) }
-        controller?.displayZeroWastePlaces(annotations: placesAnnotation)
+    func presentPlaces(places: [Place]) {
+        let placesAnnotation = places.map { PlaceAnnotation(place: $0) }
+        controller?.displayPlaces(annotations: placesAnnotation)
     }
 }
 

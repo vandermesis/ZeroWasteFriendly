@@ -17,6 +17,7 @@ protocol UserLocationService {
 final class UserLocationServiceImpl: UserLocationService {
 
     func fetchCurrentLocation(completion: FetchCurrentLocation?) {
+        //TODO: Add proper location service
         completion?(.success(.katowiceCoordinates))
     }
 }

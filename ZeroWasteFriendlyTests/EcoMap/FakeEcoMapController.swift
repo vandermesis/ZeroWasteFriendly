@@ -21,7 +21,7 @@ final class FakeEcoMapController: MainViewController, EcoMapPresentable {
         displayUserLocationCalled = true
         displayUserLocationRegionCalled = region
     }
-    func displayZeroWastePlaces(annotations: [MKAnnotation]) {
+    func displayPlaces(annotations: [MKAnnotation]) {
         displayZeroWastePlacesCalled = true
         displayZeroWastePlacesAnnotationsCalled = annotations
     }

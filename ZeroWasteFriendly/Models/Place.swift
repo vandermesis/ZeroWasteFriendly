@@ -1,5 +1,5 @@
 //
-//  ZeroWastePlace.swift
+//  Place.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 21/02/2020.
@@ -8,15 +8,20 @@
 
 import Foundation
 
-enum ZeroWasteCategory: String {
-    case refuse, reduce, reuse, recycle, rot, repair
+enum ActivityCategory: String {
+    case refuse
+    case reduce
+    case reuse
+    case recycle
+    case rot
+    case repair
 }
 
-struct ZeroWastePlace {
+struct Place {
 
     let name: String
     let description: String
-    let category: ZeroWasteCategory
+    let category: ActivityCategory
     let latitude: Double
     let longitude: Double
 }

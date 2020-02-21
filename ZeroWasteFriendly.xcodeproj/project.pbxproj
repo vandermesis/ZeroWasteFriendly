@@ -75,10 +75,10 @@
 		BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2EB23EE31160014A91F /* UnitTestError.swift */; };
 		BAD2B4E023FB39A400A4845B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD2B4DF23FB39A400A4845B /* logo.png */; };
 		BAD844A123FFD8CE00F6D0B1 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A023FFD8CE00F6D0B1 /* UserLocation.swift */; };
-		BAD844A423FFDF4400F6D0B1 /* ZeroWastePlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A323FFDF4400F6D0B1 /* ZeroWastePlaceAnnotation.swift */; };
-		BAD844A623FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A523FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift */; };
-		BAD844A8240001B200F6D0B1 /* ZeroWastePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A7240001B200F6D0B1 /* ZeroWastePlace.swift */; };
-		BAD844AB24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AA24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift */; };
+		BAD844A423FFDF4400F6D0B1 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A323FFDF4400F6D0B1 /* PlaceAnnotation.swift */; };
+		BAD844A623FFE46D00F6D0B1 /* PlacesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */; };
+		BAD844A8240001B200F6D0B1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A7240001B200F6D0B1 /* Place.swift */; };
+		BAD844AB24000EE400F6D0B1 /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AA24000EE400F6D0B1 /* PlaceAnnotationView.swift */; };
 		BAD844AE240019E200F6D0B1 /* Mock+ZeroWastePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */; };
 /* End PBXBuildFile section */
 
@@ -166,10 +166,10 @@
 		BAC2D2EB23EE31160014A91F /* UnitTestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestError.swift; sourceTree = "<group>"; };
 		BAD2B4DF23FB39A400A4845B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		BAD844A023FFD8CE00F6D0B1 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
-		BAD844A323FFDF4400F6D0B1 /* ZeroWastePlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWastePlaceAnnotation.swift; sourceTree = "<group>"; };
-		BAD844A523FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWastePlacesRepository.swift; sourceTree = "<group>"; };
-		BAD844A7240001B200F6D0B1 /* ZeroWastePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWastePlace.swift; sourceTree = "<group>"; };
-		BAD844AA24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWastePlaceAnnotationView.swift; sourceTree = "<group>"; };
+		BAD844A323FFDF4400F6D0B1 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesRepository.swift; sourceTree = "<group>"; };
+		BAD844A7240001B200F6D0B1 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		BAD844AA24000EE400F6D0B1 /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
 		BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+ZeroWastePlace.swift"; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.release.xcconfig"; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				BAD844A9240007AA00F6D0B1 /* Displayable */,
-				BAD844AC24000F0200F6D0B1 /* ZeroWastePlaceAnnotationView */,
+				BAD844AC24000F0200F6D0B1 /* PlaceAnnotationView */,
 				BA3E739423FED16500CCBA34 /* EcoMapCreator.swift */,
 				BA3E739223FED16500CCBA34 /* EcoMapController.swift */,
 				BA3E739523FED16500CCBA34 /* EcoMapController.xib */,
@@ -394,7 +394,7 @@
 		BAA73F8623CF8E3C00B4FEC8 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				BAD844A523FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift */,
+				BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */,
 				BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */,
 			);
 			path = Repository;
@@ -406,7 +406,7 @@
 				BAD844A223FFDF0600F6D0B1 /* APIResponses */,
 				BAC2D2E923EE0E3A0014A91F /* Model.swift */,
 				BAD844A023FFD8CE00F6D0B1 /* UserLocation.swift */,
-				BAD844A7240001B200F6D0B1 /* ZeroWastePlace.swift */,
+				BAD844A7240001B200F6D0B1 /* Place.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -466,17 +466,17 @@
 		BAD844A9240007AA00F6D0B1 /* Displayable */ = {
 			isa = PBXGroup;
 			children = (
-				BAD844A323FFDF4400F6D0B1 /* ZeroWastePlaceAnnotation.swift */,
+				BAD844A323FFDF4400F6D0B1 /* PlaceAnnotation.swift */,
 			);
 			path = Displayable;
 			sourceTree = "<group>";
 		};
-		BAD844AC24000F0200F6D0B1 /* ZeroWastePlaceAnnotationView */ = {
+		BAD844AC24000F0200F6D0B1 /* PlaceAnnotationView */ = {
 			isa = PBXGroup;
 			children = (
-				BAD844AA24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift */,
+				BAD844AA24000EE400F6D0B1 /* PlaceAnnotationView.swift */,
 			);
-			path = ZeroWastePlaceAnnotationView;
+			path = PlaceAnnotationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -675,7 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */,
-				BAD844A8240001B200F6D0B1 /* ZeroWastePlace.swift in Sources */,
+				BAD844A8240001B200F6D0B1 /* Place.swift in Sources */,
 				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
 				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
@@ -686,14 +686,14 @@
 				BAAECD5423FF29210062BED5 /* Constants.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
-				BAD844A423FFDF4400F6D0B1 /* ZeroWastePlaceAnnotation.swift in Sources */,
+				BAD844A423FFDF4400F6D0B1 /* PlaceAnnotation.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
 				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
 				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
 				BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */,
 				BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */,
-				BAD844A623FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift in Sources */,
+				BAD844A623FFE46D00F6D0B1 /* PlacesRepository.swift in Sources */,
 				BA3E739B23FED16500CCBA34 /* EcoMapCreator.swift in Sources */,
 				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
@@ -702,7 +702,7 @@
 				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
 				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
 				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
-				BAD844AB24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift in Sources */,
+				BAD844AB24000EE400F6D0B1 /* PlaceAnnotationView.swift in Sources */,
 				BA43E2E923FC62AF0050F7AB /* CoreDataStack.swift in Sources */,
 				BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */,
 				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,

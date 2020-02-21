@@ -10,7 +10,7 @@ import Foundation
 
 protocol EcoMapInteractor {
     func getUserLocation()
-    func getZeroWastePlaces()
+    func getPlaces()
 }
 
 final class EcoMapInteractorImpl {
@@ -44,14 +44,14 @@ extension EcoMapInteractorImpl: EcoMapInteractor {
         }
     }
 
-    func getZeroWastePlaces() {
+    func getPlaces() {
         presenter.toggleSpinner(true)
-        worker.fetchZeroWastePlaces { [weak self] result in
+        worker.fetchPlaces { [weak self] result in
             guard let self = self else { return }
             self.presenter.toggleSpinner(false)
             switch result {
             case .success(let places):
-                self.presenter.presentZeroWastePlaces(places: places)
+                self.presenter.presentPlaces(places: places)
             case .failure(let error):
                 self.presenter.presentAlert(title: R.string.localizable.alertActionTitleError(),
                                             message: error.localizedDescription)

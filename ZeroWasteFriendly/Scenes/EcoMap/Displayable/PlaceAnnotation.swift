@@ -1,5 +1,5 @@
 //
-//  ZeroWastePlaceAnnotation.swift
+//  PlaceAnnotation.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 21/02/2020.
@@ -9,14 +9,14 @@
 import Foundation
 import MapKit
 
-final class ZeroWastePlaceAnnotation: NSObject, MKAnnotation {
+final class PlaceAnnotation: NSObject, MKAnnotation {
 
     let title: String?
     let subtitle: String?
-    let category: ZeroWasteCategory
+    let category: ActivityCategory
     let coordinate: CLLocationCoordinate2D
 
-    init(place: ZeroWastePlace) {
+    init(place: Place) {
         self.title = place.name
         self.subtitle = place.description
         self.category = place.category

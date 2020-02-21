@@ -8,19 +8,17 @@
 
 import Foundation
 
-typealias FetchEcoMapCompletion = (Result<[ZeroWastePlace], Error>) -> Void
-
 protocol EcoMapWorker {
     func fetchUserLocation(completion: FetchCurrentLocation?)
-    func fetchZeroWastePlaces(completion: FetchEcoMapCompletion?)
+    func fetchPlaces(completion: FetchPlacesCompletion?)
 }
 
 final class EcoMapWorkerImpl {
 
-    private let repository: ZeroWastePlacesRepository
+    private let repository: PlacesRepository
     private let locationService: UserLocationService
 
-    init(repository: ZeroWastePlacesRepository, locationService: UserLocationService) {
+    init(repository: PlacesRepository, locationService: UserLocationService) {
         self.repository = repository
         self.locationService = locationService
     }
@@ -32,7 +30,7 @@ extension EcoMapWorkerImpl: EcoMapWorker {
         locationService.fetchCurrentLocation(completion: completion)
     }
 
-    func fetchZeroWastePlaces(completion: FetchEcoMapCompletion?) {
-        repository.fetchZeroWastePlaces(completion: completion)
+    func fetchPlaces(completion: FetchPlacesCompletion?) {
+        repository.fetchPlaces(completion: completion)
     }
 }

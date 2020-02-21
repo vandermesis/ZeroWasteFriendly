@@ -1,5 +1,5 @@
 //
-//  ZeroWastePlaceAnnotationView.swift
+//  PlaceAnnotationView.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 21/02/2020.
@@ -8,10 +8,10 @@
 
 import MapKit
 
-final class ZeroWastePlaceAnnotationView: MKMarkerAnnotationView {
+final class PlaceAnnotationView: MKMarkerAnnotationView {
     override var annotation: MKAnnotation? {
         willSet {
-            guard let place = newValue as? ZeroWastePlaceAnnotation else { return }
+            guard let place = newValue as? PlaceAnnotation else { return }
             canShowCallout = true
             rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
             markerTintColor = place.markerTintColor

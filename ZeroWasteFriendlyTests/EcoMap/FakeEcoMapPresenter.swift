@@ -22,7 +22,7 @@ final class FakeEcoMapPresenter: EcoMapPresenter {
     var presentUserLocationCalled: Bool?
     var presentUserLocationUserLocationCalled: UserLocation?
     var presentZeroWastePlacesCalled: Bool?
-    var presentZeroWastePlacesPlacesCalled: [ZeroWastePlace]?
+    var presentZeroWastePlacesPlacesCalled: [Place]?
 
     func toggleSpinner(_ state: Bool) {
         toogleSpinnerCalled = true
@@ -45,7 +45,7 @@ final class FakeEcoMapPresenter: EcoMapPresenter {
         presentUserLocationUserLocationCalled = userLocation
     }
 
-    func presentZeroWastePlaces(places: [ZeroWastePlace]) {
+    func presentPlaces(places: [Place]) {
         presentZeroWastePlacesCalled = true
         presentZeroWastePlacesPlacesCalled = places
     }

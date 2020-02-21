@@ -37,23 +37,23 @@ final class EcoMapInteractorTests: XCTestCase {
         // Given
 
         // When
-        interactor.getZeroWastePlaces()
+        interactor.getPlaces()
         // Then
         XCTAssertEqual(worker.fetchZeroWastePlacesCalled, true, "calling worker to fetch data is true")
     }
 
     func testInteractorIsGettingDataIsSuccess() {
         // Given
-        interactor.getZeroWastePlaces()
+        interactor.getPlaces()
         // When
-        worker.fetchZeroWastePlacesCompletion?(.success(Mock.zeroWastePlaces))
+        worker.fetchZeroWastePlacesCompletion?(.success(Mock.places))
         // Then
         XCTAssertEqual(presenter.presentZeroWastePlacesCalled, true, "calling presenter to present data is true")
     }
 
     func testInteractorIsGettingDataIsFailure() {
         // Given
-        interactor.getZeroWastePlaces()
+        interactor.getPlaces()
         // When
         worker.fetchZeroWastePlacesCompletion?(.failure(UnitTestError()))
         // Then

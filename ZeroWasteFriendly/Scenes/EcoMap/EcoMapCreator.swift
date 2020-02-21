@@ -14,7 +14,7 @@ struct EcoMapCreator {
     func getController(context: NSManagedObjectContext? = nil) -> EcoMapController {
 
         let locationService = UserLocationServiceImpl()
-        let repository = ZeroWastePlacesRepositoryImpl()
+        let repository = PlacesRepositoryImpl()
         let worker = EcoMapWorkerImpl(repository: repository, locationService: locationService)
         let router = EcoMapRouterImpl()
         let presenter = EcoMapPresenterImpl<EcoMapController>()
