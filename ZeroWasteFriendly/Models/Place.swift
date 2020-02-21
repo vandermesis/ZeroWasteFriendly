@@ -22,6 +22,5 @@ struct Place {
     let name: String
     let description: String
     let category: ActivityCategory
-    let latitude: Double
-    let longitude: Double
+    let location: Location
 }

@@ -10,14 +10,13 @@
 
 extension Mock {
 
-    static let place = Place(name: "Drogeria Hebe",
-                             description: """
-                                    Olejki kosmetyczne w szklanych opakowaniach,
-                                    szmatka do demakijażu z bambusowego włókna (w plastikowym opakowaniu).
-                                    """,
-                             category: .refuse,
-                             latitude: 50.259486,
-                             longitude: 19.017677)
+    static let place1 = Place(name: "Drogeria Hebe",
+                              description: """
+                                            Olejki kosmetyczne w szklanych opakowaniach,
+                                            szmatka do demakijażu z bambusowego włókna (w plastikowym opakowaniu).
+                                            """,
+                              category: .refuse,
+                              location: Location(latitude: 50.259486, longitude: 19.017677))
 
-    static let places = [place]
+    static let places = [place1]
 }

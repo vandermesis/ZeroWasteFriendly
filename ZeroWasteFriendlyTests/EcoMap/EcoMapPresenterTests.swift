@@ -32,7 +32,7 @@ final class EcoMapPresenterTests: XCTestCase {
         // Given
 
         // When
-        presenter.presentPlaces(places: [Mock.place])
+        presenter.presentPlaces(places: Mock.places)
         // Then
         XCTAssertEqual(controller.displayZeroWastePlacesCalled, true, "calling controller to display data is true")
     }
