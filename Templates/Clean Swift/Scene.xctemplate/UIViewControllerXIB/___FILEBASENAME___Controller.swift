@@ -31,6 +31,7 @@ final class ___VARIABLE_sceneName___Controller: MainViewController {
         interactor.get___VARIABLE_sceneName___()
     }
 
+    //TODO: Implement functionality or remove
     @IBAction private func addButtonPressed(_ sender: UIBarButtonItem) {
 
     }
@@ -38,6 +39,7 @@ final class ___VARIABLE_sceneName___Controller: MainViewController {
 
 extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName___Presentable {
 
+    //TODO: Implement functionality or remove
     func display___VARIABLE_sceneName___() {
         
     }
@@ -46,6 +48,7 @@ extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName___Presentabl
 private extension ___VARIABLE_sceneName___Controller {
 
     private func setupNavigationBar() {
+        //TODO: Add localiable strings and uncomment
 //        title = R.string.localizable.___VARIABLE_sceneName___Title()
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                             target: self,

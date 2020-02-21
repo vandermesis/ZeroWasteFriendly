@@ -53,13 +53,6 @@ extension EcoMapController: EcoMapPresentable {
     }
 }
 
-extension EcoMapController: MKMapViewDelegate {
-
-    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-        
-    }
-}
-
 private extension EcoMapController {
 
     private func setupNavigationBar() {
@@ -70,7 +63,6 @@ private extension EcoMapController {
     }
 
     private func setupMapView() {
-        ecoMapView.delegate = self
         ecoMapView.register(PlaceAnnotationView.self,
                             forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
     }
