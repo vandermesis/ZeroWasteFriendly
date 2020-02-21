@@ -38,8 +38,7 @@ extension ActivityTilesInteractorImpl: ActivityTilesInteractor {
             case .success(let model):
                 self.presenter.presentActivityTiles(model: model)
             case .failure(let error):
-                self.presenter.presentAlert(title: R.string.localizable.alertActionTitleError(),
-                                            message: error.localizedDescription)
+                self.presenter.presentError(error)
             }
         }
     }

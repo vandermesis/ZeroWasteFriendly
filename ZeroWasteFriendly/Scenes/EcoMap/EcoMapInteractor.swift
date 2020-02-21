@@ -53,8 +53,7 @@ extension EcoMapInteractorImpl: EcoMapInteractor {
             case .success(let places):
                 self.presenter.presentPlaces(places: places)
             case .failure(let error):
-                self.presenter.presentAlert(title: R.string.localizable.alertActionTitleError(),
-                                            message: error.localizedDescription)
+                self.presenter.presentError(error)
             }
         }
     }

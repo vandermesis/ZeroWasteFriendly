@@ -52,5 +52,3 @@ extension ActivityTilesController: ActivityTilesPresentable {
 
     }
 }
-
-

@@ -38,8 +38,7 @@ extension ___VARIABLE_sceneName___InteractorImpl: ___VARIABLE_sceneName___Intera
             case .success(let model):
                 self.presenter.present___VARIABLE_sceneName___(model: model)
             case .failure(let error):
-                self.presenter.presentAlert(title: R.string.localizable.alertActionTitleError(),
-                                            message: error.localizedDescription)
+                self.presenter.presentError(error)
             }
         }
     }
