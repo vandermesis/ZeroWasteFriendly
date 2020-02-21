@@ -20,8 +20,8 @@ extension EcoMapPresenterImpl: EcoMapPresenter {
 
     func presentUserLocation(userLocation: UserLocation) {
         let coordinateRegion = MKCoordinateRegion(center: userLocation.location.coordinate,
-                                                  latitudinalMeters: Constants.EcoMap.kilometersRadius,
-                                                  longitudinalMeters: Constants.EcoMap.kilometersRadius)
+                                                  latitudinalMeters: .kilometerRadius,
+                                                  longitudinalMeters: .kilometerRadius)
         controller?.displayUserLocation(region: coordinateRegion)
     }
 
@@ -29,4 +29,8 @@ extension EcoMapPresenterImpl: EcoMapPresenter {
         let placesAnnotation = places.map { ZeroWastePlaceAnnotation(place: $0) }
         controller?.displayZeroWastePlaces(annotations: placesAnnotation)
     }
+}
+
+private extension CLLocationDistance {
+    static let kilometerRadius: CLLocationDistance = 1000
 }

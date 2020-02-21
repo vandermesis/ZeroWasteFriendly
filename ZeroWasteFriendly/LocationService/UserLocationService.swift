@@ -6,7 +6,7 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import Foundation
+import CoreLocation
 
 typealias FetchCurrentLocation = (Result<UserLocation, Error>) -> Void
 
@@ -17,6 +17,11 @@ protocol UserLocationService {
 final class UserLocationServiceImpl: UserLocationService {
 
     func fetchCurrentLocation(completion: FetchCurrentLocation?) {
-        completion?(.success(Constants.EcoMap.katowiceCoordinates))
+        completion?(.success(.katowiceCoordinates))
     }
+}
+
+private extension UserLocation {
+
+    static let katowiceCoordinates = UserLocation(location: CLLocation(latitude: 50.257564, longitude: 19.021145))
 }
