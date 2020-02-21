@@ -8,7 +8,7 @@
 
 import CoreLocation
 
-typealias FetchCurrentLocation = (Result<UserLocation, Error>) -> Void
+typealias FetchCurrentLocation = (Result<Location, Error>) -> Void
 
 protocol UserLocationService {
     func fetchCurrentLocation(completion: FetchCurrentLocation?)
@@ -22,7 +22,7 @@ final class UserLocationServiceImpl: UserLocationService {
     }
 }
 
-private extension UserLocation {
+private extension Location {
 
-    static let katowiceCoordinates = UserLocation(location: CLLocation(latitude: 50.257564, longitude: 19.021145))
+    static let katowiceCoordinates = Location(latitude: 50.257564, longitude: 19.021145)
 }

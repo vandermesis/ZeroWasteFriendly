@@ -20,7 +20,7 @@ final class FakeEcoMapPresenter: EcoMapPresenter {
     var presentErrorCalled: Bool?
     var presentErrorErrorCalled: Error?
     var presentUserLocationCalled: Bool?
-    var presentUserLocationUserLocationCalled: UserLocation?
+    var presentUserLocationUserLocationCalled: Location?
     var presentZeroWastePlacesCalled: Bool?
     var presentZeroWastePlacesPlacesCalled: [Place]?
 
@@ -40,7 +40,7 @@ final class FakeEcoMapPresenter: EcoMapPresenter {
         presentErrorErrorCalled = error
     }
 
-    func presentUserLocation(userLocation: UserLocation) {
+    func presentUserLocation(userLocation: Location) {
         presentUserLocationCalled = true
         presentUserLocationUserLocationCalled = userLocation
     }

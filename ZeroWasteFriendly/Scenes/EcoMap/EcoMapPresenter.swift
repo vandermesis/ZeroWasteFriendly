@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 protocol EcoMapPresenter: SpinnerPresenter, AlertPresenter {
-    func presentUserLocation(userLocation: UserLocation)
+    func presentUserLocation(userLocation: Location)
     func presentPlaces(places: [Place])
 }
 
@@ -18,7 +18,7 @@ final class EcoMapPresenterImpl<T: EcoMapPresentable>: MainPresenter<T> {}
 
 extension EcoMapPresenterImpl: EcoMapPresenter {
 
-    func presentUserLocation(userLocation: UserLocation) {
+    func presentUserLocation(userLocation: Location) {
         let coordinateRegion = MKCoordinateRegion(center: userLocation.location.coordinate,
                                                   latitudinalMeters: .kilometerRadius,
                                                   longitudinalMeters: .kilometerRadius)

@@ -75,8 +75,8 @@
 		BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2D2EB23EE31160014A91F /* UnitTestError.swift */; };
 		BAD021C424007C21009ECB83 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021C324007C21009ECB83 /* Mock.swift */; };
 		BAD021C624007C57009ECB83 /* Mock+Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021C524007C57009ECB83 /* Mock+Place.swift */; };
+		BAD021C824007DD4009ECB83 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD021C724007DD4009ECB83 /* Location.swift */; };
 		BAD2B4E023FB39A400A4845B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD2B4DF23FB39A400A4845B /* logo.png */; };
-		BAD844A123FFD8CE00F6D0B1 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A023FFD8CE00F6D0B1 /* UserLocation.swift */; };
 		BAD844A423FFDF4400F6D0B1 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A323FFDF4400F6D0B1 /* PlaceAnnotation.swift */; };
 		BAD844A623FFE46D00F6D0B1 /* PlacesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */; };
 		BAD844A8240001B200F6D0B1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A7240001B200F6D0B1 /* Place.swift */; };
@@ -168,8 +168,8 @@
 		BAC2D2EB23EE31160014A91F /* UnitTestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestError.swift; sourceTree = "<group>"; };
 		BAD021C324007C21009ECB83 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		BAD021C524007C57009ECB83 /* Mock+Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Place.swift"; sourceTree = "<group>"; };
+		BAD021C724007DD4009ECB83 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		BAD2B4DF23FB39A400A4845B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		BAD844A023FFD8CE00F6D0B1 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		BAD844A323FFDF4400F6D0B1 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
 		BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesRepository.swift; sourceTree = "<group>"; };
 		BAD844A7240001B200F6D0B1 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -410,8 +410,8 @@
 			children = (
 				BAD844A223FFDF0600F6D0B1 /* APIResponses */,
 				BAC2D2E923EE0E3A0014A91F /* Model.swift */,
-				BAD844A023FFD8CE00F6D0B1 /* UserLocation.swift */,
 				BAD844A7240001B200F6D0B1 /* Place.swift */,
+				BAD021C724007DD4009ECB83 /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -694,7 +694,6 @@
 				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
 				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
-				BAD844A123FFD8CE00F6D0B1 /* UserLocation.swift in Sources */,
 				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
 				BA3E739923FED16500CCBA34 /* EcoMapController.swift in Sources */,
 				BAAECD5423FF29210062BED5 /* Constants.swift in Sources */,
@@ -725,6 +724,7 @@
 				BA04011023FFD3990081B1B2 /* UserLocationService.swift in Sources */,
 				BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */,
 				BA3E739A23FED16500CCBA34 /* EcoMapInteractor.swift in Sources */,
+				BAD021C824007DD4009ECB83 /* Location.swift in Sources */,
 				BAD021C624007C57009ECB83 /* Mock+Place.swift in Sources */,
 				BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */,
 				BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */,
