@@ -42,17 +42,6 @@ final class EcoMapController: MainViewController {
     }
 }
 
-extension EcoMapController: EcoMapPresentable {
-
-    func displayUserLocation(region: MKCoordinateRegion) {
-        ecoMapView.setRegion(region, animated: true)
-    }
-
-    func displayPlaces(annotations: [MKAnnotation]) {
-        ecoMapView.addAnnotations(annotations)
-    }
-}
-
 private extension EcoMapController {
 
     private func setupNavigationBar() {
@@ -65,5 +54,16 @@ private extension EcoMapController {
     private func setupMapView() {
         ecoMapView.register(PlaceAnnotationView.self,
                             forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
+    }
+}
+
+extension EcoMapController: EcoMapPresentable {
+
+    func displayUserLocation(region: MKCoordinateRegion) {
+        ecoMapView.setRegion(region, animated: true)
+    }
+
+    func displayPlaces(annotations: [MKAnnotation]) {
+        ecoMapView.addAnnotations(annotations)
     }
 }

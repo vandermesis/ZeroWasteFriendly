@@ -36,13 +36,6 @@ final class ActivityTilesController: MainViewController {
     }
 }
 
-extension ActivityTilesController: ActivityTilesPresentable {
-
-    func displayActivityTiles() {
-
-    }
-}
-
 private extension ActivityTilesController {
 
     private func setupNavigationBar() {
@@ -52,3 +45,12 @@ private extension ActivityTilesController {
                                                             action: #selector(addButtonPressed(_:)))
     }
 }
+
+extension ActivityTilesController: ActivityTilesPresentable {
+
+    func displayActivityTiles() {
+
+    }
+}
+
+

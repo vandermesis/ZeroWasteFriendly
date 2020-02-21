@@ -37,14 +37,6 @@ final class ___VARIABLE_sceneName___Controller: MainViewController {
     }
 }
 
-extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName___Presentable {
-
-    //TODO: Implement functionality or remove
-    func display___VARIABLE_sceneName___() {
-        
-    }
-}
-
 private extension ___VARIABLE_sceneName___Controller {
 
     private func setupNavigationBar() {
@@ -53,5 +45,13 @@ private extension ___VARIABLE_sceneName___Controller {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                             target: self,
                                                             action: #selector(addButtonPressed(_:)))
+    }
+}
+
+extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName___Presentable {
+
+    //TODO: Implement functionality or remove
+    func display___VARIABLE_sceneName___() {
+        
     }
 }

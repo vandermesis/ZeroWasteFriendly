@@ -40,6 +40,22 @@ final class ___VARIABLE_sceneName___Controller: MainViewController {
     }
 }
 
+private extension ___VARIABLE_sceneName___Controller {
+
+    private func setupTableView() {
+        //TODO: Register custom cell
+//        tableView.register(cellType: ___VARIABLE_sceneName___TableViewCell.self)
+    }
+
+    private func setupNavigationBar() {
+        //TODO: Add localiable strings and uncomment
+//        title = R.string.localizable.___VARIABLE_sceneName___Title()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
+                                                            target: self,
+                                                            action: #selector(addButtonPressed(_:)))
+    }
+}
+
 extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName___Presentable {
 
     //TODO: Implement functionality or remove
@@ -66,21 +82,5 @@ extension ___VARIABLE_sceneName___Controller: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-    }
-}
-
-private extension ___VARIABLE_sceneName___Controller {
-
-    private func setupTableView() {
-        //TODO: Register custom cell
-//        tableView.register(cellType: ___VARIABLE_sceneName___TableViewCell.self)
-    }
-
-    private func setupNavigationBar() {
-        //TODO: Add localiable strings and uncomment
-//        title = R.string.localizable.___VARIABLE_sceneName___Title()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
-                                                            target: self,
-                                                            action: #selector(addButtonPressed(_:)))
     }
 }
