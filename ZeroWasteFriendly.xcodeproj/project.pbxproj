@@ -79,6 +79,7 @@
 		BAD844A623FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A523FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift */; };
 		BAD844A8240001B200F6D0B1 /* ZeroWastePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A7240001B200F6D0B1 /* ZeroWastePlace.swift */; };
 		BAD844AB24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AA24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift */; };
+		BAD844AE240019E200F6D0B1 /* Mock+ZeroWastePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +170,7 @@
 		BAD844A523FFE46D00F6D0B1 /* ZeroWastePlacesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWastePlacesRepository.swift; sourceTree = "<group>"; };
 		BAD844A7240001B200F6D0B1 /* ZeroWastePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWastePlace.swift; sourceTree = "<group>"; };
 		BAD844AA24000EE400F6D0B1 /* ZeroWastePlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWastePlaceAnnotationView.swift; sourceTree = "<group>"; };
+		BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+ZeroWastePlace.swift"; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -301,6 +303,7 @@
 			children = (
 				BA5AC77C23EF1001003B180A /* Mock.swift */,
 				BA5AC77F23EF1029003B180A /* Mock+Model.swift */,
+				BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -724,6 +727,7 @@
 				BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */,
 				BAAECD4723FED2AD0062BED5 /* FakeEcoMapRouter.swift in Sources */,
 				BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */,
+				BAD844AE240019E200F6D0B1 /* Mock+ZeroWastePlace.swift in Sources */,
 				BAAECD4C23FED2AD0062BED5 /* EcoMapRouterTests.swift in Sources */,
 				BAAECD4823FED2AD0062BED5 /* FakeEcoMapController.swift in Sources */,
 				BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */,

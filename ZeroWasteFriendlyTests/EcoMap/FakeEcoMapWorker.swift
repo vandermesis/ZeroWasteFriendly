@@ -19,8 +19,9 @@ final class FakeEcoMapWorker: EcoMapWorker {
         fetchUserLocationCalled = true
         fetchUserLocationCompletion = completion
     }
-    func fetchEcoMap(completion: FetchZeroWastePlacesCompletion?) {
+
+    func fetchZeroWastePlaces(completion: FetchEcoMapCompletion?) {
         fetchZeroWastePlacesCalled = true
-        fetchZeroWastePlaces  Completion = completion
+        fetchZeroWastePlacesCompletion = completion
     }
 }

@@ -14,13 +14,15 @@ final class FakeEcoMapController: MainViewController, EcoMapPresentable {
 
     var displayUserLocationCalled: Bool?
     var displayUserLocationRegionCalled: MKCoordinateRegion?
-    var displayEcoMapCalled: Bool?
+    var displayZeroWastePlacesCalled: Bool?
+    var displayZeroWastePlacesAnnotationsCalled: [MKAnnotation]?
 
     func displayUserLocation(region: MKCoordinateRegion) {
         displayUserLocationCalled = true
         displayUserLocationRegionCalled = region
     }
-    func displayZeroWastePlaces() {
-        displayEcoMapCalled = true
+    func displayZeroWastePlaces(annotations: [MKAnnotation]) {
+        displayZeroWastePlacesCalled = true
+        displayZeroWastePlacesAnnotationsCalled = annotations
     }
 }
