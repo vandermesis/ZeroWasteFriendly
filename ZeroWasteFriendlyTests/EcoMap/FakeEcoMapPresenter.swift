@@ -45,8 +45,8 @@ final class FakeEcoMapPresenter: EcoMapPresenter {
         presentUserLocationUserLocationCalled = userLocation
     }
 
-    func presentEcoMap(model: [Model]) {
+    func presentZeroWastePlaces(place: [Model]) {
         presentEcoMapCalled = true
-        presentEcoMapModelCalled = model
+        presentEcoMapModelCalled = place
     }
 }

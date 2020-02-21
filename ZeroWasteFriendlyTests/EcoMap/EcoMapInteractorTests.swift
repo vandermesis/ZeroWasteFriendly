@@ -37,14 +37,14 @@ final class EcoMapInteractorTests: XCTestCase {
         // Given
 
         // When
-        interactor.getEcoMap()
+        interactor.getZeroWastePlaces()
         // Then
         XCTAssertEqual(worker.fetchEcoMapCalled, true, "calling worker to fetch data is true")
     }
 
     func testInteractorIsGettingDataIsSuccess() {
         // Given
-        interactor.getEcoMap()
+        interactor.getZeroWastePlaces()
         // When
         worker.fetchEcoMapCompletion?(.success([Mock.model]))
         // Then
@@ -53,7 +53,7 @@ final class EcoMapInteractorTests: XCTestCase {
 
     func testInteractorIsGettingDataIsFailure() {
         // Given
-        interactor.getEcoMap()
+        interactor.getZeroWastePlaces()
         // When
         worker.fetchEcoMapCompletion?(.failure(UnitTestError()))
         // Then

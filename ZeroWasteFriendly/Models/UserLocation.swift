@@ -6,7 +6,6 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import Foundation
 import CoreLocation
 
 struct UserLocation {

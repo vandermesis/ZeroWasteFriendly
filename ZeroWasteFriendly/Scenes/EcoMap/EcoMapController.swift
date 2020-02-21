@@ -11,7 +11,7 @@ import MapKit
 
 protocol EcoMapPresentable: SpinnerPresentable & AlertPresentable {
     func displayUserLocation(region: MKCoordinateRegion)
-    func displayEcoMap()
+    func displayZeroWastePlaces(annotations: [MKAnnotation])
 }
 
 final class EcoMapController: MainViewController {
@@ -32,8 +32,9 @@ final class EcoMapController: MainViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
+        setupMapView()
         interactor.getUserLocation()
-        interactor.getEcoMap()
+        interactor.getZeroWastePlaces()
     }
 
     @IBAction private func addButtonPressed(_ sender: UIBarButtonItem) {
@@ -47,7 +48,14 @@ extension EcoMapController: EcoMapPresentable {
         ecoMapView.setRegion(region, animated: true)
     }
 
-    func displayEcoMap() {
+    func displayZeroWastePlaces(annotations: [MKAnnotation]) {
+        ecoMapView.addAnnotations(annotations)
+    }
+}
+
+extension EcoMapController: MKMapViewDelegate {
+
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
     }
 }
@@ -59,5 +67,11 @@ private extension EcoMapController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                             target: self,
                                                             action: #selector(addButtonPressed(_:)))
+    }
+
+    private func setupMapView() {
+        ecoMapView.delegate = self
+        ecoMapView.register(ZeroWastePlaceAnnotationView.self,
+                            forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
     }
 }

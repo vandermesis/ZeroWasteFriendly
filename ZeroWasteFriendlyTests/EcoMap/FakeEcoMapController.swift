@@ -20,7 +20,7 @@ final class FakeEcoMapController: MainViewController, EcoMapPresentable {
         displayUserLocationCalled = true
         displayUserLocationRegionCalled = region
     }
-    func displayEcoMap() {
+    func displayZeroWastePlaces() {
         displayEcoMapCalled = true
     }
 }

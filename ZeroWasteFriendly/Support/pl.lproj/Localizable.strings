@@ -50,3 +50,11 @@
 "Error.InvalidURL" = "Nieprawdiłowy URL";
 "Error.MissingApiResponse" = "Brak odpowiedzi API";
 "Error.MissingApiData" = "Brak danych z API";
+
+// ZeroWasteCategory
+"Category.Refuse" = "Odmawiaj";
+"Category.Reduce" = "Ograniczaj";
+"Category.Reuse" = "Użyj ponownie";
+"Category.Recycle" = "Przetwarzaj";
+"Category.Rot" = "Kompostuj";
+"Category.Repair" = "Naprawiaj";
