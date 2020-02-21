@@ -9,6 +9,7 @@
 import Foundation
 
 protocol EcoMapInteractor {
+    func getUserLocation()
     func getEcoMap()
 }
 
@@ -28,6 +29,20 @@ final class EcoMapInteractorImpl {
 }
 
 extension EcoMapInteractorImpl: EcoMapInteractor {
+
+    func getUserLocation() {
+        presenter.toggleSpinner(true)
+        worker.fetchUserLocation { [weak self] result in
+            guard let self = self else { return }
+            self.presenter.toggleSpinner(false)
+            switch result {
+            case .success(let userLocation):
+                self.presenter.presentUserLocation(userLocation: userLocation)
+            case .failure(let error):
+                self.presenter.presentError(error)
+            }
+        }
+    }
 
     func getEcoMap() {
         presenter.toggleSpinner(true)

@@ -19,6 +19,8 @@ final class FakeEcoMapPresenter: EcoMapPresenter {
     var presentAlertMessageCalled: String?
     var presentErrorCalled: Bool?
     var presentErrorErrorCalled: Error?
+    var presentUserLocationCalled: Bool?
+    var presentUserLocationUserLocationCalled: UserLocation?
     var presentEcoMapCalled: Bool?
     var presentEcoMapModelCalled: [Model]?
 
@@ -36,6 +38,11 @@ final class FakeEcoMapPresenter: EcoMapPresenter {
     func presentError(_ error: Error) {
         presentErrorCalled = true
         presentErrorErrorCalled = error
+    }
+
+    func presentUserLocation(userLocation: UserLocation) {
+        presentUserLocationCalled = true
+        presentUserLocationUserLocationCalled = userLocation
     }
 
     func presentEcoMap(model: [Model]) {

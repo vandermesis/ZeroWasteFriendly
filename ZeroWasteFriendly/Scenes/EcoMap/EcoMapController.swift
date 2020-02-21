@@ -10,6 +10,7 @@ import UIKit
 import MapKit
 
 protocol EcoMapPresentable: SpinnerPresentable & AlertPresentable {
+    func displayUserLocation(region: MKCoordinateRegion)
     func displayEcoMap()
 }
 
@@ -31,7 +32,7 @@ final class EcoMapController: MainViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
-        centerMapOnLocation(location: Constants.EcoMap.katowiceCoordinates)
+        interactor.getUserLocation()
         interactor.getEcoMap()
     }
 
@@ -41,6 +42,10 @@ final class EcoMapController: MainViewController {
 }
 
 extension EcoMapController: EcoMapPresentable {
+
+    func displayUserLocation(region: MKCoordinateRegion) {
+        ecoMapView.setRegion(region, animated: true)
+    }
 
     func displayEcoMap() {
         
@@ -54,12 +59,5 @@ private extension EcoMapController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                             target: self,
                                                             action: #selector(addButtonPressed(_:)))
-    }
-
-    private func centerMapOnLocation(location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
-                                                  latitudinalMeters: Constants.EcoMap.kilometerRadius,
-                                                  longitudinalMeters: Constants.EcoMap.kilometerRadius)
-        ecoMapView.setRegion(coordinateRegion, animated: true)
     }
 }

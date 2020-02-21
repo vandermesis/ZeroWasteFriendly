@@ -6,12 +6,12 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import MapKit
+import CoreLocation
 
 enum Constants {
 
     enum EcoMap {
-        static let katowiceCoordinates = CLLocation(latitude: 50.264583, longitude: 19.023333)
+        static let katowiceCoordinates = UserLocation(location: CLLocation(latitude: 50.264583, longitude: 19.023333))
         static let kilometerRadius: CLLocationDistance = 1000
     }
 }
