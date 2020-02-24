@@ -17,10 +17,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let startingController = setupTabBarController()
         displayStartingController(controller: startingController, at: windowScene)
     }
-
-    func sceneDidEnterBackground(_ scene: UIScene) {
-        CoreDataStack.shared.saveCurrentContext()
-    }
 }
 
 private extension SceneDelegate {
@@ -28,7 +24,7 @@ private extension SceneDelegate {
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
 
-        let activityTilesController = ActivityTilesCreator().getController(context: CoreDataStack.shared.managedContext)
+        let activityTilesController = ActivityTilesCreator().getController()
         let activityTilesNavController = activityTilesController.embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
                                                                                              image: R.image.tabBarActSun())
         let ecoMapController = EcoMapCreator().getController()

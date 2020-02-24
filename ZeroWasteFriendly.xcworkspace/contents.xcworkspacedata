@@ -92,9 +92,6 @@
                location = "group:BaseNetworking.swift">
             </FileRef>
             <FileRef
-               location = "group:CoreDataStack.swift">
-            </FileRef>
-            <FileRef
                location = "group:Error+UserFriendlyMessage.swift">
             </FileRef>
             <FileRef

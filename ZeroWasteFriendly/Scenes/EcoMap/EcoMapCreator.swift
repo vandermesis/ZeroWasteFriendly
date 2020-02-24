@@ -11,7 +11,7 @@ import CoreData
 
 struct EcoMapCreator {
 
-    func getController(context: NSManagedObjectContext? = nil) -> EcoMapController {
+    func getController() -> EcoMapController {
 
         let locationService = UserLocationServiceImpl()
         let repository = PlacesRepositoryImpl()

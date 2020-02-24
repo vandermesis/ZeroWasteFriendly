@@ -11,7 +11,7 @@ import CoreData
 
 struct ActivityTilesCreator {
 
-    func getController(context: NSManagedObjectContext? = nil) -> ActivityTilesController {
+    func getController() -> ActivityTilesController {
 
         let networking = ZeroWasteFriendlyNetworkingImpl()
         let worker = ActivityTilesWorkerImpl(networking: networking)
