@@ -20,5 +20,7 @@ final class PlacesRepositoryImpl: PlacesRepository {
     func fetchPlaces(completion: FetchPlacesCompletion?) {
         //TODO: Add proper networking
         completion?(.success(Mock.places))
+
+        CoreDataStack.shared.managedContext.
     }
 }

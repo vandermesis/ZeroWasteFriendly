@@ -48,13 +48,13 @@
 		BA5AC78823EF55F7003B180A /* AlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78723EF55F7003B180A /* AlertPresentable.swift */; };
 		BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78923EF5659003B180A /* MainPresenter.swift */; };
 		BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */; };
+		BA5D10832404657100D62894 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5D10822404657100D62894 /* CloudKit.framework */; };
 		BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041223ED799D00CF39B5 /* MainViewController.swift */; };
 		BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041423ED79E300CF39B5 /* MainNavigationController.swift */; };
 		BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */; };
 		BA68F6ED23F3260700EAE1EE /* FakeMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68F6EC23F3260700EAE1EE /* FakeMainController.swift */; };
 		BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */; };
 		BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */; };
-		BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */; };
 		BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */; };
 		BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9DB87123CE6DED004F86A0 /* LaunchScreen.storyboard */; };
 		BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA73F8123CF888E00B4FEC8 /* R.generated.swift */; };
@@ -137,6 +137,8 @@
 		BA5AC78723EF55F7003B180A /* AlertPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentable.swift; sourceTree = "<group>"; };
 		BA5AC78923EF5659003B180A /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWasteFriendlyNetworking.swift; sourceTree = "<group>"; };
+		BA5D10812404656100D62894 /* ZeroWasteFriendly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZeroWasteFriendly.entitlements; sourceTree = "<group>"; };
+		BA5D10822404657100D62894 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		BA60041223ED799D00CF39B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BA60041423ED79E300CF39B5 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
@@ -144,7 +146,6 @@
 		BA9DB86023CE6DEA004F86A0 /* ZeroWasteFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9DB86323CE6DEA004F86A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9DB86523CE6DEA004F86A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA9DB86D23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZeroWasteFriendly.xcdatamodel; sourceTree = "<group>"; };
 		BA9DB86F23CE6DED004F86A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9DB87223CE6DED004F86A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9DB87423CE6DED004F86A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */,
+				BA5D10832404657100D62894 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +203,7 @@
 		6F05A28DEC8621C0BF52BA4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA5D10822404657100D62894 /* CloudKit.framework */,
 				7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */,
 			);
 			name = Frameworks;
@@ -337,6 +340,7 @@
 		BA9DB86223CE6DEA004F86A0 /* ZeroWasteFriendly */ = {
 			isa = PBXGroup;
 			children = (
+				BA5D10812404656100D62894 /* ZeroWasteFriendly.entitlements */,
 				BAD021C224007C15009ECB83 /* Mocks */,
 				BAA73F8723CF8E6200B4FEC8 /* Models */,
 				BA04011123FFD39E0081B1B2 /* LocationService */,
@@ -400,7 +404,6 @@
 			isa = PBXGroup;
 			children = (
 				BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */,
-				BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -419,8 +422,8 @@
 		BAA73F8823CF8E7000B4FEC8 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */,
 				BAC1E87123F2ECB900FD210B /* BaseNetworking */,
+				BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -719,7 +722,6 @@
 				BAD844AB24000EE400F6D0B1 /* PlaceAnnotationView.swift in Sources */,
 				BA43E2E923FC62AF0050F7AB /* CoreDataStack.swift in Sources */,
 				BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */,
-				BA9DB86E23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld in Sources */,
 				BA5AC78823EF55F7003B180A /* AlertPresentable.swift in Sources */,
 				BA04011023FFD3990081B1B2 /* UserLocationService.swift in Sources */,
 				BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */,
@@ -912,7 +914,9 @@
 			baseConfigurationReference = BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZeroWasteFriendly/ZeroWasteFriendly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3JCHA3QJ;
 				INFOPLIST_FILE = ZeroWasteFriendly/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -930,7 +934,9 @@
 			baseConfigurationReference = F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZeroWasteFriendly/ZeroWasteFriendly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3JCHA3QJ;
 				INFOPLIST_FILE = ZeroWasteFriendly/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1016,19 +1022,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BA9DB86C23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BA9DB86D23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodel */,
-			);
-			currentVersion = BA9DB86D23CE6DEA004F86A0 /* ZeroWasteFriendly.xcdatamodel */;
-			path = ZeroWasteFriendly.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BA9DB85823CE6DEA004F86A0 /* Project object */;
 }
