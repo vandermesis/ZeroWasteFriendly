@@ -12,8 +12,8 @@ final class FakeEcoMapWorker: EcoMapWorker {
 
     var fetchUserLocationCalled: Bool?
     var fetchUserLocationCompletion: FetchCurrentLocation?
-    var fetchZeroWastePlacesCalled: Bool?
-    var fetchZeroWastePlacesCompletion: FetchPlacesCompletion?
+    var fetchPlacesCalled: Bool?
+    var fetchPlacesCompletion: FetchPlacesCompletion?
 
     func fetchUserLocation(completion: FetchCurrentLocation?) {
         fetchUserLocationCalled = true
@@ -21,7 +21,7 @@ final class FakeEcoMapWorker: EcoMapWorker {
     }
 
     func fetchPlaces(completion: FetchPlacesCompletion?) {
-        fetchZeroWastePlacesCalled = true
-        fetchZeroWastePlacesCompletion = completion
+        fetchPlacesCalled = true
+        fetchPlacesCompletion = completion
     }
 }

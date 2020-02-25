@@ -33,30 +33,73 @@ final class EcoMapInteractorTests: XCTestCase {
         super.tearDown()
     }
 
-    func testInteractorIsGettingData() {
+    func testInteractorIsGettingUserLocation() {
         // Given
 
         // When
-        interactor.getPlaces()
+        interactor.getUserLocation()
         // Then
-        XCTAssertEqual(worker.fetchZeroWastePlacesCalled, true, "calling worker to fetch data is true")
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, true, "presenter toogle spinner state is true" )
+        XCTAssertEqual(worker.fetchUserLocationCalled, true, "calling worker to fetch user location is true")
     }
 
-    func testInteractorIsGettingDataIsSuccess() {
+    func testInteractorIsGettingUserLocationIsSuccess() {
         // Given
-        interactor.getPlaces()
+        interactor.getUserLocation()
         // When
-        worker.fetchZeroWastePlacesCompletion?(.success(Mock.places))
+        worker.fetchUserLocationCompletion?(.success(Mock.location))
         // Then
-        XCTAssertEqual(presenter.presentZeroWastePlacesCalled, true, "calling presenter to present data is true")
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "presenter toogle spinner state is false" )
+        XCTAssertEqual(presenter.presentUserLocationCalled, true, "calling presenter to present user location is true")
+        XCTAssertEqual(presenter.presentUserLocationUserLocationCalled?.latitude, 50.257564, "presenter should receive valid data")
     }
 
-    func testInteractorIsGettingDataIsFailure() {
+    func testInteractorIsGettingUserLocationIsFailure() {
+        // Given
+        interactor.getUserLocation()
+        // When
+        worker.fetchUserLocationCompletion?(.failure(UnitTestError()))
+        // Then
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "presenter toogle spinner state is false" )
+        XCTAssertEqual(presenter.presentUserLocationCalled, nil, "calling presenter to present user location is nil")
+        XCTAssertEqual(presenter.presentErrorCalled, true, "calling presenter to present error it true")
+    }
+
+    func testInteractorIsGettingPlaces() {
+        // Given
+
+        // When
+        interactor.getPlaces()
+        // Then
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, true, "presenter toogle spinner state is true" )
+        XCTAssertEqual(worker.fetchPlacesCalled, true, "calling worker to fetch data is true")
+    }
+
+    func testInteractorIsGettingPlacesIsSuccess() {
         // Given
         interactor.getPlaces()
         // When
-        worker.fetchZeroWastePlacesCompletion?(.failure(UnitTestError()))
+        worker.fetchPlacesCompletion?(.success(Mock.places))
         // Then
-        XCTAssertEqual(presenter.presentZeroWastePlacesCalled, nil, "calling presenter to present data is nil")
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "presenter toogle spinner state is false" )
+        XCTAssertEqual(presenter.presentPlacesCalled, true, "calling presenter to present data is true")
+        XCTAssertEqual(presenter.presentPlacesPlacesCalled?.count, 3, "presenter should receive valid amount of data")
+    }
+
+    func testInteractorIsGettingPlacesIsFailure() {
+        // Given
+        interactor.getPlaces()
+        // When
+        worker.fetchPlacesCompletion?(.failure(UnitTestError()))
+        // Then
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "presenter toogle spinner state is false" )
+        XCTAssertEqual(presenter.presentPlacesCalled, nil, "calling presenter to present data is nil")
+        XCTAssertEqual(presenter.presentErrorCalled, true, "calling presenter to present error it true")
     }
 }

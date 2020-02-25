@@ -23,14 +23,6 @@
 		BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */; };
 		BA2BF8F223EB5684001508F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F123EB5684001508F9 /* README.md */; };
 		BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F823EB65AA001508F9 /* Localizable.strings */; };
-		BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */; };
-		BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */; };
-		BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */; };
-		BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */; };
-		BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */; };
-		BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */; };
-		BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */; };
-		BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */; };
 		BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */; };
 		BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */; };
 		BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */; };
@@ -68,6 +60,7 @@
 		BAAECD4C23FED2AD0062BED5 /* EcoMapRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD4423FED2AD0062BED5 /* EcoMapRouterTests.swift */; };
 		BAAECD4D23FED2AD0062BED5 /* EcoMapPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD4523FED2AD0062BED5 /* EcoMapPresenterTests.swift */; };
 		BAAECD5423FF29210062BED5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD5323FF29210062BED5 /* Constants.swift */; };
+		BABCEA302405CB620044FDCD /* Mock+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABCEA2F2405CB620044FDCD /* Mock+Location.swift */; };
 		BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */; };
 		BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86B23F2E79A00FD210B /* Request.swift */; };
 		BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86D23F2EB8100FD210B /* APIClient.swift */; };
@@ -82,7 +75,7 @@
 		BAD844A623FFE46D00F6D0B1 /* PlacesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */; };
 		BAD844A8240001B200F6D0B1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844A7240001B200F6D0B1 /* Place.swift */; };
 		BAD844AB24000EE400F6D0B1 /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AA24000EE400F6D0B1 /* PlaceAnnotationView.swift */; };
-		BAD844AE240019E200F6D0B1 /* Mock+ZeroWastePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */; };
+		BAD844AE240019E200F6D0B1 /* Mock+Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD844AD240019E200F6D0B1 /* Mock+Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,14 +106,6 @@
 		BA2BF8F123EB5684001508F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA2BF8F723EB65AA001508F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA2BF8F923EB65B3001508F9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesInteractorTests.swift; sourceTree = "<group>"; };
-		BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesRouter.swift; sourceTree = "<group>"; };
-		BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesController.swift; sourceTree = "<group>"; };
-		BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesWorker.swift; sourceTree = "<group>"; };
-		BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeActivityTilesPresenter.swift; sourceTree = "<group>"; };
-		BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorkerTests.swift; sourceTree = "<group>"; };
-		BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouterTests.swift; sourceTree = "<group>"; };
-		BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenterTests.swift; sourceTree = "<group>"; };
 		BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
 		BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
 		BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
@@ -163,6 +148,7 @@
 		BAAECD4423FED2AD0062BED5 /* EcoMapRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouterTests.swift; sourceTree = "<group>"; };
 		BAAECD4523FED2AD0062BED5 /* EcoMapPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenterTests.swift; sourceTree = "<group>"; };
 		BAAECD5323FF29210062BED5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BABCEA2F2405CB620044FDCD /* Mock+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Location.swift"; sourceTree = "<group>"; };
 		BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+UserFriendlyMessage.swift"; sourceTree = "<group>"; };
 		BAC1E86B23F2E79A00FD210B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		BAC1E86D23F2EB8100FD210B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -177,7 +163,7 @@
 		BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesRepository.swift; sourceTree = "<group>"; };
 		BAD844A7240001B200F6D0B1 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		BAD844AA24000EE400F6D0B1 /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
-		BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+ZeroWastePlace.swift"; sourceTree = "<group>"; };
+		BAD844AD240019E200F6D0B1 /* Mock+Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Place.swift"; sourceTree = "<group>"; };
 		BDD5FC18CF7A7D72C6CD9C94 /* Pods-ZeroWasteFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.debug.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FCD6613C06ED65052314E9 /* Pods-ZeroWasteFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteFriendly.release.xcconfig"; path = "Target Support Files/Pods-ZeroWasteFriendly/Pods-ZeroWasteFriendly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -276,21 +262,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		BA2BF90C23EB6C0D001508F9 /* ActivityTiles */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF8FD23EB6C05001508F9 /* FakeActivityTilesController.swift */,
-				BA2BF8FF23EB6C05001508F9 /* FakeActivityTilesPresenter.swift */,
-				BA2BF8FE23EB6C05001508F9 /* FakeActivityTilesWorker.swift */,
-				BA2BF8FC23EB6C05001508F9 /* FakeActivityTilesRouter.swift */,
-				BA2BF8FA23EB6C05001508F9 /* ActivityTilesInteractorTests.swift */,
-				BA2BF90023EB6C05001508F9 /* ActivityTilesWorkerTests.swift */,
-				BA2BF90223EB6C05001508F9 /* ActivityTilesPresenterTests.swift */,
-				BA2BF90123EB6C05001508F9 /* ActivityTilesRouterTests.swift */,
-			);
-			path = ActivityTiles;
-			sourceTree = "<group>";
-		};
 		BA3E739D23FED16D00CCBA34 /* EcoMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,7 +283,8 @@
 			children = (
 				BA5AC77C23EF1001003B180A /* Mock.swift */,
 				BA5AC77F23EF1029003B180A /* Mock+Model.swift */,
-				BAD844AD240019E200F6D0B1 /* Mock+ZeroWastePlace.swift */,
+				BAD844AD240019E200F6D0B1 /* Mock+Place.swift */,
+				BABCEA2F2405CB620044FDCD /* Mock+Location.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -370,7 +342,6 @@
 				BA9DB87F23CE6DED004F86A0 /* Info.plist */,
 				BA5AC77E23EF1013003B180A /* Mocks */,
 				BAC2D2ED23EE312C0014A91F /* Helpers */,
-				BA2BF90C23EB6C0D001508F9 /* ActivityTiles */,
 				BAAECD4E23FED2B40062BED5 /* EcoMap */,
 			);
 			path = ZeroWasteFriendlyTests;
@@ -749,27 +720,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2BF90A23EB6C05001508F9 /* ActivityTilesRouterTests.swift in Sources */,
 				BA5AC77D23EF1001003B180A /* Mock.swift in Sources */,
 				BAAECD4D23FED2AD0062BED5 /* EcoMapPresenterTests.swift in Sources */,
 				BAAECD4B23FED2AD0062BED5 /* EcoMapWorkerTests.swift in Sources */,
 				BAAECD4A23FED2AD0062BED5 /* FakeEcoMapPresenter.swift in Sources */,
-				BA2BF90B23EB6C05001508F9 /* ActivityTilesPresenterTests.swift in Sources */,
 				BAAECD4723FED2AD0062BED5 /* FakeEcoMapRouter.swift in Sources */,
 				BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */,
-				BAD844AE240019E200F6D0B1 /* Mock+ZeroWastePlace.swift in Sources */,
+				BAD844AE240019E200F6D0B1 /* Mock+Place.swift in Sources */,
 				BAAECD4C23FED2AD0062BED5 /* EcoMapRouterTests.swift in Sources */,
 				BAAECD4823FED2AD0062BED5 /* FakeEcoMapController.swift in Sources */,
-				BA2BF90823EB6C05001508F9 /* FakeActivityTilesPresenter.swift in Sources */,
 				BA5AC78023EF1029003B180A /* Mock+Model.swift in Sources */,
-				BA2BF90523EB6C05001508F9 /* FakeActivityTilesRouter.swift in Sources */,
-				BA2BF90923EB6C05001508F9 /* ActivityTilesWorkerTests.swift in Sources */,
-				BA2BF90723EB6C05001508F9 /* FakeActivityTilesWorker.swift in Sources */,
 				BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */,
-				BA2BF90623EB6C05001508F9 /* FakeActivityTilesController.swift in Sources */,
 				BAAECD4923FED2AD0062BED5 /* FakeEcoMapWorker.swift in Sources */,
+				BABCEA302405CB620044FDCD /* Mock+Location.swift in Sources */,
 				BAAECD4623FED2AD0062BED5 /* EcoMapInteractorTests.swift in Sources */,
-				BA2BF90323EB6C05001508F9 /* ActivityTilesInteractorTests.swift in Sources */,
 				BA68F6ED23F3260700EAE1EE /* FakeMainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
