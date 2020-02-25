@@ -39,6 +39,8 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
         // When
         interactor.get___VARIABLE_sceneName___()
         // Then
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, true, "presenter toogle spinner state is true" )
         XCTAssertEqual(worker.fetch___VARIABLE_sceneName___Called, true, "calling worker to fetch data is true")
     }
 
@@ -48,6 +50,8 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
         // When
         worker.fetch___VARIABLE_sceneName___Completion?(.success([Mock.model]))
         // Then
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "presenter toogle spinner state is false" )
         XCTAssertEqual(presenter.present___VARIABLE_sceneName___Called, true, "calling presenter to present data is true")
     }
 
@@ -57,6 +61,9 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
         // When
         worker.fetch___VARIABLE_sceneName___Completion?(.failure(UnitTestError()))
         // Then
+        XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
+        XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "presenter toogle spinner state is false" )
         XCTAssertEqual(presenter.present___VARIABLE_sceneName___Called, nil, "calling presenter to present data is nil")
+        XCTAssertEqual(presenter.presentErrorCalled, true, "calling presenter to present error it true")
     }
 }

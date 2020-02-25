@@ -28,12 +28,24 @@ final class EcoMapPresenterTests: XCTestCase {
         super.tearDown()
     }
 
-    func testControllerIsDisplayingEcoMap() {
+    func testControllerIsDisplayingUserLocation() {
+        // Given
+
+        // When
+        presenter.presentUserLocation(userLocation: Mock.location)
+        // Then
+        XCTAssertEqual(controller.displayUserLocationCalled, true, "calling controller to display user location is true")
+    }
+
+    func testControllerIsDisplayingPlaces() {
         // Given
 
         // When
         presenter.presentPlaces(places: Mock.places)
         // Then
         XCTAssertEqual(controller.displayPlacesCalled, true, "calling controller to display data is true")
+        XCTAssertEqual(controller.displayPlacesAnnotationsCalled?.count, 3, "controller should receive valid amount of data")
+        XCTAssertEqual(controller.displayPlacesAnnotationsCalled?.first?.title, "Drogeria Hebe", "controller should receive valid converted data")
+        XCTAssert(controller.displayPlacesAnnotationsCalled is [PlaceAnnotation], "controller should receive data converted to displayable model")
     }
 }
