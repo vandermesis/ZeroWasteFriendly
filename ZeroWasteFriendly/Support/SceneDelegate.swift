@@ -24,13 +24,10 @@ private extension SceneDelegate {
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
 
-        let activityTilesController = ActivityTilesCreator().getController()
-        let activityTilesNavController = activityTilesController.embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
-                                                                                             image: R.image.tabBarActSun())
         let ecoMapController = EcoMapCreator().getController()
         let ecoMapNavController = ecoMapController.embedInNavigationController(title: R.string.localizable.tabBarItemEcoMap(), image: R.image.tabBarEarthMap())
 
-        tabBarController.viewControllers = [ecoMapNavController, activityTilesNavController]
+        tabBarController.viewControllers = [ecoMapNavController]
         return tabBarController
     }
 

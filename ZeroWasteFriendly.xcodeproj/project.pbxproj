@@ -10,13 +10,6 @@
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
 		BA04011023FFD3990081B1B2 /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA04010F23FFD3990081B1B2 /* UserLocationService.swift */; };
 		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
-		BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */; };
-		BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */; };
-		BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */; };
-		BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88C23EB372C001508F9 /* ActivityTilesController.swift */; };
-		BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */; };
-		BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */; };
-		BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
 		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
 		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
@@ -95,13 +88,6 @@
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA04010F23FFD3990081B1B2 /* UserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
 		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
-		BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesPresenter.swift; sourceTree = "<group>"; };
-		BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesWorker.swift; sourceTree = "<group>"; };
-		BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesRouter.swift; sourceTree = "<group>"; };
-		BA2BF88C23EB372C001508F9 /* ActivityTilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesController.swift; sourceTree = "<group>"; };
-		BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesInteractor.swift; sourceTree = "<group>"; };
-		BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTilesCreator.swift; sourceTree = "<group>"; };
-		BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTilesController.xib; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -236,20 +222,6 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
-		BA2BF89723EB3730001508F9 /* ActivityTiles */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BF88E23EB372C001508F9 /* ActivityTilesCreator.swift */,
-				BA2BF88C23EB372C001508F9 /* ActivityTilesController.swift */,
-				BA2BF88F23EB372C001508F9 /* ActivityTilesController.xib */,
-				BA2BF88D23EB372C001508F9 /* ActivityTilesInteractor.swift */,
-				BA2BF88A23EB372C001508F9 /* ActivityTilesWorker.swift */,
-				BA2BF88923EB372C001508F9 /* ActivityTilesPresenter.swift */,
-				BA2BF88B23EB372C001508F9 /* ActivityTilesRouter.swift */,
-			);
-			path = ActivityTiles;
-			sourceTree = "<group>";
-		};
 		BA2BF89823EB387B001508F9 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,7 +330,6 @@
 		BAA73F8323CF8E1C00B4FEC8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				BA2BF89723EB3730001508F9 /* ActivityTiles */,
 				BA3E739D23FED16D00CCBA34 /* EcoMap */,
 			);
 			path = Scenes;
@@ -594,7 +565,6 @@
 				BAD2B4E023FB39A400A4845B /* logo.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
-				BA2BF89623EB372C001508F9 /* ActivityTilesController.xib in Resources */,
 				BA5AC78623EF55A0003B180A /* SpinnerController.xib in Resources */,
 				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
 				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
@@ -699,11 +669,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5D10852404702400D62894 /* BaseCloudKitService.swift in Sources */,
-				BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */,
 				BAD844A8240001B200F6D0B1 /* Place.swift in Sources */,
 				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
 				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
-				BA2BF89523EB372C001508F9 /* ActivityTilesCreator.swift in Sources */,
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
 				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
 				BA3E739923FED16500CCBA34 /* EcoMapController.swift in Sources */,
@@ -713,18 +681,14 @@
 				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
 				BAD844A423FFDF4400F6D0B1 /* PlaceAnnotation.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
-				BA2BF89023EB372C001508F9 /* ActivityTilesPresenter.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
 				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
 				BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */,
 				BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */,
 				BAD844A623FFE46D00F6D0B1 /* PlacesRepository.swift in Sources */,
 				BA3E739B23FED16500CCBA34 /* EcoMapCreator.swift in Sources */,
-				BA2BF89423EB372C001508F9 /* ActivityTilesInteractor.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
-				BA2BF89223EB372C001508F9 /* ActivityTilesRouter.swift in Sources */,
 				BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */,
-				BA2BF89323EB372C001508F9 /* ActivityTilesController.swift in Sources */,
 				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
 				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
 				BAD844AB24000EE400F6D0B1 /* PlaceAnnotationView.swift in Sources */,
