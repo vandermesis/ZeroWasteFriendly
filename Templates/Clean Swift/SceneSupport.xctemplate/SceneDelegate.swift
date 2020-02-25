@@ -23,7 +23,7 @@ private extension SceneDelegate {
 
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
-        let controller = Creator().getController()
+        let controller = SceneCreator().getController()
         let navController = controller.embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
                                                                    image: R.image.tabBarActSun())
 
