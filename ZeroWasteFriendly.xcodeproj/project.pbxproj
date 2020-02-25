@@ -61,6 +61,7 @@
 		BAAECD4D23FED2AD0062BED5 /* EcoMapPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD4523FED2AD0062BED5 /* EcoMapPresenterTests.swift */; };
 		BAAECD5423FF29210062BED5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAECD5323FF29210062BED5 /* Constants.swift */; };
 		BABCEA302405CB620044FDCD /* Mock+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABCEA2F2405CB620044FDCD /* Mock+Location.swift */; };
+		BABCEA322405D30E0044FDCD /* FakeMainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABCEA312405D30E0044FDCD /* FakeMainPresenter.swift */; };
 		BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */; };
 		BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86B23F2E79A00FD210B /* Request.swift */; };
 		BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC1E86D23F2EB8100FD210B /* APIClient.swift */; };
@@ -149,6 +150,7 @@
 		BAAECD4523FED2AD0062BED5 /* EcoMapPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenterTests.swift; sourceTree = "<group>"; };
 		BAAECD5323FF29210062BED5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BABCEA2F2405CB620044FDCD /* Mock+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Location.swift"; sourceTree = "<group>"; };
+		BABCEA312405D30E0044FDCD /* FakeMainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeMainPresenter.swift; sourceTree = "<group>"; };
 		BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+UserFriendlyMessage.swift"; sourceTree = "<group>"; };
 		BAC1E86B23F2E79A00FD210B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		BAC1E86D23F2EB8100FD210B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 			children = (
 				BAC2D2EB23EE31160014A91F /* UnitTestError.swift */,
 				BA68F6EC23F3260700EAE1EE /* FakeMainController.swift */,
+				BABCEA312405D30E0044FDCD /* FakeMainPresenter.swift */,
 				BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */,
 			);
 			path = Helpers;
@@ -726,6 +729,7 @@
 				BAAECD4A23FED2AD0062BED5 /* FakeEcoMapPresenter.swift in Sources */,
 				BAAECD4723FED2AD0062BED5 /* FakeEcoMapRouter.swift in Sources */,
 				BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */,
+				BABCEA322405D30E0044FDCD /* FakeMainPresenter.swift in Sources */,
 				BAD844AE240019E200F6D0B1 /* Mock+Place.swift in Sources */,
 				BAAECD4C23FED2AD0062BED5 /* EcoMapRouterTests.swift in Sources */,
 				BAAECD4823FED2AD0062BED5 /* FakeEcoMapController.swift in Sources */,

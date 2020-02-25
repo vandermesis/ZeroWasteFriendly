@@ -10,35 +10,12 @@ import UIKit
 
 @testable import ZeroWasteFriendly
 
-final class FakeEcoMapPresenter: EcoMapPresenter {
+final class FakeEcoMapPresenter<T: EcoMapPresentable>: FakeMainPresenter<T>, EcoMapPresenter {
 
-    var toogleSpinnerCalled: Bool?
-    var toogleSpinnerStateCalled: Bool?
-    var presentAlertCalled: Bool?
-    var presentAlertTitleCalled: String?
-    var presentAlertMessageCalled: String?
-    var presentErrorCalled: Bool?
-    var presentErrorErrorCalled: Error?
     var presentUserLocationCalled: Bool?
     var presentUserLocationUserLocationCalled: Location?
     var presentPlacesCalled: Bool?
     var presentPlacesPlacesCalled: [Place]?
-
-    func toggleSpinner(_ state: Bool) {
-        toogleSpinnerCalled = true
-        toogleSpinnerStateCalled = state
-    }
-
-    func presentAlert(title: String, message: String) {
-        presentAlertCalled = true
-        presentAlertTitleCalled = title
-        presentAlertMessageCalled = message
-    }
-
-    func presentError(_ error: Error) {
-        presentErrorCalled = true
-        presentErrorErrorCalled = error
-    }
 
     func presentUserLocation(userLocation: Location) {
         presentUserLocationCalled = true

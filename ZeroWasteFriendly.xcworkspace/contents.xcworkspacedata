@@ -178,6 +178,9 @@
                location = "group:FakeMainController.swift">
             </FileRef>
             <FileRef
+               location = "group:FakeMainPresenter.swift">
+            </FileRef>
+            <FileRef
                location = "group:MainPresenterTests.swift">
             </FileRef>
             <FileRef

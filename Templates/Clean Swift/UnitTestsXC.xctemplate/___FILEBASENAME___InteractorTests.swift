@@ -14,7 +14,7 @@ final class ___VARIABLE_sceneName___InteractorTests: XCTestCase {
 
     var router: Fake___VARIABLE_sceneName___Router!
     var worker: Fake___VARIABLE_sceneName___Worker!
-    var presenter: Fake___VARIABLE_sceneName___Presenter!
+    var presenter: Fake___VARIABLE_sceneName___Presenter<Fake___VARIABLE_sceneName___Controller>!
     var interactor: ___VARIABLE_sceneName___InteractorImpl!
 
     override func setUp() {

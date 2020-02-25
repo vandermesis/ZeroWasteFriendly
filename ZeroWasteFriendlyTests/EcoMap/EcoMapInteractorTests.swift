@@ -14,7 +14,7 @@ final class EcoMapInteractorTests: XCTestCase {
 
     var router: FakeEcoMapRouter!
     var worker: FakeEcoMapWorker!
-    var presenter: FakeEcoMapPresenter!
+    var presenter: FakeEcoMapPresenter<FakeEcoMapController>!
     var interactor: EcoMapInteractorImpl!
 
     override func setUp() {
