@@ -48,6 +48,8 @@
 		BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78923EF5659003B180A /* MainPresenter.swift */; };
 		BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */; };
 		BA5D10832404657100D62894 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5D10822404657100D62894 /* CloudKit.framework */; };
+		BA5D10852404702400D62894 /* BaseCloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D10842404702400D62894 /* BaseCloudKitService.swift */; };
+		BA5D108824048EF300D62894 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D108724048EF300D62894 /* Empty.swift */; };
 		BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041223ED799D00CF39B5 /* MainViewController.swift */; };
 		BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA60041423ED79E300CF39B5 /* MainNavigationController.swift */; };
 		BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */; };
@@ -137,6 +139,8 @@
 		BA5AC78B23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroWasteFriendlyNetworking.swift; sourceTree = "<group>"; };
 		BA5D10812404656100D62894 /* ZeroWasteFriendly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZeroWasteFriendly.entitlements; sourceTree = "<group>"; };
 		BA5D10822404657100D62894 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BA5D10842404702400D62894 /* BaseCloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCloudKitService.swift; sourceTree = "<group>"; };
+		BA5D108724048EF300D62894 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		BA60041223ED799D00CF39B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BA60041423ED79E300CF39B5 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		BA68F6E823F3251000EAE1EE /* MainPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
@@ -313,6 +317,14 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		BA5D10862404704D00D62894 /* BaseCloudKitService */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D10842404702400D62894 /* BaseCloudKitService.swift */,
+			);
+			path = BaseCloudKitService;
+			sourceTree = "<group>";
+		};
 		BA9DB85723CE6DEA004F86A0 = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +396,7 @@
 				BA5AC78323EF55A0003B180A /* SpinnerController.swift */,
 				BA5AC78423EF55A0003B180A /* SpinnerController.xib */,
 				BAAECD5323FF29210062BED5 /* Constants.swift */,
+				BA5D108724048EF300D62894 /* Empty.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -400,6 +413,7 @@
 		BAA73F8623CF8E3C00B4FEC8 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				BA5D10862404704D00D62894 /* BaseCloudKitService */,
 				BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */,
 			);
 			path = Repository;
@@ -688,6 +702,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5D10852404702400D62894 /* BaseCloudKitService.swift in Sources */,
 				BA2BF89123EB372C001508F9 /* ActivityTilesWorker.swift in Sources */,
 				BAD844A8240001B200F6D0B1 /* Place.swift in Sources */,
 				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
@@ -724,6 +739,7 @@
 				BA3E739A23FED16500CCBA34 /* EcoMapInteractor.swift in Sources */,
 				BAD021C824007DD4009ECB83 /* Location.swift in Sources */,
 				BAD021C624007C57009ECB83 /* Mock+Place.swift in Sources */,
+				BA5D108824048EF300D62894 /* Empty.swift in Sources */,
 				BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */,
 				BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */,
 			);
