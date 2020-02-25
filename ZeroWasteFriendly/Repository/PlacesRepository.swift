@@ -34,17 +34,20 @@ final class PlacesRepositoryImpl: BaseCloudKitService, PlacesRepository {
 private extension PlacesRepositoryImpl {
 
     private func convertRecordsToPlaces(records: [CKRecord]) -> [Place] {
-        records.map { record in
+        var places = [Place]()
+        records.forEach { record in
             guard
                 let name = record[.recordName] as? String,
                 let description = record[.recordDescription] as? String,
                 let category = record[.recordCategory] as? String,
                 let activityCategory = ActivityCategory(rawValue: category),
                 let location = record[.recordLocation] as? CLLocation
-                else { fatalError("Error unwraping CloudKit records") }
+                else { return }
             let placeLocation = Location(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-            return Place(name: name, description: description, category: activityCategory, location: placeLocation)
+            let place = Place(name: name, description: description, category: activityCategory, location: placeLocation)
+            places.append(place)
         }
+        return places
     }
 }
 
