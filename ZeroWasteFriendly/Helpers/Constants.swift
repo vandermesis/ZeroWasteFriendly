@@ -6,6 +6,6 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import CoreLocation
+import Foundation
 
 enum Constants {}

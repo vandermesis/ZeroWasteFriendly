@@ -6,7 +6,7 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import CoreLocation
+import Foundation
 
 typealias FetchCurrentLocation = (Result<Location, Error>) -> Void
 

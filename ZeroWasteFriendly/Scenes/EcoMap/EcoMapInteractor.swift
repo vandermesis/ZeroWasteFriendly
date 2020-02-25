@@ -32,8 +32,7 @@ extension EcoMapInteractorImpl: EcoMapInteractor {
 
     func getUserLocation() {
         presenter.toggleSpinner(true)
-        worker.fetchUserLocation { [weak self] result in
-            guard let self = self else { return }
+        worker.fetchUserLocation { result in
             self.presenter.toggleSpinner(false)
             switch result {
             case .success(let userLocation):
@@ -46,8 +45,7 @@ extension EcoMapInteractorImpl: EcoMapInteractor {
 
     func getPlaces() {
         presenter.toggleSpinner(true)
-        worker.fetchPlaces { [weak self] result in
-            guard let self = self else { return }
+        worker.fetchPlaces { result in
             self.presenter.toggleSpinner(false)
             switch result {
             case .success(let places):
