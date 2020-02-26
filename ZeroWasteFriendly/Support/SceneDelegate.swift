@@ -14,8 +14,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        let startingController = setupTabBarController()
-        displayStartingController(controller: startingController, at: windowScene)
+
+        #if DEBUG
+        if NSClassFromString("XCTest") == nil {
+            let startingController = setupTabBarController()
+            displayStartingController(controller: startingController, at: windowScene)
+        }
+        #else
+        displayStartingController(controller: UIViewController(), at: windowScene)
+        #endif
     }
 }
 
