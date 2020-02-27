@@ -14,12 +14,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        let startingController = setupTabBarController()
-        displayStartingController(controller: startingController, at: windowScene)
-    }
 
-    func sceneDidEnterBackground(_ scene: UIScene) {
-        CoreDataStack.shared.saveCurrentContext()
+        #if DEBUG
+        if NSClassFromString("XCTest") == nil {
+            let startingController = setupTabBarController()
+            displayStartingController(controller: startingController, at: windowScene)
+        }
+        #else
+        displayStartingController(controller: UIViewController(), at: windowScene)
+        #endif
     }
 }
 
@@ -28,11 +31,10 @@ private extension SceneDelegate {
     private func setupTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
 
-        let activityTilesController = ActivityTilesCreator().getController(context: CoreDataStack.shared.managedContext)
-        let activityTilesNavController = activityTilesController.embedInNavigationController(title: R.string.localizable.tabBarItemAct(),
-                                                                                             image: R.image.tabBarActSun())
+        let ecoMapController = EcoMapCreator().getController()
+        let ecoMapNavController = ecoMapController.embedInNavigationController(title: R.string.localizable.tabBarItemEcoMap(), image: R.image.tabBarEarthMap())
 
-        tabBarController.viewControllers = [activityTilesNavController]
+        tabBarController.viewControllers = [ecoMapNavController]
         return tabBarController
     }
 

@@ -1,14 +1,14 @@
 //
-//  FakeActivityTilesRouter.swift
+//  FakeEcoMapRouter.swift
 //  ZeroWasteFriendly
 //
-//  Created by Marek Skrzelowski on 05/02/2020.
+//  Created by Marek Skrzelowski on 20/02/2020.
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
 @testable import ZeroWasteFriendly
 
-final class FakeActivityTilesRouter: ActivityTilesRouter {
+final class FakeEcoMapRouter: EcoMapRouter {
 
     var navigateToCalled: Bool?
 

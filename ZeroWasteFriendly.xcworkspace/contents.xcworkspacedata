@@ -92,9 +92,6 @@
                location = "group:BaseNetworking.swift">
             </FileRef>
             <FileRef
-               location = "group:CoreDataStack.swift">
-            </FileRef>
-            <FileRef
                location = "group:Error+UserFriendlyMessage.swift">
             </FileRef>
             <FileRef
@@ -179,6 +176,9 @@
             name = "UnitTestsXCSupport.xctemplate">
             <FileRef
                location = "group:FakeMainController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FakeMainPresenter.swift">
             </FileRef>
             <FileRef
                location = "group:MainPresenterTests.swift">

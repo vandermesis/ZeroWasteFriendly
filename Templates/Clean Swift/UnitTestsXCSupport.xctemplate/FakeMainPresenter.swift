@@ -1,16 +1,16 @@
 //
-//  FakeActivityTilesPresenter.swift
-//  ZeroWasteFriendly
+//  ___FILENAME___
+//  ___PROJECTNAME___
 //
-//  Created by Marek Skrzelowski on 05/02/2020.
-//  Copyright © 2020 vandermesis. All rights reserved.
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  ___COPYRIGHT___
 //
 
 import UIKit
 
-@testable import ZeroWasteFriendly
+@testable import ___PROJECTNAMEASIDENTIFIER___
 
-final class FakeActivityTilesPresenter: ActivityTilesPresenter {
+class FakeMainPresenter<T: SpinnerPresentable & AlertPresentable>: SpinnerPresenter, AlertPresenter {
 
     var toogleSpinnerCalled: Bool?
     var toogleSpinnerStateCalled: Bool?
@@ -19,8 +19,6 @@ final class FakeActivityTilesPresenter: ActivityTilesPresenter {
     var presentAlertMessageCalled: String?
     var presentErrorCalled: Bool?
     var presentErrorErrorCalled: Error?
-    var presentActivityTilesCalled: Bool?
-    var presentActivityTilesModelCalled: [Model]?
 
     func toggleSpinner(_ state: Bool) {
         toogleSpinnerCalled = true
@@ -36,10 +34,5 @@ final class FakeActivityTilesPresenter: ActivityTilesPresenter {
     func presentError(_ error: Error) {
         presentErrorCalled = true
         presentErrorErrorCalled = error
-    }
-
-    func presentActivityTiles(model: [Model]) {
-        presentActivityTilesCalled = true
-        presentActivityTilesModelCalled = model
     }
 }

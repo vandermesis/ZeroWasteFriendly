@@ -49,8 +49,8 @@ Coding stage:
 - [x] initial setup of project, add .gitignore
 - [x] setup bundler, cocoapods
 - [x] add SwiftLint, R.swift, lottie, Quick, Nimble pods
-- [x] create predefined templates files for Clean Swift project
-- [ ] add Ecomap scene
+- [x] create predefined template files for Clean Swift project
+- [x] add Ecomap scene
 - [ ] add ActivityTiles scene
 - [ ] add AcitivityInfo scene
 - [ ] add ActivityStats scene

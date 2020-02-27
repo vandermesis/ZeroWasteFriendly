@@ -50,3 +50,11 @@
 "Error.InvalidURL" = "Invalid URL";
 "Error.MissingApiResponse" = "Api not responded";
 "Error.MissingApiData" = "No data for that request";
+
+// ZeroWasteCategory
+"Category.Refuse" = "Refuse";
+"Category.Reduce" = "Reduce";
+"Category.Reuse" = "Reuse";
+"Category.Recycle" = "Recycle";
+"Category.Rot" = "Rot";
+"Category.Repair" = "Repair";

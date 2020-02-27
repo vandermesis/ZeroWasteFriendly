@@ -34,13 +34,31 @@ final class ___VARIABLE_sceneName___Controller: MainViewController {
         interactor.get___VARIABLE_sceneName___()
     }
 
+    //TODO: Implement functionality or remove
     @IBAction private func addButtonPressed(_ sender: UIBarButtonItem) {
 
     }
 }
 
+private extension ___VARIABLE_sceneName___Controller {
+
+    private func setupTableView() {
+        //TODO: Register custom cell
+//        tableView.register(cellType: ___VARIABLE_sceneName___TableViewCell.self)
+    }
+
+    private func setupNavigationBar() {
+        //TODO: Add localiable strings and uncomment
+//        title = R.string.localizable.___VARIABLE_sceneName___Title()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
+                                                            target: self,
+                                                            action: #selector(addButtonPressed(_:)))
+    }
+}
+
 extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName___Presentable {
 
+    //TODO: Implement functionality or remove
     func display___VARIABLE_sceneName___() {
 
     }
@@ -54,6 +72,7 @@ extension ___VARIABLE_sceneName___Controller: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
+        //TODO: Add proper dequeue implementation
 //        let cell = tableView.dequeue(with: ___VARIABLE_sceneName___TableViewCell.self, for: indexPath)
         return cell
     }
@@ -63,19 +82,5 @@ extension ___VARIABLE_sceneName___Controller: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-    }
-}
-
-private extension ___VARIABLE_sceneName___Controller {
-
-    private func setupTableView() {
-//        tableView.register(cellType: ___VARIABLE_sceneName___TableViewCell.self)
-    }
-
-    private func setupNavigationBar() {
-//        title = R.string.localizable.___VARIABLE_sceneName___Title()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
-                                                            target: self,
-                                                            action: #selector(addButtonPressed(_:)))
     }
 }

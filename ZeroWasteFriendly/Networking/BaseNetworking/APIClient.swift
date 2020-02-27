@@ -80,5 +80,3 @@ private extension APIClient {
         }
     }
 }
-
-struct Empty: Codable {}

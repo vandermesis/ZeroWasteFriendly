@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias Fetch___VARIABLE_sceneName___Completion = (Result<Model, Error>) -> Void
+typealias Fetch___VARIABLE_sceneName___Completion = (Result<[Model], Error>) -> Void
 
 protocol ___VARIABLE_sceneName___Worker {
     func fetch___VARIABLE_sceneName___(completion: Fetch___VARIABLE_sceneName___Completion?)
