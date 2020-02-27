@@ -88,7 +88,7 @@ final class EcoMapInteractorTests: XCTestCase {
         XCTAssertEqual(presenter.toogleSpinnerCalled, true, "calling presenter to toogle spinner is true")
         XCTAssertEqual(presenter.toogleSpinnerStateCalled, false, "presenter toogle spinner state is false" )
         XCTAssertEqual(presenter.presentPlacesCalled, true, "calling presenter to present data is true")
-        XCTAssertEqual(presenter.presentPlacesPlacesCalled?.count, 3, "presenter should receive valid amount of data")
+        XCTAssertEqual(presenter.presentPlacesPlacesCalled?.count, 5, "presenter should receive valid amount of data")
     }
 
     func testInteractorIsGettingPlacesIsFailure() {

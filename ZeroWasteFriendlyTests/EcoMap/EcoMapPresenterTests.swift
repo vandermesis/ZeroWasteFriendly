@@ -44,7 +44,7 @@ final class EcoMapPresenterTests: XCTestCase {
         presenter.presentPlaces(places: Mock.places)
         // Then
         XCTAssertEqual(controller.displayPlacesCalled, true, "calling controller to display data is true")
-        XCTAssertEqual(controller.displayPlacesAnnotationsCalled?.count, 3, "controller should receive valid amount of data")
+        XCTAssertEqual(controller.displayPlacesAnnotationsCalled?.count, 5, "controller should receive valid amount of data")
         XCTAssertEqual(controller.displayPlacesAnnotationsCalled?.first?.title, "Drogeria Hebe", "controller should receive valid converted data")
         XCTAssert(controller.displayPlacesAnnotationsCalled is [PlaceAnnotation], "controller should receive data converted to displayable model")
     }

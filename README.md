@@ -54,7 +54,7 @@ Coding stage:
 - [ ] add ActivityTiles scene
 - [ ] add AcitivityInfo scene
 - [ ] add ActivityStats scene
-- [ ] add Library scene
+- [x] add Library scene
 - [ ] add UserAccount scene
 - [ ] add ...
 
@@ -70,9 +70,9 @@ Coding stage:
 
 - [x] XCTest
 
-- [ ] CoreData and CloudKit
+- [x] CloudKit
 
-- [ ] MapKit
+- [x] MapKit
 
 - [ ] UI Animations
 
