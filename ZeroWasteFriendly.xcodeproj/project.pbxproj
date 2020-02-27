@@ -16,6 +16,13 @@
 		BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EF23EB4C29001508F9 /* Montserrat-Regular.ttf */; };
 		BA2BF8F223EB5684001508F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F123EB5684001508F9 /* README.md */; };
 		BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8F823EB65AA001508F9 /* Localizable.strings */; };
+		BA3290FD24087DBF00B137A6 /* LibraryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290F624087DBF00B137A6 /* LibraryPresenter.swift */; };
+		BA3290FE24087DBF00B137A6 /* LibraryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290F724087DBF00B137A6 /* LibraryWorker.swift */; };
+		BA3290FF24087DBF00B137A6 /* LibraryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290F824087DBF00B137A6 /* LibraryRouter.swift */; };
+		BA32910024087DBF00B137A6 /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290F924087DBF00B137A6 /* LibraryController.swift */; };
+		BA32910124087DBF00B137A6 /* LibraryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290FA24087DBF00B137A6 /* LibraryInteractor.swift */; };
+		BA32910224087DBF00B137A6 /* LibraryCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */; };
+		BA32910324087DBF00B137A6 /* LibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3290FC24087DBF00B137A6 /* LibraryController.xib */; };
 		BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */; };
 		BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */; };
 		BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */; };
@@ -93,6 +100,13 @@
 		BA2BF8F123EB5684001508F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA2BF8F723EB65AA001508F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BA2BF8F923EB65B3001508F9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BA3290F624087DBF00B137A6 /* LibraryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPresenter.swift; sourceTree = "<group>"; };
+		BA3290F724087DBF00B137A6 /* LibraryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryWorker.swift; sourceTree = "<group>"; };
+		BA3290F824087DBF00B137A6 /* LibraryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryRouter.swift; sourceTree = "<group>"; };
+		BA3290F924087DBF00B137A6 /* LibraryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryController.swift; sourceTree = "<group>"; };
+		BA3290FA24087DBF00B137A6 /* LibraryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryInteractor.swift; sourceTree = "<group>"; };
+		BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCreator.swift; sourceTree = "<group>"; };
+		BA3290FC24087DBF00B137A6 /* LibraryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryController.xib; sourceTree = "<group>"; };
 		BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
 		BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
 		BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
@@ -236,6 +250,20 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		BA32910424087DC700B137A6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */,
+				BA3290F924087DBF00B137A6 /* LibraryController.swift */,
+				BA3290FC24087DBF00B137A6 /* LibraryController.xib */,
+				BA3290FA24087DBF00B137A6 /* LibraryInteractor.swift */,
+				BA3290F724087DBF00B137A6 /* LibraryWorker.swift */,
+				BA3290F624087DBF00B137A6 /* LibraryPresenter.swift */,
+				BA3290F824087DBF00B137A6 /* LibraryRouter.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		BA3E739D23FED16D00CCBA34 /* EcoMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				BA3E739D23FED16D00CCBA34 /* EcoMap */,
+				BA32910424087DC700B137A6 /* Library */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -557,6 +586,7 @@
 				BA2BF89C23EB387B001508F9 /* mockup.png in Resources */,
 				BA3E739C23FED16500CCBA34 /* EcoMapController.xib in Resources */,
 				BA9DB87023CE6DED004F86A0 /* Assets.xcassets in Resources */,
+				BA32910324087DBF00B137A6 /* LibraryController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,10 +690,12 @@
 				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
 				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
+				BA3290FF24087DBF00B137A6 /* LibraryRouter.swift in Sources */,
 				BA3E739923FED16500CCBA34 /* EcoMapController.swift in Sources */,
 				BAAECD5423FF29210062BED5 /* Constants.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
+				BA32910024087DBF00B137A6 /* LibraryController.swift in Sources */,
 				BAD844A423FFDF4400F6D0B1 /* PlaceAnnotation.swift in Sources */,
 				BA9DB86423CE6DEA004F86A0 /* AppDelegate.swift in Sources */,
 				BAA73F8223CF888E00B4FEC8 /* R.generated.swift in Sources */,
@@ -673,6 +705,8 @@
 				BAD844A623FFE46D00F6D0B1 /* PlacesRepository.swift in Sources */,
 				BA3E739B23FED16500CCBA34 /* EcoMapCreator.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
+				BA3290FE24087DBF00B137A6 /* LibraryWorker.swift in Sources */,
+				BA3290FD24087DBF00B137A6 /* LibraryPresenter.swift in Sources */,
 				BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */,
 				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
 				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
@@ -682,7 +716,9 @@
 				BA04011023FFD3990081B1B2 /* UserLocationService.swift in Sources */,
 				BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */,
 				BA3E739A23FED16500CCBA34 /* EcoMapInteractor.swift in Sources */,
+				BA32910124087DBF00B137A6 /* LibraryInteractor.swift in Sources */,
 				BAD021C824007DD4009ECB83 /* Location.swift in Sources */,
+				BA32910224087DBF00B137A6 /* LibraryCreator.swift in Sources */,
 				BA5D108824048EF300D62894 /* Empty.swift in Sources */,
 				BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */,
 				BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */,

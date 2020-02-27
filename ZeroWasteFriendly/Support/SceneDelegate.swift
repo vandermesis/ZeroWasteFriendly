@@ -34,7 +34,10 @@ private extension SceneDelegate {
         let ecoMapController = EcoMapCreator().getController()
         let ecoMapNavController = ecoMapController.embedInNavigationController(title: R.string.localizable.tabBarItemEcoMap(), image: R.image.tabBarEarthMap())
 
-        tabBarController.viewControllers = [ecoMapNavController]
+        let infoController = LibraryCreator().getController()
+        let infoNavController = infoController.embedInNavigationController(title: R.string.localizable.tabBarItemLibrary(), image: R.image.tabBarLibraryBook())
+
+        tabBarController.viewControllers = [ecoMapNavController, infoNavController]
         return tabBarController
     }
 

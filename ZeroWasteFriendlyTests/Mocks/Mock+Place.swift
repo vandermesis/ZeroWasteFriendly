@@ -25,6 +25,14 @@ extension Mock {
                               description: "Kawa, herbata, niektóre słodycze na wagę, metalowe zaparzacze do herbat, młynki ręczne do kawy",
                               category: .rot,
                               location: Location(latitude: 50.255561, longitude: 19.027415))
+    static let place4 = Place(name: "PierRóg Pierogarnia"         ,
+                              description: "pierogi do własnego opakowania",
+                              category: .recycle,
+                              location: Location(latitude: 50.255430, longitude: 19.027610))
+    static let place5 = Place(name: "Fromażeria KaiSERhof",
+                              description: "sery i oliwki do własnego opakowania",
+                              category: .repair,
+                              location: Location(latitude: 50.256170, longitude: 19.019140))
 
-    static let places = [place1, place2, place3]
+    static let places = [place1, place2, place3, place4, place5]
 }
