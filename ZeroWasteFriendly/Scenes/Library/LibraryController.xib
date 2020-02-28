@@ -35,7 +35,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fDz-I1-ScT" secondAttribute="trailing" id="cpN-1T-Qza"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="45" y="10"/>
+            <point key="canvasLocation" x="-177" y="13"/>
         </view>
     </objects>
 </document>
