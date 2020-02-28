@@ -45,6 +45,7 @@ private extension ___VARIABLE_sceneName___Controller {
     private func setupTableView() {
         //TODO: Register custom cell
 //        tableView.register(cellType: ___VARIABLE_sceneName___TableViewCell.self)
+        tableView.reloadData()
     }
 
     private func setupNavigationBar() {
