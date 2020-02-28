@@ -9,12 +9,14 @@
 import UIKit
 
 protocol LibraryPresentable: SpinnerPresentable & AlertPresentable {
-    func displayInfo()
+    func displayPosts(posts: [Post])
 }
 
 final class LibraryController: MainViewController {
 
     @IBOutlet private weak var tableView: UITableView!
+
+    private var postsDataSource = [Post]()
     
     private let interactor: LibraryInteractor
 
@@ -31,15 +33,14 @@ final class LibraryController: MainViewController {
         super.viewDidLoad()
         setupNavigationBar()
         setupTableView()
-        interactor.getInfo()
+        interactor.getPosts()
     }
 }
 
 private extension LibraryController {
 
     private func setupTableView() {
-        //TODO: Register custom cell
-//        tableView.register(cellType: InfoTableViewCell.self)
+        tableView.register(cellType: LibraryTableViewCell.self)
     }
 
     private func setupNavigationBar() {
@@ -49,22 +50,21 @@ private extension LibraryController {
 
 extension LibraryController: LibraryPresentable {
 
-    //TODO: Implement functionality or remove
-    func displayInfo() {
-
+    func displayPosts(posts: [Post]) {
+        postsDataSource = posts
+        tableView.reloadData()
     }
 }
 
 extension LibraryController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return postsDataSource.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        //TODO: Add proper dequeue implementation
-//        let cell = tableView.dequeue(with: InfoTableViewCell.self, for: indexPath)
+        let cell = tableView.dequeue(with: LibraryTableViewCell.self, for: indexPath)
+        cell.setup(with: postsDataSource[indexPath.row])
         return cell
     }
 }

@@ -9,14 +9,14 @@
 import UIKit
 
 protocol LibraryPresenter: SpinnerPresenter, AlertPresenter {
-    func presentInfo(model: [Model])
+    func presentPosts(posts: [Post])
 }
 
 final class LibraryPresenterImpl<T: LibraryPresentable>: MainPresenter<T> {}
 
 extension LibraryPresenterImpl: LibraryPresenter {
 
-    func presentInfo(model: [Model]) {
-        controller?.displayInfo()
+    func presentPosts(posts: [Post]) {
+        controller?.displayPosts(posts: posts)
     }
 }

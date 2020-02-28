@@ -9,7 +9,7 @@
 import Foundation
 
 protocol LibraryInteractor {
-    func getInfo()
+    func getPosts()
 }
 
 final class LibraryInteractorImpl {
@@ -29,14 +29,14 @@ final class LibraryInteractorImpl {
 
 extension LibraryInteractorImpl: LibraryInteractor {
 
-    func getInfo() {
+    func getPosts() {
         presenter.toggleSpinner(true)
-        worker.fetchInfo { [weak self] result in
+        worker.fetchPosts { [weak self] result in
             guard let self = self else { return }
             self.presenter.toggleSpinner(false)
             switch result {
-            case .success(let model):
-                self.presenter.presentInfo(model: model)
+            case .success(let posts):
+                self.presenter.presentPosts(posts: posts)
             case .failure(let error):
                 self.presenter.presentError(error)
             }

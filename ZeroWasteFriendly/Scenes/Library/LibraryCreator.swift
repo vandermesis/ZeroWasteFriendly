@@ -12,8 +12,8 @@ struct LibraryCreator {
 
     func getController() -> LibraryController {
 
-        let networking = ZeroWasteFriendlyNetworkingImpl()
-        let worker = LibraryWorkerImpl(networking: networking)
+        let repository = LibraryRepositoryImpl()
+        let worker = LibraryWorkerImpl(repository: repository)
         let router = LibraryRouterImpl()
         let presenter = LibraryPresenterImpl<LibraryController>()
         let interactor = LibraryInteractorImpl(presenter: presenter, worker: worker, router: router)

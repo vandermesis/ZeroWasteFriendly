@@ -11,6 +11,10 @@
 		BA04011023FFD3990081B1B2 /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA04010F23FFD3990081B1B2 /* UserLocationService.swift */; };
 		BA1470AA2409BAFD002475DC /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470A92409BAFD002475DC /* NSObject+ClassName.swift */; };
 		BA1470AC2409BB22002475DC /* UITableView+Register+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */; };
+		BA1470AE2409BE4D002475DC /* LibraryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AD2409BE4D002475DC /* LibraryRepository.swift */; };
+		BA1470B02409BF0C002475DC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AF2409BF0C002475DC /* Post.swift */; };
+		BA1470B32409C242002475DC /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470B12409C242002475DC /* LibraryTableViewCell.swift */; };
+		BA1470B42409C242002475DC /* LibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1470B22409C242002475DC /* LibraryTableViewCell.xib */; };
 		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
 		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
@@ -96,6 +100,10 @@
 		BA04010F23FFD3990081B1B2 /* UserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
 		BA1470A92409BAFD002475DC /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Register+Dequeue.swift"; sourceTree = "<group>"; };
+		BA1470AD2409BE4D002475DC /* LibraryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryRepository.swift; sourceTree = "<group>"; };
+		BA1470AF2409BF0C002475DC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BA1470B12409C242002475DC /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
+		BA1470B22409C242002475DC /* LibraryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryTableViewCell.xib; sourceTree = "<group>"; };
 		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -220,6 +228,15 @@
 			path = LocationService;
 			sourceTree = "<group>";
 		};
+		BA1470B52409C247002475DC /* LibraryTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BA1470B12409C242002475DC /* LibraryTableViewCell.swift */,
+				BA1470B22409C242002475DC /* LibraryTableViewCell.xib */,
+			);
+			path = LibraryTableViewCell;
+			sourceTree = "<group>";
+		};
 		BA25AD9123CF65B500C1A554 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +274,7 @@
 		BA32910424087DC700B137A6 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				BA1470B52409C247002475DC /* LibraryTableViewCell */,
 				BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */,
 				BA3290F924087DBF00B137A6 /* LibraryController.swift */,
 				BA3290FC24087DBF00B137A6 /* LibraryController.xib */,
@@ -395,6 +413,7 @@
 			children = (
 				BA5D10862404704D00D62894 /* BaseCloudKitService */,
 				BAD844A523FFE46D00F6D0B1 /* PlacesRepository.swift */,
+				BA1470AD2409BE4D002475DC /* LibraryRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -406,6 +425,7 @@
 				BAC2D2E923EE0E3A0014A91F /* Model.swift */,
 				BAD844A7240001B200F6D0B1 /* Place.swift */,
 				BAD021C724007DD4009ECB83 /* Location.swift */,
+				BA1470AF2409BF0C002475DC /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -582,6 +602,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */,
+				BA1470B42409C242002475DC /* LibraryTableViewCell.xib in Resources */,
 				BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */,
 				BAD2B4E023FB39A400A4845B /* logo.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
@@ -702,6 +723,7 @@
 				BAAECD5423FF29210062BED5 /* Constants.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA1470AC2409BB22002475DC /* UITableView+Register+Dequeue.swift in Sources */,
+				BA1470B32409C242002475DC /* LibraryTableViewCell.swift in Sources */,
 				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
 				BA32910024087DBF00B137A6 /* LibraryController.swift in Sources */,
 				BAD844A423FFDF4400F6D0B1 /* PlaceAnnotation.swift in Sources */,
@@ -710,6 +732,7 @@
 				BA60041523ED79E300CF39B5 /* MainNavigationController.swift in Sources */,
 				BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */,
 				BAC2D2EA23EE0E3A0014A91F /* Model.swift in Sources */,
+				BA1470AE2409BE4D002475DC /* LibraryRepository.swift in Sources */,
 				BAD844A623FFE46D00F6D0B1 /* PlacesRepository.swift in Sources */,
 				BA3E739B23FED16500CCBA34 /* EcoMapCreator.swift in Sources */,
 				BA9DB86623CE6DEA004F86A0 /* SceneDelegate.swift in Sources */,
@@ -722,6 +745,7 @@
 				BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */,
 				BA5AC78823EF55F7003B180A /* AlertPresentable.swift in Sources */,
 				BA04011023FFD3990081B1B2 /* UserLocationService.swift in Sources */,
+				BA1470B02409BF0C002475DC /* Post.swift in Sources */,
 				BA5AC78A23EF5659003B180A /* MainPresenter.swift in Sources */,
 				BA3E739A23FED16500CCBA34 /* EcoMapInteractor.swift in Sources */,
 				BA32910124087DBF00B137A6 /* LibraryInteractor.swift in Sources */,
