@@ -13,8 +13,8 @@ final class LibraryTableViewCell: UITableViewCell {
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var contentLabel: UILabel!
 
-    func setup(with post: Post) {
+    func setup(with post: PostDisplayable) {
         titleLabel.text = post.title
-        contentLabel.text = post.content
+        contentLabel.text = post.expanded ? post.content : ""
     }
 }

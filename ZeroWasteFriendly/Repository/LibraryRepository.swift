@@ -40,7 +40,8 @@ private extension LibraryRepositoryImpl {
                 let title = record[.recordTitle] as? String,
                 let content = record[.recordContent] as? String
                 else { return }
-            let post = Post(title: title, content: content)
+            let id = record.recordID.recordName
+            let post = Post(id: id, title: title, content: content)
             posts.append(post)
         }
         return posts

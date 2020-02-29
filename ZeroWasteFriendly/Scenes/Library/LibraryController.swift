@@ -9,14 +9,14 @@
 import UIKit
 
 protocol LibraryPresentable: SpinnerPresentable & AlertPresentable {
-    func displayPosts(posts: [Post])
+    func displayPosts(posts: [PostDisplayable])
 }
 
 final class LibraryController: MainViewController {
 
     @IBOutlet private weak var tableView: UITableView!
 
-    private var postsDataSource = [Post]()
+    private var postsDataSource = [PostDisplayable]()
     
     private let interactor: LibraryInteractor
 
@@ -41,6 +41,8 @@ private extension LibraryController {
 
     private func setupTableView() {
         tableView.register(cellType: LibraryTableViewCell.self)
+        tableView.estimatedRowHeight = 60
+        tableView.rowHeight = UITableView.automaticDimension
     }
 
     private func setupNavigationBar() {
@@ -50,7 +52,7 @@ private extension LibraryController {
 
 extension LibraryController: LibraryPresentable {
 
-    func displayPosts(posts: [Post]) {
+    func displayPosts(posts: [PostDisplayable]) {
         postsDataSource = posts
         tableView.reloadData()
     }
@@ -72,6 +74,8 @@ extension LibraryController: UITableViewDataSource {
 extension LibraryController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let selectedPostID = postsDataSource[indexPath.row].id
+        interactor.didSelectPost(id: selectedPostID)
+        tableView.reloadData()
     }
 }

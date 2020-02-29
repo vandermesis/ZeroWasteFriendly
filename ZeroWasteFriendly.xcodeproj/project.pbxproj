@@ -37,6 +37,7 @@
 		BA3E739B23FED16500CCBA34 /* EcoMapCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739423FED16500CCBA34 /* EcoMapCreator.swift */; };
 		BA3E739C23FED16500CCBA34 /* EcoMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3E739523FED16500CCBA34 /* EcoMapController.xib */; };
 		BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */; };
+		BA55799B240B177B002DDEC4 /* PostDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55799A240B177B002DDEC4 /* PostDisplayable.swift */; };
 		BA5AC77D23EF1001003B180A /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC77C23EF1001003B180A /* Mock.swift */; };
 		BA5AC78023EF1029003B180A /* Mock+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC77F23EF1029003B180A /* Mock+Model.swift */; };
 		BA5AC78223EF557C003B180A /* SpinnerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5AC78123EF557C003B180A /* SpinnerPresentable.swift */; };
@@ -127,6 +128,7 @@
 		BA3E739423FED16500CCBA34 /* EcoMapCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapCreator.swift; sourceTree = "<group>"; };
 		BA3E739523FED16500CCBA34 /* EcoMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoMapController.xib; sourceTree = "<group>"; };
 		BA43E2E123FC1BAB0050F7AB /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		BA55799A240B177B002DDEC4 /* PostDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDisplayable.swift; sourceTree = "<group>"; };
 		BA5AC77C23EF1001003B180A /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		BA5AC77F23EF1029003B180A /* Mock+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Model.swift"; sourceTree = "<group>"; };
 		BA5AC78123EF557C003B180A /* SpinnerPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerPresentable.swift; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 		BA32910424087DC700B137A6 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				BA55799C240B1781002DDEC4 /* Displayable */,
 				BA1470B52409C247002475DC /* LibraryTableViewCell */,
 				BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */,
 				BA3290F924087DBF00B137A6 /* LibraryController.swift */,
@@ -300,6 +303,14 @@
 				BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */,
 			);
 			path = EcoMap;
+			sourceTree = "<group>";
+		};
+		BA55799C240B1781002DDEC4 /* Displayable */ = {
+			isa = PBXGroup;
+			children = (
+				BA55799A240B177B002DDEC4 /* PostDisplayable.swift */,
+			);
+			path = Displayable;
 			sourceTree = "<group>";
 		};
 		BA5AC77E23EF1013003B180A /* Mocks */ = {
@@ -739,6 +750,7 @@
 				BA3290FE24087DBF00B137A6 /* LibraryWorker.swift in Sources */,
 				BA3290FD24087DBF00B137A6 /* LibraryPresenter.swift in Sources */,
 				BA43E2E223FC1BAB0050F7AB /* APIResponse.swift in Sources */,
+				BA55799B240B177B002DDEC4 /* PostDisplayable.swift in Sources */,
 				BAC1E87023F2EC9500FD210B /* BaseNetworking.swift in Sources */,
 				BAC1E86E23F2EB8100FD210B /* APIClient.swift in Sources */,
 				BAD844AB24000EE400F6D0B1 /* PlaceAnnotationView.swift in Sources */,

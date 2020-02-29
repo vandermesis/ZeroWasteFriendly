@@ -10,6 +10,7 @@ import Foundation
 
 protocol LibraryInteractor {
     func getPosts()
+    func didSelectPost(id: String)
 }
 
 final class LibraryInteractorImpl {
@@ -41,5 +42,9 @@ extension LibraryInteractorImpl: LibraryInteractor {
                 self.presenter.presentError(error)
             }
         }
+    }
+
+    func didSelectPost(id: String) {
+        presenter.expandPost(id: id)
     }
 }
