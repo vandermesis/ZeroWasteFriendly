@@ -12,7 +12,11 @@ import Foundation
 
 final class FakeLibraryRepository: LibraryRepository {
 
+    var fetchLibraryCalled: Bool?
+    var fetchLibraryCompletion: FetchLibraryCompletion?
+
     func fetchLibrary(completion: FetchLibraryCompletion?) {
-        
+        fetchLibraryCalled = true
+        fetchLibraryCompletion = completion
     }
 }
