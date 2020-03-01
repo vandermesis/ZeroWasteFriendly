@@ -66,4 +66,14 @@ final class LibraryInteractorTests: XCTestCase {
         XCTAssertEqual(presenter.presentPostsCalled, nil, "calling presenter to present data is nil")
         XCTAssertEqual(presenter.presentErrorCalled, true, "calling presenter to present error it true")
     }
+
+    func testInteractorDidSelectPost() {
+        // Given
+
+        // When
+        interactor.didSelectPost(id: Mock.post1.id)
+        // Then
+        XCTAssertEqual(presenter.expandPostCalled, true, "calling presenter to expand post is true")
+        XCTAssertEqual(presenter.expandPostIdCalled, "442734E6-F4AD-C80E-A34F-E625B298EB12", "presenter expanding post with valid id")
+    }
 }
