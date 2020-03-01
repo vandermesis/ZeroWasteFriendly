@@ -16,6 +16,15 @@
 		BA1470B32409C242002475DC /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470B12409C242002475DC /* LibraryTableViewCell.swift */; };
 		BA1470B42409C242002475DC /* LibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1470B22409C242002475DC /* LibraryTableViewCell.xib */; };
 		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
+		BA276F38240C61D000AF0319 /* LibraryInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F30240C61D000AF0319 /* LibraryInteractorTests.swift */; };
+		BA276F39240C61D000AF0319 /* FakeLibraryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F31240C61D000AF0319 /* FakeLibraryRouter.swift */; };
+		BA276F3A240C61D000AF0319 /* FakeLibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F32240C61D000AF0319 /* FakeLibraryController.swift */; };
+		BA276F3B240C61D000AF0319 /* FakeLibraryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F33240C61D000AF0319 /* FakeLibraryWorker.swift */; };
+		BA276F3C240C61D000AF0319 /* FakeLibraryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F34240C61D000AF0319 /* FakeLibraryPresenter.swift */; };
+		BA276F3D240C61D000AF0319 /* LibraryWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F35240C61D000AF0319 /* LibraryWorkerTests.swift */; };
+		BA276F3E240C61D000AF0319 /* LibraryRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F36240C61D000AF0319 /* LibraryRouterTests.swift */; };
+		BA276F3F240C61D000AF0319 /* LibraryPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F37240C61D000AF0319 /* LibraryPresenterTests.swift */; };
+		BA276F42240C644600AF0319 /* Mock+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F41240C644600AF0319 /* Mock+Post.swift */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
 		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
 		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
@@ -106,6 +115,15 @@
 		BA1470B12409C242002475DC /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
 		BA1470B22409C242002475DC /* LibraryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryTableViewCell.xib; sourceTree = "<group>"; };
 		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
+		BA276F30240C61D000AF0319 /* LibraryInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryInteractorTests.swift; sourceTree = "<group>"; };
+		BA276F31240C61D000AF0319 /* FakeLibraryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryRouter.swift; sourceTree = "<group>"; };
+		BA276F32240C61D000AF0319 /* FakeLibraryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryController.swift; sourceTree = "<group>"; };
+		BA276F33240C61D000AF0319 /* FakeLibraryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryWorker.swift; sourceTree = "<group>"; };
+		BA276F34240C61D000AF0319 /* FakeLibraryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryPresenter.swift; sourceTree = "<group>"; };
+		BA276F35240C61D000AF0319 /* LibraryWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryWorkerTests.swift; sourceTree = "<group>"; };
+		BA276F36240C61D000AF0319 /* LibraryRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryRouterTests.swift; sourceTree = "<group>"; };
+		BA276F37240C61D000AF0319 /* LibraryPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPresenterTests.swift; sourceTree = "<group>"; };
+		BA276F41240C644600AF0319 /* Mock+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Post.swift"; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -255,6 +273,21 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		BA276F40240C61D700AF0319 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BA276F32240C61D000AF0319 /* FakeLibraryController.swift */,
+				BA276F34240C61D000AF0319 /* FakeLibraryPresenter.swift */,
+				BA276F33240C61D000AF0319 /* FakeLibraryWorker.swift */,
+				BA276F31240C61D000AF0319 /* FakeLibraryRouter.swift */,
+				BA276F30240C61D000AF0319 /* LibraryInteractorTests.swift */,
+				BA276F35240C61D000AF0319 /* LibraryWorkerTests.swift */,
+				BA276F37240C61D000AF0319 /* LibraryPresenterTests.swift */,
+				BA276F36240C61D000AF0319 /* LibraryRouterTests.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		BA2BF89823EB387B001508F9 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +353,7 @@
 				BA5AC77F23EF1029003B180A /* Mock+Model.swift */,
 				BAD844AD240019E200F6D0B1 /* Mock+Place.swift */,
 				BABCEA2F2405CB620044FDCD /* Mock+Location.swift */,
+				BA276F41240C644600AF0319 /* Mock+Post.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -379,6 +413,7 @@
 				BA5AC77E23EF1013003B180A /* Mocks */,
 				BAC2D2ED23EE312C0014A91F /* Helpers */,
 				BAAECD4E23FED2B40062BED5 /* EcoMap */,
+				BA276F40240C61D700AF0319 /* Library */,
 			);
 			path = ZeroWasteFriendlyTests;
 			sourceTree = "<group>";
@@ -775,20 +810,29 @@
 			files = (
 				BA5AC77D23EF1001003B180A /* Mock.swift in Sources */,
 				BAAECD4D23FED2AD0062BED5 /* EcoMapPresenterTests.swift in Sources */,
+				BA276F3C240C61D000AF0319 /* FakeLibraryPresenter.swift in Sources */,
 				BAAECD4B23FED2AD0062BED5 /* EcoMapWorkerTests.swift in Sources */,
 				BAAECD4A23FED2AD0062BED5 /* FakeEcoMapPresenter.swift in Sources */,
+				BA276F38240C61D000AF0319 /* LibraryInteractorTests.swift in Sources */,
 				BABCEA342405E09A0044FDCD /* FakePlacesRepository.swift in Sources */,
 				BAAECD4723FED2AD0062BED5 /* FakeEcoMapRouter.swift in Sources */,
 				BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */,
+				BA276F42240C644600AF0319 /* Mock+Post.swift in Sources */,
 				BABCEA322405D30E0044FDCD /* FakeMainPresenter.swift in Sources */,
 				BAD844AE240019E200F6D0B1 /* Mock+Place.swift in Sources */,
 				BAAECD4C23FED2AD0062BED5 /* EcoMapRouterTests.swift in Sources */,
 				BAAECD4823FED2AD0062BED5 /* FakeEcoMapController.swift in Sources */,
+				BA276F3E240C61D000AF0319 /* LibraryRouterTests.swift in Sources */,
 				BA5AC78023EF1029003B180A /* Mock+Model.swift in Sources */,
+				BA276F3A240C61D000AF0319 /* FakeLibraryController.swift in Sources */,
+				BA276F3B240C61D000AF0319 /* FakeLibraryWorker.swift in Sources */,
 				BAC2D2EC23EE31160014A91F /* UnitTestError.swift in Sources */,
 				BAAECD4923FED2AD0062BED5 /* FakeEcoMapWorker.swift in Sources */,
+				BA276F39240C61D000AF0319 /* FakeLibraryRouter.swift in Sources */,
 				BABCEA302405CB620044FDCD /* Mock+Location.swift in Sources */,
 				BABCEA372405E1B50044FDCD /* FakeLocationService.swift in Sources */,
+				BA276F3F240C61D000AF0319 /* LibraryPresenterTests.swift in Sources */,
+				BA276F3D240C61D000AF0319 /* LibraryWorkerTests.swift in Sources */,
 				BAAECD4623FED2AD0062BED5 /* EcoMapInteractorTests.swift in Sources */,
 				BA68F6ED23F3260700EAE1EE /* FakeMainController.swift in Sources */,
 			);
