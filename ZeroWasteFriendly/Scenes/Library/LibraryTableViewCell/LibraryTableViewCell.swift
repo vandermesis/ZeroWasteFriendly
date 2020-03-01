@@ -15,6 +15,6 @@ final class LibraryTableViewCell: UITableViewCell {
 
     func setup(with post: PostDisplayable) {
         titleLabel.text = post.title
-        contentLabel.text = post.expanded ? post.content : ""
+        contentLabel.text = post.content
     }
 }

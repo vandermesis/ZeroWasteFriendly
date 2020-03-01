@@ -41,8 +41,8 @@ private extension LibraryController {
 
     private func setupTableView() {
         tableView.register(cellType: LibraryTableViewCell.self)
-        tableView.estimatedRowHeight = 60
-        tableView.rowHeight = UITableView.automaticDimension
+//        tableView.estimatedRowHeight = 60
+//        tableView.rowHeight = UITableView.automaticDimension
     }
 
     private func setupNavigationBar() {
@@ -76,6 +76,14 @@ extension LibraryController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedPostID = postsDataSource[indexPath.row].id
         interactor.didSelectPost(id: selectedPostID)
-        tableView.reloadData()
+        tableView.reloadData(with: .automatic)
+    }
+
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if postsDataSource[indexPath.row].expanded {
+            return UITableView.automaticDimension
+        } else {
+            return 180
+        }
     }
 }
