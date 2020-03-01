@@ -83,7 +83,7 @@ extension LibraryController: UITableViewDelegate {
         if postsDataSource[indexPath.row].expanded {
             return UITableView.automaticDimension
         } else {
-            return 180
+            return CGFloat(Constants.Library.defaultRowHeight)
         }
     }
 }

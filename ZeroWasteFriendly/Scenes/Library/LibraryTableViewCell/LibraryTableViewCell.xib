@@ -26,28 +26,39 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Za-Qv-07Y">
-                        <rect key="frame" x="20" y="20" width="412" height="20"/>
+                        <rect key="frame" x="20" y="20" width="388" height="20"/>
                         <color key="backgroundColor" name="backgroundPrimary"/>
                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
                         <color key="textColor" name="textPrimary"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="iconsChevron" translatesAutoresizingMaskIntoConstraints="NO" id="0nr-a3-yZI">
+                        <rect key="frame" x="408" y="18" width="24" height="24"/>
+                    </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Content" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9He-aM-qbm">
-                        <rect key="frame" x="20" y="50" width="412" height="141"/>
+                        <rect key="frame" x="20" y="51" width="412" height="140"/>
                         <color key="backgroundColor" name="backgroundPrimary"/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                         <color key="textColor" name="textSecondary"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="zMl-Zi-LoY">
+                        <rect key="frame" x="20" y="45" width="412" height="1"/>
+                    </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="9He-aM-qbm" firstAttribute="top" secondItem="4Za-Qv-07Y" secondAttribute="bottom" constant="10" id="IdN-1g-4qZ"/>
+                    <constraint firstItem="9He-aM-qbm" firstAttribute="top" secondItem="zMl-Zi-LoY" secondAttribute="bottom" constant="5" id="3XP-Gm-H5g"/>
+                    <constraint firstItem="zMl-Zi-LoY" firstAttribute="top" secondItem="4Za-Qv-07Y" secondAttribute="bottom" constant="5" id="9kb-AE-Ylk"/>
+                    <constraint firstAttribute="trailing" secondItem="0nr-a3-yZI" secondAttribute="trailing" constant="20" id="Gba-Y5-iJZ"/>
+                    <constraint firstItem="0nr-a3-yZI" firstAttribute="leading" secondItem="4Za-Qv-07Y" secondAttribute="trailing" id="JxU-u3-n2A"/>
                     <constraint firstAttribute="bottom" secondItem="9He-aM-qbm" secondAttribute="bottom" constant="20" id="KSb-Yr-eRz"/>
                     <constraint firstAttribute="trailing" secondItem="9He-aM-qbm" secondAttribute="trailing" constant="20" id="Nsb-Kr-9Bg"/>
                     <constraint firstItem="4Za-Qv-07Y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Nss-Sm-gpb"/>
                     <constraint firstItem="9He-aM-qbm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ZVD-wF-BGy"/>
-                    <constraint firstAttribute="trailing" secondItem="4Za-Qv-07Y" secondAttribute="trailing" constant="20" id="ZZc-hh-5as"/>
-                    <constraint firstItem="4Za-Qv-07Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="vw4-Tb-gWJ"/>
+                    <constraint firstItem="0nr-a3-yZI" firstAttribute="centerY" secondItem="4Za-Qv-07Y" secondAttribute="centerY" id="aH0-Uj-nDZ"/>
+                    <constraint firstItem="zMl-Zi-LoY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="m2J-9r-Ee5"/>
+                    <constraint firstItem="4Za-Qv-07Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="sHo-L4-IV9"/>
+                    <constraint firstAttribute="trailing" secondItem="zMl-Zi-LoY" secondAttribute="trailing" constant="20" id="tQv-WF-DE9"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -59,6 +70,8 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="divider" width="295" height="1"/>
+        <image name="iconsChevron" width="24" height="24"/>
         <namedColor name="backgroundPrimary">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
