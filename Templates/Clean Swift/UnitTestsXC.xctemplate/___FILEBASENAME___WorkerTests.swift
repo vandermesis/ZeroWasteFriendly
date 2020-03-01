@@ -12,13 +12,19 @@ import XCTest
 
 final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
 
+    var worker: ___VARIABLE_sceneName___WorkerImpl!
+    var receivedModel: [Model]?
+    var receivedError: Error?
+
     override func setUp() {
         super.setUp()
-
+        worker = ___VARIABLE_sceneName___WorkerImpl()
     }
 
     override func tearDown() {
-
+        worker = nil
+        receivedModel = nil
+        receivedError = nil
         super.tearDown()
     }
 
@@ -30,5 +36,53 @@ final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
 
         // Then
         // XCTAssertEqual()
+    }
+
+    func testWorkerIsFetchingModel() {
+        // Given
+        worker.fetch___VARIABLE_sceneName___ { result in
+            switch result {
+            case .success(let model):
+                self.receivedModel = model
+            case .failure(let error):
+                self.receivedError = error
+            }
+        }
+        // When
+
+        // Then
+
+    }
+
+    func testWorkerIsFetchingPlacesIsSuccess() {
+        // Given
+        worker.fetch___VARIABLE_sceneName___ { result in
+            switch result {
+            case .success(let model):
+                self.receivedModel = model
+            case .failure(let error):
+                self.receivedError = error
+            }
+        }
+        // When
+
+        // Then
+
+    }
+
+    func testWorkerIsFetchingPlacesIsFailure() {
+        // Given
+        worker.fetch___VARIABLE_sceneName___ { result in
+            switch result {
+            case .success(let model):
+                self.receivedModel = model
+            case .failure(let error):
+                self.receivedError = error
+            }
+        }
+        // When
+        
+        // Then
+        XCTAssert(receivedError is UnitTestError, "worker should receive Error")
     }
 }
