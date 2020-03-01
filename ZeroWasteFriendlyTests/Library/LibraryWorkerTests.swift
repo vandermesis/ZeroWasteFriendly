@@ -12,6 +12,8 @@ import XCTest
 
 final class LibraryWorkerTests: XCTestCase {
 
+    var repository: FakeLibraryRepository!
+
     override func setUp() {
         super.setUp()
 

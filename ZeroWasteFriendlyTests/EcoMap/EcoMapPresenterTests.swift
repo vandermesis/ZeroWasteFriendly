@@ -28,7 +28,7 @@ final class EcoMapPresenterTests: XCTestCase {
         super.tearDown()
     }
 
-    func testControllerIsDisplayingUserLocation() {
+    func testPresenterIsPresentingUserLocation() {
         // Given
 
         // When
@@ -37,7 +37,7 @@ final class EcoMapPresenterTests: XCTestCase {
         XCTAssertEqual(controller.displayUserLocationCalled, true, "calling controller to display user location is true")
     }
 
-    func testControllerIsDisplayingPlaces() {
+    func testPresenterIsPresentingPlaces() {
         // Given
 
         // When

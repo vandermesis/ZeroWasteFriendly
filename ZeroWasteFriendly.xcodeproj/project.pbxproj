@@ -25,6 +25,7 @@
 		BA276F3E240C61D000AF0319 /* LibraryRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F36240C61D000AF0319 /* LibraryRouterTests.swift */; };
 		BA276F3F240C61D000AF0319 /* LibraryPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F37240C61D000AF0319 /* LibraryPresenterTests.swift */; };
 		BA276F42240C644600AF0319 /* Mock+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F41240C644600AF0319 /* Mock+Post.swift */; };
+		BA276F44240C6CC200AF0319 /* FakeLibraryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F43240C6CC200AF0319 /* FakeLibraryRepository.swift */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
 		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
 		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
@@ -124,6 +125,7 @@
 		BA276F36240C61D000AF0319 /* LibraryRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryRouterTests.swift; sourceTree = "<group>"; };
 		BA276F37240C61D000AF0319 /* LibraryPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPresenterTests.swift; sourceTree = "<group>"; };
 		BA276F41240C644600AF0319 /* Mock+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Post.swift"; sourceTree = "<group>"; };
+		BA276F43240C6CC200AF0319 /* FakeLibraryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryRepository.swift; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -504,6 +506,7 @@
 			isa = PBXGroup;
 			children = (
 				BABCEA332405E09A0044FDCD /* FakePlacesRepository.swift */,
+				BA276F43240C6CC200AF0319 /* FakeLibraryRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -816,6 +819,7 @@
 				BA276F38240C61D000AF0319 /* LibraryInteractorTests.swift in Sources */,
 				BABCEA342405E09A0044FDCD /* FakePlacesRepository.swift in Sources */,
 				BAAECD4723FED2AD0062BED5 /* FakeEcoMapRouter.swift in Sources */,
+				BA276F44240C6CC200AF0319 /* FakeLibraryRepository.swift in Sources */,
 				BA68F6E923F3251000EAE1EE /* MainPresenterTests.swift in Sources */,
 				BA276F42240C644600AF0319 /* Mock+Post.swift in Sources */,
 				BABCEA322405D30E0044FDCD /* FakeMainPresenter.swift in Sources */,

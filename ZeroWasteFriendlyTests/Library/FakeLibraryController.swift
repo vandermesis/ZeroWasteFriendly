@@ -13,7 +13,7 @@ import UIKit
 final class FakeLibraryController: MainViewController, LibraryPresentable {
 
     var displayPostsCalled: Bool?
-    var displayPostsPostsCalled:[PostDisplayable]?
+    var displayPostsPostsCalled: [PostDisplayable]?
 
     func displayPosts(posts: [PostDisplayable]) {
         displayPostsCalled = true

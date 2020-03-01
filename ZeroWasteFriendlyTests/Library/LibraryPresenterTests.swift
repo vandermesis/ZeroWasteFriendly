@@ -28,12 +28,27 @@ final class LibraryPresenterTests: XCTestCase {
         super.tearDown()
     }
 
-    func testControllerIsDisplayingPosts() {
+    func testPresenterIsPresentingPosts() {
         // Given
 
         // When
         presenter.presentPosts(posts: Mock.posts)
         // Then
         XCTAssertEqual(controller.displayPostsCalled, true, "calling controller to display data is true")
+        XCTAssertEqual(controller.displayPostsPostsCalled?.count, 2, "controller should receive valid amount of data")
+        XCTAssertEqual(controller.displayPostsPostsCalled?.first?.title, "Gmina Zero Waste", "controller should receive valid converted data")
+    }
+
+    func testPresenterIsExpandingPost() {
+        // Given
+        presenter.presentPosts(posts: Mock.posts)
+        // When
+        presenter.expandPost(id: Mock.post2.id)
+        // Then
+        XCTAssertEqual(controller.displayPostsPostsCalled?[1].expanded, true, "prestenter should set post expanded property to true")
+        XCTAssertEqual(controller.displayPostsPostsCalled?[1].id, "59242E4E-1F0E-A7B5-C5EE-D1678FF26F3F", "controller should expand valid post")
+        XCTAssertEqual(controller.displayPostsCalled, true, "calling controller to display data is true")
+        XCTAssertEqual(controller.displayPostsPostsCalled?.count, 2, "controller should receive valid amount of data")
+        XCTAssertEqual(controller.displayPostsPostsCalled?.first?.title, "Gmina Zero Waste", "controller should receive valid converted data")
     }
 }
