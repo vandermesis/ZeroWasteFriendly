@@ -19,6 +19,7 @@ final class ___VARIABLE_sceneName___RouterImpl {
 
 extension ___VARIABLE_sceneName___RouterImpl: ___VARIABLE_sceneName___Router {
 
+    //TODO: Replace Controller with destination controller
     func navigateTo() {
         let ___VARIABLE_sceneName___Controller = ___VARIABLE_sceneName___Creator().getController()
         controller?.navigationController?.pushViewController(___VARIABLE_sceneName___Controller, animated: true)

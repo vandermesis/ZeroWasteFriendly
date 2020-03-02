@@ -19,8 +19,9 @@ final class LibraryRouterImpl {
 
 extension LibraryRouterImpl: LibraryRouter {
 
+    //TODO: Replace LibraryController with destination controller or remove
     func navigateTo() {
-        let InfoController = LibraryCreator().getController()
-        controller?.navigationController?.pushViewController(InfoController, animated: true)
+        let libraryController = LibraryCreator().getController()
+        controller?.navigationController?.pushViewController(libraryController, animated: true)
     }
 }
