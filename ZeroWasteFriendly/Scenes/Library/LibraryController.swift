@@ -74,7 +74,6 @@ extension LibraryController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedPostID = postsDataSource[indexPath.row].id
         interactor.didSelectPost(id: selectedPostID)
-        tableView.reloadData()
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
