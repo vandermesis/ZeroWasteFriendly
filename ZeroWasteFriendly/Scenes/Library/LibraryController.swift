@@ -41,7 +41,6 @@ private extension LibraryController {
 
     private func setupTableView() {
         tableView.register(cellType: LibraryTableViewCell.self)
-        tableView.separatorStyle = .none
     }
 
     private func setupNavigationBar() {
