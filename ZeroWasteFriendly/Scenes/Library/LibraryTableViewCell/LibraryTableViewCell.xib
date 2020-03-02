@@ -92,7 +92,7 @@
             <color red="0.22599999606609344" green="0.26800000667572021" blue="0.35199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="textSecondary">
-            <color red="0.43641618273062155" green="0.45592486127922771" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.43599998950958252" green="0.45600000023841858" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

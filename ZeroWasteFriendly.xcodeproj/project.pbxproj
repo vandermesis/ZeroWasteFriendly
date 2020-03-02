@@ -26,6 +26,7 @@
 		BA276F3F240C61D000AF0319 /* LibraryPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F37240C61D000AF0319 /* LibraryPresenterTests.swift */; };
 		BA276F42240C644600AF0319 /* Mock+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F41240C644600AF0319 /* Mock+Post.swift */; };
 		BA276F44240C6CC200AF0319 /* FakeLibraryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F43240C6CC200AF0319 /* FakeLibraryRepository.swift */; };
+		BA2AD57B240D63B7006245E9 /* UIView+AddShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AD57A240D63B7006245E9 /* UIView+AddShadow.swift */; };
 		BA2BF89C23EB387B001508F9 /* mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF89A23EB387B001508F9 /* mockup.png */; };
 		BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */; };
 		BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */; };
@@ -126,6 +127,7 @@
 		BA276F37240C61D000AF0319 /* LibraryPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPresenterTests.swift; sourceTree = "<group>"; };
 		BA276F41240C644600AF0319 /* Mock+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mock+Post.swift"; sourceTree = "<group>"; };
 		BA276F43240C6CC200AF0319 /* FakeLibraryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryRepository.swift; sourceTree = "<group>"; };
+		BA2AD57A240D63B7006245E9 /* UIView+AddShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddShadow.swift"; sourceTree = "<group>"; };
 		BA2BF89A23EB387B001508F9 /* mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mockup.png; sourceTree = "<group>"; };
 		BA2BF8EB23EB4B23001508F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		BA2BF8ED23EB4C01001508F9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -452,6 +454,7 @@
 				BAC1E86923F2DFBC00FD210B /* Error+UserFriendlyMessage.swift */,
 				BA1470A92409BAFD002475DC /* NSObject+ClassName.swift */,
 				BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */,
+				BA2AD57A240D63B7006245E9 /* UIView+AddShadow.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -802,6 +805,7 @@
 				BAD021C824007DD4009ECB83 /* Location.swift in Sources */,
 				BA32910224087DBF00B137A6 /* LibraryCreator.swift in Sources */,
 				BA5D108824048EF300D62894 /* Empty.swift in Sources */,
+				BA2AD57B240D63B7006245E9 /* UIView+AddShadow.swift in Sources */,
 				BA5AC78C23EF5BA1003B180A /* ZeroWasteFriendlyNetworking.swift in Sources */,
 				BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */,
 			);

@@ -17,22 +17,6 @@ final class LibraryTableViewCell: UITableViewCell {
     func setup(with post: PostDisplayable) {
         titleLabel.text = post.title
         contentLabel.text = post.content
-        addCellShadow()
-    }
-}
-
-private extension LibraryTableViewCell {
-
-    private func addCellShadow() {
-        backgroundColor = UIColor.clear
-        self.shadowView.layer.borderWidth = 1
-        self.shadowView.layer.cornerRadius = 12
-        self.shadowView.layer.borderColor = UIColor.clear.cgColor
-        self.shadowView.layer.masksToBounds = true
-        self.layer.shadowOpacity = 0.1
-        self.layer.shadowOffset = CGSize(width: 0, height: 4)
-        self.layer.shadowRadius = 16
-        self.layer.shadowColor = R.color.shadowPrimary()?.cgColor
-        self.layer.masksToBounds = false
+        addViewShadowAndRounderCorners(view: shadowView)
     }
 }
