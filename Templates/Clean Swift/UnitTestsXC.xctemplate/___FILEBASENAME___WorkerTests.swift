@@ -54,7 +54,7 @@ final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
 
     }
 
-    func testWorkerIsFetchingPlacesIsSuccess() {
+    func testWorkerIsFetchingIsSuccess() {
         // Given
         worker.fetch___VARIABLE_sceneName___ { result in
             switch result {
@@ -70,7 +70,7 @@ final class ___VARIABLE_sceneName___WorkerTests: XCTestCase {
 
     }
 
-    func testWorkerIsFetchingPlacesIsFailure() {
+    func testWorkerIsFetchingIsFailure() {
         // Given
         worker.fetch___VARIABLE_sceneName___ { result in
             switch result {
