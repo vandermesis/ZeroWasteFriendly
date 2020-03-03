@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="211" id="KGk-i7-Jjw" customClass="LibraryTableViewCell" customModule="ZeroWasteFriendly" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="211"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HoJ-75-GPR">
+                        <rect key="frame" x="15" y="8" width="422" height="195"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Za-Qv-07Y">
+                                <rect key="frame" x="20" y="22" width="334" height="19"/>
+                                <color key="backgroundColor" name="backgroundPrimary"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                <color key="textColor" name="textPrimary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="iconsChevron90" translatesAutoresizingMaskIntoConstraints="NO" id="0nr-a3-yZI">
+                                <rect key="frame" x="354" y="7.5" width="48" height="48"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="zMl-Zi-LoY">
+                                <rect key="frame" x="20" y="51" width="382" height="2"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Content" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9He-aM-qbm">
+                                <rect key="frame" x="20" y="63" width="382" height="112"/>
+                                <color key="backgroundColor" name="backgroundPrimary"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" name="textSecondary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="backgroundPrimary"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0nr-a3-yZI" secondAttribute="trailing" constant="20" id="7d5-3I-M8Q"/>
+                            <constraint firstItem="4Za-Qv-07Y" firstAttribute="top" secondItem="HoJ-75-GPR" secondAttribute="top" constant="22" id="Bz7-3N-hPF"/>
+                            <constraint firstItem="9He-aM-qbm" firstAttribute="top" secondItem="zMl-Zi-LoY" secondAttribute="bottom" constant="10" id="P2B-Mp-4oF"/>
+                            <constraint firstAttribute="trailing" secondItem="9He-aM-qbm" secondAttribute="trailing" constant="20" id="Xxy-Ym-PKR"/>
+                            <constraint firstItem="4Za-Qv-07Y" firstAttribute="leading" secondItem="HoJ-75-GPR" secondAttribute="leading" constant="20" id="aXe-GA-ahx"/>
+                            <constraint firstAttribute="bottom" secondItem="9He-aM-qbm" secondAttribute="bottom" constant="20" id="fPg-Ju-myq"/>
+                            <constraint firstAttribute="trailing" secondItem="zMl-Zi-LoY" secondAttribute="trailing" constant="20" id="gVC-lG-V8d"/>
+                            <constraint firstItem="zMl-Zi-LoY" firstAttribute="top" secondItem="4Za-Qv-07Y" secondAttribute="bottom" constant="10" id="kgQ-7C-uu1"/>
+                            <constraint firstItem="zMl-Zi-LoY" firstAttribute="leading" secondItem="HoJ-75-GPR" secondAttribute="leading" constant="20" id="wIn-5a-H9l"/>
+                            <constraint firstItem="0nr-a3-yZI" firstAttribute="centerY" secondItem="4Za-Qv-07Y" secondAttribute="centerY" id="yEL-d6-k6a"/>
+                            <constraint firstItem="0nr-a3-yZI" firstAttribute="leading" secondItem="4Za-Qv-07Y" secondAttribute="trailing" id="zdg-pY-1SA"/>
+                            <constraint firstItem="9He-aM-qbm" firstAttribute="leading" secondItem="HoJ-75-GPR" secondAttribute="leading" constant="20" id="zfy-Qs-dNH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="HoJ-75-GPR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="RFz-tJ-h53"/>
+                    <constraint firstItem="HoJ-75-GPR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Ymc-Ff-Evu"/>
+                    <constraint firstAttribute="bottom" secondItem="HoJ-75-GPR" secondAttribute="bottom" constant="8" id="fJv-IV-yq8"/>
+                    <constraint firstAttribute="trailing" secondItem="HoJ-75-GPR" secondAttribute="trailing" constant="15" id="u64-VB-icF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentLabel" destination="9He-aM-qbm" id="nD8-po-5qV"/>
+                <outlet property="contentTopConstraint" destination="P2B-Mp-4oF" id="maO-HQ-hlw"/>
+                <outlet property="indicatorImage" destination="0nr-a3-yZI" id="2BK-ul-vID"/>
+                <outlet property="shadowView" destination="HoJ-75-GPR" id="2M3-mO-rG5"/>
+                <outlet property="titleLabel" destination="4Za-Qv-07Y" id="kBe-dd-54b"/>
+            </connections>
+            <point key="canvasLocation" x="-317" y="28"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="divider" width="295" height="1"/>
+        <image name="iconsChevron90" width="24" height="24"/>
+        <namedColor name="backgroundPrimary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textPrimary">
+            <color red="0.22599999606609344" green="0.26800000667572021" blue="0.35199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textSecondary">
+            <color red="0.43599998950958252" green="0.45600000023841858" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -18,7 +18,7 @@ protocol PlacesRepository {
 final class PlacesRepositoryImpl: BaseCloudKitService, PlacesRepository {
 
     func fetchPlaces(completion: FetchPlacesCompletion?) {
-        fetchPublicCloudKitDB(recordType: .recordEcoPlaces) { [weak self] result in
+        fetchPublicCloudKitDB(recordType: .recordTypeEcoPlaces) { [weak self] result in
             guard let self = self else { return }
             switch result {
             case .success(let records):
@@ -53,7 +53,7 @@ private extension PlacesRepositoryImpl {
 
 private extension String {
 
-    static let recordEcoPlaces = "EcoPlace"
+    static let recordTypeEcoPlaces = "EcoPlace"
     static let recordName = "name"
     static let recordDescription = "description"
     static let recordCategory = "category"

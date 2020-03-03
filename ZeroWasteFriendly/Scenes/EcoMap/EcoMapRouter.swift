@@ -19,6 +19,7 @@ final class EcoMapRouterImpl {
 
 extension EcoMapRouterImpl: EcoMapRouter {
 
+    //TODO: Replace EcoMapCreator with destination controller or remove
     func navigateTo() {
         let EcoMapController = EcoMapCreator().getController()
         controller?.navigationController?.pushViewController(EcoMapController, animated: true)

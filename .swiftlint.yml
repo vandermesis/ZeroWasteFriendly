@@ -1,6 +1,7 @@
 excluded:
  - Pods
  - ZeroWasteFriendly/Support/R.generated.swift
+ - Templates
 
 line_length:
  warning: 160

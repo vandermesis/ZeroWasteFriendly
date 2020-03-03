@@ -8,4 +8,9 @@
 
 import Foundation
 
-enum Constants {}
+enum Constants {
+
+    enum Library {
+        static let defaultRowHeight = 180
+    }
+}

@@ -60,7 +60,7 @@ extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName___Presentabl
 
     //TODO: Implement functionality or remove
     func display___VARIABLE_sceneName___() {
-
+        tableView.reloadData()
     }
 }
 

@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import CoreData
 
 struct ___VARIABLE_sceneName___Creator {
 
