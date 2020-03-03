@@ -41,6 +41,8 @@ private extension LibraryController {
 
     private func setupTableView() {
         tableView.register(cellType: LibraryTableViewCell.self)
+        tableView.contentInset.top = 7
+        tableView.contentInset.bottom = 7
     }
 
     private func setupNavigationBar() {
