@@ -80,5 +80,8 @@ extension LibraryController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         postsDataSource[indexPath.row].expanded ? UITableView.automaticDimension : CGFloat(Constants.Library.defaultRowHeight)
+//        if postsDataSource[indexPath.row].expanded {
+//
+//        }
     }
 }

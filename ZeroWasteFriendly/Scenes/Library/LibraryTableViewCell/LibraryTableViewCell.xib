@@ -76,10 +76,11 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="contentLabel" destination="9He-aM-qbm" id="nD8-po-5qV"/>
+                <outlet property="contentTopConstraint" destination="P2B-Mp-4oF" id="maO-HQ-hlw"/>
                 <outlet property="shadowView" destination="HoJ-75-GPR" id="2M3-mO-rG5"/>
                 <outlet property="titleLabel" destination="4Za-Qv-07Y" id="kBe-dd-54b"/>
             </connections>
-            <point key="canvasLocation" x="-961" y="168"/>
+            <point key="canvasLocation" x="-709" y="154"/>
         </tableViewCell>
     </objects>
     <resources>
