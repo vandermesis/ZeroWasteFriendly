@@ -6,6 +6,8 @@
   Copyright © 2020 vandermesis. All rights reserved.
 */
 
+"Language" = "Polish";
+
 // TabBar
 "TabBar.Item.Act" = "Działaj";
 "TabBar.Item.Stats" = "Statystyki";

@@ -11,6 +11,7 @@ import Foundation
 protocol LibraryInteractor {
     func getPosts()
     func didSelectPost(id: String)
+    func animateTopBarWhenScrolling(state: Bool)
 }
 
 final class LibraryInteractorImpl {
@@ -46,5 +47,9 @@ extension LibraryInteractorImpl: LibraryInteractor {
 
     func didSelectPost(id: String) {
         presenter.expandPost(id: id)
+    }
+
+    func animateTopBarWhenScrolling(state: Bool) {
+        presenter.animateTopBar(state)
     }
 }

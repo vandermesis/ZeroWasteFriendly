@@ -11,6 +11,7 @@ import UIKit
 protocol LibraryPresenter: SpinnerPresenter, AlertPresenter {
     func presentPosts(posts: [Post])
     func expandPost(id: String)
+    func animateTopBar(_ state: Bool)
 }
 
 final class LibraryPresenterImpl<T: LibraryPresentable>: MainPresenter<T> {
@@ -35,5 +36,12 @@ extension LibraryPresenterImpl: LibraryPresenter {
             convertedPosts.append(post)
         }
         controller?.displayPosts(posts: convertedPosts)
+    }
+
+    func animateTopBar(_ state: Bool) {
+        var height: CGFloat {
+            state ? 50 : 150
+        }
+        controller?.animateTopBarToHeight(height: height)
     }
 }

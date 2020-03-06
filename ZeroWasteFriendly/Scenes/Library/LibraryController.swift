@@ -10,14 +10,17 @@ import UIKit
 
 protocol LibraryPresentable: SpinnerPresentable & AlertPresentable {
     func displayPosts(posts: [PostDisplayable])
+    func animateTopBarToHeight(height: CGFloat)
 }
 
 final class LibraryController: MainViewController {
 
     @IBOutlet private weak var tableView: UITableView!
+    @IBOutlet private weak var topBarHeightConstraint: NSLayoutConstraint!
+    @IBOutlet private weak var topBar: UIView!
 
     private var postsDataSource = [PostDisplayable]()
-    
+
     private let interactor: LibraryInteractor
 
     init(interactor: LibraryInteractor) {
@@ -56,6 +59,13 @@ extension LibraryController: LibraryPresentable {
         postsDataSource = posts
         tableView.reloadData()
     }
+
+    func animateTopBarToHeight(height: CGFloat) {
+        UIView.animate(withDuration: 0.25) {
+            self.topBarHeightConstraint.constant = height
+            self.view.layoutSubviews()
+        }
+    }
 }
 
 extension LibraryController: UITableViewDataSource {
@@ -80,5 +90,13 @@ extension LibraryController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         postsDataSource[indexPath.row].expanded ? UITableView.automaticDimension : CGFloat(Constants.Library.defaultRowHeight)
+    }
+}
+
+extension LibraryController: UIScrollViewDelegate {
+
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let contentIsOnTop = tableView.contentOffset.y > 0
+        interactor.animateTopBarWhenScrolling(state: contentIsOnTop)
     }
 }

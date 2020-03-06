@@ -11,6 +11,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LibraryController" customModule="ZeroWasteFriendly" customModuleProvider="target">
             <connections>
                 <outlet property="tableView" destination="fDz-I1-ScT" id="CeI-WW-Q8z"/>
+                <outlet property="topBar" destination="rZj-ik-bEg" id="fIo-xh-atQ"/>
+                <outlet property="topBarHeightConstraint" destination="IUU-1e-CQk" id="jvH-7i-p1L"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,8 +21,15 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZj-ik-bEg">
+                    <rect key="frame" x="0.0" y="44" width="414" height="150"/>
+                    <color key="backgroundColor" name="refuse"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="IUU-1e-CQk"/>
+                    </constraints>
+                </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fDz-I1-ScT">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <rect key="frame" x="0.0" y="194" width="414" height="668"/>
                     <color key="backgroundColor" name="backgroundSecondary"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="DSi-5H-eeN"/>
@@ -31,12 +40,15 @@
             <color key="backgroundColor" name="backgroundPrimary"/>
             <constraints>
                 <constraint firstItem="fDz-I1-ScT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GKn-xp-cfU"/>
-                <constraint firstItem="fDz-I1-ScT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="bU4-2g-Kq3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rZj-ik-bEg" secondAttribute="trailing" id="Lbd-9v-OQs"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="fDz-I1-ScT" secondAttribute="bottom" id="bcb-fH-JwB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fDz-I1-ScT" secondAttribute="trailing" id="cpN-1T-Qza"/>
+                <constraint firstItem="rZj-ik-bEg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hhN-pS-MMy"/>
+                <constraint firstItem="fDz-I1-ScT" firstAttribute="top" secondItem="rZj-ik-bEg" secondAttribute="bottom" id="oSj-Ij-7T0"/>
+                <constraint firstItem="rZj-ik-bEg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qYX-hf-1QN"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="-177" y="13"/>
+            <point key="canvasLocation" x="-178.2608695652174" y="12.723214285714285"/>
         </view>
     </objects>
     <resources>
@@ -45,6 +57,9 @@
         </namedColor>
         <namedColor name="backgroundSecondary">
             <color red="0.96200001239776611" green="0.96200001239776611" blue="0.96200001239776611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="refuse">
+            <color red="0.95200002193450928" green="0.50599998235702515" blue="0.50700002908706665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
