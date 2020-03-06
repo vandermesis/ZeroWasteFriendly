@@ -10,7 +10,7 @@ import UIKit
 
 protocol LibraryPresentable: SpinnerPresentable & AlertPresentable {
     func displayPosts(posts: [PostDisplayable])
-    func animateTopBarToHeight(height: CGFloat)
+    func animateTopBarHeight(height: CGFloat)
 }
 
 final class LibraryController: MainViewController {
@@ -60,7 +60,7 @@ extension LibraryController: LibraryPresentable {
         tableView.reloadData()
     }
 
-    func animateTopBarToHeight(height: CGFloat) {
+    func animateTopBarHeight(height: CGFloat) {
         UIView.animate(withDuration: 0.25) {
             self.topBarHeightConstraint.constant = height
             self.view.layoutSubviews()
@@ -96,7 +96,7 @@ extension LibraryController: UITableViewDelegate {
 extension LibraryController: UIScrollViewDelegate {
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let contentIsOnTop = tableView.contentOffset.y > 0
-        interactor.animateTopBarWhenScrolling(state: contentIsOnTop)
+        let topPosition = tableView.contentOffset.y <= -7
+        interactor.didScrollTableView(topPosition: topPosition)
     }
 }

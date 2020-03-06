@@ -16,8 +16,8 @@ final class FakeLibraryPresenter<T: LibraryPresentable>: FakeMainPresenter<T>, L
     var presentPostsPostsCalled: [Post]?
     var expandPostCalled: Bool?
     var expandPostIdCalled: String?
-    var animateTopBarCalled: Bool?
-    var animateTopBarStateCalled: Bool?
+    var presentAnimationWhenScrollingCalled: Bool?
+    var presentAnimationWhenScrollingStateCalled: Bool?
 
     func presentPosts(posts: [Post]) {
         presentPostsCalled = true
@@ -29,8 +29,8 @@ final class FakeLibraryPresenter<T: LibraryPresentable>: FakeMainPresenter<T>, L
         expandPostIdCalled = id
     }
 
-    func animateTopBar(_ state: Bool) {
-        animateTopBarCalled = true
-        animateTopBarStateCalled = state
+    func presentAnimationWhenScrolling(state: Bool) {
+        presentAnimationWhenScrollingCalled = true
+        presentAnimationWhenScrollingStateCalled = state
     }
 }

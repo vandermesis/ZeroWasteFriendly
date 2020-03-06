@@ -51,4 +51,24 @@ final class LibraryPresenterTests: XCTestCase {
         XCTAssertEqual(controller.displayPostsPostsCalled?.count, 2, "controller should receive valid amount of data")
         XCTAssertEqual(controller.displayPostsPostsCalled?.first?.title, "Gmina Zero Waste", "controller should receive valid converted data")
     }
+
+    func testPresenterIsPresentingAnimationWhenScrollingTop() {
+        // Given
+
+        // When
+        presenter.presentAnimationWhenScrolling(state: true)
+        // Then
+        XCTAssertEqual(controller.animateTopBarToHeightCalled, true, "calling controller to animate top bar is true")
+        XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 150, "controller should receive valid bar height")
+    }
+
+    func testPresenterIsPresentingAnimationWhenScrollingNotTop() {
+        // Given
+
+        // When
+        presenter.presentAnimationWhenScrolling(state: false)
+        // Then
+        XCTAssertEqual(controller.animateTopBarToHeightCalled, true, "calling controller to animate top bar is true")
+        XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 50, "controller should receive valid bar height")
+    }
 }

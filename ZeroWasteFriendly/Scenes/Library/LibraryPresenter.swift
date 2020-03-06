@@ -11,7 +11,7 @@ import UIKit
 protocol LibraryPresenter: SpinnerPresenter, AlertPresenter {
     func presentPosts(posts: [Post])
     func expandPost(id: String)
-    func animateTopBar(_ state: Bool)
+    func presentAnimationWhenScrolling(state: Bool)
 }
 
 final class LibraryPresenterImpl<T: LibraryPresentable>: MainPresenter<T> {
@@ -38,10 +38,10 @@ extension LibraryPresenterImpl: LibraryPresenter {
         controller?.displayPosts(posts: convertedPosts)
     }
 
-    func animateTopBar(_ state: Bool) {
+    func presentAnimationWhenScrolling(state: Bool) {
         var height: CGFloat {
-            state ? 50 : 150
+            state ? 150 : 50
         }
-        controller?.animateTopBarToHeight(height: height)
+        controller?.animateTopBarHeight(height: height)
     }
 }
