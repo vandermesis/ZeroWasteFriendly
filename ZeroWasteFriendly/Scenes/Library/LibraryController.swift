@@ -44,8 +44,7 @@ private extension LibraryController {
 
     private func setupTableView() {
         tableView.register(cellType: LibraryTableViewCell.self)
-        tableView.contentInset.top = 7
-        tableView.contentInset.bottom = 7
+        tableView.contentInset.bottom = 15
     }
 
     private func setupNavigationBar() {
@@ -96,7 +95,7 @@ extension LibraryController: UITableViewDelegate {
 extension LibraryController: UIScrollViewDelegate {
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let topPosition = tableView.contentOffset.y <= -7
+        let topPosition = tableView.contentOffset.y <= 0
         interactor.didScrollTableView(topPosition: topPosition)
     }
 }
