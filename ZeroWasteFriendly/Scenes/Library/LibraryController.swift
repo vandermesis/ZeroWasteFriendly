@@ -10,14 +10,14 @@ import UIKit
 
 protocol LibraryPresentable: SpinnerPresentable & AlertPresentable {
     func displayPosts(posts: [PostDisplayable])
-    func animateTopBarHeight(height: CGFloat)
+    func animateCarouselHeight(height: CGFloat)
 }
 
 final class LibraryController: MainViewController {
 
     @IBOutlet private weak var tableView: UITableView!
-    @IBOutlet private weak var topBarHeightConstraint: NSLayoutConstraint!
-    @IBOutlet private weak var topBar: UIView!
+    @IBOutlet private weak var carouselCollectionView: UICollectionView!
+    @IBOutlet private weak var collectionViewHeight: NSLayoutConstraint!
 
     private var postsDataSource = [PostDisplayable]()
 
@@ -36,6 +36,7 @@ final class LibraryController: MainViewController {
         super.viewDidLoad()
         setupNavigationBar()
         setupTableView()
+        setupCollectionView()
         interactor.getPosts()
     }
 }
@@ -50,6 +51,15 @@ private extension LibraryController {
     private func setupNavigationBar() {
         title = R.string.localizable.libraryListTitle()
     }
+
+    private func setupCollectionView() {
+        let viewWidth = view.frame.width
+        let flowLayout = ZoomAndSnapFlowLayout(viewWidth: viewWidth)
+        carouselCollectionView.register(cellType: LibraryCarouselCollectionViewCell.self)
+        carouselCollectionView.collectionViewLayout = flowLayout
+        carouselCollectionView.contentInsetAdjustmentBehavior = .always
+        carouselCollectionView.decelerationRate = .fast
+    }
 }
 
 extension LibraryController: LibraryPresentable {
@@ -59,9 +69,9 @@ extension LibraryController: LibraryPresentable {
         tableView.reloadData()
     }
 
-    func animateTopBarHeight(height: CGFloat) {
+    func animateCarouselHeight(height: CGFloat) {
         UIView.animate(withDuration: 0.25) {
-            self.topBarHeightConstraint.constant = height
+            self.collectionViewHeight.constant = height
             self.view.layoutSubviews()
         }
     }
@@ -97,5 +107,18 @@ extension LibraryController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let topPosition = tableView.contentOffset.y <= 0
         interactor.didScrollTableView(topPosition: topPosition)
+    }
+}
+
+extension LibraryController: UICollectionViewDataSource {
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
+    }
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeue(with: LibraryCarouselCollectionViewCell.self, for: indexPath)
+        cell.contentView.backgroundColor = .red
+        return cell
     }
 }

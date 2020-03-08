@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -10,9 +10,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LibraryController" customModule="ZeroWasteFriendly" customModuleProvider="target">
             <connections>
+                <outlet property="carouselCollectionView" destination="YA5-iB-LHm" id="wal-c2-Pek"/>
+                <outlet property="collectionViewHeight" destination="NJ4-pt-ZJ6" id="ycl-Yt-Yey"/>
                 <outlet property="tableView" destination="fDz-I1-ScT" id="CeI-WW-Q8z"/>
-                <outlet property="topBar" destination="rZj-ik-bEg" id="fIo-xh-atQ"/>
-                <outlet property="topBarHeightConstraint" destination="IUU-1e-CQk" id="jvH-7i-p1L"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,15 +21,25 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZj-ik-bEg">
-                    <rect key="frame" x="0.0" y="44" width="414" height="150"/>
-                    <color key="backgroundColor" name="refuse"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="YA5-iB-LHm">
+                    <rect key="frame" x="0.0" y="44" width="414" height="200"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="150" id="IUU-1e-CQk"/>
+                        <constraint firstAttribute="height" constant="200" id="NJ4-pt-ZJ6"/>
                     </constraints>
-                </view>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AsT-eA-Ah4">
+                        <size key="itemSize" width="300" height="185"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="aIM-Cf-kSn"/>
+                        <outlet property="delegate" destination="-1" id="nFR-ZA-PV3"/>
+                    </connections>
+                </collectionView>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fDz-I1-ScT">
-                    <rect key="frame" x="0.0" y="194" width="414" height="668"/>
+                    <rect key="frame" x="0.0" y="244" width="414" height="618"/>
                     <color key="backgroundColor" name="backgroundSecondary"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="DSi-5H-eeN"/>
@@ -39,16 +49,16 @@
             </subviews>
             <color key="backgroundColor" name="backgroundPrimary"/>
             <constraints>
+                <constraint firstItem="fDz-I1-ScT" firstAttribute="top" secondItem="YA5-iB-LHm" secondAttribute="bottom" id="BK3-w9-PH1"/>
                 <constraint firstItem="fDz-I1-ScT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GKn-xp-cfU"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rZj-ik-bEg" secondAttribute="trailing" id="Lbd-9v-OQs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YA5-iB-LHm" secondAttribute="trailing" id="Qdz-VG-ztW"/>
+                <constraint firstItem="YA5-iB-LHm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aeS-p4-DoB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="fDz-I1-ScT" secondAttribute="bottom" id="bcb-fH-JwB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fDz-I1-ScT" secondAttribute="trailing" id="cpN-1T-Qza"/>
-                <constraint firstItem="rZj-ik-bEg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hhN-pS-MMy"/>
-                <constraint firstItem="fDz-I1-ScT" firstAttribute="top" secondItem="rZj-ik-bEg" secondAttribute="bottom" id="oSj-Ij-7T0"/>
-                <constraint firstItem="rZj-ik-bEg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qYX-hf-1QN"/>
+                <constraint firstItem="YA5-iB-LHm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="tXR-cQ-Qph"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="-178.2608695652174" y="12.723214285714285"/>
+            <point key="canvasLocation" x="-186" y="-119"/>
         </view>
     </objects>
     <resources>
@@ -57,9 +67,6 @@
         </namedColor>
         <namedColor name="backgroundSecondary">
             <color red="0.96200001239776611" green="0.96200001239776611" blue="0.96200001239776611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="refuse">
-            <color red="0.95200002193450928" green="0.50599998235702515" blue="0.50700002908706665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

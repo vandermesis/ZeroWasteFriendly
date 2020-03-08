@@ -22,7 +22,7 @@ final class FakeLibraryController: MainViewController, LibraryPresentable {
         displayPostsPostsCalled = posts
     }
 
-    func animateTopBarHeight(height: CGFloat) {
+    func animateCarouselHeight(height: CGFloat) {
         animateTopBarToHeightCalled = true
         animateTopBarToHeightHeightCalled = height
     }
