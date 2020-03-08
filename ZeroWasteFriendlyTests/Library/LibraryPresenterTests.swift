@@ -69,6 +69,6 @@ final class LibraryPresenterTests: XCTestCase {
         presenter.presentAnimationWhenScrolling(state: false)
         // Then
         XCTAssertEqual(controller.animateTopBarToHeightCalled, true, "calling controller to animate top bar is true")
-        XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 50, "controller should receive valid bar height")
+        XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 0, "controller should receive valid bar height")
     }
 }
