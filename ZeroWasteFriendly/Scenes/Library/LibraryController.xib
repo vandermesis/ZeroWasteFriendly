@@ -23,7 +23,7 @@
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="YA5-iB-LHm">
                     <rect key="frame" x="0.0" y="44" width="414" height="200"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <color key="backgroundColor" name="backgroundSecondary"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="NJ4-pt-ZJ6"/>
                     </constraints>

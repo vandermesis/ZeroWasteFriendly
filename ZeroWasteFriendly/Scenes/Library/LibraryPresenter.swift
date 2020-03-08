@@ -40,7 +40,7 @@ extension LibraryPresenterImpl: LibraryPresenter {
 
     func presentAnimationWhenScrolling(state: Bool) {
         var height: CGFloat {
-            state ? 200 : 50
+            state ? 200 : 0
         }
         controller?.animateCarouselHeight(height: height)
     }

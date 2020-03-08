@@ -118,7 +118,6 @@ extension LibraryController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeue(with: LibraryCarouselCollectionViewCell.self, for: indexPath)
-        cell.contentView.backgroundColor = .red
         return cell
     }
 }
