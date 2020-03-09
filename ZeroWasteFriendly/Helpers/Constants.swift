@@ -12,5 +12,6 @@ enum Constants {
 
     enum Library {
         static let defaultRowHeight = 180
+        static let quarterSecond = 0.25
     }
 }

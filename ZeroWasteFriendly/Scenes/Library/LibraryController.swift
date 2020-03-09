@@ -77,7 +77,7 @@ extension LibraryController: LibraryPresentable {
     }
 
     func animateCarouselHeight(height: CGFloat) {
-        UIView.animate(withDuration: 0.25) {
+        UIView.animate(withDuration: Constants.Library.quarterSecond) {
             self.collectionViewHeight.constant = height
             self.view.layoutSubviews()
         }
