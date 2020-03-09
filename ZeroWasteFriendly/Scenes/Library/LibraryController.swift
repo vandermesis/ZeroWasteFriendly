@@ -118,11 +118,11 @@ extension LibraryController: UIScrollViewDelegate {
 }
 
 extension LibraryController: UICollectionViewDataSource {
-
+    //TODO: Connect with proper collection view data source
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 3
     }
-
+    //TODO: Connect with proper collection view data source
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeue(with: LibraryCarouselCell.self, for: indexPath)
         return cell
