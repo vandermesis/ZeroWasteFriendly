@@ -1,5 +1,5 @@
 //
-//  LibraryCarouselCollectionViewCell.swift
+//  LibraryCarouselCell.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 08/03/2020.
@@ -8,4 +8,4 @@
 
 import UIKit
 
-final class LibraryCarouselCollectionViewCell: UICollectionViewCell {}
+final class LibraryCarouselCell: UICollectionViewCell {}

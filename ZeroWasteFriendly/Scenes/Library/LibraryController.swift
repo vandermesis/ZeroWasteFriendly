@@ -44,7 +44,7 @@ final class LibraryController: MainViewController {
 private extension LibraryController {
 
     private func setupTableView() {
-        tableView.register(cellType: LibraryTableViewCell.self)
+        tableView.register(cellType: LibraryPostCell.self)
         tableView.contentInset.bottom = 15
     }
 
@@ -55,7 +55,7 @@ private extension LibraryController {
     private func setupCollectionView() {
         let viewWidth = view.frame.width
         let flowLayout = ZoomAndSnapFlowLayout(viewWidth: viewWidth)
-        carouselCollectionView.register(cellType: LibraryCarouselCollectionViewCell.self)
+        carouselCollectionView.register(cellType: LibraryCarouselCell.self)
         carouselCollectionView.collectionViewLayout = flowLayout
         carouselCollectionView.contentInsetAdjustmentBehavior = .always
         carouselCollectionView.decelerationRate = .fast
@@ -84,7 +84,7 @@ extension LibraryController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeue(with: LibraryTableViewCell.self, for: indexPath)
+        let cell = tableView.dequeue(with: LibraryPostCell.self, for: indexPath)
         cell.setup(with: postsDataSource[indexPath.row])
         return cell
     }
@@ -117,7 +117,7 @@ extension LibraryController: UICollectionViewDataSource {
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeue(with: LibraryCarouselCollectionViewCell.self, for: indexPath)
+        let cell = collectionView.dequeue(with: LibraryCarouselCell.self, for: indexPath)
         return cell
     }
 }

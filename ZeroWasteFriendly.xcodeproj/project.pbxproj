@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		8A1C0582122923F329F28E67 /* Pods_ZeroWasteFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */; };
 		BA04011023FFD3990081B1B2 /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA04010F23FFD3990081B1B2 /* UserLocationService.swift */; };
-		BA10A20F241596DE00562099 /* LibraryCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A20D241596DE00562099 /* LibraryCarouselCollectionViewCell.swift */; };
-		BA10A210241596DE00562099 /* LibraryCarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA10A20E241596DE00562099 /* LibraryCarouselCollectionViewCell.xib */; };
+		BA10A20F241596DE00562099 /* LibraryCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A20D241596DE00562099 /* LibraryCarouselCell.swift */; };
+		BA10A210241596DE00562099 /* LibraryCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA10A20E241596DE00562099 /* LibraryCarouselCell.xib */; };
 		BA10A2132415974500562099 /* UICollectionView+Register+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A2122415974500562099 /* UICollectionView+Register+Dequeue.swift */; };
 		BA10A215241598AB00562099 /* ZoomAndSnapFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A214241598AB00562099 /* ZoomAndSnapFlowLayout.swift */; };
 		BA1470AA2409BAFD002475DC /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470A92409BAFD002475DC /* NSObject+ClassName.swift */; };
 		BA1470AC2409BB22002475DC /* UITableView+Register+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */; };
 		BA1470AE2409BE4D002475DC /* LibraryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AD2409BE4D002475DC /* LibraryRepository.swift */; };
 		BA1470B02409BF0C002475DC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AF2409BF0C002475DC /* Post.swift */; };
-		BA1470B32409C242002475DC /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470B12409C242002475DC /* LibraryTableViewCell.swift */; };
-		BA1470B42409C242002475DC /* LibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1470B22409C242002475DC /* LibraryTableViewCell.xib */; };
+		BA1470B32409C242002475DC /* LibraryPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470B12409C242002475DC /* LibraryPostCell.swift */; };
+		BA1470B42409C242002475DC /* LibraryPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1470B22409C242002475DC /* LibraryPostCell.xib */; };
 		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
 		BA276F38240C61D000AF0319 /* LibraryInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F30240C61D000AF0319 /* LibraryInteractorTests.swift */; };
 		BA276F39240C61D000AF0319 /* FakeLibraryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F31240C61D000AF0319 /* FakeLibraryRouter.swift */; };
@@ -114,16 +114,16 @@
 /* Begin PBXFileReference section */
 		7C8FAC18FC918574708C9063 /* Pods_ZeroWasteFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA04010F23FFD3990081B1B2 /* UserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
-		BA10A20D241596DE00562099 /* LibraryCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
-		BA10A20E241596DE00562099 /* LibraryCarouselCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCarouselCollectionViewCell.xib; sourceTree = "<group>"; };
+		BA10A20D241596DE00562099 /* LibraryCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCarouselCell.swift; sourceTree = "<group>"; };
+		BA10A20E241596DE00562099 /* LibraryCarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCarouselCell.xib; sourceTree = "<group>"; };
 		BA10A2122415974500562099 /* UICollectionView+Register+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register+Dequeue.swift"; sourceTree = "<group>"; };
 		BA10A214241598AB00562099 /* ZoomAndSnapFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndSnapFlowLayout.swift; sourceTree = "<group>"; };
 		BA1470A92409BAFD002475DC /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Register+Dequeue.swift"; sourceTree = "<group>"; };
 		BA1470AD2409BE4D002475DC /* LibraryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryRepository.swift; sourceTree = "<group>"; };
 		BA1470AF2409BF0C002475DC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		BA1470B12409C242002475DC /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
-		BA1470B22409C242002475DC /* LibraryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryTableViewCell.xib; sourceTree = "<group>"; };
+		BA1470B12409C242002475DC /* LibraryPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPostCell.swift; sourceTree = "<group>"; };
+		BA1470B22409C242002475DC /* LibraryPostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryPostCell.xib; sourceTree = "<group>"; };
 		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
 		BA276F30240C61D000AF0319 /* LibraryInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryInteractorTests.swift; sourceTree = "<group>"; };
 		BA276F31240C61D000AF0319 /* FakeLibraryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryRouter.swift; sourceTree = "<group>"; };
@@ -260,23 +260,23 @@
 			path = LocationService;
 			sourceTree = "<group>";
 		};
-		BA10A211241596E300562099 /* LibraryCarouselCollectionViewCell */ = {
+		BA10A211241596E300562099 /* LibraryCarouselCell */ = {
 			isa = PBXGroup;
 			children = (
-				BA10A20D241596DE00562099 /* LibraryCarouselCollectionViewCell.swift */,
-				BA10A20E241596DE00562099 /* LibraryCarouselCollectionViewCell.xib */,
+				BA10A20D241596DE00562099 /* LibraryCarouselCell.swift */,
+				BA10A20E241596DE00562099 /* LibraryCarouselCell.xib */,
 				BA10A214241598AB00562099 /* ZoomAndSnapFlowLayout.swift */,
 			);
-			path = LibraryCarouselCollectionViewCell;
+			path = LibraryCarouselCell;
 			sourceTree = "<group>";
 		};
-		BA1470B52409C247002475DC /* LibraryTableViewCell */ = {
+		BA1470B52409C247002475DC /* LibraryPostCell */ = {
 			isa = PBXGroup;
 			children = (
-				BA1470B12409C242002475DC /* LibraryTableViewCell.swift */,
-				BA1470B22409C242002475DC /* LibraryTableViewCell.xib */,
+				BA1470B12409C242002475DC /* LibraryPostCell.swift */,
+				BA1470B22409C242002475DC /* LibraryPostCell.xib */,
 			);
-			path = LibraryTableViewCell;
+			path = LibraryPostCell;
 			sourceTree = "<group>";
 		};
 		BA25AD9123CF65B500C1A554 /* Support */ = {
@@ -332,8 +332,8 @@
 			isa = PBXGroup;
 			children = (
 				BA55799C240B1781002DDEC4 /* Displayable */,
-				BA10A211241596E300562099 /* LibraryCarouselCollectionViewCell */,
-				BA1470B52409C247002475DC /* LibraryTableViewCell */,
+				BA10A211241596E300562099 /* LibraryCarouselCell */,
+				BA1470B52409C247002475DC /* LibraryPostCell */,
 				BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */,
 				BA3290F924087DBF00B137A6 /* LibraryController.swift */,
 				BA3290FC24087DBF00B137A6 /* LibraryController.xib */,
@@ -674,12 +674,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2BF8EC23EB4B23001508F9 /* Colors.xcassets in Resources */,
-				BA1470B42409C242002475DC /* LibraryTableViewCell.xib in Resources */,
+				BA1470B42409C242002475DC /* LibraryPostCell.xib in Resources */,
 				BA2BF8F023EB4C29001508F9 /* Montserrat-Regular.ttf in Resources */,
 				BAD2B4E023FB39A400A4845B /* logo.png in Resources */,
 				BA9DB87323CE6DED004F86A0 /* LaunchScreen.storyboard in Resources */,
 				BA2BF8EE23EB4C01001508F9 /* Montserrat-SemiBold.ttf in Resources */,
-				BA10A210241596DE00562099 /* LibraryCarouselCollectionViewCell.xib in Resources */,
+				BA10A210241596DE00562099 /* LibraryCarouselCell.xib in Resources */,
 				BA5AC78623EF55A0003B180A /* SpinnerController.xib in Resources */,
 				BA2BF8F223EB5684001508F9 /* README.md in Resources */,
 				BA2BF8F623EB65AA001508F9 /* Localizable.strings in Resources */,
@@ -798,8 +798,8 @@
 				BAAECD5423FF29210062BED5 /* Constants.swift in Sources */,
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA1470AC2409BB22002475DC /* UITableView+Register+Dequeue.swift in Sources */,
-				BA10A20F241596DE00562099 /* LibraryCarouselCollectionViewCell.swift in Sources */,
-				BA1470B32409C242002475DC /* LibraryTableViewCell.swift in Sources */,
+				BA10A20F241596DE00562099 /* LibraryCarouselCell.swift in Sources */,
+				BA1470B32409C242002475DC /* LibraryPostCell.swift in Sources */,
 				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
 				BA32910024087DBF00B137A6 /* LibraryController.swift in Sources */,
 				BAD844A423FFDF4400F6D0B1 /* PlaceAnnotation.swift in Sources */,
