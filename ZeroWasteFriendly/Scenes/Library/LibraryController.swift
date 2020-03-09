@@ -36,8 +36,12 @@ final class LibraryController: MainViewController {
         super.viewDidLoad()
         setupNavigationBar()
         setupTableView()
-        setupCollectionView()
+        registerLibraryCarouselCell()
         interactor.getPosts()
+    }
+
+    override func viewDidLayoutSubviews() {
+        setupCarouselCollectionView()
     }
 }
 
@@ -52,10 +56,13 @@ private extension LibraryController {
         title = R.string.localizable.libraryListTitle()
     }
 
-    private func setupCollectionView() {
+    private func registerLibraryCarouselCell() {
+        carouselCollectionView.register(cellType: LibraryCarouselCell.self)
+    }
+
+    private func setupCarouselCollectionView() {
         let viewWidth = view.frame.width
         let flowLayout = ZoomAndSnapFlowLayout(viewWidth: viewWidth)
-        carouselCollectionView.register(cellType: LibraryCarouselCell.self)
         carouselCollectionView.collectionViewLayout = flowLayout
         carouselCollectionView.contentInsetAdjustmentBehavior = .always
         carouselCollectionView.decelerationRate = .fast
