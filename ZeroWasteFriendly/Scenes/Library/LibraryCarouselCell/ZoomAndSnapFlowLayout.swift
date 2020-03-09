@@ -49,7 +49,7 @@ final class ZoomAndSnapFlowLayout: UICollectionViewFlowLayout {
             let normalizedDistance = distance / activeDistance
             if distance.magnitude < activeDistance {
                 let zoom = 1 + zoomFactor * (1 - normalizedDistance.magnitude)
-                attribute.transform3D = CATransform3DMakeScale(zoom, zoom, 1)
+                attribute.transform = CGAffineTransform(scaleX: zoom, y: zoom)
                 attribute.zIndex = Int(zoom.rounded())
             }
         }
