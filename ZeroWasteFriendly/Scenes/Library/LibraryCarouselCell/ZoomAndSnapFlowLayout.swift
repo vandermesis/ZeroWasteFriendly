@@ -12,7 +12,7 @@ final class ZoomAndSnapFlowLayout: UICollectionViewFlowLayout {
 
     private var viewWidth: CGFloat
     private var cellWidht: CGFloat {
-        return viewWidth - (viewWidth / 4)
+        return viewWidth * 0.75
     }
 
     private let activeDistance: CGFloat = 200
