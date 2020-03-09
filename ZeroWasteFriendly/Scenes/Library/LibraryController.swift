@@ -101,7 +101,7 @@ extension LibraryController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedPostID = postsDataSource[indexPath.row].id
-        interactor.didSelectPost(id: selectedPostID)
+        interactor.handlePostSelect(id: selectedPostID)
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -113,7 +113,7 @@ extension LibraryController: UIScrollViewDelegate {
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let topPosition = tableView.contentOffset.y <= 0
-        interactor.didScrollTableView(topPosition: topPosition)
+        interactor.handleTableViewScroll(topPosition: topPosition)
     }
 }
 

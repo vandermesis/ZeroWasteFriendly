@@ -10,8 +10,8 @@ import Foundation
 
 protocol LibraryInteractor {
     func getPosts()
-    func didSelectPost(id: String)
-    func didScrollTableView(topPosition: Bool)
+    func handlePostSelect(id: String)
+    func handleTableViewScroll(topPosition: Bool)
 }
 
 final class LibraryInteractorImpl {
@@ -45,11 +45,11 @@ extension LibraryInteractorImpl: LibraryInteractor {
         }
     }
 
-    func didSelectPost(id: String) {
+    func handlePostSelect(id: String) {
         presenter.expandPost(id: id)
     }
 
-    func didScrollTableView(topPosition: Bool) {
+    func handleTableViewScroll(topPosition: Bool) {
         presenter.presentAnimationWhenScrolling(state: topPosition)
     }
 }
