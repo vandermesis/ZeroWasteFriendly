@@ -56,7 +56,7 @@ final class LibraryPresenterTests: XCTestCase {
         // Given
 
         // When
-        presenter.presentAnimationWhenScrolling(state: true)
+        presenter.changeCollectionViewVisibility(state: true)
         // Then
         XCTAssertEqual(controller.animateTopBarToHeightCalled, true, "calling controller to animate top bar is true")
         XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 200, "controller should receive valid bar height")
@@ -66,7 +66,7 @@ final class LibraryPresenterTests: XCTestCase {
         // Given
 
         // When
-        presenter.presentAnimationWhenScrolling(state: false)
+        presenter.changeCollectionViewVisibility(state: false)
         // Then
         XCTAssertEqual(controller.animateTopBarToHeightCalled, true, "calling controller to animate top bar is true")
         XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 0, "controller should receive valid bar height")

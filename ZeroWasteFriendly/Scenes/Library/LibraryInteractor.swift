@@ -50,6 +50,6 @@ extension LibraryInteractorImpl: LibraryInteractor {
     }
 
     func handleTableViewScroll(topPosition: Bool) {
-        presenter.presentAnimationWhenScrolling(state: topPosition)
+        presenter.changeCollectionViewVisibility(state: topPosition)
     }
 }

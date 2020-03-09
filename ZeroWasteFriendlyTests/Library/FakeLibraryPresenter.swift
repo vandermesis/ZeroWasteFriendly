@@ -29,7 +29,7 @@ final class FakeLibraryPresenter<T: LibraryPresentable>: FakeMainPresenter<T>, L
         expandPostIdCalled = id
     }
 
-    func presentAnimationWhenScrolling(state: Bool) {
+    func changeCollectionViewVisibility(state: Bool) {
         presentAnimationWhenScrollingCalled = true
         presentAnimationWhenScrollingStateCalled = state
     }
