@@ -81,7 +81,7 @@ final class LibraryInteractorTests: XCTestCase {
         // Given
 
         // When
-        interactor.handleTableViewScroll(topPosition: false)
+        interactor.handleTableViewScroll(scrolling: false)
         // Then
         XCTAssertEqual(presenter.presentAnimationWhenScrollingCalled, true, "calling presenter to animate top bar")
         XCTAssertEqual(presenter.presentAnimationWhenScrollingStateCalled, false, "presenter present animation state is valid state")

@@ -39,9 +39,6 @@ extension LibraryPresenterImpl: LibraryPresenter {
     }
 
     func changeCollectionViewVisibility(state: Bool) {
-        var height: CGFloat {
-            state ? 200 : 0
-        }
-        controller?.animateCarouselHeight(height: height)
+        controller?.animateCarouselHeight(state: state)
     }
 }

@@ -11,7 +11,7 @@ import Foundation
 protocol LibraryInteractor {
     func getPosts()
     func handlePostSelect(id: String)
-    func handleTableViewScroll(topPosition: Bool)
+    func handleTableViewScroll(scrolling: Bool)
 }
 
 final class LibraryInteractorImpl {
@@ -49,7 +49,7 @@ extension LibraryInteractorImpl: LibraryInteractor {
         presenter.expandPost(id: id)
     }
 
-    func handleTableViewScroll(topPosition: Bool) {
-        presenter.changeCollectionViewVisibility(state: topPosition)
+    func handleTableViewScroll(scrolling: Bool) {
+        presenter.changeCollectionViewVisibility(state: scrolling)
     }
 }

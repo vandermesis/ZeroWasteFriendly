@@ -10,15 +10,15 @@ import UIKit
 
 protocol LibraryPresentable: SpinnerPresentable & AlertPresentable {
     func displayPosts(posts: [PostDisplayable])
-    func animateCarouselHeight(height: CGFloat)
+    func animateCarouselHeight(state: Bool)
 }
 
 final class LibraryController: MainViewController {
 
     @IBOutlet private weak var tableView: UITableView!
     @IBOutlet private weak var carouselCollectionView: UICollectionView!
-    @IBOutlet private weak var collectionViewHeight: NSLayoutConstraint!
-
+    @IBOutlet private var collectionViewHidden: NSLayoutConstraint!
+    
     private var postsDataSource = [PostDisplayable]()
 
     private let interactor: LibraryInteractor
@@ -76,9 +76,9 @@ extension LibraryController: LibraryPresentable {
         tableView.reloadData()
     }
 
-    func animateCarouselHeight(height: CGFloat) {
+    func animateCarouselHeight(state: Bool) {
         UIView.animate(withDuration: Constants.Library.quarterSecond) {
-            self.collectionViewHeight.constant = height
+            self.collectionViewHidden.isActive = state
             self.view.layoutSubviews()
         }
     }
@@ -112,8 +112,8 @@ extension LibraryController: UITableViewDelegate {
 extension LibraryController: UIScrollViewDelegate {
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let topPosition = tableView.contentOffset.y <= 0
-        interactor.handleTableViewScroll(topPosition: topPosition)
+        let isScrolling = tableView.contentOffset.y > 0
+        interactor.handleTableViewScroll(scrolling: isScrolling)
     }
 }
 
