@@ -71,9 +71,19 @@ final class LibraryInteractorTests: XCTestCase {
         // Given
 
         // When
-        interactor.didSelectPost(id: Mock.post1.id)
+        interactor.handlePostSelect(id: Mock.post1.id)
         // Then
         XCTAssertEqual(presenter.expandPostCalled, true, "calling presenter to expand post is true")
         XCTAssertEqual(presenter.expandPostIdCalled, "442734E6-F4AD-C80E-A34F-E625B298EB12", "presenter expanding post with valid id")
+    }
+
+    func testInteractorDidScrollTableView() {
+        // Given
+
+        // When
+        interactor.handleTableViewScroll(scrolling: false)
+        // Then
+        XCTAssertEqual(presenter.presentAnimationWhenScrollingCalled, true, "calling presenter to animate top bar")
+        XCTAssertEqual(presenter.presentAnimationWhenScrollingStateCalled, false, "presenter present animation state is valid state")
     }
 }

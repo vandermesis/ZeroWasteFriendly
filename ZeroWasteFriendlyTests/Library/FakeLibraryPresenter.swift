@@ -16,6 +16,8 @@ final class FakeLibraryPresenter<T: LibraryPresentable>: FakeMainPresenter<T>, L
     var presentPostsPostsCalled: [Post]?
     var expandPostCalled: Bool?
     var expandPostIdCalled: String?
+    var presentAnimationWhenScrollingCalled: Bool?
+    var presentAnimationWhenScrollingStateCalled: Bool?
 
     func presentPosts(posts: [Post]) {
         presentPostsCalled = true
@@ -25,5 +27,10 @@ final class FakeLibraryPresenter<T: LibraryPresentable>: FakeMainPresenter<T>, L
     func expandPost(id: String) {
         expandPostCalled = true
         expandPostIdCalled = id
+    }
+
+    func changeCollectionViewVisibility(state: Bool) {
+        presentAnimationWhenScrollingCalled = true
+        presentAnimationWhenScrollingStateCalled = state
     }
 }

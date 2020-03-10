@@ -6,11 +6,14 @@
 //  Copyright © 2020 vandermesis. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum Constants {
 
     enum Library {
         static let defaultRowHeight = 180
+        static let quarterSecond = 0.25
+        static let carouselCellWidthMultiplier: CGFloat = 0.8
+        static let carouselCellHeight: CGFloat = 175
     }
 }
