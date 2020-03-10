@@ -26,9 +26,9 @@ final class LibraryWorkerImpl {
 extension LibraryWorkerImpl: LibraryWorker {
 
     func fetchPosts(completion: FetchPostsCompletion?) {
-        if R.string.localizable.language() == "Polish" {
+        if LangHelper.current == .polish {
             repository.fetchLibrary(completion: completion)
-        } else if R.string.localizable.language() == "English" {
+        } else if LangHelper.current == .english {
             repository.fetchLibrary(completion: completion)
         }
     }

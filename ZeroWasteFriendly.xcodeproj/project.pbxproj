@@ -19,6 +19,7 @@
 		BA1470B02409BF0C002475DC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AF2409BF0C002475DC /* Post.swift */; };
 		BA1470B32409C242002475DC /* LibraryPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470B12409C242002475DC /* LibraryPostCell.swift */; };
 		BA1470B42409C242002475DC /* LibraryPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1470B22409C242002475DC /* LibraryPostCell.xib */; };
+		BA1B2D6A241704E0001DFF75 /* LangHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B2D69241704E0001DFF75 /* LangHelper.swift */; };
 		BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */; };
 		BA276F38240C61D000AF0319 /* LibraryInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F30240C61D000AF0319 /* LibraryInteractorTests.swift */; };
 		BA276F39240C61D000AF0319 /* FakeLibraryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA276F31240C61D000AF0319 /* FakeLibraryRouter.swift */; };
@@ -124,6 +125,7 @@
 		BA1470AF2409BF0C002475DC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BA1470B12409C242002475DC /* LibraryPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPostCell.swift; sourceTree = "<group>"; };
 		BA1470B22409C242002475DC /* LibraryPostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryPostCell.xib; sourceTree = "<group>"; };
+		BA1B2D69241704E0001DFF75 /* LangHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangHelper.swift; sourceTree = "<group>"; };
 		BA236C9823EDCE5A0042C3B6 /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
 		BA276F30240C61D000AF0319 /* LibraryInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryInteractorTests.swift; sourceTree = "<group>"; };
 		BA276F31240C61D000AF0319 /* FakeLibraryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLibraryRouter.swift; sourceTree = "<group>"; };
@@ -462,6 +464,7 @@
 				BA5AC78423EF55A0003B180A /* SpinnerController.xib */,
 				BAAECD5323FF29210062BED5 /* Constants.swift */,
 				BA5D108724048EF300D62894 /* Empty.swift */,
+				BA1B2D69241704E0001DFF75 /* LangHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -799,6 +802,7 @@
 				BA60041323ED799D00CF39B5 /* MainViewController.swift in Sources */,
 				BA1470AC2409BB22002475DC /* UITableView+Register+Dequeue.swift in Sources */,
 				BA10A20F241596DE00562099 /* LibraryCarouselCell.swift in Sources */,
+				BA1B2D6A241704E0001DFF75 /* LangHelper.swift in Sources */,
 				BA1470B32409C242002475DC /* LibraryPostCell.swift in Sources */,
 				BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */,
 				BA32910024087DBF00B137A6 /* LibraryController.swift in Sources */,

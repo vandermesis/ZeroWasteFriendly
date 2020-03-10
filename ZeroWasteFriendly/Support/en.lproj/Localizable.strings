@@ -6,7 +6,7 @@
   Copyright © 2020 vandermesis. All rights reserved.
 */
 
-"Language" = "English";
+"Language" = "en-UK";
 
 // TabBar
 "TabBar.Item.Act" = "Act";
