@@ -12,7 +12,6 @@
 		BA10A20F241596DE00562099 /* LibraryCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A20D241596DE00562099 /* LibraryCarouselCell.swift */; };
 		BA10A210241596DE00562099 /* LibraryCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA10A20E241596DE00562099 /* LibraryCarouselCell.xib */; };
 		BA10A2132415974500562099 /* UICollectionView+Register+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A2122415974500562099 /* UICollectionView+Register+Dequeue.swift */; };
-		BA10A215241598AB00562099 /* ZoomAndSnapFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA10A214241598AB00562099 /* ZoomAndSnapFlowLayout.swift */; };
 		BA1470AA2409BAFD002475DC /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470A92409BAFD002475DC /* NSObject+ClassName.swift */; };
 		BA1470AC2409BB22002475DC /* UITableView+Register+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */; };
 		BA1470AE2409BE4D002475DC /* LibraryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1470AD2409BE4D002475DC /* LibraryRepository.swift */; };
@@ -45,6 +44,7 @@
 		BA32910124087DBF00B137A6 /* LibraryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290FA24087DBF00B137A6 /* LibraryInteractor.swift */; };
 		BA32910224087DBF00B137A6 /* LibraryCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */; };
 		BA32910324087DBF00B137A6 /* LibraryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA3290FC24087DBF00B137A6 /* LibraryController.xib */; };
+		BA358936241834C40006B923 /* UICollectionView+Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA358935241834C40006B923 /* UICollectionView+Snap.swift */; };
 		BA3E739623FED16500CCBA34 /* EcoMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */; };
 		BA3E739723FED16500CCBA34 /* EcoMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */; };
 		BA3E739823FED16500CCBA34 /* EcoMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */; };
@@ -118,7 +118,6 @@
 		BA10A20D241596DE00562099 /* LibraryCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCarouselCell.swift; sourceTree = "<group>"; };
 		BA10A20E241596DE00562099 /* LibraryCarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCarouselCell.xib; sourceTree = "<group>"; };
 		BA10A2122415974500562099 /* UICollectionView+Register+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register+Dequeue.swift"; sourceTree = "<group>"; };
-		BA10A214241598AB00562099 /* ZoomAndSnapFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndSnapFlowLayout.swift; sourceTree = "<group>"; };
 		BA1470A92409BAFD002475DC /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Register+Dequeue.swift"; sourceTree = "<group>"; };
 		BA1470AD2409BE4D002475DC /* LibraryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryRepository.swift; sourceTree = "<group>"; };
@@ -152,6 +151,7 @@
 		BA3290FA24087DBF00B137A6 /* LibraryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryInteractor.swift; sourceTree = "<group>"; };
 		BA3290FB24087DBF00B137A6 /* LibraryCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCreator.swift; sourceTree = "<group>"; };
 		BA3290FC24087DBF00B137A6 /* LibraryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryController.xib; sourceTree = "<group>"; };
+		BA358935241834C40006B923 /* UICollectionView+Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Snap.swift"; sourceTree = "<group>"; };
 		BA3E738F23FED16500CCBA34 /* EcoMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapPresenter.swift; sourceTree = "<group>"; };
 		BA3E739023FED16500CCBA34 /* EcoMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapWorker.swift; sourceTree = "<group>"; };
 		BA3E739123FED16500CCBA34 /* EcoMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMapRouter.swift; sourceTree = "<group>"; };
@@ -267,7 +267,6 @@
 			children = (
 				BA10A20D241596DE00562099 /* LibraryCarouselCell.swift */,
 				BA10A20E241596DE00562099 /* LibraryCarouselCell.xib */,
-				BA10A214241598AB00562099 /* ZoomAndSnapFlowLayout.swift */,
 			);
 			path = LibraryCarouselCell;
 			sourceTree = "<group>";
@@ -478,6 +477,7 @@
 				BA1470AB2409BB22002475DC /* UITableView+Register+Dequeue.swift */,
 				BA2AD57A240D63B7006245E9 /* UIView+AddShadow.swift */,
 				BA10A2122415974500562099 /* UICollectionView+Register+Dequeue.swift */,
+				BA358935241834C40006B923 /* UICollectionView+Snap.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -793,8 +793,8 @@
 				BA236C9923EDCE5A0042C3B6 /* UIViewController+NavigationController.swift in Sources */,
 				BAC1E86C23F2E79A00FD210B /* Request.swift in Sources */,
 				BA1470AA2409BAFD002475DC /* NSObject+ClassName.swift in Sources */,
-				BA10A215241598AB00562099 /* ZoomAndSnapFlowLayout.swift in Sources */,
 				BA5AC78523EF55A0003B180A /* SpinnerController.swift in Sources */,
+				BA358936241834C40006B923 /* UICollectionView+Snap.swift in Sources */,
 				BAC1E86A23F2DFBC00FD210B /* Error+UserFriendlyMessage.swift in Sources */,
 				BA3290FF24087DBF00B137A6 /* LibraryRouter.swift in Sources */,
 				BA3E739923FED16500CCBA34 /* EcoMapController.swift in Sources */,

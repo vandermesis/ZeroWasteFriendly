@@ -20,6 +20,7 @@ final class LibraryController: MainViewController {
     @IBOutlet private var collectionViewHidden: NSLayoutConstraint!
     
     private var postsDataSource = [PostDisplayable]()
+    private var carouselCellWidth: CGFloat = 0
 
     private let interactor: LibraryInteractor
 
@@ -61,11 +62,13 @@ private extension LibraryController {
     }
 
     private func setupCarouselCollectionView() {
-        let viewWidth = view.frame.width
-        let flowLayout = ZoomAndSnapFlowLayout(viewWidth: viewWidth)
-        carouselCollectionView.collectionViewLayout = flowLayout
-        carouselCollectionView.contentInsetAdjustmentBehavior = .always
-        carouselCollectionView.decelerationRate = .fast
+        let viewWidth = self.view.bounds.size.width
+        carouselCellWidth = viewWidth * Constants.Library.carouselCellWidthMultiplier
+        let cellInset = (viewWidth / 2) - (carouselCellWidth / 2)
+        carouselCollectionView.contentInset.left = cellInset
+        carouselCollectionView.contentInset.right = cellInset
+        carouselCollectionView.reloadData()
+        carouselCollectionView.snapCollectionViewCellToCenter()
     }
 }
 
@@ -115,6 +118,16 @@ extension LibraryController: UIScrollViewDelegate {
         let isScrolling = tableView.contentOffset.y > 0
         interactor.handleTableViewScroll(scrolling: isScrolling)
     }
+
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        carouselCollectionView.snapCollectionViewCellToCenter()
+    }
+
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        if !decelerate {
+            carouselCollectionView.snapCollectionViewCellToCenter()
+        }
+    }
 }
 
 extension LibraryController: UICollectionViewDataSource {
@@ -126,5 +139,13 @@ extension LibraryController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeue(with: LibraryCarouselCell.self, for: indexPath)
         return cell
+    }
+}
+
+extension LibraryController: UICollectionViewDelegateFlowLayout {
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let cellSize = CGSize(width: carouselCellWidth, height: Constants.Library.carouselCellHeight)
+        return cellSize
     }
 }
