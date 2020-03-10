@@ -59,7 +59,7 @@ final class LibraryPresenterTests: XCTestCase {
         presenter.changeCollectionViewVisibility(state: true)
         // Then
         XCTAssertEqual(controller.animateTopBarToHeightCalled, true, "calling controller to animate top bar is true")
-        XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 200, "controller should receive valid bar height")
+        XCTAssertEqual(controller.animateCarouselHeightStateCalled, true, "controller should receive valid method state")
     }
 
     func testPresenterIsPresentingAnimationWhenScrollingNotTop() {
@@ -69,6 +69,6 @@ final class LibraryPresenterTests: XCTestCase {
         presenter.changeCollectionViewVisibility(state: false)
         // Then
         XCTAssertEqual(controller.animateTopBarToHeightCalled, true, "calling controller to animate top bar is true")
-        XCTAssertEqual(controller.animateTopBarToHeightHeightCalled, 0, "controller should receive valid bar height")
+        XCTAssertEqual(controller.animateCarouselHeightStateCalled, false, "controller should receive valid method state")
     }
 }
