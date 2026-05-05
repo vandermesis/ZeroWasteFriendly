@@ -14,9 +14,16 @@ final class FakeLibraryController: MainViewController, LibraryPresentable {
 
     var displayPostsCalled: Bool?
     var displayPostsPostsCalled: [PostDisplayable]?
+    var animateTopBarToHeightCalled: Bool?
+    var animateCarouselHeightStateCalled: Bool?
 
     func displayPosts(posts: [PostDisplayable]) {
         displayPostsCalled = true
         displayPostsPostsCalled = posts
+    }
+
+    func animateCarouselHeight(state: Bool) {
+        animateTopBarToHeightCalled = true
+        animateCarouselHeightStateCalled = state
     }
 }

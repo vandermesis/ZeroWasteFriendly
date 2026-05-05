@@ -11,6 +11,7 @@ import UIKit
 protocol LibraryPresenter: SpinnerPresenter, AlertPresenter {
     func presentPosts(posts: [Post])
     func expandPost(id: String)
+    func changeCollectionViewVisibility(state: Bool)
 }
 
 final class LibraryPresenterImpl<T: LibraryPresentable>: MainPresenter<T> {
@@ -35,5 +36,9 @@ extension LibraryPresenterImpl: LibraryPresenter {
             convertedPosts.append(post)
         }
         controller?.displayPosts(posts: convertedPosts)
+    }
+
+    func changeCollectionViewVisibility(state: Bool) {
+        controller?.animateCarouselHeight(state: state)
     }
 }

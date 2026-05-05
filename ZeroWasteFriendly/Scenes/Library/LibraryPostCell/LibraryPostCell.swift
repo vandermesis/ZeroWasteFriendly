@@ -1,5 +1,5 @@
 //
-//  LibraryTableViewCell.swift
+//  LibraryPostCell.swift
 //  ZeroWasteFriendly
 //
 //  Created by Marek Skrzelowski on 28/02/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class LibraryTableViewCell: UITableViewCell {
+final class LibraryPostCell: UITableViewCell {
 
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var contentLabel: UILabel!
@@ -25,7 +25,7 @@ final class LibraryTableViewCell: UITableViewCell {
     }
 }
 
-private extension LibraryTableViewCell {
+private extension LibraryPostCell {
 
     private func toggleConstraints(state: Bool) {
         contentTopConstraint.constant = state ? 16.3 : 10
